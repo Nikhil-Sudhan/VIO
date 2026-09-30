@@ -31,7 +31,13 @@ def main():
     p.add_argument('--ram-estimator-output', action='store_true', help='Keep derived estimator output in RAM during the live run, then copy it to the session; raw sensor data stays on disk')
     p.add_argument('--experimental-calibration', action='store_true', help='Explicit bounded manual demo using reviewed provisional calibration; NOT navigation validation')
     p.add_argument('--finish-on-usr1', action='store_true', help='SIGUSR1 ends a guided capture normally, with IMU tail')
+    p.add_argument('--save-camera-every', type=int, default=1, help='Demo archive stride only; every camera frame still feeds live VIO')
+    p.add_argument('--no-camera-archive', action='store_true', help='Live demo only: feed every camera frame to VIO without saving raw camera images')
     args = p.parse_args()
+    if args.no_camera_archive and (not args.experimental_calibration or not args.estimator_config or args.imu_only):
+        p.error('no-camera-archive requires an experimental camera-and-IMU live estimator run')
+    if args.save_camera_every < 1 or (args.save_camera_every != 1 and not args.experimental_calibration):
+        p.error('Camera archive stride must be positive; sampling is only allowed for experimental demos')
     # Import the encoder before hardware threads start: its shared-library
     # loading can hold the GIL long enough to starve FIFO/clock acquisition.
     if args.image_format == 'png':
@@ -51,7 +57,7 @@ def main():
         calibration_review = checked_bundle(args.estimator_config, args.config,experimental=args.experimental_calibration)
     width, height = cfg['main']['size']
     args.output.mkdir(parents=True, exist_ok=True)
-    image_bytes = 0 if args.imu_only else width * height * cfg['controls']['FrameRate'] * args.seconds
+    image_bytes = 0 if args.imu_only or args.no_camera_archive else width * height * (cfg['controls']['FrameRate'] * args.seconds / args.save_camera_every + 1)
     required = int(image_bytes * 1.2 + 100_000 * args.seconds + 200_000_000)
     if shutil.disk_usage(args.output).free < required:
         raise RuntimeError(f'Insufficient storage: require {required} bytes')
@@ -68,9 +74,12 @@ def main():
     cam = None
     stream = None
     report = {'schema': 2, 'created_utc': datetime.now(timezone.utc).isoformat(), 'status': 'starting',
-              'purpose': 'raw calibration/acquisition input, NOT calibrated VIO', 'calibrated': False,
+              'purpose': 'live demo without camera archive, NOT calibration input' if args.no_camera_archive else 'raw calibration/acquisition input, NOT calibrated VIO', 'calibrated': False,
               'requested_seconds': args.seconds, 'camera_requested': None if args.imu_only else cfg,
               'capture_mode': 'imu-only' if args.imu_only else 'camera-and-imu',
+              'camera_archive_stride': None if args.no_camera_archive else args.save_camera_every,
+              'camera_archive_enabled': not args.no_camera_archive,
+              'complete_camera_archive': not args.no_camera_archive and args.save_camera_every == 1,
               'temperature_recorded': args.temperature,
               'image_format': args.image_format,
               'experimental_calibration': args.experimental_calibration,
@@ -231,7 +240,8 @@ def main():
                 raise RuntimeError(f'Incorrect image layout: {pixels.shape}')
             if 'SensorTimestamp' not in metadata or list(metadata.get('ScalerCrop', [])) != cfg['expected_scaler_crop']:
                 raise RuntimeError('Missing timestamp or unexpected camera crop')
-            images.put_nowait((report['frames_enqueued'], seq, received, mono, pixels, metadata))
+            if not args.no_camera_archive and report['frames_enqueued'] % args.save_camera_every == 0:
+                images.put_nowait((report['frames_enqueued'], seq, received, mono, pixels, metadata))
             if stream:
                 stream.submit({'kind': 'camera', 'timestamp_ns': metadata['SensorTimestamp'],
                                'receipt_ns': received, 'sequence': seq, 'pixels': pixels})

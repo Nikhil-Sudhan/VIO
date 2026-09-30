@@ -153,6 +153,8 @@ def main():
         if report['missing_images']:
             faults.append('Missing images')
     session=json.loads((folder/'session.json').read_text())
+    if session.get('camera_archive_stride', 1) != 1:
+        faults.append('Intentionally sampled demo camera archive; not complete raw calibration/replay input')
     clocks = [session.get(k, {}) for k in ('clock_start', 'clock_end')]
     if all('boottime_ns' in c and 'monotonic_ns' in c for c in clocks):
         clock_difference = [c['boottime_ns']-c['monotonic_ns'] for c in clocks]

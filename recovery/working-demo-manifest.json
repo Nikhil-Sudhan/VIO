@@ -1,0 +1,38 @@
+{
+  "checkpoint": "grid-demo-2026-09-30",
+  "scope": "Working bounded camera+IMU grid demo; not validated room navigation",
+  "root_path": "/home/pluto/vio-project",
+  "python_environment": "/home/pluto/vio-env",
+  "host_os": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.6\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"\n",
+  "machine": "aarch64",
+  "kernel": "6.18.39+rpt-rpi-2712",
+  "files": {
+    "build/adapter/vio_stream": "6390a47b8e287193ee87d5d67531ecf1499d039866d7d3b0c1f2d8f6d24207b1",
+    "build/adapter/vio_replay": "5dc2c2fc995f547cb545a01027f28b97c9c19991a1678af171b382a28a23722d",
+    "build/rviz_local_ogre.so": "22ca5947a0dc2e5d7bc74d6f3741909bfeb63b0434d54f00929d3d627f3b95f2",
+    "install/lib/libov_msckf_lib.so": "105dffabe87736e2810d0c4d109ea6528772d2b5cde07fad35bf369e471822b6",
+    "config/camera-room-demo.json": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+    "config/pi-live.rviz": "76ae6ee03faa6777bdcd0256a7c260f3af22d425a83edd4c960155594315e555",
+    "calibration/demo-recovery-20260930/manual-quiet-veto/estimator_config.yaml": "62262d34827d9fa190f0de228687cfeabc1a15673448fc18b25bd2e903b9a2ff",
+    "calibration/demo-recovery-20260930/manual-quiet-veto/imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8",
+    "calibration/demo-recovery-20260930/manual-quiet-veto/imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "successful_sessions": [
+    "20260930_194025_5amh8zbn",
+    "20260930_204945_4tqsjiu8"
+  ],
+  "repeat_start_stop_checks": [
+    "20260930_205546_iav8l5yc",
+    "20260930_205558_gsmqntrf"
+  ],
+  "not_backed_up_by_git": [
+    "data/ (~82 GB raw recordings and packages)",
+    "evidence/",
+    "build/",
+    "install/",
+    "deps/",
+    "vendor/",
+    "/home/pluto/Videos/"
+  ],
+  "runtime_rebuild": "tools/restore_demo.sh --build; fresh-machine execution not yet tested"
+}

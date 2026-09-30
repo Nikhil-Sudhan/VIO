@@ -1,0 +1,14 @@
+{
+  "scope": "Offline feasibility on earlier single-grid desk movement, not room navigation validation",
+  "source_session": "data/native-live/20260930_194025_5amh8zbn",
+  "tag_observations_enabled": false,
+  "poses": 1052,
+  "max_position_norm_m": 0.16027953555401342,
+  "last_position_norm_m": 0.012923584699063732,
+  "replay_exit_code": 0,
+  "limitations": [
+    "Same provisional physical calibration; no independent ground truth.",
+    "No test of room-wide movement yet.",
+    "Repeating printed sheets are ordinary texture only; they are not identified as fixed tag landmarks."
+  ]
+}

@@ -1,0 +1,1 @@
+Adafruit_PureIO==1.1.12

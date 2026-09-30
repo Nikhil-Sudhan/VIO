@@ -1,3 +1,23 @@
+## 2026-09-30 working repeatable demo checkpoint
+
+The user confirmed the grid-assisted camera+IMU demo works. The original physical
+calibration and estimator are unchanged. Native and LAN controls use 120-second
+manual takes and automatically save the actual screen. Startup failures now reach
+the webpage; consecutive Start/Stop/save checks delivered 120 camera frames each
+and both videos finalized with encoder exit 0. Each frame still reaches VIO; raw
+camera image archival is disabled only for this experimental live demo to reduce
+storage use. Full-rate acquisition remains the recorder default outside that mode.
+
+A replacement power supply cleared undervoltage flags. The natural-feature room
+trial passed a desk replay but lost tracking on a live wider turn, even with clean
+power. Its approval is withdrawn. See docs/ROOM_DEVELOPMENT.md. No target-PnP pose
+substitution is used. The original single-grid demo remains the live default.
+
+Source recovery and version-control checkpoint: recovery/README.md. Raw recordings
+and videos remain on the Pi by user choice; a source push is not an SD-card backup.
+
+---
+
 # VIO integration status
 
 **Latest session update (2026-09-30 morning): user confirmed unchanged rigid mounting, lights on and readiness. Completed 12 offline comparisons and one fresh live movement attempt. All-axis fit improves one older motion replay but fails the older slide; fresh live run produced real poses then stopped on input backlog exceeding one second. Moving accuracy remains UNVALIDATED. Sensors are stopped; RViz shows the saved failed run. See [latest live plot](evidence/resume-20260930/live-result.png), [numerical review](evidence/resume-20260930/live-review.json), and [live repair notes](docs/LIVE_REPAIR_20260929.md). Enclosure CAD prompt: [prompt](output/enclosure/VIO_Enclosure_CAD_Prompt.md).**

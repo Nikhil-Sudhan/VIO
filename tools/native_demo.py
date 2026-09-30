@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class Demo(QtWidgets.QWidget):
-    def __init__(self, calibration=None, seconds=60, camera_config=None):
+    def __init__(self, calibration=None, seconds=120, camera_config=None):
         super().__init__()
         self.seconds = seconds
         self.calibration = calibration or ROOT/'calibration/demo-recovery-20260930/manual-quiet-veto/estimator_config.yaml'
@@ -66,6 +66,9 @@ class Demo(QtWidgets.QWidget):
     def start(self):
         if self.record is not None and self.record.poll() is None:
             return
+        if self.video is not None and self.video.poll() is None:
+            self.status.setText('Finishing the previous video — please wait.')
+            return
         try:
             from calibration_guard import checked_bundle
             checked_bundle(self.calibration, self.camera_config, experimental=True)
@@ -83,13 +86,13 @@ class Demo(QtWidgets.QWidget):
                     proc.wait(timeout=3)
                 except subprocess.TimeoutExpired:
                     proc.kill()
-        name = datetime.now().strftime('%Y%m%d_%H%M%S')
+        name = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
         self.logpath = ROOT/'data/native-control'/f'{name}-capture.log'
         log = self.logpath.open('xb')
         self.record = subprocess.Popen([
             '/home/pluto/vio-env/bin/python', '-u', str(ROOT/'tools/record.py'),
             '--seconds', str(self.seconds), '--finish-on-usr1', '--experimental-calibration', '--image-format', 'png',
-            '--ram-estimator-output',
+            '--ram-estimator-output', '--no-camera-archive',
             '--config', str(self.camera_config),
             '--estimator-config', str(self.calibration),
             '--output', str(ROOT/'data/native-live')], cwd=ROOT, stdout=log, stderr=subprocess.STDOUT)
@@ -114,6 +117,18 @@ class Demo(QtWidgets.QWidget):
             self.status.setText('Stopping and saving…')
 
     def poll(self):
+        # Publish controller state even when acquisition fails before a session
+        # directory exists, so the web controls can always offer another take.
+        capturing = self.record is not None and self.record.poll() is None
+        saving = not capturing and self.video is not None and self.video.poll() is None
+        snapshot = {'running': capturing or saving, 'message': self.status.text(),
+                    'phase': 'recording' if capturing else 'saving' if saving else 'idle',
+                    'boot_id': Path('/proc/sys/kernel/random/boot_id').read_text().strip(),
+                    'emitted_boot_ns': time.clock_gettime_ns(time.CLOCK_BOOTTIME)}
+        target = ROOT/'data/native-control/controller-state.json'
+        temp = target.with_suffix('.tmp')
+        temp.write_text(json.dumps(snapshot))
+        temp.replace(target)
         request = ROOT/'data/native-control/request.json'
         if request.exists():
             try:
@@ -141,6 +156,9 @@ class Demo(QtWidgets.QWidget):
                 self.video.terminate()
             self.start_button.setEnabled(True)
             message = f'Run ended (exit {code}). Start live creates a new run.'
+            if self.folder is None and code != 0 and self.logpath is not None:
+                lines = self.logpath.read_text(errors='replace').strip().splitlines()
+                message = 'Could not start: '+(lines[-1] if lines else f'exit {code}')
             if self.folder is not None:
                 try:
                     session = json.loads((self.folder/'session.json').read_text())
@@ -195,7 +213,7 @@ if __name__ == '__main__':
     parser.add_argument('--camera-config', type=Path, help='Camera acquisition configuration matching the reviewed bundle')
     parser.add_argument('--start', action='store_true')
     parser.add_argument('--view-last', action='store_true')
-    parser.add_argument('--seconds', type=int, default=60, help='Bounded recording duration, 15 to 300 seconds (default: 60)')
+    parser.add_argument('--seconds', type=int, default=120, help='Bounded recording duration, 15 to 300 seconds (default: 120)')
     args = parser.parse_args()
     if not 15 <= args.seconds <= 300:
         parser.error('--seconds must be between 15 and 300')
