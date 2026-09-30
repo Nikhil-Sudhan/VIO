@@ -1,0 +1,8 @@
+# CAMERA-ONLY normalized grid units, NOT measured metres.
+# Do not use this file for camera/IMU calibration or metric target poses.
+# Intrinsics are invariant to this arbitrary board-coordinate scale.
+target_type: aprilgrid
+tagCols: 6
+tagRows: 6
+tagSize: 1.0
+tagSpacing: 0.3
