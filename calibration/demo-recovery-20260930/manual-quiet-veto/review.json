@@ -1,0 +1,54 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": true,
+  "scope": "manual development demo; NOT validated navigation",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "mounting_id": "IMX219-LSM6DSOX-rigid-user-confirmed-unchanged-20260930",
+  "files_sha256": {
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+    "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8",
+    "estimator_config.yaml": "62262d34827d9fa190f0de228687cfeabc1a15673448fc18b25bd2e903b9a2ff"
+  },
+  "supporting_reports": {
+    "offline-review.json": "c8e46c825d4d41dea24a6adb0bf69448e0fd726b566191d01a5e02eabbc0d434",
+    "fit-results.txt": "d74f5fdb6c65b35dfab090f5f98e47e0a17a264ae0057cc5b6e89127495e6b3f",
+    "current-motion-review.json": "762632c888165af0620f0d7a1fef95127be5ab0201e27fe75f42c60025325ba9",
+    "current-bounded-review.json": "e4caac1121605a9d453afec85283d06b04b1ac06557cc3c39852e218f1c79c79",
+    "heldout-bounded-review.json": "8dd07885dafa721b1fc2b8cc1b627bcd61c078cfb3edcccf69b99a7066533d36",
+    "current-quiet-review.json": "064783fc753fa0810b8b316722c8c65e1fc207cfbbce09d59fc0b8ebbe5446ce",
+    "heldout-quiet-review.json": "5f7419c0565a5afeab08d6cb42e015fa7f7d8c0072b11285795945390324131e"
+  },
+  "display_note": "CAMERA + IMU VIO | MANUAL PROTOTYPE",
+  "moving_vio_validated": false,
+  "authorization": "User requested continuation and actual output, confirmed unchanged mounting, lights on and ready, and full access on 2026-09-30.",
+  "limitations": [
+    "Failed straight-slide consistency check; later movement replay improved but is not independent ground-truth validation.",
+    "Only one grid may be visible; repeated sheet IDs are ambiguous.",
+    "Assumed unmeasured 20 mm print scale, provisional 10x noise and unmodeled rolling shutter.",
+    "Manual bounded development only; no accepted navigation calibration.",
+    "Current replay remains offset by up to 0.156 m from same-image target diagnostic. Basic motion demonstration only; live check pending. Lower-rate and grid-only feature trials rejected.",
+    "Two-corner replay: 0.251m current/0.135m heldout maximum norm; same-image disagreement up to 0.235m; manual prototype only.",
+    "Latest current replay diagnostic maximum discrepancy 8.5 cm; camera noise, unmeasured print scale and unverified moving accuracy remain."
+  ],
+  "change": "Fix fitted extrinsic/time offset during this short demo; require visual stationarity from separately retained tag corner history in addition to the IMU stationary test. Keep two measured corners per detected tag and at most 20 ordinary persistent landmarks; total persistent map is at most 92 landmarks. Use 1.0 px tag visual veto: stationary camera jitter repeatedly exceeded 0.5 px. Original IMU consistency gate unchanged."
+}

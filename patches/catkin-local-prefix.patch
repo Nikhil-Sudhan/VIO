@@ -1,0 +1,11 @@
+--- a/usr/share/catkin/cmake/catkin_package.cmake
++++ b/usr/share/catkin/cmake/catkin_package.cmake
+@@ -263,7 +263,7 @@
+   catkin_pack_libraries_with_build_configuration(_PKG_CONFIG_LIBRARIES ${_PKG_CONFIG_LIBRARIES})
+   set(PKG_CONFIG_LIBRARIES "")
+   foreach(library ${_PKG_CONFIG_LIBRARIES})
+-    string(REGEX REPLACE "^(.*)/usr/lib(/[^/]+)?/lib(.*)\\.so.*$" "\\1-l\\3" library_replace ${library})
++    set(library_replace "${library}") # local-prefix patch: preserve absolute imported library paths
+     list_append_deduplicate(PKG_CONFIG_LIBRARIES ${library_replace})
+   endforeach()
+   catkin_unpack_libraries_with_build_configuration(PKG_CONFIG_LIBRARIES ${PKG_CONFIG_LIBRARIES})

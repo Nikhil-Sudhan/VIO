@@ -1,0 +1,44 @@
+{
+  "created": "2026-09-26T23:45:58.385847+05:30",
+  "scope": "Build-only morning package; no new physical, replay, functional, or controller tests requested/performed",
+  "source_sha256": {
+    "tools/demo_app.py": "f20feaa72cd291e52ded36262e85ff2e2449f4125570cf62d00c618a87e9bb11",
+    "tools/session_view.py": "dcdf5b030ca5ff7b0516ca9fe0bf3a002a47984feaf8c43f8556031c03e29b1e",
+    "tools/record.py": "010745db7164df8dd6f458db09e49608ff53c3bb88867cc700c9fb5e6027d4e4",
+    "tools/start_demo.sh": "ea4b78becf7e0aec46a53e6ce88a755ee288ace3074e79dc31af1daf90c7084c",
+    "tools/stop_demo.py": "4aa99838850493ac92d6d2d568b5d34a4351a06b4998797841c42caacddcc01c",
+    "tools/install_desktop.py": "651b9c4b7d0701860923e45fd2dd39385822999c40925ce9b2fb281197eec88d",
+    "tools/pixhawk_inspect.py": "0da84d276ad820e076c14981c39fdd5c13010cee6c0be0363b3bb01794ae33e2",
+    "tools/setup_bench.sh": "5d85945d09406163d1087fd0f4a9dd2876ce2bf57405c17a1d808e5fae5ade46",
+    "tools/fetch_bench_deps.py": "7e64951b102df512d97de4c36409cf78e394157daaac40b1ca31008d47b0a2c0",
+    "ui/demo.html": "cfa17cdf5f81efd9d3d9d7be1323b7e24db4bcb9bb37ba9f2809839c7752c6fb",
+    "packaging/VIO-Demo.desktop": "047cd1ba1694eece7f40e3abecd618b382f9bd8d3c5615ac8ec7e712c99023c8",
+    "config/bench-deps.lock.json": "f8116500c65ca3c5c9489b10f3532ae6c4c13cd834fa3b3cdc2dfdd41b75610c",
+    "config/bench-requirements.txt": "a04cc290632091279e33718ef82e1ec14aac1c0b81cb37b7556ec551ca80c0fd"
+  },
+  "native_binaries_sha256": {
+    "build/adapter/vio_stream": "eaf15ac63ba419db3cd5e6ae8412aad8e6adad36e65028b72c149fa861060ed6",
+    "build/adapter/vio_replay": "a33d9f8bbf56a8157e9520b4736eb5b2026976639c021e981903c4400bf87e1e"
+  },
+  "compilation": {
+    "python": "py_compile completed for new/changed Python tools",
+    "javascript": "node --check completed for ui/demo.html embedded script",
+    "shell": "bash -n completed for launcher and bench setup",
+    "native": "cmake --build build/adapter -j1 completed; existing objects current (ninja: no work to do)"
+  },
+  "dependency_install": "Bench wheel SHA256 values match official PyPI; installed with --no-index --require-hashes into separate bench-env",
+  "manual_app": {
+    "pid": 25106,
+    "url": "http://127.0.0.1:36713/",
+    "boot_id": "44e17527-9457-46de-8c54-e35055bad738",
+    "capture_starts_automatically": false
+  },
+  "capture_running": false,
+  "no_new_test_results": true,
+  "accuracy_validated": false,
+  "not_finished": [
+    "Physical replay/live accuracy and initialization validation",
+    "Complete accepted IMU noise/joint-calibration review",
+    "Pixhawk identity, wiring, firmware-specific navigation transmitter/configuration and bench validation"
+  ]
+}

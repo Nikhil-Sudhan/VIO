@@ -1,0 +1,34 @@
+{
+  "status": "candidate; not calibrated",
+  "sensor_model": "imx219",
+  "sensor": {
+    "output_size": [
+      1640,
+      1232
+    ],
+    "bit_depth": 10
+  },
+  "main": {
+    "size": [
+      820,
+      616
+    ],
+    "format": "YUV420"
+  },
+  "controls": {
+    "FrameRate": 20,
+    "AeEnable": false,
+    "ExposureTime": 16000,
+    "AnalogueGain": 4.0
+  },
+  "transform": "identity",
+  "expected_scaler_crop": [
+    0,
+    0,
+    3280,
+    2464
+  ],
+  "buffer_count": 8,
+  "queue": false,
+  "notes": "Provisional indoor demo: original calibrated geometry, 16ms exposure and gain4. Move slowly. Timing is not recalibrated."
+}

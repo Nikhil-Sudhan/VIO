@@ -1,0 +1,119 @@
+diff --git a/ov_msckf/src/core/VioManager.cpp b/ov_msckf/src/core/VioManager.cpp
+index 6a0d7b9..c2c55a4 100644
+--- a/ov_msckf/src/core/VioManager.cpp
++++ b/ov_msckf/src/core/VioManager.cpp
+@@ -159,7 +159,7 @@ VioManager::VioManager(VioManagerOptions &params_) : thread_init_running(false),
+   if (params.try_zupt) {
+     updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
+                                                         propagator, params.gravity_mag, params.zupt_max_velocity,
+-                                                        params.zupt_noise_multiplier, params.zupt_max_disparity);
++                                                        params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
+   }
+ }
+ 
+@@ -206,7 +206,7 @@ void VioManager::feed_measurement_simulation(double timestamp, const std::vector
+     if (params.try_zupt) {
+       updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
+                                                           propagator, params.gravity_mag, params.zupt_max_velocity,
+-                                                          params.zupt_noise_multiplier, params.zupt_max_disparity);
++                                                          params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
+     }
+     PRINT_WARNING(RED "[SIM]: casting our tracker to a TrackSIM object!\n" RESET);
+   }
+diff --git a/ov_msckf/src/core/VioManagerOptions.h b/ov_msckf/src/core/VioManagerOptions.h
+index 0df7d15..1cef5e0 100644
+--- a/ov_msckf/src/core/VioManagerOptions.h
++++ b/ov_msckf/src/core/VioManagerOptions.h
+@@ -91,6 +91,10 @@ struct VioManagerOptions {
+   /// Max disparity we will consider to try to do a zupt (i.e. if above this, don't do zupt)
+   double zupt_max_disparity = 1.0;
+ 
++  /// Optional independent visual veto: require >20 tracks and mean frame disparity below this.
++  /// Negative disables the veto and preserves upstream behavior.
++  double zupt_visual_veto_px = -1.0;
++
+   /// If we should only use the zupt at the very beginning static initialization phase
+   bool zupt_only_at_beginning = false;
+ 
+@@ -116,6 +120,7 @@ struct VioManagerOptions {
+       parser->parse_config("zupt_max_velocity", zupt_max_velocity);
+       parser->parse_config("zupt_noise_multiplier", zupt_noise_multiplier);
+       parser->parse_config("zupt_max_disparity", zupt_max_disparity);
++      parser->parse_config("zupt_visual_veto_px", zupt_visual_veto_px, false);
+       parser->parse_config("zupt_only_at_beginning", zupt_only_at_beginning);
+       parser->parse_config("record_timing_information", record_timing_information);
+       parser->parse_config("record_timing_filepath", record_timing_filepath);
+@@ -125,6 +130,7 @@ struct VioManagerOptions {
+     PRINT_DEBUG("  - zupt_max_velocity: %.2f\n", zupt_max_velocity);
+     PRINT_DEBUG("  - zupt_noise_multiplier: %.2f\n", zupt_noise_multiplier);
+     PRINT_DEBUG("  - zupt_max_disparity: %.4f\n", zupt_max_disparity);
++    PRINT_DEBUG("  - zupt_visual_veto_px: %.4f\n", zupt_visual_veto_px);
+     PRINT_DEBUG("  - zupt_only_at_beginning?: %d\n", zupt_only_at_beginning);
+     PRINT_DEBUG("  - record timing?: %d\n", (int)record_timing_information);
+     PRINT_DEBUG("  - record timing filepath: %s\n", record_timing_filepath.c_str());
+diff --git a/ov_msckf/src/update/UpdaterZeroVelocity.cpp b/ov_msckf/src/update/UpdaterZeroVelocity.cpp
+index 3c55846..e795801 100644
+--- a/ov_msckf/src/update/UpdaterZeroVelocity.cpp
++++ b/ov_msckf/src/update/UpdaterZeroVelocity.cpp
+@@ -41,9 +41,9 @@ using namespace ov_msckf;
+ 
+ UpdaterZeroVelocity::UpdaterZeroVelocity(UpdaterOptions &options, NoiseManager &noises, std::shared_ptr<ov_core::FeatureDatabase> db,
+                                          std::shared_ptr<Propagator> prop, double gravity_mag, double zupt_max_velocity,
+-                                         double zupt_noise_multiplier, double zupt_max_disparity)
++                                         double zupt_noise_multiplier, double zupt_max_disparity, double zupt_visual_veto_px)
+     : _options(options), _noises(noises), _db(db), _prop(prop), _zupt_max_velocity(zupt_max_velocity),
+-      _zupt_noise_multiplier(zupt_noise_multiplier), _zupt_max_disparity(zupt_max_disparity) {
++      _zupt_noise_multiplier(zupt_noise_multiplier), _zupt_max_disparity(zupt_max_disparity), _zupt_visual_veto_px(zupt_visual_veto_px) {
+ 
+   // Gravity
+   _gravity << 0.0, 0.0, gravity_mag;
+@@ -236,9 +236,25 @@ bool UpdaterZeroVelocity::try_update(std::shared_ptr<State> state, double timest
+     }
+   }
+ 
++  // An inertial detector alone cannot distinguish rest from steady translation.
++  // Opt-in visual veto: never use image stillness to override a failed IMU gate.
++  // Insufficient tracks also rejects the stationarity assumption.
++  if (_zupt_visual_veto_px >= 0.0) {
++    int count = 0;
++    double mean = 0.0, variance = 0.0;
++    FeatureHelper::compute_disparity(_db, state->_timestamp, timestamp, mean, variance, count);
++    if (count <= 20 || !std::isfinite(mean) || mean >= _zupt_visual_veto_px) {
++      last_zupt_state_timestamp = 0.0;
++      last_zupt_count = 0;
++      PRINT_INFO(YELLOW "[ZUPT]: visual veto %.3f px, %d tracks (limit %.3f)\n" RESET, mean, count, _zupt_visual_veto_px);
++      return false;
++    }
++  }
++
+   // Check if we are currently zero velocity
+   // We need to pass the chi2 and not be above our velocity threshold
+-  if (!disparity_passed && (chi2 > _options.chi2_multipler * chi2_check || state->_imu->vel().norm() > _zupt_max_velocity)) {
++  const bool visual_override = (_zupt_visual_veto_px < 0.0 && disparity_passed);
++  if (!visual_override && (chi2 > _options.chi2_multipler * chi2_check || state->_imu->vel().norm() > _zupt_max_velocity)) {
+     last_zupt_state_timestamp = 0.0;
+     last_zupt_count = 0;
+     PRINT_DEBUG(YELLOW "[ZUPT]: rejected |v_IinG| = %.3f (chi2 %.3f > %.3f)\n" RESET, state->_imu->vel().norm(), chi2,
+diff --git a/ov_msckf/src/update/UpdaterZeroVelocity.h b/ov_msckf/src/update/UpdaterZeroVelocity.h
+index 4b7f5f6..6419859 100644
+--- a/ov_msckf/src/update/UpdaterZeroVelocity.h
++++ b/ov_msckf/src/update/UpdaterZeroVelocity.h
+@@ -67,7 +67,7 @@ public:
+    */
+   UpdaterZeroVelocity(UpdaterOptions &options, NoiseManager &noises, std::shared_ptr<ov_core::FeatureDatabase> db,
+                       std::shared_ptr<Propagator> prop, double gravity_mag, double zupt_max_velocity, double zupt_noise_multiplier,
+-                      double zupt_max_disparity);
++                      double zupt_max_disparity, double zupt_visual_veto_px = -1.0);
+ 
+   /**
+    * @brief Feed function for inertial data
+@@ -139,6 +139,9 @@ protected:
+   /// Max disparity (pixels) that we should consider a zupt with
+   double _zupt_max_disparity = 1.0;
+ 
++  /// Optional visual stationarity requirement; negative preserves upstream behavior.
++  double _zupt_visual_veto_px = -1.0;
++
+   /// Chi squared 95th percentile table (lookup would be size of residual)
+   std::map<int, double> chi_squared_table;
+ 

@@ -1,0 +1,44 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": true,
+  "scope": "manual development demo; NOT validated navigation",
+  "mounting_id": "IMX219-LSM6DSOX-rigid-base-20260926-user-confirmed-unchanged",
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "files_sha256": {
+    "imucam.yaml": "f2a0926a0db70f94aa13877a76fae61f7bda8315833bc8d9fb5e09164900e41d",
+    "estimator_config.yaml": "fcfafbc48ccc424004e80a7afd5c091b6daf9a3c2d797c97c6794256512a0a5a",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "supporting_reports": {
+    "fitting-sensitivity.json": "ae44516d2409877618d26840f37ce7368905ac2d5e1c763716d5a803866b9464",
+    "interval-repeatability.json": "8de734f9b3af5e3b2d0222b7474430fb471aa2b86bae514ff5adec1a087180b9",
+    "prior-replay.txt": "06a1016900862c0b8c1797f417ecc784acea3930d100c9098959afe02e187aca"
+  },
+  "limitations": [
+    "Joint spatial/time calibration is fitted, but independent interval rotation differs 1.43 degrees.",
+    "Noise values are empirical conservative surrogates; no accepted long-term random-walk identification.",
+    "Close-screen calibration-recording replays diverged; no accuracy pass.",
+    "Rolling shutter is unmodeled.",
+    "Only bounded manual development runs; no Pixhawk connection or navigation qualification."
+  ]
+}

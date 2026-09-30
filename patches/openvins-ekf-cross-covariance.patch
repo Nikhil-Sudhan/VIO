@@ -1,0 +1,44 @@
+diff --git a/ov_msckf/src/state/StateHelper.cpp b/ov_msckf/src/state/StateHelper.cpp
+index 0c89c56..480b297 100644
+--- a/ov_msckf/src/state/StateHelper.cpp
++++ b/ov_msckf/src/state/StateHelper.cpp
+@@ -133,16 +133,23 @@ void StateHelper::EKFUpdate(std::shared_ptr<State> state, const std::vector<std:
+ 
+   //==========================================================
+   //==========================================================
+-  // For each active variable find its M = P*H^T
+-  for (const auto &var : state->_variables) {
+-    // Sum up effect of each subjacobian = K_i= \sum_m (P_im Hm^T)
+-    Eigen::MatrixXd M_i = Eigen::MatrixXd::Zero(var->size(), res.rows());
+-    for (size_t i = 0; i < H_order.size(); i++) {
+-      std::shared_ptr<Type> meas_var = H_order[i];
+-      M_i.noalias() += state->_Cov.block(var->id(), meas_var->id(), var->size(), meas_var->size()) *
+-                       H.block(0, H_id[i], H.rows(), meas_var->size()).transpose();
++  // Accumulate each measuring variable across all covariance rows at once.
++  // Landmark Jacobians are block sparse: skip only rows that are EXACTLY zero,
++  // never small values. This preserves every measurement and the H_order sum
++  // while avoiding thousands of tiny products/allocations per landmark update.
++  for (size_t i = 0; i < H_order.size(); i++) {
++    const auto &meas_var = H_order[i];
++    const int width = meas_var->size();
++    for (int row = 0; row < H.rows();) {
++      while (row < H.rows() && H.block(row, H_id[i], 1, width).isZero(0.0))
++        ++row;
++      const int first = row;
++      while (row < H.rows() && !H.block(row, H_id[i], 1, width).isZero(0.0))
++        ++row;
++      if (row > first)
++        M_a.middleCols(first, row - first).noalias() +=
++            state->_Cov.middleCols(meas_var->id(), width) * H.block(first, H_id[i], row - first, width).transpose();
+     }
+-    M_a.block(var->id(), 0, var->size(), res.rows()) = M_i;
+   }
+ 
+   //==========================================================
+@@ -642,4 +649,4 @@ void StateHelper::marginalize_slam(std::shared_ptr<State> state) {
+       it0++;
+     }
+   }
+-}
+\ No newline at end of file
++}

@@ -1,0 +1,4 @@
+fastcrc==0.5.0 --hash=sha256:4cf1921ed7f6c48c520bade25f1d2eea8bf813e4b9a4feb2fceb6a758df60f81
+lxml==6.1.3 --hash=sha256:5cffe18571ccc51d742cd08cbb3f8b756de9311d18c7ea98f5d92f37b8fb60c2
+pymavlink==2.4.50 --hash=sha256:d13af1ac7ecd0aa80d76af15f79faf7c6faa74340c1803b26c3759f242cf04cf
+pyserial==3.5 --hash=sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0

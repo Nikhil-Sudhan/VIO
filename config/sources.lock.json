@@ -1,0 +1,18 @@
+{
+  "openvins": {
+    "repository": "https://github.com/rpng/open_vins.git",
+    "commit": "69488123ed9362dd44b6f28e7f4680abbff1442b"
+  },
+  "baseline_sha256": {
+    "cmdline.txt": "8523ede4219f8874f7ef49ff9a0430525a853790761c4ab2beada07dc585854d",
+    "config.txt": "09528477f27bf83ceee4fa8a04911a3af5feb263fc7c3d30c4ed3ac28cb2e731",
+    "vio_record.py": "cef9048fd5c32aa56f838e347a12a4594cfba4c7a227fd26de53d3eaa6abd452",
+    "vio_test.py": "4eebe4734c870a7790bf6c7ce14bfa2db9c5f027abc2f89fc24bd97e495b6fb4"
+  },
+  "kalibr": {
+    "repository": "https://github.com/ethz-asl/kalibr",
+    "commit": "1f60227442d25e36365ef5f72cd80b9666d73467",
+    "archive_sha256": "72c02e46817a5da232b3dd3c77550590625c6f8691e8046a36e3f3958947ac61",
+    "source_directory": "vendor/kalibr-1f60227442d25e36365ef5f72cd80b9666d73467"
+  }
+}

@@ -1,0 +1,1 @@
+Public TUM VI dataset calibration. NEVER use for the Pi camera/IMU assembly. Derived from pinned OpenVINS tum_vi config; only use_stereo=false and max_cameras=1 differ.

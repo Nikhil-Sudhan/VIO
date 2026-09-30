@@ -1,0 +1,93 @@
+{
+  "camera_configuration": {
+    "use_case": "video",
+    "transform": "<libcamera.Transform 'identity'>",
+    "colour_space": "<libcamera.ColorSpace 'SMPTE170M'>",
+    "buffer_count": 8,
+    "queue": false,
+    "main": {
+      "format": "YUV420",
+      "size": [
+        820,
+        616
+      ],
+      "preserve_ar": true,
+      "stride": 896,
+      "framesize": 827904
+    },
+    "lores": null,
+    "raw": {
+      "format": "BGGR_PISP_COMP1",
+      "size": [
+        1640,
+        1232
+      ],
+      "stride": 1664,
+      "framesize": 2050048
+    },
+    "controls": {
+      "NoiseReductionMode": "NoiseReductionModeEnum.Off",
+      "FrameDurationLimits": [
+        33333,
+        33333
+      ],
+      "FrameRate": 20,
+      "AeEnable": false,
+      "ExposureTime": 8000,
+      "AnalogueGain": 4.0
+    },
+    "sensor": {
+      "bit_depth": 10,
+      "output_size": [
+        1640,
+        1232
+      ]
+    },
+    "display": "main",
+    "encode": "main"
+  },
+  "camera_properties": {
+    "Model": "imx219",
+    "UnitCellSize": [
+      1120,
+      1120
+    ],
+    "ColorFilterArrangement": 0,
+    "Location": 2,
+    "Rotation": 180,
+    "PixelArraySize": [
+      3280,
+      2464
+    ],
+    "PixelArrayActiveAreas": [
+      [
+        8,
+        8,
+        3280,
+        2464
+      ]
+    ],
+    "ScalerCropMaximum": [
+      0,
+      0,
+      3280,
+      2464
+    ],
+    "PipelineHandler": "rpi/pisp",
+    "SystemDevices": [
+      20753,
+      20754,
+      20755,
+      20756,
+      20757,
+      20758,
+      20759,
+      20739,
+      20740,
+      20741,
+      20742
+    ],
+    "SensorSensitivity": 1.0
+  },
+  "camera_delivery": "Picamera2 post_callback per successful request"
+}

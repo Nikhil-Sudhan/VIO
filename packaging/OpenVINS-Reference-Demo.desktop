@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=OpenVINS Reference Demo
+Comment=Recorded reference-dataset result; not live Pi camera odometry
+Exec=/usr/bin/chromium --ozone-platform=wayland --new-window file:///home/pluto/vio-project/data/presentation-demo/reference-demo-20260927.html
+Icon=applications-science
+Terminal=false

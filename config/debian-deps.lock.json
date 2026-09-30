@@ -1,0 +1,1506 @@
+[
+  {
+    "package": "cmake",
+    "version": "3.31.6-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/cmake/cmake_3.31.6-2_arm64.deb",
+    "sha256": "983aa00debd072f7bfae69f93b1b9e4628da0a914c3745b9022e4cd60215493b",
+    "bytes": 9905888
+  },
+  {
+    "package": "cmake-data",
+    "version": "3.31.6-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/c/cmake/cmake-data_3.31.6-2_all.deb",
+    "sha256": "d9060145be892f43cd1888024114ceab019c81479d4b0a3383fe14cebe2295cb",
+    "bytes": 2268208
+  },
+  {
+    "package": "fonts-lyx",
+    "version": "2.4.3-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/l/lyx/fonts-lyx_2.4.3-1_all.deb",
+    "sha256": "ed031115bd478c1e7c479ab638a72182cb779541cd238b2b4e628a06b6b8587f",
+    "bytes": 190040
+  },
+  {
+    "package": "gdal-data",
+    "version": "3.10.3+dfsg-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gdal/gdal-data_3.10.3%2bdfsg-1_all.deb",
+    "sha256": "d826ff4e17ad8d488ed1f87cb51a4487e96fc39723ccb4f9f80aff3b83861b17",
+    "bytes": 402684
+  },
+  {
+    "package": "gdal-plugins",
+    "version": "3.10.3+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gdal/gdal-plugins_3.10.3%2bdfsg-1_arm64.deb",
+    "sha256": "e9a9bd5b80ae865a4819416ad398e432395e38652ed1623d69852b1bb259bd24",
+    "bytes": 180680
+  },
+  {
+    "package": "libaec0",
+    "version": "1.1.3-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/liba/libaec/libaec0_1.1.3-1%2bb1_arm64.deb",
+    "sha256": "aef40ab24351d980bb3f046779ba4b30026b263e69b0d79bf45e60d5a81adce8",
+    "bytes": 22544
+  },
+  {
+    "package": "libamd-comgr2",
+    "version": "6.0+git20231212.4510c28+dfsg-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rocm-compilersupport/libamd-comgr2_6.0%2bgit20231212.4510c28%2bdfsg-3%2bb2_arm64.deb",
+    "sha256": "c8e5a5edc8825ac96430d047b6e1c14046ff651a720ac6fb2be3bc22882fe50f",
+    "bytes": 12057764
+  },
+  {
+    "package": "libamd3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libamd3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "8592791062319b8355d860c3efa2b8998a340c0d07e306919cfdb1b733499a83",
+    "bytes": 46576
+  },
+  {
+    "package": "libamdhip64-5",
+    "version": "5.7.1-6+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rocm-hipamd/libamdhip64-5_5.7.1-6%2bdeb13u1_arm64.deb",
+    "sha256": "064c95f94a15c127c21eaff9e29dd648f9c7c2b6da5fa40205784431a1d74d8d",
+    "bytes": 8824988
+  },
+  {
+    "package": "libarmadillo14",
+    "version": "1:14.2.3+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/armadillo/libarmadillo14_14.2.3%2bdfsg-1_arm64.deb",
+    "sha256": "7971a2d3e9e90e29d8131dfeda926c695d294acc03b3158fc8b33902194054f0",
+    "bytes": 101636
+  },
+  {
+    "package": "libarpack2t64",
+    "version": "3.9.1-6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/arpack/libarpack2t64_3.9.1-6_arm64.deb",
+    "sha256": "7e852232a0f8a4c41cc257f661d00b20aa33f42353c4bc1771ab8c03e1609a58",
+    "bytes": 84220
+  },
+  {
+    "package": "libavcodec-dev",
+    "version": "8:7.1.5-0+deb13u1+rpt2",
+    "architecture": "arm64",
+    "uri": "http://archive.raspberrypi.com/debian/pool/main/f/ffmpeg/libavcodec-dev_7.1.5-0%2bdeb13u1%2brpt2_arm64.deb",
+    "sha256": "1ae2a3094095beb52ef951c758ee3323d8723d4dc9af824b1ab4ebbb55e9c499",
+    "bytes": 8632878
+  },
+  {
+    "package": "libavformat-dev",
+    "version": "8:7.1.5-0+deb13u1+rpt2",
+    "architecture": "arm64",
+    "uri": "http://archive.raspberrypi.com/debian/pool/main/f/ffmpeg/libavformat-dev_7.1.5-0%2bdeb13u1%2brpt2_arm64.deb",
+    "sha256": "02b3367cdc5983ccf25e646ffeb2c103da6bf624f30ef2d50929c3884d634354",
+    "bytes": 2070910
+  },
+  {
+    "package": "libavutil-dev",
+    "version": "8:7.1.5-0+deb13u1+rpt2",
+    "architecture": "arm64",
+    "uri": "http://archive.raspberrypi.com/debian/pool/main/f/ffmpeg/libavutil-dev_7.1.5-0%2bdeb13u1%2brpt2_arm64.deb",
+    "sha256": "76f0554065a40cb80929184b5c46a6a34bba106ad21480220a10dd9f1373de66",
+    "bytes": 767654
+  },
+  {
+    "package": "libblas-dev",
+    "version": "3.12.1-6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/lapack/libblas-dev_3.12.1-6_arm64.deb",
+    "sha256": "6753a1a0b52308657157d0c1b7ec5c6ce413cbef1704c5ca9dda10bf1b026121",
+    "bytes": 111172
+  },
+  {
+    "package": "libblosc1",
+    "version": "1.21.5+ds-1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/c-blosc/libblosc1_1.21.5%2bds-1%2bb2_arm64.deb",
+    "sha256": "2f2206cdb2671faee890c43f451af86fb3137d4a763a3b485e1fd184a953bbce",
+    "bytes": 39152
+  },
+  {
+    "package": "libboost-atomic1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-atomic1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "fb54d9aa37aa2e9ac05edebc42cb1b9f25c2cae4bc82ec118f13d41e1644194d",
+    "bytes": 234540
+  },
+  {
+    "package": "libboost-atomic1.83.0",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-atomic1.83.0_1.83.0-4.2_arm64.deb",
+    "sha256": "a42c1a9aa8aea6b92f3393d955106d6500dafc04163b7967c4b5c4bb744fe8a3",
+    "bytes": 233596
+  },
+  {
+    "package": "libboost-chrono1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-chrono1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "f2a8a377f2b777fd9be58842cdcec7f62257dbb11d2699ab5199ee1564733b04",
+    "bytes": 245092
+  },
+  {
+    "package": "libboost-chrono1.83.0t64",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-chrono1.83.0t64_1.83.0-4.2_arm64.deb",
+    "sha256": "2d9cf8a5e85e0c1b28eab94c256dae58d14bb404c62e9763a98ffa09fb9938de",
+    "bytes": 239476
+  },
+  {
+    "package": "libboost-date-time-dev",
+    "version": "1.83.0.2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost-defaults/libboost-date-time-dev_1.83.0.2%2bb2_arm64.deb",
+    "sha256": "c8dc9667fb5fa0ddd2e137726279b65952a576e47bc9faee75ce1077752d1f0d",
+    "bytes": 3584
+  },
+  {
+    "package": "libboost-date-time1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-date-time1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "6e63b747953d1a17f2196cb465ac7ac4a9635a65bf16e1e2b6ed15f444028fb2",
+    "bytes": 239344
+  },
+  {
+    "package": "libboost-date-time1.83.0",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-date-time1.83.0_1.83.0-4.2_arm64.deb",
+    "sha256": "0b177e5eecb5c6b68e6464faf6eb186a12a2c901279f3f0b7eebfe85e401a0ff",
+    "bytes": 230552
+  },
+  {
+    "package": "libboost-filesystem-dev",
+    "version": "1.83.0.2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost-defaults/libboost-filesystem-dev_1.83.0.2%2bb2_arm64.deb",
+    "sha256": "2cf3c544de87efc59c47b3bec95803c402f4873adb4534c2159b426c97ab2f34",
+    "bytes": 3616
+  },
+  {
+    "package": "libboost-filesystem1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-filesystem1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "ea02493fecf246f67c0b572ea6704890d42bdfd1dbb6a7dd51c249d9c890a1de",
+    "bytes": 292396
+  },
+  {
+    "package": "libboost-serialization1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-serialization1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "a88f801a3f0d50be5bfde4307bb10d096cb3fd4fe5ed27cc97c87b4900099d17",
+    "bytes": 373068
+  },
+  {
+    "package": "libboost-serialization1.83.0",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-serialization1.83.0_1.83.0-4.2_arm64.deb",
+    "sha256": "64a74a98bb03585a212e355ca8ae170858f63aef917b7add243973db8e5d4ce6",
+    "bytes": 325304
+  },
+  {
+    "package": "libboost-system-dev",
+    "version": "1.83.0.2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost-defaults/libboost-system-dev_1.83.0.2%2bb2_arm64.deb",
+    "sha256": "59b7c2e9e738e158afd3f561413c92eb0742e8a060b273a45ba5289ac90749ef",
+    "bytes": 3720
+  },
+  {
+    "package": "libboost-system1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-system1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "48a955736ff9d28bcd0fd86b63abc9254b5adc1e3b97a2cc7fd3a45e6e7a8e59",
+    "bytes": 231748
+  },
+  {
+    "package": "libboost-system1.83.0",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-system1.83.0_1.83.0-4.2_arm64.deb",
+    "sha256": "ef997d4d985cc71b54fa420312e49df7dfec46e5ed8f440b46c1197478223d27",
+    "bytes": 230788
+  },
+  {
+    "package": "libboost-thread-dev",
+    "version": "1.83.0.2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost-defaults/libboost-thread-dev_1.83.0.2%2bb2_arm64.deb",
+    "sha256": "925563ced7d86a440b57d24d51bbea0ffb2d75831f09897e8baae8107ac51ae7",
+    "bytes": 3616
+  },
+  {
+    "package": "libboost-thread1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-thread1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "973fa96eeca25a76bcf17486eb2d2602e2bbfc15b401c002e9622c74284d7c5f",
+    "bytes": 276440
+  },
+  {
+    "package": "libboost1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "0f82bfbd6d1afae0d03da64e4e2ac531effcf66e89e962a4fb6bebf0ec35db6e",
+    "bytes": 10588964
+  },
+  {
+    "package": "libbtf2",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libbtf2_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "8716734841e0f8d1f006e4263253059d45712882fadd1dbeace487fe39798a54",
+    "bytes": 32780
+  },
+  {
+    "package": "libcamd3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libcamd3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "b842a2de6d4036aff261c54db47a48b7feed8285e113c2e4a3ec17d56f55afa0",
+    "bytes": 43632
+  },
+  {
+    "package": "libccolamd3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libccolamd3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "d4e94a5dd058a8cd9aa96e834cd6e2526127cebf7afc8622dea08f6d865b95b9",
+    "bytes": 46144
+  },
+  {
+    "package": "libceres-dev",
+    "version": "2.2.0+dfsg-4.1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/ceres-solver/libceres-dev_2.2.0%2bdfsg-4.1%2bb2_arm64.deb",
+    "sha256": "649b0357e55d3bc0d259108490b494013e48b5a25acda33a1711aaef56e4e066",
+    "bytes": 1484572
+  },
+  {
+    "package": "libceres4t64",
+    "version": "2.2.0+dfsg-4.1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/ceres-solver/libceres4t64_2.2.0%2bdfsg-4.1%2bb2_arm64.deb",
+    "sha256": "b343fa805e372f19f22b87a7782236c38d351554465ed70867e460ec18e9e961",
+    "bytes": 910540
+  },
+  {
+    "package": "libcfitsio10t64",
+    "version": "4.6.2-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/cfitsio/libcfitsio10t64_4.6.2-2_arm64.deb",
+    "sha256": "afa630eda3aa454f576d92e8b8e3425bc0f947f4661bd296ee01ca96137bcc7e",
+    "bytes": 524060
+  },
+  {
+    "package": "libcharls2",
+    "version": "2.4.2-2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/charls/libcharls2_2.4.2-2%2bb2_arm64.deb",
+    "sha256": "663dc8c3dc2b6176e401400027cdb835cd05cc53f32ddf9d7622812e5f0852ea",
+    "bytes": 84740
+  },
+  {
+    "package": "libcholmod5",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libcholmod5_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "6f29fcc8cbce5c64f7f0684cbe34283ac314b718eb67101a4cb7c2daf877087a",
+    "bytes": 544848
+  },
+  {
+    "package": "libcolamd3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libcolamd3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "555c43821cec6e03ae8871da49da8d9bba8d8faa9129f32fa7c52feba4982bfe",
+    "bytes": 39904
+  },
+  {
+    "package": "libcxsparse4",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libcxsparse4_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "d6d3847e57d50ab68d46e8fdf0934536d04814427bda726c4a4cf51e62497c1d",
+    "bytes": 84236
+  },
+  {
+    "package": "libdc1394-dev",
+    "version": "2.2.6-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libd/libdc1394/libdc1394-dev_2.2.6-5_arm64.deb",
+    "sha256": "e71ce41061062a3189d259c772f7363bf72014deef750092c1d2022395f815aa",
+    "bytes": 137640
+  },
+  {
+    "package": "libdeflate-dev",
+    "version": "1.23-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_arm64.deb",
+    "sha256": "b8788a082af936ef083fb7803147eeaec03efd91c1dd4f3af2c8081bd04befbc",
+    "bytes": 51300
+  },
+  {
+    "package": "libeigen3-dev",
+    "version": "3.4.0-5",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/e/eigen3/libeigen3-dev_3.4.0-5_all.deb",
+    "sha256": "123ff96e6929713b852f58a53727379149fc4a2b682bd04605e784f6620ac08e",
+    "bytes": 1034496
+  },
+  {
+    "package": "libevent-2.1-7t64",
+    "version": "2.1.13-stable-1~deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian-security/pool/updates/main/libe/libevent/libevent-2.1-7t64_2.1.13-stable-1%7edeb13u1_arm64.deb",
+    "sha256": "27669a5555ca1d3bd97806dfdbc2d838eae41f27a6b1a122a5d87659973672f0",
+    "bytes": 170804
+  },
+  {
+    "package": "libevent-core-2.1-7t64",
+    "version": "2.1.13-stable-1~deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian-security/pool/updates/main/libe/libevent/libevent-core-2.1-7t64_2.1.13-stable-1%7edeb13u1_arm64.deb",
+    "sha256": "6e278da8ab4c1b4e15689483a0727f76146d7b9d9b11df4cd53f90034a649517",
+    "bytes": 126560
+  },
+  {
+    "package": "libevent-pthreads-2.1-7t64",
+    "version": "2.1.13-stable-1~deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian-security/pool/updates/main/libe/libevent/libevent-pthreads-2.1-7t64_2.1.13-stable-1%7edeb13u1_arm64.deb",
+    "sha256": "a3d8272a08c30a0c64b5758dd12f67062a962d3e12127eb187b5d0bccaa31a9c",
+    "bytes": 55244
+  },
+  {
+    "package": "libexif-dev",
+    "version": "0.6.25-1+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libe/libexif/libexif-dev_0.6.25-1%2bdeb13u1_arm64.deb",
+    "sha256": "a94adfb9b05641117eed6e0d930a24b67f4b35123e20961f0f28cf64b9fac139",
+    "bytes": 99568
+  },
+  {
+    "package": "libfabric1",
+    "version": "2.1.0-1.1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libf/libfabric/libfabric1_2.1.0-1.1_arm64.deb",
+    "sha256": "89c50de71be441ba6c0caf91825c10af11f3b375c7859227b45167f269d0e876",
+    "bytes": 547872
+  },
+  {
+    "package": "libfreexl1",
+    "version": "2.0.0-1+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/f/freexl/libfreexl1_2.0.0-1%2bb3_arm64.deb",
+    "sha256": "42d6815484dace1df3bb188935c1a99ae64e607e4091148653127ceb777339d0",
+    "bytes": 38348
+  },
+  {
+    "package": "libfyba0t64",
+    "version": "4.1.1-11+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/f/fyba/libfyba0t64_4.1.1-11%2bb1_arm64.deb",
+    "sha256": "6af4def046f4fa0ab4e0e721b0566d7919773b6985d9852f183370cc9d7bc77a",
+    "bytes": 106768
+  },
+  {
+    "package": "libgdal36",
+    "version": "3.10.3+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gdal/libgdal36_3.10.3%2bdfsg-1_arm64.deb",
+    "sha256": "38591642adefd8f02fa0d4cccb14eb3dc8cdffb9d9c27a3264422a33e0f4056c",
+    "bytes": 7988788
+  },
+  {
+    "package": "libgdcm-dev",
+    "version": "3.0.24-5+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gdcm/libgdcm-dev_3.0.24-5%2bb3_arm64.deb",
+    "sha256": "be3337d0c44644af3b71f16c2e3c4315be184feceb669ea8c4af702ba07f2a8d",
+    "bytes": 265260
+  },
+  {
+    "package": "libgdcm3.0t64",
+    "version": "3.0.24-5+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gdcm/libgdcm3.0t64_3.0.24-5%2bb3_arm64.deb",
+    "sha256": "fe0551a28f39c804e26aa9b5b18b939efcbd6d54b8a0848937ff498af0e9c81b",
+    "bytes": 2140724
+  },
+  {
+    "package": "libgeos-c1t64",
+    "version": "3.13.1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/geos/libgeos-c1t64_3.13.1-1_arm64.deb",
+    "sha256": "821589bf94edae297f2237fc877903dc959c8f38930b370a11ac7231a9e15cae",
+    "bytes": 92856
+  },
+  {
+    "package": "libgeos3.13.1",
+    "version": "3.13.1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/geos/libgeos3.13.1_3.13.1-1_arm64.deb",
+    "sha256": "095e091a726d830b92d68ef96c5acca36d0f7d1863ef4fe170b6f09f0c6f9d38",
+    "bytes": 885312
+  },
+  {
+    "package": "libgeotiff5",
+    "version": "1.7.4-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libg/libgeotiff/libgeotiff5_1.7.4-1_arm64.deb",
+    "sha256": "8c55eafd7a948079238154b3025bda7bd90056b02560905f5491279e647974d7",
+    "bytes": 65316
+  },
+  {
+    "package": "libgflags-dev",
+    "version": "2.2.2-2+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gflags/libgflags-dev_2.2.2-2%2bb1_arm64.deb",
+    "sha256": "bebb9afcad48573cdb1bc608475f4e3840f14a7c2a5fe56524ef4c220d3302a0",
+    "bytes": 93680
+  },
+  {
+    "package": "libgflags2.2",
+    "version": "2.2.2-2+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gflags/libgflags2.2_2.2.2-2%2bb1_arm64.deb",
+    "sha256": "2f48d37029130185172d080fb8c9bb692d9e7942d828b92d94293ac9e236f52a",
+    "bytes": 72448
+  },
+  {
+    "package": "libgl2ps1.4",
+    "version": "1.4.2+dfsg1-2+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/gl2ps/libgl2ps1.4_1.4.2%2bdfsg1-2%2bb1_arm64.deb",
+    "sha256": "5095f26923822212f14c995e8d9009fd47efe4916dd973e138fe95d1582f8319",
+    "bytes": 36960
+  },
+  {
+    "package": "libglew2.2",
+    "version": "2.2.0-4+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/glew/libglew2.2_2.2.0-4%2bb2_arm64.deb",
+    "sha256": "184ddca9d9a55201d86dfb96a76641a0aba4eddccd29bf6f0c88586f4f5ab1ba",
+    "bytes": 162312
+  },
+  {
+    "package": "libgoogle-glog-dev",
+    "version": "0.6.0-2.1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/google-glog/libgoogle-glog-dev_0.6.0-2.1%2bb2_arm64.deb",
+    "sha256": "6c196f58e6ea399b870d12e75abe3974ef0d630862be260ae0cb08c98d656f82",
+    "bytes": 97220
+  },
+  {
+    "package": "libgoogle-glog0v6t64",
+    "version": "0.6.0-2.1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/g/google-glog/libgoogle-glog0v6t64_0.6.0-2.1%2bb2_arm64.deb",
+    "sha256": "ac7f7300955d94e56d0a52182572a83c8017c6302eca673ffc77f24d7666e65e",
+    "bytes": 59664
+  },
+  {
+    "package": "libgphoto2-dev",
+    "version": "2.5.31-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libg/libgphoto2/libgphoto2-dev_2.5.31-4_arm64.deb",
+    "sha256": "7e6b2767fe62457367cace9b2d81971ccf7414b1c92b663fe395fad8a245f3ef",
+    "bytes": 90292
+  },
+  {
+    "package": "libhdf4-0-alt",
+    "version": "4.3.0-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libh/libhdf4/libhdf4-0-alt_4.3.0-1%2bb1_arm64.deb",
+    "sha256": "785ee1a33fc29c45501587621619c81cadafcce2c17512c75fc781cdceaa3b71",
+    "bytes": 237764
+  },
+  {
+    "package": "libhdf5-310",
+    "version": "1.14.5+repack-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/h/hdf5/libhdf5-310_1.14.5%2brepack-3_arm64.deb",
+    "sha256": "c6277e95c996330bd2dc74a5b3dfea52b5a61d22092a7d770a6bf4ac61ee73f2",
+    "bytes": 1155480
+  },
+  {
+    "package": "libhdf5-hl-310",
+    "version": "1.14.5+repack-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/h/hdf5/libhdf5-hl-310_1.14.5%2brepack-3_arm64.deb",
+    "sha256": "9cd4c39e112efa226dd023888da969fcc679df58ff1adc6add68db5a01b09dd1",
+    "bytes": 66104
+  },
+  {
+    "package": "libhsa-runtime64-1",
+    "version": "6.1.2-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rocr-runtime/libhsa-runtime64-1_6.1.2-3_arm64.deb",
+    "sha256": "3554b53a6a417b1601f424f12f6d5ae1577e7f599c531ddfe7e7eccd26f0bbfa",
+    "bytes": 301636
+  },
+  {
+    "package": "libhsakmt1",
+    "version": "6.2.4+ds-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/roct-thunk-interface/libhsakmt1_6.2.4%2bds-1_arm64.deb",
+    "sha256": "492d3d045b6eb5c2da9df35f24667fa39c02336fc344c4ddc701b5898f91e803",
+    "bytes": 58256
+  },
+  {
+    "package": "libibmad5",
+    "version": "56.1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rdma-core/libibmad5_56.1-1_arm64.deb",
+    "sha256": "803d22434aa90928671dcf9fea0c35124320cc09a36752c65e922676ddb29dd9",
+    "bytes": 42416
+  },
+  {
+    "package": "libibumad3",
+    "version": "56.1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rdma-core/libibumad3_56.1-1_arm64.deb",
+    "sha256": "5fb0f3c4173c685221bc5e5620c577119346630302dc75a41b591c4b0449dabb",
+    "bytes": 28564
+  },
+  {
+    "package": "libimath-dev",
+    "version": "3.1.12-1+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/i/imath/libimath-dev_3.1.12-1%2bb3_arm64.deb",
+    "sha256": "c5392e57b62e00fe98fb9000b2c5466beae37976796e571edf19e8a9278d1f13",
+    "bytes": 121820
+  },
+  {
+    "package": "libjbig-dev",
+    "version": "2.1-6.1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/j/jbigkit/libjbig-dev_2.1-6.1%2bb2_arm64.deb",
+    "sha256": "5ee78fc5b271c7c6f6c9b56a782de9f8e7a943218e7399b240668133cf99ae24",
+    "bytes": 30468
+  },
+  {
+    "package": "libjpeg-dev",
+    "version": "1:2.1.5-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libj/libjpeg-turbo/libjpeg-dev_2.1.5-4_arm64.deb",
+    "sha256": "7277a226fce84b8e872b2f33a3b74e9ba42ce739634ebd22a66ab331e635286d",
+    "bytes": 72204
+  },
+  {
+    "package": "libjpeg62-turbo-dev",
+    "version": "1:2.1.5-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libj/libjpeg-turbo/libjpeg62-turbo-dev_2.1.5-4_arm64.deb",
+    "sha256": "bdd0dd56c1b33de4d19d761dfbd69729e813a57ef008a8dd3e0380a3e1b11163",
+    "bytes": 293172
+  },
+  {
+    "package": "libjs-jquery-ui",
+    "version": "1.13.2+dfsg-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/j/jqueryui/libjs-jquery-ui_1.13.2%2bdfsg-1_all.deb",
+    "sha256": "10e19573adde01d1276ddb4cf0453fbfb070b9b867162b6f7f10708b0631d369",
+    "bytes": 250420
+  },
+  {
+    "package": "libjsoncpp26",
+    "version": "1.9.6-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libj/libjsoncpp/libjsoncpp26_1.9.6-3_arm64.deb",
+    "sha256": "346da1614a66ae07549243f2abf1dc5fdcc590a4ccb408458b5ea7ef7997477d",
+    "bytes": 72912
+  },
+  {
+    "package": "libklu2",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libklu2_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "4ad7494bfbb6256b900daaab24380a6a8520a101e112d0247f9d60a480873769",
+    "bytes": 90600
+  },
+  {
+    "package": "libkmlbase1t64",
+    "version": "1.3.0-12+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libk/libkml/libkmlbase1t64_1.3.0-12%2bb2_arm64.deb",
+    "sha256": "fdc78a699cf95c4b02abc1d052c6bc9f6c91164e9ef7034b865d630866ffa2ee",
+    "bytes": 45784
+  },
+  {
+    "package": "libkmldom1t64",
+    "version": "1.3.0-12+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libk/libkml/libkmldom1t64_1.3.0-12%2bb2_arm64.deb",
+    "sha256": "a56be8086af1237dcc1b073060c7e03fd2dcbb4ce62f434bfd66e33a529e97b3",
+    "bytes": 142376
+  },
+  {
+    "package": "libkmlengine1t64",
+    "version": "1.3.0-12+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libk/libkml/libkmlengine1t64_1.3.0-12%2bb2_arm64.deb",
+    "sha256": "dff8a3307fde15cd8eb4edab9bfcf8638fbf738ee57f651339de8188bd487503",
+    "bytes": 72120
+  },
+  {
+    "package": "liblapack-dev",
+    "version": "3.12.1-6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/lapack/liblapack-dev_3.12.1-6_arm64.deb",
+    "sha256": "05cbe8e13a1c8ebdd01f0e92ed6727ef462fd599312836a7f0a564e15f2bbf13",
+    "bytes": 3727336
+  },
+  {
+    "package": "libldl3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libldl3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "a9e1f4f1a1308913e4fc0045dd65c670cc6e93955c0258aa84a4107083587ab8",
+    "bytes": 32656
+  },
+  {
+    "package": "libleptonica6",
+    "version": "1.84.1-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/leptonlib/libleptonica6_1.84.1-4_arm64.deb",
+    "sha256": "df35ba9d219f717345cf33c8c7af31c7dc52e09b2195bb477ffb4b88dd4bc2c9",
+    "bytes": 994284
+  },
+  {
+    "package": "liblerc-dev",
+    "version": "4.0.0+ds-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/lerc/liblerc-dev_4.0.0%2bds-5_arm64.deb",
+    "sha256": "2c7ad0f606b9eed77b44c19059a858afef71d963e5b924936356adafad1171b0",
+    "bytes": 163880
+  },
+  {
+    "package": "libllvm17t64",
+    "version": "1:17.0.6-22+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/llvm-toolchain-17/libllvm17t64_17.0.6-22%2bb2_arm64.deb",
+    "sha256": "f75e08ab89a4c2634a0c46661840b387e7977896687dea68493117442e3466bb",
+    "bytes": 21287716
+  },
+  {
+    "package": "liblzma-dev",
+    "version": "5.8.1-1+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/x/xz-utils/liblzma-dev_5.8.1-1%2bdeb13u1_arm64.deb",
+    "sha256": "f2221a443ac294ce1db663497b9e7946a82fdb958b8cc85058489d8353c2f06f",
+    "bytes": 344328
+  },
+  {
+    "package": "libmariadb3",
+    "version": "1:11.8.6-0+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/m/mariadb/libmariadb3_11.8.6-0%2bdeb13u1_arm64.deb",
+    "sha256": "29acd0080b3ea32440a8ebd0445bb13e88ff564c408faf2bfb70c129c2048503",
+    "bytes": 175040
+  },
+  {
+    "package": "libmunge2",
+    "version": "0.5.16-1.1~deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/m/munge/libmunge2_0.5.16-1.1%7edeb13u1_arm64.deb",
+    "sha256": "f4cf1a7046026aa25f6b7c5ae9b2bde8e860a000648e0dc28354cd207dbacb0e",
+    "bytes": 19428
+  },
+  {
+    "package": "libnetcdf22",
+    "version": "1:4.9.3-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/n/netcdf/libnetcdf22_4.9.3-1_arm64.deb",
+    "sha256": "a5634ac9cdcd9a0b8652592fe8d65fd536bba61da45addc563eec287c9d6b6f5",
+    "bytes": 480544
+  },
+  {
+    "package": "libodbc2",
+    "version": "2.3.12-2+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/unixodbc/libodbc2_2.3.12-2%2bdeb13u1_arm64.deb",
+    "sha256": "546e17ad0737d43371686233ce097179fdafb0a8d428d01616876926524ff988",
+    "bytes": 134372
+  },
+  {
+    "package": "libodbcinst2",
+    "version": "2.3.12-2+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/unixodbc/libodbcinst2_2.3.12-2%2bdeb13u1_arm64.deb",
+    "sha256": "78535d3eb988999d6665f17e242e8da329a8221f9a42e6d25e24a8017832aefc",
+    "bytes": 36968
+  },
+  {
+    "package": "libogdi4.1",
+    "version": "4.1.1+ds-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/ogdi-dfsg/libogdi4.1_4.1.1%2bds-5_arm64.deb",
+    "sha256": "8651e1c243e73d8252b8c5cb61b70e6a27a6aab5427124e8e3185ffa13bfdad1",
+    "bytes": 201820
+  },
+  {
+    "package": "libopencv-calib3d-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-calib3d-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "3939c4cfa9b8d09f7b55f9e250f072c58848d8c93da06d039eb7e85913e29f86",
+    "bytes": 1031204
+  },
+  {
+    "package": "libopencv-contrib-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-contrib-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "3d73b8dabd5e298e8d26d7b6d2811055744f3455c656fec8c63b7f87762407eb",
+    "bytes": 4699472
+  },
+  {
+    "package": "libopencv-contrib410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-contrib410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "513a7cee55805a2136b7bba5e33256232def2edc2ebe7b44a9bb208488555392",
+    "bytes": 3364768
+  },
+  {
+    "package": "libopencv-core-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-core-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "fbcf24c4b3bea4e90f94e96de07817bcad349f47e0472102511947ed82cbad32",
+    "bytes": 1759320
+  },
+  {
+    "package": "libopencv-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "3b1d136238562db50affc02076b4faa80e35d0eb808c945c0e6f38e60b14b780",
+    "bytes": 87232
+  },
+  {
+    "package": "libopencv-dnn-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-dnn-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "64fcb2bb8d945ddfcb5b10d8d89a5a66a32de3d70ecba57887b75e505f4b41a0",
+    "bytes": 1903304
+  },
+  {
+    "package": "libopencv-features2d-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-features2d-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "fed840e6605c40e0084781c038fe0bf863d67897ff63c83f5f50904b446f6a76",
+    "bytes": 307452
+  },
+  {
+    "package": "libopencv-flann-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-flann-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "b1887ba6847ed9a44f14839948eaebac4346ccaf240edcfabe0acdbbd4c021af",
+    "bytes": 195792
+  },
+  {
+    "package": "libopencv-highgui-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-highgui-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "217e9a483531c2acc219516cca44cb3458b0a19f4841a3e2be11e5795cffddb8",
+    "bytes": 160916
+  },
+  {
+    "package": "libopencv-highgui410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-highgui410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "ec23c000892cbe92dbaa4c8ecfb4302bbda0bb5a4ddf9030743d0d56d2d661e0",
+    "bytes": 120200
+  },
+  {
+    "package": "libopencv-imgcodecs-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-imgcodecs-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "db02643d67989fcc6e3a2f97b55687adb752de75c1ffbdb41ec6bfbd5de65c03",
+    "bytes": 197804
+  },
+  {
+    "package": "libopencv-imgcodecs410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-imgcodecs410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "3d47c46c423b375b92852a41212722c03c9a3092b66fd7d009344931882b5a9e",
+    "bytes": 127316
+  },
+  {
+    "package": "libopencv-imgproc-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-imgproc-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "f26d170bb5ea536a8ff59fc40a63a920ffe100464708c7abd2e6d1de88f4f267",
+    "bytes": 1305184
+  },
+  {
+    "package": "libopencv-ml-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-ml-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "d44b4f2474ac6bac7579d8ab92754983fde58c86941ef77d60bc03d6d8e6c9c2",
+    "bytes": 268568
+  },
+  {
+    "package": "libopencv-ml410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-ml410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "dc90c3da4808dcd444a2a0e78b7583e16ff4ff82ad5b2bc4084ffaffc3ffc993",
+    "bytes": 184344
+  },
+  {
+    "package": "libopencv-objdetect-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-objdetect-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "a0aff252061a6543fc24056f2dd6df19d661b1b2319526787caa8246ccc3dd89",
+    "bytes": 586624
+  },
+  {
+    "package": "libopencv-photo-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-photo-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "16771c8b6a35b18228d0dd68e4db2d5d932f31d7e00c50aa69bfde5f455e3897",
+    "bytes": 207148
+  },
+  {
+    "package": "libopencv-photo410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-photo410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "a4aa9a183cec88752549d7332d812697ea8e6879e6c8bec476f3fc65ab8b6b60",
+    "bytes": 162084
+  },
+  {
+    "package": "libopencv-shape-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-shape-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "5b7deda80ee453aef4fd8539554cc5c8aba41af9c8504b2ad3b46dee6deabf3a",
+    "bytes": 68504
+  },
+  {
+    "package": "libopencv-shape410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-shape410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "8d4bc8c75ed140bf0b5f393afec510587d8e3071041c628b088b9d92b859fcf0",
+    "bytes": 50736
+  },
+  {
+    "package": "libopencv-stitching-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-stitching-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "fb4458b0e9b7e6ca55098745d757fa82c28ae19330075bf2a30c7036fc65565b",
+    "bytes": 238072
+  },
+  {
+    "package": "libopencv-stitching410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-stitching410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "35e5a75b081d9db1d84f5ea67b07491ce854b64f62ab99d64733c2c5dc238ddb",
+    "bytes": 176668
+  },
+  {
+    "package": "libopencv-superres-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-superres-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "921e060e327ea411c394a9b687399cd68134cf4fea2e163a7ef8d9274550a651",
+    "bytes": 59080
+  },
+  {
+    "package": "libopencv-superres410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-superres410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "3f053406196710a3f02cbfb89a8be18422ffb57cba626d9d5a6a7a90f7aad7c4",
+    "bytes": 45312
+  },
+  {
+    "package": "libopencv-video-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-video-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "5234ea340a060f141975c753f5f0995f6b53a31489da0652eecd66d58a5bb8fa",
+    "bytes": 235568
+  },
+  {
+    "package": "libopencv-video410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-video410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "a87414d0cae5ea7ced044ce4f1e93055760f4ae40a8c7487766fc4c3269fbdfb",
+    "bytes": 165992
+  },
+  {
+    "package": "libopencv-videoio-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-videoio-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "32c97b75997f14237724b44bbae48c2c8570d011293187c1b7c5286e1e7e196c",
+    "bytes": 330380
+  },
+  {
+    "package": "libopencv-videoio410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-videoio410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "36d886ff53cd6a3efe8ce85e5bab64f65c6c61d15b270c2b5f096418f9974eb7",
+    "bytes": 231376
+  },
+  {
+    "package": "libopencv-videostab-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-videostab-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "94f02087158b322578da6243de22b7f337261af6a0936a1ee47020f198c33069",
+    "bytes": 100812
+  },
+  {
+    "package": "libopencv-videostab410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-videostab410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "8cb9425ac4e760c97d078cbb46044efdebfdbee670fbbeadd67ceed16abf9119",
+    "bytes": 71832
+  },
+  {
+    "package": "libopencv-viz-dev",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-viz-dev_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "be01e677c1b4a1b5fe9c0b0c3baeb18255906607054cf5573d7bffab67156c16",
+    "bytes": 165420
+  },
+  {
+    "package": "libopencv-viz410",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/libopencv-viz410_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "24f28fba3d6be2a32eed772a9b626bdb1f5b29e1327f1a4400ed24890f56b32c",
+    "bytes": 113256
+  },
+  {
+    "package": "libopenexr-dev",
+    "version": "3.1.13-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/openexr/libopenexr-dev_3.1.13-2_arm64.deb",
+    "sha256": "e65cc10c92b2b8a577c0b1ce7ce40c61479c99d3e9b9e8a12a7fcfc7815b4fa3",
+    "bytes": 202436
+  },
+  {
+    "package": "libopenmpi40",
+    "version": "5.0.7-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/openmpi/libopenmpi40_5.0.7-1_arm64.deb",
+    "sha256": "f5b46f915692bcf81169d954f4067d7c0af088104e923403b1bb1d1f63f6d96e",
+    "bytes": 2086828
+  },
+  {
+    "package": "libparu1",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libparu1_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "66f681b0704206ac785540777f49c815f7c8791cf54925df616d72fa6ff5b4c9",
+    "bytes": 69388
+  },
+  {
+    "package": "libpmix2t64",
+    "version": "5.0.7-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pmix/libpmix2t64_5.0.7-1_arm64.deb",
+    "sha256": "20dddfa1b64b3726548d04f31690e8e78d441a6e3a6d486afbb6a81b0282f91b",
+    "bytes": 584656
+  },
+  {
+    "package": "libpng-dev",
+    "version": "1.6.48-1+deb13u5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libp/libpng1.6/libpng-dev_1.6.48-1%2bdeb13u5_arm64.deb",
+    "sha256": "a212fde02b2930302edcc959eaa2079bb459def3a92741cc09f6f55c250b8ca0",
+    "bytes": 360892
+  },
+  {
+    "package": "libpq5",
+    "version": "17.11-0+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/postgresql-17/libpq5_17.11-0%2bdeb13u1_arm64.deb",
+    "sha256": "1eb5e3126a6978446a4f02f53ce74c7ce4b7f13e48ec45adddcce1881d233458",
+    "bytes": 229628
+  },
+  {
+    "package": "libproj25",
+    "version": "9.6.0-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/proj/libproj25_9.6.0-1_arm64.deb",
+    "sha256": "2ed0e3bdf5d5e630e3edb3df8ee027e5415685ca3591fce78d7ce3121e361559",
+    "bytes": 1242604
+  },
+  {
+    "package": "libqhull-r8.0",
+    "version": "2020.2-6+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/q/qhull/libqhull-r8.0_2020.2-6%2bb2_arm64.deb",
+    "sha256": "a0a474c42fee0ad0c12891c87ef1fe5096582ae1fc6afcea83111e241510f823",
+    "bytes": 228856
+  },
+  {
+    "package": "libqt5opengl5t64",
+    "version": "5.15.15+dfsg-6+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/q/qtbase-opensource-src/libqt5opengl5t64_5.15.15%2bdfsg-6%2bdeb13u1_arm64.deb",
+    "sha256": "39aa7f465c7621a00fd25001895c0455e03fccfb627103f61c638eee26511e4c",
+    "bytes": 144336
+  },
+  {
+    "package": "libraw1394-dev",
+    "version": "2.1.2-2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libr/libraw1394/libraw1394-dev_2.1.2-2%2bb2_arm64.deb",
+    "sha256": "cd8f474cd4438b8e654450bb2834cf53fe91ad833a5436c7244d336c16d1dc97",
+    "bytes": 51256
+  },
+  {
+    "package": "librbio4",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/librbio4_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "8a1f677ed11ec36a23be768172c76b2a8a340a2cd5e1a04edaa69ebc9b2f82bc",
+    "bytes": 46600
+  },
+  {
+    "package": "librhash1",
+    "version": "1.4.5-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/rhash/librhash1_1.4.5-1_arm64.deb",
+    "sha256": "3bee5b995ee3219779d0f50b2622b0fbc05bb89c69fa833c83d685a3c88aa73d",
+    "bytes": 128888
+  },
+  {
+    "package": "librttopo1",
+    "version": "1.1.0-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libr/librttopo/librttopo1_1.1.0-4_arm64.deb",
+    "sha256": "be5b41dd3c465540c3f1e321e73d2de3169b2f3637698329d9742696d734b739",
+    "bytes": 165836
+  },
+  {
+    "package": "libsharpyuv-dev",
+    "version": "1.5.0-0.1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libw/libwebp/libsharpyuv-dev_1.5.0-0.1_arm64.deb",
+    "sha256": "8cf680949cf5e8768277284915b3b2e1abf5ac5a50767b800853eb2f020dec1e",
+    "bytes": 118196
+  },
+  {
+    "package": "libsocket++1",
+    "version": "1.12.13+git20131030.5d039ba-1+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/socket%2b%2b/libsocket%2b%2b1_1.12.13%2bgit20131030.5d039ba-1%2bb2_arm64.deb",
+    "sha256": "e8e2abe7b5993c82290707197d0a095ee55497207ded3b8ec1ed2b528d20c5de",
+    "bytes": 73948
+  },
+  {
+    "package": "libspatialite8t64",
+    "version": "5.1.0-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/spatialite/libspatialite8t64_5.1.0-3%2bb2_arm64.deb",
+    "sha256": "8df5d745daaa86a183ea9a2b9de9b7bbaefdcc22c6507f401183ff5c80035847",
+    "bytes": 1610064
+  },
+  {
+    "package": "libspex3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libspex3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "3628763aea38b0c85e1822ad10b6fdfdcb1e65afadd0a68cf8bd4fb7f2009cad",
+    "bytes": 63684
+  },
+  {
+    "package": "libspqr4",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libspqr4_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "7e88df9b80e142806edbf7253f7ead7146c89ea7064ff5ab524f309eae74e650",
+    "bytes": 135952
+  },
+  {
+    "package": "libsuitesparse-dev",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libsuitesparse-dev_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "7aae86af535fbe312a557edca6b1bc886979700ab2ef15e8a4da387cf332ad15",
+    "bytes": 1315144
+  },
+  {
+    "package": "libsuitesparse-mongoose3",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libsuitesparse-mongoose3_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "3cf6bf95b7bc86188d3556f21891ed442245d3ff549fa2151d406d437eb03119",
+    "bytes": 52480
+  },
+  {
+    "package": "libsuitesparseconfig7",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libsuitesparseconfig7_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "23ee0fc16095205c691de9dd838fb013cf694d497c35b80224ca79bf7f1aae87",
+    "bytes": 32188
+  },
+  {
+    "package": "libswresample-dev",
+    "version": "8:7.1.5-0+deb13u1+rpt2",
+    "architecture": "arm64",
+    "uri": "http://archive.raspberrypi.com/debian/pool/main/f/ffmpeg/libswresample-dev_7.1.5-0%2bdeb13u1%2brpt2_arm64.deb",
+    "sha256": "851522caa3cf162e2237b5c879ff3e7af6b4129a8b2d6e390fd0b0f1f5922810",
+    "bytes": 130172
+  },
+  {
+    "package": "libswscale-dev",
+    "version": "8:7.1.5-0+deb13u1+rpt2",
+    "architecture": "arm64",
+    "uri": "http://archive.raspberrypi.com/debian/pool/main/f/ffmpeg/libswscale-dev_7.1.5-0%2bdeb13u1%2brpt2_arm64.deb",
+    "sha256": "15d8470231f98f9e14a3708ac9b265c1ae75d7508962ebf18f2955e18e9c5b24",
+    "bytes": 313034
+  },
+  {
+    "package": "libsz2",
+    "version": "1.1.3-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/liba/libaec/libsz2_1.1.3-1%2bb1_arm64.deb",
+    "sha256": "843d352324c34083b78093eb2e87cc954b821146aac11324a763f3b8a8b3191b",
+    "bytes": 8044
+  },
+  {
+    "package": "libtbb-dev",
+    "version": "2022.1.0-1+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/onetbb/libtbb-dev_2022.1.0-1%2bdeb13u1_arm64.deb",
+    "sha256": "ecc812a7f3ecf40e68de43f27e1df0f5098283fb88ae677924d043ebcd543db2",
+    "bytes": 200864
+  },
+  {
+    "package": "libtesseract5",
+    "version": "5.5.0-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/t/tesseract/libtesseract5_5.5.0-1%2bb1_arm64.deb",
+    "sha256": "07888977d64f8b31ca77f4ca4f380c3841068d219d4a6ef635c1e057dabf68c7",
+    "bytes": 1237372
+  },
+  {
+    "package": "libtiff-dev",
+    "version": "4.7.0-3+deb13u3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/t/tiff/libtiff-dev_4.7.0-3%2bdeb13u3_arm64.deb",
+    "sha256": "b214c63994ab32dba934d7652e9395d1ca54f7b0abb1529fb9cfcc7443f2c102",
+    "bytes": 471748
+  },
+  {
+    "package": "libtiffxx6",
+    "version": "4.7.0-3+deb13u3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/t/tiff/libtiffxx6_4.7.0-3%2bdeb13u3_arm64.deb",
+    "sha256": "b97fba9ee005ab92f2e751c17c8149f9f7144befe704e37c66e83fdc9f2268ba",
+    "bytes": 164236
+  },
+  {
+    "package": "libucx0",
+    "version": "1.18.1+ds-2+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/ucx/libucx0_1.18.1%2bds-2%2bb1_arm64.deb",
+    "sha256": "c331d2385879c665bf7667a7e2b1350f8684c723acbfa849c4a20b6b50febd58",
+    "bytes": 1016308
+  },
+  {
+    "package": "libumfpack6",
+    "version": "1:7.10.1+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/suitesparse/libumfpack6_7.10.1%2bdfsg-1_arm64.deb",
+    "sha256": "f247acc3473e32b4dacf77378854bd72f13e144fd2ba5eb6dc932e13e680fc5e",
+    "bytes": 236544
+  },
+  {
+    "package": "liburiparser1",
+    "version": "0.9.8+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/uriparser/liburiparser1_0.9.8%2bdfsg-2_arm64.deb",
+    "sha256": "5159450f4f1d14a4a604d9727e9291474b3bdd36952d32b28b9a6817913704dc",
+    "bytes": 42544
+  },
+  {
+    "package": "libvtk9.3",
+    "version": "9.3.0+dfsg1-4+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/v/vtk9/libvtk9.3_9.3.0%2bdfsg1-4%2bb1_arm64.deb",
+    "sha256": "84ffff4b3c33884783e62efa7b1661a16e163b4095215a93b7ce4902cdf634e5",
+    "bytes": 20706112
+  },
+  {
+    "package": "libwebp-dev",
+    "version": "1.5.0-0.1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libw/libwebp/libwebp-dev_1.5.0-0.1_arm64.deb",
+    "sha256": "c58625a0db11204dfa6978b364a037c12821da0ba8b0a987b2516da2a247bd43",
+    "bytes": 405600
+  },
+  {
+    "package": "libwebpdecoder3",
+    "version": "1.5.0-0.1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libw/libwebp/libwebpdecoder3_1.5.0-0.1_arm64.deb",
+    "sha256": "0ff4556f96fec40de249e29835fbde9c15ce8fe08a3b53afb2f1488e3e5a5874",
+    "bytes": 181816
+  },
+  {
+    "package": "libxerces-c3.2t64",
+    "version": "3.2.4+debian-1.3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/x/xerces-c/libxerces-c3.2t64_3.2.4%2bdebian-1.3%2bb2_arm64.deb",
+    "sha256": "e41737016f2065f42600667a4ecd2b622242c887d29846d39159d27188a7caac",
+    "bytes": 787432
+  },
+  {
+    "package": "libzopfli1",
+    "version": "1.0.3-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/z/zopfli/libzopfli1_1.0.3-3_arm64.deb",
+    "sha256": "455bcc3f802c67a2b41d5c16ffda04ebbc4167abe6c5d7201e9a4b3517d0e279",
+    "bytes": 95224
+  },
+  {
+    "package": "libzstd-dev",
+    "version": "1.5.7+dfsg-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libz/libzstd/libzstd-dev_1.5.7%2bdfsg-1_arm64.deb",
+    "sha256": "05cf42de5c9fdf17f49f663b47bfe736f10fbc7080fcc3a86ac43d5d670de149",
+    "bytes": 335104
+  },
+  {
+    "package": "mariadb-common",
+    "version": "1:11.8.6-0+deb13u1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/m/mariadb/mariadb-common_11.8.6-0%2bdeb13u1_all.deb",
+    "sha256": "b5116ff56a60d471332d45bfd4ec50391fdcf5a40747bf7fe23ec8551cb71f9c",
+    "bytes": 29544
+  },
+  {
+    "package": "mysql-common",
+    "version": "5.8+1.1.1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/m/mysql-defaults/mysql-common_5.8%2b1.1.1_all.deb",
+    "sha256": "a4e36be39be45d6f5267ac71b92d7eecd40a15f25d52a0bfb9c5eaca1b90e534",
+    "bytes": 6784
+  },
+  {
+    "package": "proj-data",
+    "version": "9.6.0-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/proj/proj-data_9.6.0-1_all.deb",
+    "sha256": "1b916075d1276853018c2dfb60eb3ea504e1bf5d312ff37d3805cca5243244b5",
+    "bytes": 6303116
+  },
+  {
+    "package": "python-matplotlib-data",
+    "version": "3.10.1+dfsg1-4",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/m/matplotlib/python-matplotlib-data_3.10.1%2bdfsg1-4_all.deb",
+    "sha256": "4fac090948410368e37afb5015ab7b7153452958e270ab9644471230bbe5950c",
+    "bytes": 2736924
+  },
+  {
+    "package": "python3-brotli",
+    "version": "1.1.0-2+b7",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/brotli/python3-brotli_1.1.0-2%2bb7_arm64.deb",
+    "sha256": "60fc3ae56d92ba4106990cc3ad0c564939754f9d1927c1af9cdc1faf2c5289e8",
+    "bytes": 299808
+  },
+  {
+    "package": "python3-contourpy",
+    "version": "1.3.1-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/contourpy/python3-contourpy_1.3.1-1%2bb1_arm64.deb",
+    "sha256": "0b9c2eb6f93ad8a66cb3864bd654f357ec94102121f14d0b60987e8a8d1b3621",
+    "bytes": 190476
+  },
+  {
+    "package": "python3-cycler",
+    "version": "0.12.1-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-cycler/python3-cycler_0.12.1-1_all.deb",
+    "sha256": "3deb8f4ec8a7dbd094829ac1d34daa1c95a2078dd2d64830a24b4f3d41178afc",
+    "bytes": 9496
+  },
+  {
+    "package": "python3-decorator",
+    "version": "5.2.1-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-decorator/python3-decorator_5.2.1-2_all.deb",
+    "sha256": "2822307c88b15aed40b62910dbb79523fad7bea9585c750788a4c6d00e76b03e",
+    "bytes": 33004
+  },
+  {
+    "package": "python3-fonttools",
+    "version": "4.57.0-1+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/f/fonttools/python3-fonttools_4.57.0-1%2bdeb13u1_arm64.deb",
+    "sha256": "dfd3dd62d0f5edfed54a14ce82ad08e1d63e74401adc1c6ce25ead5b82efb8fe",
+    "bytes": 1366108
+  },
+  {
+    "package": "python3-fs",
+    "version": "2.4.16-7",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-fs/python3-fs_2.4.16-7_all.deb",
+    "sha256": "9fa1f0a961abd80f00c8eff66f813a5fae5d718d37cb6762144d494ddae12efe",
+    "bytes": 95176
+  },
+  {
+    "package": "python3-kiwisolver",
+    "version": "1.4.7-3+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/k/kiwisolver/python3-kiwisolver_1.4.7-3%2bb1_arm64.deb",
+    "sha256": "908e297e1cf6b5de97607d59c066af39c921c97a3d5f6a6f64ef248b3e0c3ff2",
+    "bytes": 57776
+  },
+  {
+    "package": "python3-lz4",
+    "version": "4.4.0+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-lz4/python3-lz4_4.4.0%2bdfsg-2_arm64.deb",
+    "sha256": "6507ce3526bbe2ba0a88da1d9f6a3aa1adebce2d3fe56399094f8465a1766661",
+    "bytes": 25344
+  },
+  {
+    "package": "python3-matplotlib",
+    "version": "3.10.1+dfsg1-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/m/matplotlib/python3-matplotlib_3.10.1%2bdfsg1-4_arm64.deb",
+    "sha256": "094dba7e9b2b041897693f746a684a21dcc7423102ed3f6ee4ffb9671bd9cab0",
+    "bytes": 23671456
+  },
+  {
+    "package": "python3-mpmath",
+    "version": "1.3.0-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/m/mpmath/python3-mpmath_1.3.0-1_all.deb",
+    "sha256": "36596f8992df86d1acada0b5d3e64307449ca13326090fb8d6423e8f8d6d9e60",
+    "bytes": 418668
+  },
+  {
+    "package": "python3-opencv",
+    "version": "4.10.0+dfsg-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/opencv/python3-opencv_4.10.0%2bdfsg-5_arm64.deb",
+    "sha256": "91280ab0ac32d5a7770058f6a15cce866d34eec27a623c5694ee967c6a6bd771",
+    "bytes": 1492068
+  },
+  {
+    "package": "python3-pil.imagetk",
+    "version": "11.1.0-5+deb13u4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pillow/python3-pil.imagetk_11.1.0-5%2bdeb13u4_arm64.deb",
+    "sha256": "d4d403d554a029a5f42e401d38f58cb894052238ee1592fb7033117ea033953e",
+    "bytes": 81644
+  },
+  {
+    "package": "python3-pyparsing",
+    "version": "3.1.2-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pyparsing/python3-pyparsing_3.1.2-1_all.deb",
+    "sha256": "f784864f3835bc7e62391350418f28958cc004f1d46690a5c03300ec0a9bcc54",
+    "bytes": 145952
+  },
+  {
+    "package": "python3-scipy",
+    "version": "1.15.3-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/s/scipy/python3-scipy_1.15.3-1_arm64.deb",
+    "sha256": "c6ba095d7215460b7661b40f06f418acefbbb117a8738d669c7aa88ad5a6bf5a",
+    "bytes": 14853956
+  },
+  {
+    "package": "python3-sympy",
+    "version": "1.13.3-5",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/s/sympy/python3-sympy_1.13.3-5_all.deb",
+    "sha256": "62fef103cd6b536e1c49808f0a6ac2aeb2c951e355cec3d461425ae1551d5f8b",
+    "bytes": 4147732
+  },
+  {
+    "package": "python3-ufolib2",
+    "version": "0.17.1+dfsg1-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/u/ufolib2/python3-ufolib2_0.17.1%2bdfsg1-1_all.deb",
+    "sha256": "de5fdd51d77d379998172e525d93834318e90b8d395ca0c0476c08723cfb760d",
+    "bytes": 33016
+  },
+  {
+    "package": "python3-unicodedata2",
+    "version": "15.1.0+ds-1+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-unicodedata2/python3-unicodedata2_15.1.0%2bds-1%2bb5_arm64.deb",
+    "sha256": "0d646674825ade622fb3f694dafcb5f7845a42baa53a224caade2eea3549bf69",
+    "bytes": 297532
+  },
+  {
+    "package": "python3-zopfli",
+    "version": "0.2.3.post1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/python-zopfli/python3-zopfli_0.2.3.post1-1_arm64.deb",
+    "sha256": "366869aacba2ce1442498f86df5b5e9d824806f8c4dbfb37f4932158e0b350b9",
+    "bytes": 10176
+  },
+  {
+    "package": "unicode-data",
+    "version": "15.1.0-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/u/unicode-data/unicode-data_15.1.0-1_all.deb",
+    "sha256": "44d03e773a178dc46478b7b8348cd22ee856636138793cee26ff4d5050860995",
+    "bytes": 8547256
+  },
+  {
+    "package": "unixodbc-common",
+    "version": "2.3.12-2+deb13u1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/u/unixodbc/unixodbc-common_2.3.12-2%2bdeb13u1_all.deb",
+    "sha256": "3e91bdd9c7bd81fa89f39151bcbc9c557a87aa9355b5b64ff851e0ccfaa2f3eb",
+    "bytes": 8732
+  }
+]

@@ -1,0 +1,11 @@
+--- a/aslam_nonparametric_estimation/bsplines/CMakeLists.txt
++++ b/aslam_nonparametric_estimation/bsplines/CMakeLists.txt
+@@ -20,7 +20,7 @@
+   src/BSpline.cpp
+   src/BSplinePose.cpp
+ )
+-target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
++target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${SUITESPARSE_LIBRARIES})
+ 
+ install(TARGETS ${PROJECT_NAME}
+   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}

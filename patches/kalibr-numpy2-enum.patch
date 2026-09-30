@@ -1,0 +1,14 @@
+--- a/Schweizer-Messer/numpy_eigen/include/numpy_eigen/type_traits.hpp
++++ b/Schweizer-Messer/numpy_eigen/include/numpy_eigen/type_traits.hpp
+@@ -132,7 +132,11 @@
+       return "NPY_UNICODE";
+     case NPY_VOID:
+       return "NPY_VOID";
++    #if NPY_ABI_VERSION >= 0x02000000
++    case NPY_NTYPES_LEGACY:
++    #else
+     case NPY_NTYPES:
++    #endif
+       return "NPY_NTYPES";
+     case NPY_NOTYPE:
+       return "NPY_NOTYPE";

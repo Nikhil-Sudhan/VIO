@@ -1,0 +1,34 @@
+--- a/aslam_incremental_calibration/incremental_calibration/src/algorithms/linalg.cpp
++++ b/aslam_incremental_calibration/incremental_calibration/src/algorithms/linalg.cpp
+@@ -26,7 +26,6 @@
+ 
+ #include <cholmod.h>
+ #include <SuiteSparseQR.hpp>
+-#include <spqr.hpp>
+ 
+ #include "aslam/calibration/exceptions/OutOfBoundException.h"
+ #include "aslam/calibration/exceptions/InvalidOperationException.h"
+@@ -268,8 +267,21 @@
+       if (cholmod == NULL)
+         throw NullPointerException("cholmod", __FILE__, __LINE__,
+           __PRETTY_FUNCTION__);
+-      return 20.0 * static_cast<double>(A->nrow + A->ncol) * eps *
+-        spqr_maxcolnorm<double>(A, cholmod);
++      // SuiteSparse 7 no longer installs the private spqr.hpp header.
++      // Compute its maximum column 2-norm through public CHOLMOD storage.
++      if (A->itype != CHOLMOD_LONG || A->xtype != CHOLMOD_REAL ||
++          A->dtype != CHOLMOD_DOUBLE || !A->packed || A->stype != 0)
++        throw InvalidOperationException("qrTol requires packed real-double long-index general matrix",
++          __FILE__, __LINE__, __PRETTY_FUNCTION__);
++      const int64_t* columns = static_cast<const int64_t*>(A->p);
++      const double* values = static_cast<const double*>(A->x);
++      double maxColumnNorm = 0.0;
++      for (size_t j = 0; j < A->ncol; ++j) {
++        const Eigen::Map<const Eigen::VectorXd> column(values + columns[j],
++          columns[j + 1] - columns[j]);
++        maxColumnNorm = std::max(maxColumnNorm, column.stableNorm());
++      }
++      return 20.0 * static_cast<double>(A->nrow + A->ncol) * eps * maxColumnNorm;
+     }
+ 
+     double svGap(const Eigen::VectorXd& sv, std::ptrdiff_t rank) {

@@ -1,0 +1,38 @@
+--- a/Schweizer-Messer/numpy_eigen/CMakeLists.txt
++++ b/Schweizer-Messer/numpy_eigen/CMakeLists.txt
+@@ -6,6 +6,13 @@
+ find_package(catkin REQUIRED COMPONENTS python_module)
+ find_package(Boost REQUIRED COMPONENTS system)
+ find_package(Eigen3 REQUIRED)
++execute_process(COMMAND ${PYTHON_EXECUTABLE} -c "import numpy; print(numpy.get_include())"
++  OUTPUT_VARIABLE NUMPY_INCLUDE_DIR OUTPUT_STRIP_TRAILING_WHITESPACE
++  RESULT_VARIABLE NUMPY_INCLUDE_RESULT)
++if(NOT NUMPY_INCLUDE_RESULT EQUAL 0)
++  message(FATAL_ERROR "Cannot find NumPy headers for selected Python")
++endif()
++include_directories(${NUMPY_INCLUDE_DIR})
+ 
+ catkin_python_setup()
+ 
+@@ -14,7 +21,7 @@
+ include_directories("${PROJECT_SOURCE_DIR}/include/numpy_eigen")
+ 
+ catkin_package(
+-  INCLUDE_DIRS include ${catkin_INCLUDE_DIRS}
++  INCLUDE_DIRS include ${catkin_INCLUDE_DIRS} ${NUMPY_INCLUDE_DIR}
+   LIBRARIES ${PROJECT_NAME}
+   DEPENDS Boost
+   CFG_EXTRAS numpy_eigen-extras.cmake
+@@ -42,10 +49,12 @@
+ target_link_libraries(${PROJECT_NAME} 
+                       ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+                       
++if(CATKIN_ENABLE_TESTING)
+ INCLUDE(src/autogen_test_files.cmake)
+ add_python_export_library(${PROJECT_NAME}_test 
+       ${PROJECT_SOURCE_DIR}/python/${PROJECT_NAME} ${AUTOGEN_TEST_FILES}
+   )
++endif()
+ 
+ #############
+ ## Testing ##

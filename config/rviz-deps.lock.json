@@ -1,0 +1,618 @@
+[
+  {
+    "package": "libactionlib1d",
+    "version": "1.14.0-8",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-actionlib/libactionlib1d_1.14.0-8_arm64.deb",
+    "sha256": "8838d466a7ffb9af038e73de7cf15f0dd5ab2627d477c06b87b29fdabba51b28",
+    "bytes": 28292
+  },
+  {
+    "package": "libament-index-cpp0d",
+    "version": "1.10.1-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros2-ament-index/libament-index-cpp0d_1.10.1-1_arm64.deb",
+    "sha256": "649984b606caecaf85f70c90bb5e8d437559afd9d325956f3921d81ec3cd5aba",
+    "bytes": 14636
+  },
+  {
+    "package": "libapr1t64",
+    "version": "1.7.5-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/apr/libapr1t64_1.7.5-1_arm64.deb",
+    "sha256": "1975c7ea305ede03fb66f10b3cd261c52db0115bf1f2c31b0f2ea0bdd7ab11f7",
+    "bytes": 97144
+  },
+  {
+    "package": "libaprutil1-dbd-sqlite3",
+    "version": "1.6.3-3+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/apr-util/libaprutil1-dbd-sqlite3_1.6.3-3%2bdeb13u1_arm64.deb",
+    "sha256": "2e40d756a9d56c728b8b29eb9e3f739fcde6f9c9b4fbaaa77d14957d4d19fca7",
+    "bytes": 14432
+  },
+  {
+    "package": "libaprutil1t64",
+    "version": "1.6.3-3+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/apr-util/libaprutil1t64_1.6.3-3%2bdeb13u1_arm64.deb",
+    "sha256": "e2d2cb51d4341afe3501db92a7d13d0cc7a45203da78665027b2b4617551b6db",
+    "bytes": 86820
+  },
+  {
+    "package": "libassimp5",
+    "version": "5.4.3+ds-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/a/assimp/libassimp5_5.4.3%2bds-2_arm64.deb",
+    "sha256": "c94ca60a8864a6ea519db7bd34db5c7e07edc6d0814196d00ec782d1d1b6e3a7",
+    "bytes": 2383204
+  },
+  {
+    "package": "libb64-0d",
+    "version": "1.2-5+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libb/libb64/libb64-0d_1.2-5%2bb3_arm64.deb",
+    "sha256": "ab49abc8b6c1f4e7ab417cf58f67e39bfc6bb6b0b29328e5d880de1348d2145e",
+    "bytes": 9996
+  },
+  {
+    "package": "libboost-chrono1.83.0t64",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost-chrono1.83.0t64_1.83.0-4.2_arm64.deb",
+    "sha256": "2d9cf8a5e85e0c1b28eab94c256dae58d14bb404c62e9763a98ffa09fb9938de",
+    "bytes": 239476
+  },
+  {
+    "package": "libboost-dev",
+    "version": "1.83.0.2+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost-defaults/libboost-dev_1.83.0.2%2bb2_arm64.deb",
+    "sha256": "346e0dc8fe3c50fe3b8794d964536ef37bcd6ae7b166081f2b6b509240e2284d",
+    "bytes": 3828
+  },
+  {
+    "package": "libboost1.83-dev",
+    "version": "1.83.0-4.2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/b/boost1.83/libboost1.83-dev_1.83.0-4.2_arm64.deb",
+    "sha256": "0f82bfbd6d1afae0d03da64e4e2ac531effcf66e89e962a4fb6bebf0ec35db6e",
+    "bytes": 10588964
+  },
+  {
+    "package": "libclass-loader3d",
+    "version": "2.8.0-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-class-loader/libclass-loader3d_2.8.0-1%2bb1_arm64.deb",
+    "sha256": "20bbcd6fee8bd4c57cbb4430d3fa6d295ae0feec6d359b06f31cb2067bf9816d",
+    "bytes": 29764
+  },
+  {
+    "package": "libconsole-bridge-dev",
+    "version": "1.0.1+dfsg2-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/console-bridge/libconsole-bridge-dev_1.0.1%2bdfsg2-3%2bb2_arm64.deb",
+    "sha256": "b45d3189a14c982990b98b53ccebb38e8a642073751197e14e01881f73003120",
+    "bytes": 8076
+  },
+  {
+    "package": "libconsole-bridge1.0",
+    "version": "1.0.1+dfsg2-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/c/console-bridge/libconsole-bridge1.0_1.0.1%2bdfsg2-3%2bb2_arm64.deb",
+    "sha256": "bb10b77f5a98300738f031ea0d9f30ed7dd3d90f0f4438083711acc7856a97e0",
+    "bytes": 10868
+  },
+  {
+    "package": "libcpp-common0d",
+    "version": "0.7.3-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-roscpp-core/libcpp-common0d_0.7.3-3_arm64.deb",
+    "sha256": "b5a045d72dcf3cbe6ec92c930352372b5359b03b03c75180cc3a215b9d73287b",
+    "bytes": 15492
+  },
+  {
+    "package": "libdraco8",
+    "version": "1.5.6+dfsg-3+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/d/draco/libdraco8_1.5.6%2bdfsg-3%2bb3_arm64.deb",
+    "sha256": "cf3f73fb3bd6ef995f3be5c761661c0bb466847cfa6dc203c63382a922a0422c",
+    "bytes": 700168
+  },
+  {
+    "package": "libfreeimage3",
+    "version": "3.18.0+ds2-11",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/f/freeimage/libfreeimage3_3.18.0%2bds2-11_arm64.deb",
+    "sha256": "e136b8d191b1c255310a804c1192d4a8fb6d4ba12285ec352635c4324cdc5656",
+    "bytes": 275560
+  },
+  {
+    "package": "libgeometry-msgs-dev",
+    "version": "1.13.1-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/libgeometry-msgs-dev_1.13.1-3_arm64.deb",
+    "sha256": "94608dfed2d69f8e53876e2c1f5bd17ae0444ce0a17b822b9c7f1d7d189812ea",
+    "bytes": 19084
+  },
+  {
+    "package": "libimage-transport0t64",
+    "version": "1.12.0-14+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-image-common/libimage-transport0t64_1.12.0-14%2bb5_arm64.deb",
+    "sha256": "d402e7e34c7fc9389e60c74472d8646873f1f209c9cb5552f397aad332b47791",
+    "bytes": 189356
+  },
+  {
+    "package": "libinteractive-markers2d",
+    "version": "1.12.0-10",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-interactive-markers/libinteractive-markers2d_1.12.0-10_arm64.deb",
+    "sha256": "c0035046e32a3c3334f83ad2a3e0b0616266a28eb93503172a5a1e16e04ed642",
+    "bytes": 115480
+  },
+  {
+    "package": "liblaser-geometry0d",
+    "version": "1.6.7-5+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-laser-geometry/liblaser-geometry0d_1.6.7-5%2bb2_arm64.deb",
+    "sha256": "97af254c549cba4339c004b167aedac13b40b189ad9c03e5d92ea4ecae97e958",
+    "bytes": 33076
+  },
+  {
+    "package": "liblog4cxx15",
+    "version": "1.4.0-1+deb13u1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/l/log4cxx/liblog4cxx15_1.4.0-1%2bdeb13u1_arm64.deb",
+    "sha256": "3fbb6d9a8f26375d28d7f12ae116532beb1e8d433b125bc38c11ad181242efe5",
+    "bytes": 529688
+  },
+  {
+    "package": "libmessage-filters1t64",
+    "version": "1.17.0+ds-2+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/libmessage-filters1t64_1.17.0%2bds-2%2bb5_arm64.deb",
+    "sha256": "20282c03f9901f5abe502ea4da0fc34a12b1a0b72ac5428673328462a98446d9",
+    "bytes": 10452
+  },
+  {
+    "package": "libogre1.12.10t64",
+    "version": "1.12.10+dfsg2-6+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/o/ogre-1.12/libogre1.12.10t64_1.12.10%2bdfsg2-6%2bb3_arm64.deb",
+    "sha256": "7b409d6c7c7218d2cfb2152e26ff52ec5c3695c0748c6f484405c9598d0fc70b",
+    "bytes": 3054460
+  },
+  {
+    "package": "librcpputils1d",
+    "version": "2.13.2-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros2-rcpputils/librcpputils1d_2.13.2-1_arm64.deb",
+    "sha256": "0f683156c7f3a0330736c7be9068fae60809016c15c81543df60430ef9355371",
+    "bytes": 27260
+  },
+  {
+    "package": "librcutils1d",
+    "version": "6.9.4-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros2-rcutils/librcutils1d_6.9.4-1_arm64.deb",
+    "sha256": "3ee9c9d4ab20416afd79082cb64b6c165479fe41e47673034d3dfefa44c7442c",
+    "bytes": 44560
+  },
+  {
+    "package": "libresource-retriever0d",
+    "version": "1.12.7-6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-resource-retriever/libresource-retriever0d_1.12.7-6_arm64.deb",
+    "sha256": "b915b56378d1645a2c3a3a93397789a0b9e9175416b85550c1f2d40c83054a02",
+    "bytes": 12340
+  },
+  {
+    "package": "librosconsole-bridge0d",
+    "version": "0.5.4-5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rosconsole-bridge/librosconsole-bridge0d_0.5.4-5_arm64.deb",
+    "sha256": "7da3c68b5ceaea9e90ee61fa5263843492e12b10620527d70f65e7da3e1e59ad",
+    "bytes": 9108
+  },
+  {
+    "package": "librosconsole3d",
+    "version": "1.14.3-13",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rosconsole/librosconsole3d_1.14.3-13_arm64.deb",
+    "sha256": "1494c2893615b8f954bdbcc35bc951a1bc24450ecf541d5dbe00664507f6f4c6",
+    "bytes": 142012
+  },
+  {
+    "package": "libroscpp-core-dev",
+    "version": "0.7.3-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-roscpp-core/libroscpp-core-dev_0.7.3-3_arm64.deb",
+    "sha256": "a75130b457948044e37b22003142a675e79890fb9890a2758e0840c9a78c63cd",
+    "bytes": 23628
+  },
+  {
+    "package": "libroscpp-serialization0d",
+    "version": "0.7.3-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-roscpp-core/libroscpp-serialization0d_0.7.3-3_arm64.deb",
+    "sha256": "b7f62a7785fac004d62a5f1d414ccd5f0cd399bf94f4188fd8112b3f61eaf72e",
+    "bytes": 6120
+  },
+  {
+    "package": "libroscpp4t64",
+    "version": "1.17.0+ds-2+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/libroscpp4t64_1.17.0%2bds-2%2bb5_arm64.deb",
+    "sha256": "26b18d44d0e5f4b4d1d5467d700fa2daea51e929d914c9d081e57007df339f19",
+    "bytes": 416228
+  },
+  {
+    "package": "libroslib0d",
+    "version": "1.15.8-7",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros/libroslib0d_1.15.8-7_arm64.deb",
+    "sha256": "71d90d1a70128940e9c524b79fb6da95d26dda33194e9fa1f2cd88832fcec54b",
+    "bytes": 23944
+  },
+  {
+    "package": "librospack0d",
+    "version": "2.6.2-10+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rospack/librospack0d_2.6.2-10%2bb2_arm64.deb",
+    "sha256": "710db9783aad79b57f77f85a72f64b0bd78d475bde8fee9d46b02b4f1a5b34c0",
+    "bytes": 88400
+  },
+  {
+    "package": "librostime1d",
+    "version": "0.7.3-3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-roscpp-core/librostime1d_0.7.3-3_arm64.deb",
+    "sha256": "89ceaeea59ac1b48a11234ee3fef96a0811da4391b534de5d9b696409fbbe20f",
+    "bytes": 29396
+  },
+  {
+    "package": "librviz8d",
+    "version": "1.14.25+dfsg-1+b8",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rviz/librviz8d_1.14.25%2bdfsg-1%2bb8_arm64.deb",
+    "sha256": "ab40a957124b938075f86471309d06ce3225f6c7654ec009ecbd9e529415182c",
+    "bytes": 1633000
+  },
+  {
+    "package": "libstb0t64",
+    "version": "0.0~git20241109.5c20573+ds-1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/libs/libstb/libstb0t64_0.0%7egit20241109.5c20573%2bds-1_arm64.deb",
+    "sha256": "0fcbc8871f96d319a4d9b3d5b7890ca7efeb69db6e3fae07cddce956735d7861",
+    "bytes": 199032
+  },
+  {
+    "package": "libstd-msgs-dev",
+    "version": "0.5.13-4",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-std-msgs/libstd-msgs-dev_0.5.13-4_arm64.deb",
+    "sha256": "086f931422866dea186883b9b45e0215451a585433c6fa6d56f66650b6bad9e4",
+    "bytes": 18836
+  },
+  {
+    "package": "libtf1d",
+    "version": "1.13.2-11",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-geometry/libtf1d_1.13.2-11_arm64.deb",
+    "sha256": "bb45f1e146c041524400c1561f176de4b7cd9caeb1e6756e9ca080a71969d160",
+    "bytes": 47120
+  },
+  {
+    "package": "libtf2-2d",
+    "version": "0.7.7-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-geometry2/libtf2-2d_0.7.7-3%2bb2_arm64.deb",
+    "sha256": "72d804c3c96f83e494084362df26e7eb65e12ed37e5ab64d83c4c0dab9377a7c",
+    "bytes": 72064
+  },
+  {
+    "package": "libtf2-ros1d",
+    "version": "0.7.7-3+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-geometry2/libtf2-ros1d_0.7.7-3%2bb2_arm64.deb",
+    "sha256": "6268a8310f38d49e59458d63c181965f3692c806957ec69c4843e4c3d3711841",
+    "bytes": 148820
+  },
+  {
+    "package": "libtinyxml2-11",
+    "version": "11.0.0+dfsg-1+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/t/tinyxml2/libtinyxml2-11_11.0.0%2bdfsg-1%2bb1_arm64.deb",
+    "sha256": "596a10c41466c126c61ecfeed5d31f515066abccf5b2a2a6587e85473540eca9",
+    "bytes": 29808
+  },
+  {
+    "package": "libtinyxml2.6.2v5",
+    "version": "2.6.2-7",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/t/tinyxml/libtinyxml2.6.2v5_2.6.2-7_arm64.deb",
+    "sha256": "6d6122c8011043f7f7bbd8f4e93c70f2dd191bd57a596cff61e2f6411c3f55ed",
+    "bytes": 36500
+  },
+  {
+    "package": "liburdf1d",
+    "version": "1.13.2-10+b3",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-urdf/liburdf1d_1.13.2-10%2bb3_arm64.deb",
+    "sha256": "4ae7e509a3fab756af662813c877037a1a7d43563a6de78affcf518fcaf9355b",
+    "bytes": 97376
+  },
+  {
+    "package": "liburdfdom-model4.0",
+    "version": "4.0.0-3+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/urdfdom/liburdfdom-model4.0_4.0.0-3%2bb1_arm64.deb",
+    "sha256": "cd55d350a4b4ab3ae70753627fa466d5ea0731c65846c3b63cc3ab8f6317c53a",
+    "bytes": 44660
+  },
+  {
+    "package": "liburdfdom-world4.0",
+    "version": "4.0.0-3+b1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/u/urdfdom/liburdfdom-world4.0_4.0.0-3%2bb1_arm64.deb",
+    "sha256": "29ade5a884457211f053d56b53604fa24b2c8939e2b1ba341c225e8b829dc8c7",
+    "bytes": 43836
+  },
+  {
+    "package": "libxmlrpcpp3t64",
+    "version": "1.17.0+ds-2+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/libxmlrpcpp3t64_1.17.0%2bds-2%2bb5_arm64.deb",
+    "sha256": "813a22939f0cccfc61cda86bd29246f716e020faf6647e172942db2cca4c0b1b",
+    "bytes": 47872
+  },
+  {
+    "package": "libyaml-cpp0.8",
+    "version": "0.8.0+dfsg-7",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/y/yaml-cpp/libyaml-cpp0.8_0.8.0%2bdfsg-7_arm64.deb",
+    "sha256": "a20127bae21c819ad03ac364740b6354992143702dc4735cf77910b9df847348",
+    "bytes": 119192
+  },
+  {
+    "package": "libzzip-0-13t64",
+    "version": "0.13.78+dfsg.1-0.1",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/z/zziplib/libzzip-0-13t64_0.13.78%2bdfsg.1-0.1_arm64.deb",
+    "sha256": "667a29761530f7e559c06fbd113ddf9eed64a36621340e2a711dedb173ecaacb",
+    "bytes": 59400
+  },
+  {
+    "package": "python3-actionlib-msgs",
+    "version": "1.13.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/python3-actionlib-msgs_1.13.1-3_all.deb",
+    "sha256": "91aeb315dce6160812ac647ea17d9ef05cb676f97c5083c6974909a881ed10aa",
+    "bytes": 6888
+  },
+  {
+    "package": "python3-catkin",
+    "version": "0.8.10-17",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-catkin/python3-catkin_0.8.10-17_all.deb",
+    "sha256": "b91ca5ec6f696e5913300b2a64716f9ed9521952bab8e85a390106d3efe22fc3",
+    "bytes": 35568
+  },
+  {
+    "package": "python3-catkin-pkg",
+    "version": "1.0.0-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-catkin-pkg/python3-catkin-pkg_1.0.0-2_all.deb",
+    "sha256": "fe08669ed8e32c61f0acff6b6211f0e122c52e0fca451d395ca49add08636d30",
+    "bytes": 48632
+  },
+  {
+    "package": "python3-defusedxml",
+    "version": "0.7.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/d/defusedxml/python3-defusedxml_0.7.1-3_all.deb",
+    "sha256": "f77090e227c91bf1fe1485b42d74c833d0de0e4a737c8cd65c27bc25926bb35e",
+    "bytes": 43380
+  },
+  {
+    "package": "python3-empy",
+    "version": "3.3.4-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/e/empy/python3-empy_3.3.4-2_all.deb",
+    "sha256": "c2c0b4dfc4ee2c4ef9db78ad896a6e9c4d407cf52ca88aa3fc2c6fd7480d1986",
+    "bytes": 66148
+  },
+  {
+    "package": "python3-genmsg",
+    "version": "0.6.0-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-genmsg/python3-genmsg_0.6.0-3_all.deb",
+    "sha256": "50c5d8bd6b41c63aa353d42250abdef0bc823f717da0d33d44bb611dca350b8f",
+    "bytes": 25696
+  },
+  {
+    "package": "python3-genpy",
+    "version": "0.6.16-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-genpy/python3-genpy_0.6.16-3_all.deb",
+    "sha256": "c1a8275a68289ed1e8ba2bac3dababbd5f64b03c05ecd791bd9e396f2bb44882",
+    "bytes": 33912
+  },
+  {
+    "package": "python3-geometry-msgs",
+    "version": "1.13.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/python3-geometry-msgs_1.13.1-3_all.deb",
+    "sha256": "5493c3b51cc17c342ab4bc0dd1246732d4064213b9df0844f7ca99bd8f05e7a0",
+    "bytes": 12820
+  },
+  {
+    "package": "python3-nav-msgs",
+    "version": "1.13.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/python3-nav-msgs_1.13.1-3_all.deb",
+    "sha256": "2d5799d83d7dfc60c2d5a3e7c0a7ab052f1fae89d89cb70393d3b469c83fea5e",
+    "bytes": 13448
+  },
+  {
+    "package": "python3-netifaces",
+    "version": "0.11.0-2+b6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/n/netifaces/python3-netifaces_0.11.0-2%2bb6_arm64.deb",
+    "sha256": "17ea7c4378a6d3c82766e627e634bd536c78c3c4c2828ddd1d67882c58ec77a9",
+    "bytes": 17240
+  },
+  {
+    "package": "python3-pyparsing",
+    "version": "3.1.2-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pyparsing/python3-pyparsing_3.1.2-1_all.deb",
+    "sha256": "f784864f3835bc7e62391350418f28958cc004f1d46690a5c03300ec0a9bcc54",
+    "bytes": 145952
+  },
+  {
+    "package": "python3-rosclean",
+    "version": "1.15.8-7",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros/python3-rosclean_1.15.8-7_all.deb",
+    "sha256": "c4605187bba93aefb663480f3fee08f83822622f9de096a06838ca0084fcb274",
+    "bytes": 10396
+  },
+  {
+    "package": "python3-roscpp-msg",
+    "version": "1.17.0+ds-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-roscpp-msg_1.17.0%2bds-2_all.deb",
+    "sha256": "ae72bc3141eca0451dab988ece1a92b4bb48f762effce22ad9ebabaec63c72bf",
+    "bytes": 8512
+  },
+  {
+    "package": "python3-rosgraph",
+    "version": "1.17.0+ds-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-rosgraph_1.17.0%2bds-2_all.deb",
+    "sha256": "bc652f56a9f69ac3e4ca39823f366e35e8aee9b92bef2b4a1a370022db9dc443",
+    "bytes": 32124
+  },
+  {
+    "package": "python3-rosgraph-msgs",
+    "version": "1.11.3-4",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm-msgs/python3-rosgraph-msgs_1.11.3-4_all.deb",
+    "sha256": "e201504a91650efd2126a8adbac2d9fa7abafbc3b1945238fc47461ccb8ba5e6",
+    "bytes": 6908
+  },
+  {
+    "package": "python3-roslaunch",
+    "version": "1.17.0+ds-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-roslaunch_1.17.0%2bds-2_all.deb",
+    "sha256": "71971663a8ddab7b68d135704699a884c8bad4dfe3dd78fc4c245c3afc2d6a9f",
+    "bytes": 77440
+  },
+  {
+    "package": "python3-roslib",
+    "version": "1.15.8-7",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros/python3-roslib_1.15.8-7_all.deb",
+    "sha256": "e648edad29cf286f3a17c20b41d4fe7bbcce2584d8297a05c7adbf58dc6068b4",
+    "bytes": 36828
+  },
+  {
+    "package": "python3-rosmaster",
+    "version": "1.17.0+ds-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-rosmaster_1.17.0%2bds-2_all.deb",
+    "sha256": "37c69da15108a911e4d8a0b341c4f22ffbb101d05fcdbf34df4401220d840df5",
+    "bytes": 27932
+  },
+  {
+    "package": "python3-rosparam",
+    "version": "1.17.0+ds-2",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-rosparam_1.17.0%2bds-2_all.deb",
+    "sha256": "10315b8f498b25315f550e8eb003cf63c6854d66ba5ed554862a24c2c991fe46",
+    "bytes": 15420
+  },
+  {
+    "package": "python3-rospkg",
+    "version": "1.5.1-1",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rospkg/python3-rospkg_1.5.1-1_all.deb",
+    "sha256": "a81c554a579f2298dde2d046c36ed6c107c893e7b5026551f40284c24a371143",
+    "bytes": 27264
+  },
+  {
+    "package": "python3-rospy",
+    "version": "1.17.0+ds-2+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/python3-rospy_1.17.0%2bds-2%2bb5_arm64.deb",
+    "sha256": "fa6201441d9b659d4c1d181828492826a5de631f5c290cba07c2d72925653011",
+    "bytes": 77752
+  },
+  {
+    "package": "python3-sensor-msgs",
+    "version": "1.13.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/python3-sensor-msgs_1.13.1-3_all.deb",
+    "sha256": "bedc3f636b1bcd4bfa66e5307ef4e5b5368b80a85cab85f3bf01338b67df4cab",
+    "bytes": 26588
+  },
+  {
+    "package": "python3-std-msgs",
+    "version": "0.5.13-4",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-std-msgs/python3-std-msgs_0.5.13-4_all.deb",
+    "sha256": "6f47af83231be6771aac209c5c7236c9406c65d9cd7889fe540def12e00a19fc",
+    "bytes": 10560
+  },
+  {
+    "package": "python3-tf2-msgs",
+    "version": "0.7.7-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-geometry2/python3-tf2-msgs_0.7.7-3_all.deb",
+    "sha256": "3db766b32958cf5fc52ab2e00b676ff0eb553a4ac01501357725ec535092b6f2",
+    "bytes": 11852
+  },
+  {
+    "package": "python3-visualization-msgs",
+    "version": "1.13.1-3",
+    "architecture": "all",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-common-msgs/python3-visualization-msgs_1.13.1-3_all.deb",
+    "sha256": "d6778969aab8f12475fad10fecab5f2bf68f3b5633247ad940a3754680cebfdf",
+    "bytes": 16748
+  },
+  {
+    "package": "ros-message-runtime",
+    "version": "0.4.13-6",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-message-runtime/ros-message-runtime_0.4.13-6_arm64.deb",
+    "sha256": "69d07bbfdb2627a6140954ca136b5ed52f3e8526eb86bf8be399832397864acc",
+    "bytes": 6064
+  },
+  {
+    "package": "rosout",
+    "version": "1.17.0+ds-2+b5",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-ros-comm/rosout_1.17.0%2bds-2%2bb5_arm64.deb",
+    "sha256": "df495afa3a211ae690e9005bc7612753f2bb0900e4465b7131b738df5e4f362c",
+    "bytes": 36768
+  },
+  {
+    "package": "rospack-tools",
+    "version": "2.6.2-10+b2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rospack/rospack-tools_2.6.2-10%2bb2_arm64.deb",
+    "sha256": "0ab7e6c518f1fe4c98bbe29b4ec82697d208fff4f43770985b3f182f8c00a643",
+    "bytes": 8772
+  },
+  {
+    "package": "rviz",
+    "version": "1.14.25+dfsg-1+b8",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/r/ros-rviz/rviz_1.14.25%2bdfsg-1%2bb8_arm64.deb",
+    "sha256": "7cc62dad68fadc28e6caefb97871f0aa5d315f5e683330b4b0f4b2b168f90198",
+    "bytes": 185852
+  }
+]

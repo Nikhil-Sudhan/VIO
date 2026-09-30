@@ -1,0 +1,58 @@
+[
+  {
+    "package": "libpcre2-16-0",
+    "version": "10.46-1~deb13u2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-16-0_10.46-1%7edeb13u2_arm64.deb",
+    "sha256": "5cbc3acabe6d7d6533a9e24764d9566f3aaad208ec6309bb186fe2fa6962c35e",
+    "bytes": 247100
+  },
+  {
+    "package": "libpcre2-32-0",
+    "version": "10.46-1~deb13u2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-32-0_10.46-1%7edeb13u2_arm64.deb",
+    "sha256": "76f5f17c0165dcf9d44d601a5fc543221fd374959fb9f23e03d6580ffd0a993e",
+    "bytes": 237624
+  },
+  {
+    "package": "libpcre2-8-0",
+    "version": "10.46-1~deb13u2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-8-0_10.46-1%7edeb13u2_arm64.deb",
+    "sha256": "e7d2c997dac145c16457be0fed3d084c98cd030bec7633eec7e5bde6dbb97712",
+    "bytes": 262840
+  },
+  {
+    "package": "libwxbase3.2-1t64",
+    "version": "3.2.8+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/w/wxwidgets3.2/libwxbase3.2-1t64_3.2.8%2bdfsg-2_arm64.deb",
+    "sha256": "ef98afaa06cd5c4c5959ac620cc2d4e4ebe4bc39064618013ba1aa244fe5e574",
+    "bytes": 918688
+  },
+  {
+    "package": "libwxgtk-gl3.2-1t64",
+    "version": "3.2.8+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/w/wxwidgets3.2/libwxgtk-gl3.2-1t64_3.2.8%2bdfsg-2_arm64.deb",
+    "sha256": "04b4117e570729e0394d14c76854e2384e6d2f63008eebd5ca73e8e23e1afc86",
+    "bytes": 85932
+  },
+  {
+    "package": "libwxgtk3.2-1t64",
+    "version": "3.2.8+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/w/wxwidgets3.2/libwxgtk3.2-1t64_3.2.8%2bdfsg-2_arm64.deb",
+    "sha256": "cee5efd32bc3da73fabf2bdc7cf1dff3f1deceb5ec1b9d364abbf9562a03c61f",
+    "bytes": 4145628
+  },
+  {
+    "package": "python3-wxgtk4.0",
+    "version": "4.2.3+dfsg-2",
+    "architecture": "arm64",
+    "uri": "http://deb.debian.org/debian/pool/main/w/wxpython4.0/python3-wxgtk4.0_4.2.3%2bdfsg-2_arm64.deb",
+    "sha256": "8208e9db034c8cfef6093583b77558ead325461410b0ec158c225296fd681770",
+    "bytes": 6910120
+  }
+]

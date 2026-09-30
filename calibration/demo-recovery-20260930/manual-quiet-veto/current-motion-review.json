@@ -1,0 +1,38 @@
+{
+  "exit_code": 0,
+  "completed": true,
+  "accepted_for_hardware_estimation": false,
+  "poses": 1159,
+  "max_position_norm_m": 0.22476990296153213,
+  "max_excursion_from_first_pose_m": 0.22381417341231746,
+  "endpoint_from_first_pose_m": 0.154172410252447,
+  "max_speed_m_s": 0.08829874374251856,
+  "pose_frames_with_msckf": 138,
+  "final_time_offset_s": -0.00031673965517683766,
+  "processed_frames": 1201,
+  "offline_processing_p50_p95_max_ms": [
+    39.364385,
+    71.078027,
+    142.866623
+  ],
+  "target_comparison": {
+    "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+    "paired_samples": 127,
+    "available": true,
+    "position_disagreement_p50_p95_max_m": [
+      0.15064214535199036,
+      0.15486499480736657,
+      0.1561026557485028
+    ],
+    "orientation_disagreement_p50_p95_max_deg": [
+      0.6474069739631,
+      1.0431586484973023,
+      1.3284849413477113
+    ],
+    "target_implied_max_excursion_m": 0.14997728107163527,
+    "estimated_paired_max_excursion_m": 0.22125550947945694,
+    "target_implied_endpoint_m": 0.08391247158388364,
+    "estimated_paired_endpoint_m": 0.15393173955481557,
+    "last_disagreement_m": 0.1462839012988109
+  }
+}

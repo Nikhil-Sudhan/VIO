@@ -1,0 +1,11 @@
+--- a/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h
++++ b/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_helper.h
+@@ -75,7 +75,7 @@
+   template<>
+   struct IntType< long >
+   {
+-      static const int intType = CHOLMOD_INTLONG;
++      static const int intType = CHOLMOD_LONG; // both p and i arrays use INTTYPE=long
+   };
+   template<>
+   struct IntType< int >

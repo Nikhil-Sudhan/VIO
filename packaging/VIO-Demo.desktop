@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=VIO Demo (RViz)
+Comment=Native OpenVINS camera, trajectory and point display; provisional calibration
+Exec=bash /home/pluto/vio-project/tools/start_native_demo.sh
+Path=/home/pluto/vio-project
+Icon=camera-photo
+Terminal=false
+Categories=Science;Education;

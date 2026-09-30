@@ -1,0 +1,29 @@
+{
+  "reviewed_utc": "2026-09-26T12:08:21.264643+00:00",
+  "accepted_scope": "static camera intrinsics for the recorded image geometry only",
+  "accepted_for_joint_vio": false,
+  "report": "calibration/intrinsics-static-apriltag4/report.json",
+  "report_sha256": "4495a7a16e4733bd6d3a9fc26cee619ac47ba709b9f56f98264ee8a3b57ba1aa",
+  "observations_sha256": "ecd397274a3d88c89443aaf9f84a00a1b653713712333e8b48fc5f4d7298260e",
+  "configuration_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "training_views": 12,
+  "held_out_views": 4,
+  "training_rms_px": 0.37916273138315243,
+  "held_out_rms_px": [
+    0.45352762937545776,
+    0.5911843180656433,
+    0.20039376616477966,
+    0.24767795205116272
+  ],
+  "coverage_cells": 24,
+  "normal_separation_deg": 41.75499968495532,
+  "minimum_radial_derivative_across_image": 0.6127186573896857,
+  "review": "Residual distributions and coverage plots visually reviewed; numerical gates pass; radial mapping does not fold inside image.",
+  "limits": [
+    "Flat screen and preserved target aspect ratio assumed from displayed target; metric scale unmeasured.",
+    "Formal focal standard deviations describe this fitting model, not all systematic errors.",
+    "Few far-corner observations, especially bottom left; assess against independent Kalibr result when available.",
+    "Small static motion selected independently from reprojection residuals; moving rolling-shutter distortion is not calibrated by this model.",
+    "Invalid after focus, image geometry or optical assembly changes. Camera-to-IMU mounting/time/noise calibration remains absent."
+  ]
+}
