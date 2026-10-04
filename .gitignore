@@ -7,3 +7,8 @@
 /bench-env/
 __pycache__/
 *.pyc
+
+# Raw captures and runtime state stay local; calibration results are versioned.
+/calibration/new-case-20261004/**/*.bag
+/calibration/new-case-20261004/**/kalibr.log
+/calibration/new-case-20261004/active-room-test.json

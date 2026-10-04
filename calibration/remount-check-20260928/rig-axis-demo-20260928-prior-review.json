@@ -1,0 +1,42 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": true,
+  "scope": "manual development demo; NOT validated navigation",
+  "mounting_id": "IMX219-LSM6DSOX-20260928-user-X-forward-Z-up",
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "files_sha256": {
+    "estimator_config.yaml": "d35f0da1227c6409686f5ecde25f8f562ea57c0c66cde8dff829a524df6a96cd",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+    "imucam.yaml": "f315f1234907ede75dc098b90c848376cb6ee59c0969de87ca4dbe3ed3a16e49"
+  },
+  "supporting_reports": {
+    "mounting-assumptions.json": "18efb4923192ea7582c44d6b929b359346ad697408504a068e7969a9ff032d4e"
+  },
+  "limitations": [
+    "Provisional orthogonal axis rotation supplied by user; no measured joint calibration.",
+    "Unknown translation initialized to zero; prior sensor timing reused only as an initial guess.",
+    "Existing static camera intrinsics and experimental noise weights retained.",
+    "Unmodeled rolling shutter, no trajectory accuracy validation."
+  ],
+  "invalidated": false
+}

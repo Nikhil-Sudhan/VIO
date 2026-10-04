@@ -1,0 +1,8 @@
+{
+  "mode": "live camera preview only; no pose estimation",
+  "sequence": 23465,
+  "sensor_timestamp_ns": 4428058066000,
+  "emitted_boot_ns": 4428075423594,
+  "image_age_s": 0.017357594,
+  "live": true
+}

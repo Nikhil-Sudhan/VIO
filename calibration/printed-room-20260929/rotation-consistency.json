@@ -1,0 +1,122 @@
+{
+  "scope": "Target/IMU relative-rotation consistency diagnostic; not accepted extrinsics or independent accuracy truth",
+  "pairs": 56,
+  "fit_pairs": 38,
+  "withheld_pairs": 18,
+  "fit_success": true,
+  "gyro_bias_rad_s": [
+    0.006719517620178169,
+    -0.008552113334772215,
+    0.0015271630954950385
+  ],
+  "fitted_R_cam_imu": [
+    [
+      -0.029355282540495964,
+      -0.9881502642600384,
+      0.1506563063060556
+    ],
+    [
+      0.19642972785627116,
+      -0.15348517330210604,
+      -0.9684305156234669
+    ],
+    [
+      0.9800783792132541,
+      0.0011648258405644873,
+      0.19860768811776197
+    ]
+  ],
+  "nominal_rotation_change_deg": 14.458307238738065,
+  "fitted_time_offset_s": 0.0015998386635057591,
+  "before_error_deg_p50_p95": [
+    0.9178409702783212,
+    3.6031264096444833
+  ],
+  "after_error_deg_p50_p95": [
+    0.5077383842974181,
+    1.8311036130111489
+  ],
+  "withheld_error_deg_p50_p95": [
+    0.771229117370704,
+    1.8218689919861875
+  ],
+  "windows": [
+    {
+      "start_s": 80,
+      "pairs": 6,
+      "after_error_deg_p50_p95": [
+        0.5042965138345668,
+        0.8122981948878968
+      ]
+    },
+    {
+      "start_s": 90,
+      "pairs": 2,
+      "after_error_deg_p50_p95": [
+        0.27901711986626787,
+        0.45045337266814944
+      ]
+    },
+    {
+      "start_s": 100,
+      "pairs": 1,
+      "after_error_deg_p50_p95": [
+        0.6795599750075356,
+        0.6795599750075356
+      ]
+    },
+    {
+      "start_s": 110,
+      "pairs": 2,
+      "after_error_deg_p50_p95": [
+        0.43757670516799635,
+        0.514848521889455
+      ]
+    },
+    {
+      "start_s": 120,
+      "pairs": 9,
+      "after_error_deg_p50_p95": [
+        0.4730805600008455,
+        0.8080948389422045
+      ]
+    },
+    {
+      "start_s": 130,
+      "pairs": 11,
+      "after_error_deg_p50_p95": [
+        0.39573607398518074,
+        1.5778208952869286
+      ]
+    },
+    {
+      "start_s": 140,
+      "pairs": 17,
+      "after_error_deg_p50_p95": [
+        0.5826554881677487,
+        1.5768381196879417
+      ]
+    },
+    {
+      "start_s": 150,
+      "pairs": 4,
+      "after_error_deg_p50_p95": [
+        1.083841845797287,
+        1.761277582208004
+      ]
+    },
+    {
+      "start_s": 160,
+      "pairs": 4,
+      "after_error_deg_p50_p95": [
+        1.7842202676580592,
+        5.006932587081955
+      ]
+    }
+  ],
+  "limits": [
+    "Target PnP orientation depends on existing camera intrinsics and unmodeled rolling shutter.",
+    "Reported mechanical flex cannot be uniquely identified from this residual alone.",
+    "Fit uses assumed target but rotational pose is scale invariant."
+  ]
+}

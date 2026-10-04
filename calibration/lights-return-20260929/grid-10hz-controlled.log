@@ -1,0 +1,626 @@
+Setting printing level to: INFO
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+frames=1 states=0 t=2.00157
+[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,64 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: disparity is 1.288,1.697 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.809,1.536 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.403,1.166 (1.50 thresh)
+[0m[32m[init]: successful initialization in 0.0002 seconds
+[0m[32m[init]: orientation = 0.0334, -0.0172, -0.7069, 0.7063
+[0m[32m[init]: bias gyro = 0.0090, -0.0082, 0.0013
+[0m[32m[init]: velocity = 0.0000, 0.0000, 0.0000
+[0m[32m[init]: bias accel = -0.0051, 0.0159, 0.2216
+[0m[32m[init]: position = 0.0000, 0.0000, 0.0000
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.000 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.222 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.738 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.409 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.086 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.269 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.108 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.144 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.204 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.350 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.525 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.262 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.486 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.166 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.240 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.361 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.058 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.192 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.567 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.115 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 3.293 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.164 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.079 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 1.336 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.134 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.196 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.372 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.128 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.227 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.085 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.096 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.088 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.109 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.148 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.010 < 16.919)
+[0mframes=101 states=0 t=11.9989
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.086 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 1.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.123 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.750 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.077 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.177 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.117 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 2.498 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.858 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.699 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.806 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.147 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.178 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 4.150 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 4.176 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.880 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 5.769 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.216 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.326 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.152 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.126 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.178 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.203 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 2.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.356 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.151 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.656 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 4.152 < 16.919)
+[0mq_GtoI = 0.036,-0.013,-0.704,0.709 | p_IinG = 0.000,0.000,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.036,-0.012,-0.702,0.711 | p_IinG = 0.000,0.001,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.036,-0.012,-0.700,0.713 | p_IinG = 0.000,0.001,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.030,-0.014,-0.697,0.717 | p_IinG = 0.000,0.002,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.031,-0.013,-0.693,0.720 | p_IinG = 0.001,0.002,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.032,-0.013,-0.688,0.724 | p_IinG = 0.001,0.003,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.030,-0.015,-0.684,0.729 | p_IinG = 0.001,0.004,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.030,-0.014,-0.680,0.733 | p_IinG = 0.001,0.005,-0.001 | dist = 0.00 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.030,-0.013,-0.676,0.736 | p_IinG = 0.000,0.005,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.028,-0.015,-0.671,0.740 | p_IinG = 0.000,0.006,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.032,-0.012,-0.668,0.744 | p_IinG = -0.000,0.007,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.034,-0.010,-0.665,0.746 | p_IinG = -0.001,0.007,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.036,-0.009,-0.661,0.749 | p_IinG = -0.001,0.008,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.038,-0.008,-0.659,0.751 | p_IinG = -0.002,0.008,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.005,-0.656,0.754 | p_IinG = -0.003,0.008,-0.003 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.041,-0.006,-0.652,0.757 | p_IinG = -0.004,0.008,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.040,-0.008,-0.649,0.760 | p_IinG = -0.005,0.008,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.042,-0.006,-0.647,0.761 | p_IinG = -0.007,0.008,-0.002 | dist = 0.01 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.005,-0.646,0.762 | p_IinG = -0.008,0.008,-0.002 | dist = 0.02 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.004,-0.644,0.763 | p_IinG = -0.010,0.007,-0.002 | dist = 0.02 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.003,-0.642,0.766 | p_IinG = -0.012,0.007,-0.002 | dist = 0.02 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.042,-0.003,-0.637,0.770 | p_IinG = -0.013,0.006,-0.002 | dist = 0.02 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.041,-0.005,-0.630,0.775 | p_IinG = -0.015,0.005,-0.002 | dist = 0.02 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.042,-0.003,-0.628,0.777 | p_IinG = -0.017,0.004,-0.002 | dist = 0.03 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.002,-0.627,0.778 | p_IinG = -0.020,0.002,-0.002 | dist = 0.03 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.002,-0.622,0.782 | p_IinG = -0.022,0.000,-0.001 | dist = 0.03 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.044,-0.000,-0.620,0.783 | p_IinG = -0.025,-0.002,-0.001 | dist = 0.03 (meters)
+bg = 0.0088,-0.0088,0.0014 | ba = -0.0026,0.0151,0.2202
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.037 (chi2 12.216 < 16.919)
+[0mq_GtoI = 0.043,-0.000,-0.618,0.785 | p_IinG = -0.016,0.008,-0.002 | dist = 0.04 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.043,-0.000,-0.613,0.789 | p_IinG = -0.018,0.007,-0.001 | dist = 0.04 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.044,0.001,-0.612,0.790 | p_IinG = -0.020,0.005,-0.001 | dist = 0.04 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.042,0.001,-0.608,0.793 | p_IinG = -0.023,0.004,-0.001 | dist = 0.04 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.041,0.001,-0.605,0.795 | p_IinG = -0.025,0.003,-0.001 | dist = 0.05 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.040,0.002,-0.603,0.797 | p_IinG = -0.028,0.001,-0.000 | dist = 0.05 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+q_GtoI = 0.041,0.004,-0.602,0.798 | p_IinG = -0.032,-0.001,0.000 | dist = 0.05 (meters)
+bg = 0.0088,-0.0086,0.0017 | ba = -0.0028,0.0142,0.2204
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 13.186 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.027 (chi2 0.563 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.020 (chi2 12.376 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 13.347 < 16.919)
+[0mq_GtoI = 0.040,0.004,-0.601,0.798 | p_IinG = 0.015,0.009,-0.006 | dist = 0.06 (meters)
+bg = 0.0087,-0.0085,0.0024 | ba = -0.0043,0.0116,0.2243
+camera-imu timeoffset = 0.00346
+cam0 extrinsics = -0.459,0.441,-0.598,0.487 | 0.003,0.004,-0.014
+q_GtoI = 0.040,0.005,-0.599,0.799 | p_IinG = 0.013,0.017,-0.006 | dist = 0.06 (meters)
+bg = 0.0088,-0.0085,0.0024 | ba = -0.0044,0.0126,0.2236
+camera-imu timeoffset = -0.00059
+cam0 extrinsics = -0.459,0.441,-0.598,0.487 | 0.005,0.004,-0.017
+q_GtoI = 0.039,0.006,-0.595,0.803 | p_IinG = 0.012,0.016,-0.009 | dist = 0.06 (meters)
+bg = 0.0088,-0.0085,0.0023 | ba = -0.0028,0.0120,0.2219
+camera-imu timeoffset = -0.00069
+cam0 extrinsics = -0.461,0.439,-0.597,0.488 | 0.007,0.002,-0.018
+q_GtoI = 0.038,0.008,-0.592,0.805 | p_IinG = 0.011,0.019,-0.008 | dist = 0.06 (meters)
+bg = 0.0090,-0.0085,0.0019 | ba = -0.0030,0.0127,0.2223
+camera-imu timeoffset = -0.00249
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.002,-0.017
+q_GtoI = 0.037,0.007,-0.591,0.806 | p_IinG = 0.013,0.020,-0.008 | dist = 0.06 (meters)
+bg = 0.0090,-0.0085,0.0019 | ba = -0.0027,0.0133,0.2211
+camera-imu timeoffset = -0.00288
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.002,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 9.056 < 16.919)
+[0mframes=201 states=45 t=21.9962
+[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 1.872 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 3.297 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 5.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 2.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.663 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 8.294 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 3.139 < 16.919)
+[0mq_GtoI = 0.040,0.004,-0.591,0.806 | p_IinG = 0.015,0.023,-0.007 | dist = 0.06 (meters)
+bg = 0.0092,-0.0088,0.0017 | ba = -0.0009,0.0153,0.2219
+camera-imu timeoffset = -0.00286
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.002,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 3.847 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.344 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.288 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.284 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.218 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.193 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.219 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 9.008 < 16.919)
+[0mq_GtoI = 0.039,0.006,-0.591,0.806 | p_IinG = 0.022,0.019,-0.006 | dist = 0.06 (meters)
+bg = 0.0092,-0.0085,0.0016 | ba = 0.0008,0.0186,0.2216
+camera-imu timeoffset = -0.00289
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+q_GtoI = 0.033,0.006,-0.587,0.809 | p_IinG = 0.024,0.018,-0.006 | dist = 0.06 (meters)
+bg = 0.0092,-0.0085,0.0016 | ba = 0.0008,0.0186,0.2216
+camera-imu timeoffset = -0.00289
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+q_GtoI = 0.033,0.006,-0.585,0.810 | p_IinG = 0.025,0.019,-0.006 | dist = 0.06 (meters)
+bg = 0.0092,-0.0085,0.0016 | ba = 0.0008,0.0186,0.2216
+camera-imu timeoffset = -0.00289
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 3.102 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 11.514 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 13.923 < 16.919)
+[0mq_GtoI = 0.035,0.003,-0.586,0.809 | p_IinG = 0.028,0.020,-0.005 | dist = 0.07 (meters)
+bg = 0.0093,-0.0087,0.0019 | ba = 0.0017,0.0193,0.2225
+camera-imu timeoffset = -0.00292
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.026 (chi2 0.591 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.025 (chi2 0.405 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.023 (chi2 0.359 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.022 (chi2 0.329 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.021 (chi2 0.349 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.020 (chi2 0.349 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.020 (chi2 0.376 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.287 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.680 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.438 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.180 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.315 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.138 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.200 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.253 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.189 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.151 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.137 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.169 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.162 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.176 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.158 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.132 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.105 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.103 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.116 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.103 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.152 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.139 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.078 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.153 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.112 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.088 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.112 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.080 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.174 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.130 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.830 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.562 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.577 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 1.504 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.593 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.095 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.287 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.768 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.562 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.177 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.265 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 1.653 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.353 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.592 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.339 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.192 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 1.744 < 16.919)
+[0mq_GtoI = 0.037,-0.001,-0.588,0.808 | p_IinG = 0.035,0.017,-0.004 | dist = 0.07 (meters)
+bg = 0.0091,-0.0086,0.0016 | ba = 0.0045,0.0425,0.2237
+camera-imu timeoffset = -0.00294
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+frames=301 states=145 t=31.9935
+[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 2.628 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 14.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 4.635 < 16.919)
+[0mq_GtoI = 0.039,-0.001,-0.587,0.808 | p_IinG = 0.035,0.017,-0.004 | dist = 0.07 (meters)
+bg = 0.0092,-0.0085,0.0015 | ba = 0.0024,0.0447,0.2235
+camera-imu timeoffset = -0.00293
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 9.303 < 16.919)
+[0mq_GtoI = 0.039,-0.003,-0.590,0.807 | p_IinG = 0.037,0.017,-0.004 | dist = 0.07 (meters)
+bg = 0.0093,-0.0086,0.0015 | ba = 0.0023,0.0450,0.2238
+camera-imu timeoffset = -0.00293
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+q_GtoI = 0.039,-0.003,-0.591,0.806 | p_IinG = 0.038,0.018,-0.005 | dist = 0.07 (meters)
+bg = 0.0093,-0.0086,0.0015 | ba = 0.0023,0.0450,0.2238
+camera-imu timeoffset = -0.00293
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.025 (chi2 1.494 < 16.919)
+[0mq_GtoI = 0.039,-0.004,-0.593,0.804 | p_IinG = 0.041,0.019,-0.005 | dist = 0.07 (meters)
+bg = 0.0092,-0.0087,0.0014 | ba = 0.0021,0.0454,0.2239
+camera-imu timeoffset = -0.00292
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+q_GtoI = 0.039,-0.005,-0.595,0.803 | p_IinG = 0.043,0.021,-0.005 | dist = 0.08 (meters)
+bg = 0.0092,-0.0087,0.0014 | ba = 0.0021,0.0454,0.2239
+camera-imu timeoffset = -0.00292
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+q_GtoI = 0.038,-0.005,-0.597,0.802 | p_IinG = 0.046,0.023,-0.006 | dist = 0.08 (meters)
+bg = 0.0092,-0.0087,0.0014 | ba = 0.0021,0.0454,0.2239
+camera-imu timeoffset = -0.00292
+cam0 extrinsics = -0.461,0.439,-0.597,0.489 | 0.008,0.001,-0.017
+[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 6.141 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 9.215 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.035 (chi2 16.301 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.034 (chi2 7.553 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.033 (chi2 1.858 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.034 (chi2 0.248 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.035 (chi2 0.260 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.035 (chi2 0.212 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.035 (chi2 0.206 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.036 (chi2 0.093 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.036 (chi2 0.144 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.036 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.037 (chi2 0.231 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.037 (chi2 0.225 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.037 (chi2 0.314 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.037 (chi2 0.136 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 0.110 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 0.241 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.094 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.077 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.090 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 0.152 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.089 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.109 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.126 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.082 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.040 (chi2 0.082 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.082 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.085 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.110 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 0.113 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.112 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.314 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.320 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.189 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.092 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.159 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.212 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 0.619 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.494 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.131 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.086 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.107 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.323 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.098 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.106 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.158 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.552 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.338 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.418 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.496 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.336 < 16.919)
+[0mframes=401 states=245 t=41.9908
+[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.198 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.085 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.122 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.326 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.222 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.096 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.411 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.105 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.381 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.142 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.074 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.011 < 16.919)
+[0m

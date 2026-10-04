@@ -1,0 +1,12 @@
+{
+  "session": "/home/pluto/vio-project/data/native-live/20260929_195713_4yn7523l",
+  "recorder_pid": 6205,
+  "watcher_pid": 6382,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "scope": "Actual live experimental OpenVINS, requested short slow movement; unverified flexible mounting",
+  "automatic_stop": {
+    "position_norm_m": 5,
+    "speed_m_s": 3
+  },
+  "started_unix": 1790692145.7134986
+}

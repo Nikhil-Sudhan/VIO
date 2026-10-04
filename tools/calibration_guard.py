@@ -20,7 +20,8 @@ def checked_bundle(config_path,camera_config,experimental=False):
         approved = approved or (review.get('approved_for_manual_development_demo') is True
                                 and review.get('scope') == 'manual development demo; NOT validated navigation')
     if not approved:
-        raise ValueError('Joint calibration has not been accepted for hardware estimation')
+        raise ValueError('Joint calibration has not been accepted for hardware estimation'
+                         + ('; '+review['withdrawal_reason'] if review.get('withdrawal_reason') else ''))
     if review.get('camera_config_sha256') != hashlib.sha256(Path(camera_config).read_bytes()).hexdigest():
         raise ValueError('Camera configuration changed since joint calibration')
     if not review.get('mounting_id') or not review.get('supporting_reports'):

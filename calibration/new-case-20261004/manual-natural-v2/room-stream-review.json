@@ -1,0 +1,15 @@
+{
+  "scope": "Saved recording through streaming binary in reference mode; not fresh live acquisition, online clock mapping or live latency validation",
+  "processed_frames": 1782,
+  "transport_completed": "true",
+  "poses": 1763,
+  "poses_with_msckf_features": 506,
+  "peak_position_norm_m": 0.9119194460558492,
+  "final_position_norm_m": 0.12114885115871368,
+  "final_speed_m_s": 0.08244042363816417,
+  "processing_ms_p50_p95_max": [
+    6.17234,
+    14.249434999999997,
+    25.7419
+  ]
+}

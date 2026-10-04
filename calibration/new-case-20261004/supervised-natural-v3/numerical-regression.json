@@ -1,0 +1,38 @@
+[
+  {
+    "before": "local-sideways-v2-replay",
+    "after": "supervised-short-regression",
+    "artifact": "poses.csv",
+    "byte_identical": true
+  },
+  {
+    "before": "local-sideways-v2-replay",
+    "after": "supervised-short-regression",
+    "artifact": "covariance.csv",
+    "byte_identical": true
+  },
+  {
+    "before": "local-sideways-v2-replay",
+    "after": "supervised-short",
+    "artifact": "poses.csv",
+    "byte_identical": true
+  },
+  {
+    "before": "local-sideways-v2-replay",
+    "after": "supervised-short",
+    "artifact": "covariance.csv",
+    "byte_identical": true
+  },
+  {
+    "before": "local-sideways-natural-only-replay",
+    "after": "supervised-short-natural",
+    "artifact": "poses.csv",
+    "byte_identical": true
+  },
+  {
+    "before": "local-sideways-natural-only-replay",
+    "after": "supervised-short-natural",
+    "artifact": "covariance.csv",
+    "byte_identical": true
+  }
+]

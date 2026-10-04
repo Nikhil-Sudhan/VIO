@@ -1,0 +1,22 @@
+{
+  "status": "stationary characterization completed; joint calibration remains unobservable in this capture",
+  "accepted_for_hardware_estimation": false,
+  "stationary_data_supported_by": "motion-summary.json and stationary-noise/stationarity-temperature.png",
+  "gyro_mean_rad_s": [
+    0.006019079537504779,
+    -0.009930190709691016,
+    0.0015070149620975322
+  ],
+  "gyro_mean_scope": "stationary bias estimate for this temperature and pose; not automatically applied to estimator",
+  "white_noise_slope_compatible_all_axes": true,
+  "white_noise_scope": "provisional short-run estimates; filtered spectrum and long-term bias not fully identified",
+  "random_walk_identified": false,
+  "temperature_range_c": [
+    39.6171875,
+    41.171875
+  ],
+  "plot_review": "No gross motion observed; temperature rose approximately 1.5 C. Accelerometer Z shows correlated low-frequency variation; use of white-noise-only model is not validated.",
+  "accel_scale_bias_scope": "Single stationary pose cannot separate accelerometer scale, bias and gravity alignment.",
+  "remaining_physical_requirement": "A recording containing varied viewpoints and rotations/translations of the rigid rig. Software cannot generate this measurement from a stationary scene.",
+  "user_preference": "No repeated interactive guidance; analyze available data autonomously and report limitations."
+}

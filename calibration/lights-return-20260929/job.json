@@ -1,0 +1,7 @@
+{
+  "controller_pid": 17504,
+  "started_at": "2026-09-29T21:33:31+0530",
+  "reason": "User confirms room lights restored; resume physical OpenVINS",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_213333_3in6mrhs",
+  "recorder_pid": 17513
+}

@@ -1,0 +1,149 @@
+diff --git a/ov_msckf/src/core/VioManager.cpp b/ov_msckf/src/core/VioManager.cpp
+index 6a0d7b9..68d6ee0f 100644
+--- a/ov_msckf/src/core/VioManager.cpp
++++ b/ov_msckf/src/core/VioManager.cpp
+@@ -159,7 +159,7 @@ VioManager::VioManager(VioManagerOptions &params_) : thread_init_running(false),
+   if (params.try_zupt) {
+     updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
+                                                         propagator, params.gravity_mag, params.zupt_max_velocity,
+-                                                        params.zupt_noise_multiplier, params.zupt_max_disparity);
++                                                        params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
+   }
+ }
+ 
+@@ -206,7 +206,7 @@ void VioManager::feed_measurement_simulation(double timestamp, const std::vector
+     if (params.try_zupt) {
+       updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
+                                                           propagator, params.gravity_mag, params.zupt_max_velocity,
+-                                                          params.zupt_noise_multiplier, params.zupt_max_disparity);
++                                                          params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
+     }
+     PRINT_WARNING(RED "[SIM]: casting our tracker to a TrackSIM object!\n" RESET);
+   }
+@@ -254,6 +254,7 @@ void VioManager::feed_measurement_simulation(double timestamp, const std::vector
+ }
+ 
+ void VioManager::track_image_and_update(const ov_core::CameraData &message_const) {
++  accepted_visual_features_ = 0;
+ 
+   // Start timing
+   rT1 = boost::posix_time::microsec_clock::local_time();
+@@ -523,6 +524,7 @@ void VioManager::do_feature_propagate_update(const ov_core::CameraData &message)
+   if ((int)featsup_MSCKF.size() > state->_options.max_msckf_in_update)
+     featsup_MSCKF.erase(featsup_MSCKF.begin(), featsup_MSCKF.end() - state->_options.max_msckf_in_update);
+   updaterMSCKF->update(state, featsup_MSCKF);
++  accepted_visual_features_ += updaterMSCKF->last_accepted_features();
+   propagator->invalidate_cache();
+   rT4 = boost::posix_time::microsec_clock::local_time();
+ 
+@@ -539,6 +541,7 @@ void VioManager::do_feature_propagate_update(const ov_core::CameraData &message)
+                             feats_slam_UPDATE.begin() + std::min(state->_options.max_slam_in_update, (int)feats_slam_UPDATE.size()));
+     // Do the update
+     updaterSLAM->update(state, featsup_TEMP);
++    accepted_visual_features_ += updaterSLAM->last_accepted_features();
+     feats_slam_UPDATE_TEMP.insert(feats_slam_UPDATE_TEMP.end(), featsup_TEMP.begin(), featsup_TEMP.end());
+     propagator->invalidate_cache();
+   }
+diff --git a/ov_msckf/src/core/VioManager.h b/ov_msckf/src/core/VioManager.h
+index 3fd7089..d48d67b 100644
+--- a/ov_msckf/src/core/VioManager.h
++++ b/ov_msckf/src/core/VioManager.h
+@@ -62,6 +62,8 @@ class Propagator;
+ class VioManager {
+ 
+ public:
++  // Actual completed MSCKF/SLAM corrections in the most recent camera call.
++  size_t accepted_visual_features() const { return accepted_visual_features_; }
+   /**
+    * @brief Default constructor, will load all configuration variables
+    * @param params_ Parameters loaded from either ROS or CMDLINE
+@@ -137,6 +139,7 @@ public:
+   }
+ 
+ protected:
++  size_t accepted_visual_features_ = 0;
+   /**
+    * @brief Given a new set of camera images, this will track them.
+    *
+diff --git a/ov_msckf/src/update/UpdaterMSCKF.cpp b/ov_msckf/src/update/UpdaterMSCKF.cpp
+index 9a00ade..9ac9126 100644
+--- a/ov_msckf/src/update/UpdaterMSCKF.cpp
++++ b/ov_msckf/src/update/UpdaterMSCKF.cpp
+@@ -56,6 +56,7 @@ UpdaterMSCKF::UpdaterMSCKF(UpdaterOptions &options, ov_core::FeatureInitializerO
+ }
+ 
+ void UpdaterMSCKF::update(std::shared_ptr<State> state, std::vector<std::shared_ptr<Feature>> &feature_vec) {
++  last_accepted_features_ = 0;
+ 
+   // Return if no features
+   if (feature_vec.empty())
+@@ -283,6 +284,7 @@ void UpdaterMSCKF::update(std::shared_ptr<State> state, std::vector<std::shared_
+ 
+   // 6. With all good features update the state
+   StateHelper::EKFUpdate(state, Hx_order_big, Hx_big, res_big, R_big);
++  last_accepted_features_ = feature_vec.size();
+   rT5 = boost::posix_time::microsec_clock::local_time();
+ 
+   // Debug print timing information
+diff --git a/ov_msckf/src/update/UpdaterMSCKF.h b/ov_msckf/src/update/UpdaterMSCKF.h
+index 149ea45..17b5437 100644
+--- a/ov_msckf/src/update/UpdaterMSCKF.h
++++ b/ov_msckf/src/update/UpdaterMSCKF.h
+@@ -48,6 +48,8 @@ class State;
+ class UpdaterMSCKF {
+ 
+ public:
++  // Count only features in a completed EKF update, never surviving candidates.
++  size_t last_accepted_features() const { return last_accepted_features_; }
+   /**
+    * @brief Default constructor for our MSCKF updater
+    *
+@@ -68,6 +70,7 @@ public:
+   void update(std::shared_ptr<State> state, std::vector<std::shared_ptr<ov_core::Feature>> &feature_vec);
+ 
+ protected:
++  size_t last_accepted_features_ = 0;
+   /// Options used during update
+   UpdaterOptions _options;
+ 
+diff --git a/ov_msckf/src/update/UpdaterSLAM.cpp b/ov_msckf/src/update/UpdaterSLAM.cpp
+index a769d01..c82c216 100644
+--- a/ov_msckf/src/update/UpdaterSLAM.cpp
++++ b/ov_msckf/src/update/UpdaterSLAM.cpp
+@@ -251,6 +251,7 @@ void UpdaterSLAM::delayed_init(std::shared_ptr<State> state, std::vector<std::sh
+ }
+ 
+ void UpdaterSLAM::update(std::shared_ptr<State> state, std::vector<std::shared_ptr<Feature>> &feature_vec) {
++  last_accepted_features_ = 0;
+ 
+   // Return if no features
+   if (feature_vec.empty())
+@@ -468,6 +469,7 @@ void UpdaterSLAM::update(std::shared_ptr<State> state, std::vector<std::shared_p
+ 
+   // 5. With all good SLAM features update the state
+   StateHelper::EKFUpdate(state, Hx_order_big, Hx_big, res_big, R_big);
++  last_accepted_features_ = feature_vec.size();
+   rT3 = boost::posix_time::microsec_clock::local_time();
+ 
+   // Debug print timing information
+diff --git a/ov_msckf/src/update/UpdaterSLAM.h b/ov_msckf/src/update/UpdaterSLAM.h
+index 27fc961..8c22646 100644
+--- a/ov_msckf/src/update/UpdaterSLAM.h
++++ b/ov_msckf/src/update/UpdaterSLAM.h
+@@ -50,6 +50,8 @@ class State;
+ class UpdaterSLAM {
+ 
+ public:
++  // Count only features in a completed EKF update, never surviving candidates.
++  size_t last_accepted_features() const { return last_accepted_features_; }
+   /**
+    * @brief Default constructor for our SLAM updater
+    *
+@@ -87,6 +89,7 @@ public:
+   void change_anchors(std::shared_ptr<State> state);
+ 
+ protected:
++  size_t last_accepted_features_ = 0;
+   /**
+    * @brief Shifts landmark anchor to new clone
+    * @param state State of filter

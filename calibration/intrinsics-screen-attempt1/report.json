@@ -1,0 +1,73 @@
+{
+  "purpose": "camera-only intrinsics candidate, NOT metric camera/IMU calibration",
+  "physical_target_size_measured": false,
+  "board_unit": "one displayed tag width",
+  "assumptions": [
+    "flat display",
+    "aspect ratio preserved",
+    "6x6 generated April36h11 grid, gap/tag=0.3"
+  ],
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "attempted_frames": 253,
+  "distinct_views": 1,
+  "views": [
+    {
+      "path": "data/calibration-views/20260926_170344_spwp4_rt/images/000000.pgm",
+      "tags": 33,
+      "ids": [
+        4,
+        3,
+        5,
+        2,
+        0,
+        1,
+        11,
+        6,
+        10,
+        9,
+        7,
+        8,
+        12,
+        16,
+        13,
+        15,
+        14,
+        18,
+        22,
+        19,
+        20,
+        21,
+        24,
+        29,
+        28,
+        25,
+        26,
+        27,
+        35,
+        30,
+        31,
+        33,
+        34
+      ],
+      "projected_grid_corners": [
+        [
+          150.17706298828125,
+          578.9890747070312
+        ],
+        [
+          600.3897705078125,
+          596.9219360351562
+        ],
+        [
+          591.4373168945312,
+          170.61280822753906
+        ],
+        [
+          195.8056640625,
+          156.0534210205078
+        ]
+      ]
+    }
+  ],
+  "status": "insufficient varied views"
+}

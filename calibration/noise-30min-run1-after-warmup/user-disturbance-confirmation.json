@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-09-26T19:13:53.930506+05:30",
+  "disturbance_question": "Around 6:30 pm\u2014about nine minutes after recording started\u2014was the rig or its table moved, bumped, or touched?",
+  "disturbance_reply": "Yes, it was disturbed",
+  "mounting_question": "During that disturbance, did the camera and IMU remain firmly fixed in the same positions relative to each other on the base?",
+  "mounting_reply": "Yes, both stayed fixed",
+  "conclusion": "Exclude disturbance from stationary noise identification; user reports unchanged rigid sensor mounting."
+}

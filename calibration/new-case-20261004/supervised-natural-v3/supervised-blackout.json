@@ -1,0 +1,57 @@
+{
+  "scope": "Software fault injection ONLY, not physical measurements or calibration evidence",
+  "folder": "/home/pluto/vio-project/data/new-case-20261004/supervised-blackout",
+  "processed_frames": 561,
+  "valid_pose_count": 55,
+  "segments": [
+    {
+      "epoch": 0,
+      "camera_frames": 201,
+      "valid_pose_count": 55,
+      "states": {
+        "initializing": 19,
+        "initializing_depth": 18,
+        "ready": 108,
+        "tracking": 55,
+        "lost": 1
+      },
+      "lost_events": [
+        {
+          "reset_epoch": "0",
+          "event": "lost",
+          "t_rel_s": "12.056014307",
+          "reason": "visual_corrections_expired"
+        }
+      ],
+      "persistent_landmarks": 48,
+      "first_valid_time_s": 9.306843307000001,
+      "last_valid_time_s": 12.006035307000001,
+      "max_position_norm_m": 0.22069712646291637,
+      "final_position_norm_m": 0.2005711769791009,
+      "max_speed_m_s": 0.20238500648864127,
+      "final_speed_m_s": 0.09967484810073811
+    },
+    {
+      "epoch": 1,
+      "camera_frames": 360,
+      "valid_pose_count": 0,
+      "states": {
+        "initializing": 306,
+        "initializing_depth": 1,
+        "ready": 53
+      },
+      "lost_events": [],
+      "persistent_landmarks": 0
+    }
+  ],
+  "lost_events": [
+    {
+      "reset_epoch": "0",
+      "event": "lost",
+      "t_rel_s": "12.056014307",
+      "reason": "visual_corrections_expired"
+    }
+  ],
+  "map_scope": "Sparse local landmarks only. Independent reset frames are not registered; no loop closure.",
+  "navigation_validated": false
+}

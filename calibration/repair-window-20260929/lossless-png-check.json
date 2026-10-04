@@ -1,0 +1,9 @@
+{
+  "images": 20,
+  "all_pixels_equal": true,
+  "encode_ms_p50_p95": [
+    18.047057000330824,
+    19.304432150602224
+  ],
+  "mean_bytes": 256412.35
+}

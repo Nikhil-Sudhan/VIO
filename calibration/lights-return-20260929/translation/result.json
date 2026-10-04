@@ -1,0 +1,12 @@
+{
+  "session": "/home/pluto/vio-project/data/native-live/20260929_215510_9a3st1lo",
+  "raw_capture_checks_passed": true,
+  "camera_frames": 1563,
+  "imu_samples": 16573,
+  "max_position_norm_m": 5.880623638042173,
+  "msckf_update_frames": 13,
+  "user_motion_confirmation": "User asked whether to keep grid visible; did not confirm completing the prescribed sideways-return motion. Captured motion must not be treated as a measured 20 cm ground truth trajectory.",
+  "moving_vio_validated": false,
+  "stopped_by": "watcher 5 m bound",
+  "offline_replays": "baseline 4.65 m, fixed existing calibration 36.02 m, fixed nominal axes 20.82 m. All failed."
+}

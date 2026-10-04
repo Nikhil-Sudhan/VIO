@@ -1,0 +1,233 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "scope": "Candidate sensitivity/repeatability comparison; no automatic acceptance or statistical covariance",
+  "time_convention": "t_imu = t_camera + timeshift_cam_imu; effective fitted offset, not established exposure midpoint",
+  "candidates": {
+    "joint-calibration-weights5": {
+      "source": "/home/pluto/vio-project/data/joint-calibration-weights5",
+      "T_cam_imu": [
+        [
+          -0.22393448658508203,
+          -0.9518912416406097,
+          0.20918032843882378,
+          -0.036494569160122454
+        ],
+        [
+          0.38494661044446554,
+          -0.2835673548727672,
+          -0.8782970239946046,
+          0.019531150659180204
+        ],
+        [
+          0.8953599571262905,
+          -0.11615773473325208,
+          0.4299278170070493,
+          -0.01729192636896221
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": 0.00739080791303851,
+      "separation_m": 0.04485900290693237,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.2642377632041777,
+          "median_norm": 0.2004443087197021,
+          "std_norm": 0.24673804097225918,
+          "rms_norm": 0.3615262872406035
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.00616731050463646,
+          "median_norm": 0.003520599670821324,
+          "std_norm": 0.010760722050155045,
+          "rms_norm": 0.012402776217496315
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.09429597787975733,
+          "median_norm": 0.062019287343246146,
+          "std_norm": 0.14172436707000474,
+          "rms_norm": 0.1702278698265743
+        }
+      },
+      "run_arguments": "Actual bag interval: 182.054662994 to 242.054662994 seconds\nFeature extraction: 10 Hz\n"
+    },
+    "joint-calibration-attempt2": {
+      "source": "/home/pluto/vio-project/data/joint-calibration-attempt2",
+      "T_cam_imu": [
+        [
+          -0.22445103575213096,
+          -0.9518654041482302,
+          0.20874382610156889,
+          -0.03557568783469749
+        ],
+        [
+          0.38626863671164696,
+          -0.28356570894221805,
+          -0.877716941277211,
+          0.01879738075502854
+        ],
+        [
+          0.8946609820723834,
+          -0.11637328343663617,
+          0.4313223690691859,
+          -0.017517574467584108
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": 0.007970614446713634,
+      "separation_m": 0.043884353742407047,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.2472711207349797,
+          "median_norm": 0.1933603088847251,
+          "std_norm": 0.22219276207976152,
+          "rms_norm": 0.33243440055169743
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.007994102167132889,
+          "median_norm": 0.005102946226682886,
+          "std_norm": 0.01141607406613135,
+          "rms_norm": 0.013936729047447093
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.10101845814759684,
+          "median_norm": 0.06717106730298192,
+          "std_norm": 0.143592934785584,
+          "rms_norm": 0.17556668193838704
+        }
+      },
+      "run_arguments": "Actual bag interval: 182.054662994 to 242.054662994 seconds\nFeature extraction: 10 Hz\n"
+    },
+    "joint-calibration-weights20": {
+      "source": "/home/pluto/vio-project/data/joint-calibration-weights20",
+      "T_cam_imu": [
+        [
+          -0.2242457965418391,
+          -0.9521271547213821,
+          0.20776839022209415,
+          -0.034891443879622466
+        ],
+        [
+          0.38705842935060014,
+          -0.2826778685508485,
+          -0.8776553964399664,
+          0.018106119567204856
+        ],
+        [
+          0.8943710611384748,
+          -0.11639202667585757,
+          0.4319181648464485,
+          -0.017138911726585066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": 0.008782276351565543,
+      "separation_m": 0.04288340841116104,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.23477049618328305,
+          "median_norm": 0.1872273142280729,
+          "std_norm": 0.20348250573464385,
+          "rms_norm": 0.3106804081660031
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.0117497757388359,
+          "median_norm": 0.008001103994829162,
+          "std_norm": 0.013649184636731456,
+          "rms_norm": 0.018009927017079295
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.11075371276296804,
+          "median_norm": 0.07365103410613047,
+          "std_norm": 0.14794921915310003,
+          "rms_norm": 0.1848116780368439
+        }
+      },
+      "run_arguments": "Actual bag interval: 182.054662994 to 242.054662994 seconds\nFeature extraction: 10 Hz\n"
+    }
+  },
+  "pairwise_comparisons": [
+    {
+      "a": "joint-calibration-weights5",
+      "b": "joint-calibration-attempt2",
+      "rotation_difference_deg": 0.09079239801280266,
+      "translation_difference_mm": 1.197363030523807,
+      "time_shift_difference_ms": 0.5798065336751236
+    },
+    {
+      "a": "joint-calibration-weights5",
+      "b": "joint-calibration-weights20",
+      "rotation_difference_deg": 0.14496561797294752,
+      "translation_difference_mm": 2.1503808404225575,
+      "time_shift_difference_ms": 1.3914684385270322
+    },
+    {
+      "a": "joint-calibration-attempt2",
+      "b": "joint-calibration-weights20",
+      "rotation_difference_deg": 0.06919886727335059,
+      "translation_difference_mm": 1.0437515467145575,
+      "time_shift_difference_ms": 0.8116619048519087
+    }
+  ],
+  "files_sha256": {
+    "joint-calibration-weights5/input-camchain-imucam.yaml": "15bfe505408d8f3d7b95a739152b673a76a9d497bbe1cc1942eedecdbbc708e1",
+    "joint-calibration-weights5/input-imu.yaml": "d0b1e09f373c9c98780414bd0742795d8795bd96d36e5e6b1ad7be388515cde5",
+    "joint-calibration-weights5/input-results-imucam.txt": "c414e8a219be9c44b9d98d6301f301c3e5a6884fa776054515c37e9e3a679fbb",
+    "joint-calibration-weights5/input-report-imucam.pdf": "de3f2400dc1d3fc74d742b468089bf3438f7cfd873c61be6bab61cfcb581c7af",
+    "joint-calibration-weights5/noise-input.yaml": "2c7b0f2ba7ba7b7a720af4e1dcb699e798e4b092ac61cd8fb70456dbf66088af",
+    "joint-calibration-weights5/camera-input.yaml": "c2d9573bad94177902bcdc2b042377d898f13d1cfc0380528ae7df3d1dc8f8e1",
+    "joint-calibration-weights5/target-input.yaml": "8ca05596e5262b6d616498bc7807beaf11a55fb8626bc2c2c4b6290866e5de6f",
+    "joint-calibration-weights5/run-arguments.txt": "4baa5e043cfacc6efb6defb6acb4a3fd329cbef92e085d9e63d3e6b8907d790d",
+    "joint-calibration-weights5/UNCERTAINTY_LIMITATION.txt": "c6c6c8fedafc2aab2c02b4becbd0a9d4ca978192d367f5602571dc1a1c016c34",
+    "joint-calibration-attempt2/input-camchain-imucam.yaml": "a5f08a32f4b69c186200f08e6d8c6494acac2be3f770b820a233ec96ac6638ff",
+    "joint-calibration-attempt2/input-imu.yaml": "fff7a9e8df843a651c838bd3eff7f8ec4ba3f74ea4c3f441115b13839461ba26",
+    "joint-calibration-attempt2/input-results-imucam.txt": "6e8acf40d115b257ddf1561f2ad2e97d78a40b834cc29bb95467ce0b7aafbce9",
+    "joint-calibration-attempt2/input-report-imucam.pdf": "28d4039b9888377c89ec9c0c008be63eb9a48f2962ee38e56890f9d84cd69fe9",
+    "joint-calibration-attempt2/noise-input.yaml": "9b5362351bffd4efd1a6197ecd98a8f0b74cc5de92a2d38cabebe04c2bef22d1",
+    "joint-calibration-attempt2/camera-input.yaml": "c2d9573bad94177902bcdc2b042377d898f13d1cfc0380528ae7df3d1dc8f8e1",
+    "joint-calibration-attempt2/target-input.yaml": "8ca05596e5262b6d616498bc7807beaf11a55fb8626bc2c2c4b6290866e5de6f",
+    "joint-calibration-attempt2/run-arguments.txt": "4baa5e043cfacc6efb6defb6acb4a3fd329cbef92e085d9e63d3e6b8907d790d",
+    "joint-calibration-attempt2/UNCERTAINTY_LIMITATION.txt": "c6c6c8fedafc2aab2c02b4becbd0a9d4ca978192d367f5602571dc1a1c016c34",
+    "joint-calibration-weights20/input-camchain-imucam.yaml": "26917bad3fe8fd6207b3bcd6e19ec820f0d7d4c252562ec65d11324e5848cf7e",
+    "joint-calibration-weights20/input-imu.yaml": "8a48a5b1187798936c7335776cf1e8703ca2f97406a14174e9cd00510784cc4f",
+    "joint-calibration-weights20/input-results-imucam.txt": "1493f214a08c1bd1cd21ad063f3cce83df3056fb918c992db4137585dafb3333",
+    "joint-calibration-weights20/input-report-imucam.pdf": "b802b0f412f906957444fd9c1788ccd994b19983433de85fe48e11f15612e922",
+    "joint-calibration-weights20/noise-input.yaml": "48ac84fc7aca1864bf53fecdd06fff6d52ddd47f67e55cf976125987236a6418",
+    "joint-calibration-weights20/camera-input.yaml": "c2d9573bad94177902bcdc2b042377d898f13d1cfc0380528ae7df3d1dc8f8e1",
+    "joint-calibration-weights20/target-input.yaml": "8ca05596e5262b6d616498bc7807beaf11a55fb8626bc2c2c4b6290866e5de6f",
+    "joint-calibration-weights20/run-arguments.txt": "4baa5e043cfacc6efb6defb6acb4a3fd329cbef92e085d9e63d3e6b8907d790d",
+    "joint-calibration-weights20/UNCERTAINTY_LIMITATION.txt": "c6c6c8fedafc2aab2c02b4becbd0a9d4ca978192d367f5602571dc1a1c016c34"
+  },
+  "limitations": [
+    "Shared source recording, camera intrinsics and measured screen scale create shared systematic errors.",
+    "Weight variants fit identical measurements and are not independent repeated calibrations.",
+    "Nonoverlapping intervals check motion dependence but are not a new acquisition or remounting test.",
+    "Factory IMU scale and axis alignment retained; bias splines estimated. Long-term sensor noise identification is incomplete.",
+    "Analytic covariance recovery is unavailable in the pinned native Kalibr path.",
+    "Approximately 12 ms rolling shutter is not modeled by OpenVINS or these joint fits.",
+    "Physical transform plausibility and independent replay/live validation remain required."
+  ]
+}

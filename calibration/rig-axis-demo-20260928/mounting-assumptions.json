@@ -1,0 +1,37 @@
+{
+  "source": "User instruction 2026-09-28; +X camera-forward, +Z up, rigidly taped mounting; request to run without new target calibration.",
+  "R_cam_imu": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "translation_m": [
+    0,
+    0,
+    0
+  ],
+  "translation_status": "Unknown: zero lever arm initial guess, NOT measured co-location.",
+  "time_offset_s": 0.007970614446713634,
+  "time_offset_status": "Prior sensor timing fit reused as provisional initial guess, NOT verified for current run.",
+  "intrinsics_source": "Previously accepted static calibration for identical camera geometry.",
+  "noise_source": "Existing empirical provisional noise weights, not identified sensor coefficients.",
+  "live_mount_check": "data/mount-check-20260928/20260928_204500_dwx04ymz",
+  "accel_mean_m_s2": [
+    -0.0008293,
+    -0.06859,
+    10.03574
+  ],
+  "scope": "Bounded manual development demo only, no navigation accuracy claim."
+}

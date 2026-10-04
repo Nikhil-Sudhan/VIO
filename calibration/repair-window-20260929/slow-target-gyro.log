@@ -1,0 +1,12 @@
+{
+  "scope": "Diagnostic only; nominal 20 mm target; no accepted calibration; target PnP is not ground truth",
+  "attempts": 401,
+  "observations": 242,
+  "moving_pairs": 7,
+  "bias": [
+    0.0060702861522526404,
+    -0.008770145811028557,
+    0.0013946592386800316
+  ],
+  "initial_dt": 0.004108977340000053
+}

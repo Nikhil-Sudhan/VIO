@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-04T09:20:13.606048+00:00",
+  "user_confirmation": "same as last time, printed in A4 sheet",
+  "source": "calibration/printed-room-20260929/target-ASSUMED-A4.yaml",
+  "source_sha256": "8151f7034c46e2e5ae85cb46accef7a74eed9f0a8f02227cc471e11fc455ad1e",
+  "tag_size_m": 0.02,
+  "gap_m": 0.006,
+  "outer_grid_extent_m": 0.15,
+  "physical_scale_measured": false,
+  "scope": "Nominal-scale calibration candidate; do not claim measured metric accuracy. Previous 125/133mm dimensions were screen targets and are not used."
+}

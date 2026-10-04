@@ -1,0 +1,15 @@
+{
+  "scope": "Targeted rejection check only; NOT successful VIO",
+  "config": "calibration/rig-manual-demo-v2/estimator_config.yaml",
+  "input": "data/live2-startup-diagnostic-input",
+  "output": "data/live2-strict-startup-replay-lf",
+  "frames_limit": 800,
+  "poses": 0,
+  "result": "No initialized states; strict gates reject input accepted by v1",
+  "limitations": [
+    "No successful start demonstrated with v2",
+    "No handheld accuracy validation",
+    "Underlying dark-image tracking still inadequate"
+  ],
+  "log_sha256": "be304ce593e08a52e36b208d148ef2e2744594404b638bc71cb5d2bbd10ef845"
+}

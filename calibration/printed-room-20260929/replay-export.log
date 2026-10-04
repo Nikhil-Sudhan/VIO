@@ -1,0 +1,20 @@
+{
+  "scope": "Pi measurement export; not accepted estimator calibration or VIO output",
+  "session": "/home/pluto/vio-project/data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "counts": {
+    "images": 4982,
+    "imu": 51249
+  },
+  "source_sha256": {
+    "analysis/report.json": "0566e7dc5cb323fd03c8bb2b9188f50a9ad8a6883229fa98ed2d419291b419e9",
+    "analysis/imu_derived.csv": "854a2c42c14c056981e777bb5cddf6f945433e8c0cad7f7a3cb1c634ea84efe9",
+    "frames.csv": "1c3c64976bbfc7fa78c00c369acd8f266a8428a2753c27ad1df82bd8a27f5993",
+    "session.json": "a772e0a35c8efd52d0cdc9a589637541de1f03bb7ffe239ddfd6851d565e347f"
+  },
+  "images": "Absolute paths to preserved original 8-bit PGM files; no image transformation",
+  "camera_timestamp": "Unmodified SensorTimestamp, driver frame-start clock; no midpoint correction",
+  "imu_timestamp": "Derived hardware counter clock mapping; no invented replacement samples",
+  "units_and_axes": "rad/s and m/s^2 including gravity; native IMU XYZ",
+  "required_before_estimation": "Reviewed calibration for this exact camera geometry, IMU settings and rigid mounting, including time offset and noise"
+}

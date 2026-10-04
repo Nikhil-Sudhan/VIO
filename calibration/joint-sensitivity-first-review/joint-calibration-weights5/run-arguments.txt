@@ -1,0 +1,2 @@
+Actual bag interval: 182.054662994 to 242.054662994 seconds
+Feature extraction: 10 Hz

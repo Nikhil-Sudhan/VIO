@@ -1,0 +1,1 @@
+Offline experiment only. Test whether decoded grid features permit visual movement to veto zero-velocity updates. No gates are relaxed.

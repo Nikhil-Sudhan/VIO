@@ -1,0 +1,1 @@
+build/adapter/vio_replay: error while loading shared libraries: /home/pluto/vio-project/build/openvins/libov_msckf_lib.so: file too short

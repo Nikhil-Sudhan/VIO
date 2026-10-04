@@ -41,8 +41,8 @@ sys.path.insert(0, 'tools')
 import picamera2, libcamera, cv2
 from Adafruit_PureIO.smbus import SMBus
 from calibration_guard import checked_bundle
-checked_bundle('calibration/demo-recovery-20260930/manual-quiet-veto/estimator_config.yaml',
-               'config/camera-room-demo.json', experimental=True)
-print('Runtime imports, executable files and original calibration bundle check passed.')
+checked_bundle('calibration/new-case-20261004/supervised-natural-v3/estimator_config.yaml',
+               'config/camera-candidate.json', experimental=True)
+print('Runtime imports, executable files and new-case experimental calibration bundle check passed.')
 print('No sensors opened. Launch: bash tools/start_remote_demo.sh')
 PY

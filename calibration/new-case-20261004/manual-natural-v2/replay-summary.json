@@ -1,0 +1,17 @@
+{
+  "pose_count": 5518,
+  "first_last_time_s": [
+    13.279511786,
+    289.04678478600005
+  ],
+  "peak_position_norm_m": 0.7420060265582873,
+  "final_position_m": [
+    -0.08976158448749404,
+    -0.008984900744910602,
+    -0.033231730400131644
+  ],
+  "final_position_norm_m": 0.09613645716630324,
+  "final_speed_m_s": 0.03686619095930986,
+  "poses_with_msckf_features": 2162,
+  "scope": "Natural-feature offline replay on fresh mounting; physical grid remains in scene. Not independently validated room mapping."
+}

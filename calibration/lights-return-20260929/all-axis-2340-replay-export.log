@@ -1,0 +1,23 @@
+{
+  "scope": "Pi measurement export; not accepted estimator calibration or VIO output",
+  "session": "/home/pluto/vio-project/data/current-mount-calibration/20260929_234048__wzje0kl",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "counts": {
+    "images": 4782,
+    "imu": 49218
+  },
+  "source_sha256": {
+    "analysis/report.json": "505609f5ec5476b83cf3bd1c4afe5649058b2eb7fe8c9074a7aea6e4730ab635",
+    "analysis/imu_derived.csv": "f4884f97e3b8d924d930dee0fd59e38223a1b85523919c50b2578e3c6092a9a0",
+    "frames.csv": "e2f85da04792a5da766096635165999fd07c1c2fe631696de309e8707d846b0a",
+    "session.json": "f136600946cab12ab92c8eabf2bf9baf99c1846790aeb5fe520e60ade524653a"
+  },
+  "images": "Absolute paths to preserved original 8-bit images; no image transformation",
+  "estimator_failure_only_exception": false,
+  "original_session_status": "completed",
+  "original_raw_report_faults": [],
+  "camera_timestamp": "Unmodified SensorTimestamp, driver frame-start clock; no midpoint correction",
+  "imu_timestamp": "Derived hardware counter clock mapping; no invented replacement samples",
+  "units_and_axes": "rad/s and m/s^2 including gravity; native IMU XYZ",
+  "required_before_estimation": "Reviewed calibration for this exact camera geometry, IMU settings and rigid mounting, including time offset and noise"
+}

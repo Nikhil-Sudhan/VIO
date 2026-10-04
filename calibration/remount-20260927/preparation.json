@@ -1,0 +1,52 @@
+{
+  "status": "Capture completed at duration limit; no new fit or calibration acceptance. User requests immediate demonstration and no further guided actions now.",
+  "mounting_id": "IMX219-LSM6DSOX-rigid-base-20260927-fixed-user-report",
+  "user_mounting_report": "May have shifted, later clarified probably not substantially moved; now fixed",
+  "created": "2026-09-27T10:26:36.225560+05:30",
+  "camera_candidate": "calibration/camera-820x616-v1/camera.yaml",
+  "camera_requirement": "Confirm unchanged lens/focus/geometry and review fresh target reprojection residuals before reusing intrinsics",
+  "camera_config": "config/camera-candidate.json",
+  "target_dimensions_m": [
+    0.125,
+    0.125
+  ],
+  "recording": "/home/pluto/vio-project/data/remount-calibration-20260927/20260927_104021_j3otjukh",
+  "fit": null,
+  "noise_status": "Previous empirical noise weights provisional; no new measured noise model",
+  "requested_capture": "Stationary lead-in, then slow continuous rotation about all three axes with gentle translations while grid remains visible; avoid abrupt pickup and stop impulses",
+  "validation": "Review raw timing, target detection and multiaxis excitation; compare fits on separate motion intervals before one physical demo attempt",
+  "accepted": false,
+  "target_visibility_report": "evidence/camera-wide-4653dsqq/target-review.json",
+  "camera_intrinsics_single_view_rms_px": 0.33215785026550293,
+  "camera_intrinsics_status": "Single target view is consistent; retain provisionally for fresh joint fit, not full revalidation",
+  "target_measurement": {
+    "horizontal_raw_reply": "12.5 cm",
+    "width_mm": 125.0,
+    "height_mm": 125.0,
+    "interpretation": "User-confirmed horizontal and vertical six-tag extents",
+    "extent": "Six large tags including five gaps, excluding small corner squares and white margin",
+    "timestamp": "2026-09-27T10:39:33.689250+05:30",
+    "vertical_raw_reply": "yes it is 12.5 cm it is a sqaure you fool"
+  },
+  "capture_launch": {
+    "pid": 6242,
+    "command": [
+      "/home/pluto/vio-env/bin/python",
+      "-u",
+      "/home/pluto/vio-project/tools/record.py",
+      "--seconds",
+      "360",
+      "--finish-on-usr1",
+      "--output",
+      "/home/pluto/vio-project/data/remount-calibration-20260927"
+    ],
+    "created": "2026-09-27T10:40:21.206977+05:30",
+    "log": "/home/pluto/vio-project/data/remount-calibration-20260927/capture.log",
+    "boot_id": "5b7449c7-053e-4adc-a4a7-62bae841ebb4"
+  },
+  "capture_result": {
+    "status": "completed",
+    "frames_written": 7203,
+    "errors": []
+  }
+}

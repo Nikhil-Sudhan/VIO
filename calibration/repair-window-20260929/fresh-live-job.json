@@ -1,0 +1,25 @@
+{
+  "pid": 7863,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "command": [
+    "/home/pluto/vio-env/bin/python",
+    "-u",
+    "tools/record.py",
+    "--seconds",
+    "90",
+    "--finish-on-usr1",
+    "--image-format",
+    "png",
+    "--temperature",
+    "--config",
+    "config/camera-room-demo.json",
+    "--estimator-config",
+    "/home/pluto/vio-project/calibration/repair-window-20260929/manual-continuous/estimator_config.yaml",
+    "--experimental-calibration",
+    "--output",
+    "data/repair-live-20260929"
+  ],
+  "session": "/home/pluto/vio-project/data/repair-live-20260929/20260929_202635_if7tp65t",
+  "bridge_pid": 7870,
+  "rviz_pid": 7871
+}

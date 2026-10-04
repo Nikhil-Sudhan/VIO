@@ -1,0 +1,69 @@
+{
+  "scope": "Actual C++ transport rejection tests; reference configuration, no physical hardware",
+  "passed": true,
+  "cases": [
+    {
+      "case": "bad_magic",
+      "return_code": 1,
+      "expected_diagnostic": "Wrong protocol",
+      "passed": true,
+      "stderr": "ERROR: Wrong protocol magic/version\n"
+    },
+    {
+      "case": "truncated_header",
+      "return_code": 1,
+      "expected_diagnostic": "Truncated",
+      "passed": true,
+      "stderr": "ERROR: Truncated/disconnected input; explicit END required\n"
+    },
+    {
+      "case": "oversized_length",
+      "return_code": 1,
+      "expected_diagnostic": "oversized",
+      "passed": true,
+      "stderr": "ERROR: Invalid timestamp/oversized input\n"
+    },
+    {
+      "case": "nonfinite_imu",
+      "return_code": 1,
+      "expected_diagnostic": "Nonfinite IMU",
+      "passed": true,
+      "stderr": "ERROR: Nonfinite IMU payload\n"
+    },
+    {
+      "case": "imu_time_reversal",
+      "return_code": 1,
+      "expected_diagnostic": "Invalid IMU",
+      "passed": true,
+      "stderr": "ERROR: Invalid IMU payload/time/sequence\n"
+    },
+    {
+      "case": "imu_sequence_gap",
+      "return_code": 1,
+      "expected_diagnostic": "Invalid IMU",
+      "passed": true,
+      "stderr": "ERROR: Invalid IMU payload/time/sequence\n"
+    },
+    {
+      "case": "wrong_geometry",
+      "return_code": 1,
+      "expected_diagnostic": "geometry/calibration",
+      "passed": true,
+      "stderr": "ERROR: Camera geometry/calibration mismatch\n"
+    },
+    {
+      "case": "missing_tail",
+      "return_code": 1,
+      "expected_diagnostic": "Missing IMU tail",
+      "passed": true,
+      "stderr": "ERROR: Missing IMU tail for pending cameras\n"
+    },
+    {
+      "case": "clean_end_without_states",
+      "return_code": 1,
+      "expected_diagnostic": "No initialized states",
+      "passed": true,
+      "stderr": "ERROR: No initialized states; transport completion is not a VIO pass\n"
+    }
+  ]
+}

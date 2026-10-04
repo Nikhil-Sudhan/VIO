@@ -187,6 +187,14 @@ def main():
             faults.append('Image header/size differs from configured geometry')
     if session['status'] != 'completed':
         faults.append('Session did not complete normally')
+    if session.get('raw_recording_storage'):
+        try:
+            storage = json.loads((folder/'recording-storage.json').read_text())
+            manifest = json.loads((folder/'archive-manifest.json').read_text())
+            if storage['state'] != 'saved' or not manifest.get('files'):
+                faults.append('RAM recording archive not verified as saved')
+        except (OSError, ValueError, KeyError):
+            faults.append('RAM recording archive completion evidence missing')
     report['faults']=faults
     report['raw_capture_checks_passed']=not faults
     (derived/'report.json').write_text(json.dumps(report,indent=2)+'\n')

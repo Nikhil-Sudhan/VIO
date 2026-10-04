@@ -1,0 +1,23 @@
+{
+  "scope": "Independent detector/optimizer camera-only corroboration; not camera/IMU calibration",
+  "opencv_focal_px": [
+    652.879962242561,
+    652.6913800309958
+  ],
+  "kalibr_focal_px": [
+    655.41423873,
+    655.29521946
+  ],
+  "relative_focal_difference_percent": [
+    0.3881688264308236,
+    0.39893884133732627
+  ],
+  "kalibr_residual_std_xy_px": [
+    0.190379,
+    0.174526
+  ],
+  "metric_board_size_used": true,
+  "status": "Measured-scale fit completed; same camera parameters and residuals as reviewed normalized run",
+  "tag_size_m": 0.017733333333333334,
+  "target_measurement": "calibration/target/screen-measurement-20260926.json"
+}

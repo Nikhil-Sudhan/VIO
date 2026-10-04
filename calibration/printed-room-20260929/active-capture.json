@@ -1,0 +1,17 @@
+{
+  "session": "/home/pluto/vio-project/data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+  "pid": 5194,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "exec_session_id": 76390,
+  "raw_only": true,
+  "maximum_seconds": 600,
+  "finish_on_user_done": "Verify PID and boot, then SIGUSR1 for normal tail/save.",
+  "target_config": "/home/pluto/vio-project/calibration/printed-room-20260929/target-ASSUMED-A4.yaml",
+  "target_config_sha256": "8151f7034c46e2e5ae85cb46accef7a74eed9f0a8f02227cc471e11fc455ad1e",
+  "print_scale": "ASSUMED nominal PDF; user has no ruler",
+  "no_estimator_running": true,
+  "recording_stopped": true,
+  "completion_reason": "guided_finish_signal",
+  "frames_saved": 4982,
+  "raw_checks_passed": true
+}

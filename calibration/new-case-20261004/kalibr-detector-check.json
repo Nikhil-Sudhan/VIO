@@ -1,0 +1,32 @@
+[
+  {
+    "frame": 1600,
+    "success": true,
+    "corners": 140
+  },
+  {
+    "frame": 2200,
+    "success": true,
+    "corners": 125
+  },
+  {
+    "frame": 2600,
+    "success": true,
+    "corners": 96
+  },
+  {
+    "frame": 3336,
+    "success": true,
+    "corners": 144
+  },
+  {
+    "frame": 4000,
+    "success": false,
+    "corners": 0
+  },
+  {
+    "frame": 4700,
+    "success": true,
+    "corners": 40
+  }
+]

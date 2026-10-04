@@ -1,0 +1,7 @@
+{
+  "camera_pid": 6584,
+  "rviz_pid": 6585,
+  "started_unix": 1790692619.5201757,
+  "scope": "LIVE CAMERA ONLY; VIO stopped/rejected. No pose or pointcloud is substituted.",
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41"
+}

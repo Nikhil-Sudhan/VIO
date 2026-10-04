@@ -1,0 +1,28 @@
+{
+  "scope": "Native Kalibr detector recovery check and coordinate-convention cross-check; not calibration acceptance",
+  "reference_image": "data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev/images/003336.pgm",
+  "native_tags": 36,
+  "opencv_tags": 26,
+  "projected_outer_grid_corner_rms_difference_px": 0.4848914,
+  "object_corner_range_tag_units": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      7.5,
+      7.5,
+      0
+    ]
+  ],
+  "static_motion_gate_unchanged_px": 2.5,
+  "minimum_distinct_view_gate_unchanged": 16,
+  "coverage_gate_unchanged_cells": 18,
+  "native_attempt_distinct_views": 13,
+  "native_attempt_all_view_coverage_cells": 11,
+  "implementation_sha256": {
+    "assess_calibration_motion.py": "33d9c9a07f2604267298315caf851b71cc0f3c3293ba828ec6a1ecffc42d011a",
+    "calibrate_intrinsics.py": "20f09506e2c74de480e8bd10908dd58605bd10375d6b449c114a2f03a67e23f2"
+  }
+}

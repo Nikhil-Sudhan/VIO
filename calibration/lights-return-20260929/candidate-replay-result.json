@@ -1,0 +1,7 @@
+{
+  "max_position_norm_m": 39.965625371301805,
+  "msckf_update_frames": 30,
+  "max_slam_landmarks": 0,
+  "accepted": false,
+  "reason": "Small indoor motion diverges to tens of metres; rejected."
+}

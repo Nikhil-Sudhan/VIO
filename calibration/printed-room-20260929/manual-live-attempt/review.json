@@ -1,0 +1,55 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "scope": "manual development demo; NOT validated navigation",
+  "mounting_id": "IMX219-LSM6DSOX-printed-room-20260929-reported-flex",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "files_sha256": {
+    "estimator_config.yaml": "965c5f8de75c0652db6bff1d59b7c86465fbd4ffe98c03c32e46c634463472a8",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+    "imucam.yaml": "c9785421d251cae3ad290efc5241d4483401c9bfa76cc095bb4aac0e85d68185"
+  },
+  "supporting_reports": {
+    "fit-results.txt": "4387015650020a2c29cd1c7e3d1e9e96a86f382fde7f4d152328ac18691352e0",
+    "mount-instability.json": "c3fa49f376aae354f7c83e2337199e356814cf47c9c859096585dd37acc65fd6",
+    "preparation.json": "e7e36f8eb33a514fa9f1b17d83b07053e1f336fce66efb1933dd6efb040b181a",
+    "failed-fast-replay.json": "38b2c76e5ba7770506b031fd36355d2e68e28481a242fcaef4f9e6c10993415e"
+  },
+  "candidate_parameters": {
+    "rotation_from_nominal_deg": 12.595792288103315,
+    "sensor_offset_norm_m": 0.0439953440116064,
+    "timeshift_cam_imu_s": 0.004108977340000053
+  },
+  "limitations": [
+    "Printed target metric scale assumed from PDF, not measured.",
+    "User reports inadequate cardboard support; a changing transform cannot be represented by this calibration.",
+    "16ms exposure and unmodeled rolling shutter; existing camera intrinsics used.",
+    "Empirical provisional noise weights; fit on same recording is not independent trajectory validation.",
+    "No navigation acceptance; candidate replay required."
+  ],
+  "display_note": "MOUNT UNVERIFIED",
+  "authorization": "User explicitly requests actual output today with known shaky cardboard mount and grants Pi access. Bounded slower manual live attempt only.",
+  "offline_motion_test_passed": false,
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
+}

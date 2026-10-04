@@ -1,0 +1,6 @@
+{
+  "status": "failed report generation",
+  "reason": "NumPy int64 in JSON serialization after complete feature extraction",
+  "superseded_by": "calibration/motion-preflight-poses4-run3/report.json",
+  "partial_outputs_retained": true
+}

@@ -1,0 +1,7 @@
+{
+  "removed_incomplete_download_cache": "/home/pluto/vio-project/data/dataset-room4_512_16.tar.partial",
+  "bytes": 1356206080,
+  "mtime": 1790420285.930436,
+  "reason": "Incomplete reference-dataset download cache, not a sensor recording. Reclaim space for user-requested calibration capture. No original sensor recordings or calibration results removed.",
+  "time": "2026-09-29T23:30:59.043358+05:30"
+}

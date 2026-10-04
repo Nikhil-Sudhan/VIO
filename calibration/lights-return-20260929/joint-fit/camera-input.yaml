@@ -1,0 +1,10 @@
+%YAML:1.0
+# ACCEPTED CAMERA-ONLY INTRINSICS; see review.json. No IMU extrinsics/time offset.
+# Board dimensions are unmeasured; target-frame translations are not metres.
+cam0:
+  camera_model: pinhole
+  distortion_model: radtan
+  intrinsics: [652.879962242561, 652.6913800309958, 402.7459765146756, 293.51689967360625]
+  distortion_coeffs: [0.19004630188120233, -0.3566296810567926, -0.001643546078163314, 0.0007208195618292788]
+  resolution: [820, 616]
+  rostopic: /cam0/image_raw

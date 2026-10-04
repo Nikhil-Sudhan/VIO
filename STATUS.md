@@ -330,3 +330,326 @@ Second fresh live attempt 20260930_192000__8jnre9n again failed the unchanged 1-
 ## WORKING BASIC DEMO — 2026-09-30 19:41 IST
 User confirms actual application works. Pi Connect had severe display lag; direct LAN browser now shows actual RViz desktop via tools/remote_rviz.py at http://192.168.137.196:8766/ with Start/Stop and saved MP4 download. Launcher tools/start_remote_demo.sh starts idle native controller and web display; no boot service. User started latest capture via this page and moved rig. Latest session data/native-live/20260930_194025_5amh8zbn completed normally, no capture errors, estimator exit0,1201 camera frames/12544 IMU groups sent,92 maximum persistent landmarks/89 final,390 moving pose frames with MSCKF corrections. Live output p95 about90ms/max117ms; transport queue high4/max41.7ms. Native default calibration/demo-recovery-20260930/manual-quiet-veto: fixed fitted calibration, tag visual ZUPT veto1.0px, two measured corners per tag, max20 ordinary landmarks. This remains real camera+IMU OpenVINS; no PnP/reference/synthetic pose source. Veto increased from0.5 based observed stationary corner jitter and checked on two prior moving recordings. Navigation acceptance remainsfalse; basic demo success does not establish room-scale accuracy.
 Actual screen recording saved /home/pluto/Videos/VIO-demo-20260930_194022.mp4 (63s,5fps,844x370,4.69MB), ffprobe passed. Browser /video downloads it. All failed trials retained/labeled. Current capture stopped after60s; preserve working setup and do not launch more tests unnecessarily. Disk space is low; recorder retains its full-run space preflight and may reject another60s run. Download saved successful video rather than discard originals. Result/evidence: evidence/demo-recovery-20260930/working-demo-result.json.
+
+
+## New screw-fixed three-pin enclosure — 2026-10-04
+
+User confirms +X right, +Y forward, +Z up when viewed from behind the camera.
+Recorded as a geometric prior only; no guessed translation or time offset applied.
+Old physical capture roots, calibration bags and screen videos deleted at explicit
+user request: 85,383,233,536 bytes reclaimed at cleanup. Small reports preserved
+with deletion manifest in evidence/new-case-20261004/. All old joint/manual reviews
+invalidated in the main and room worktrees. Calibration guard suite: 9 tests pass.
+
+Camera/IMU capture failed immediately because Picamera2 sees no camera. Independent
+rpicam enumeration also says no cameras available. camera_auto_detect=1 is enabled;
+no IMX219 device-tree node was found. No boot configuration changed. IMU-only 20 s
+capture completed: 4,101 groups at 204.061 Hz, raw checks pass, no FIFO faults.
+Current power flags 0x0. Short data is not a complete IMU noise/bias calibration.
+
+User agrees to prepare AprilGrid. Requested power-off ribbon inspection/reseat and
+restart, without moving sensor mounts. Camera recovery, measured target dimensions,
+fresh calibration captures and target-free room validation remain outstanding.
+The previous room trial was unreliable; no successful mapping result is claimed.
+Resume details: calibration/new-case-20261004/mounting.json and
+evidence/new-case-20261004/status.json. No acquisition is left running.
+
+Camera recovered after reboot (boot 0abdf339-34f6-48c0-bbe2-4ce5cdb42ae3).
+Fresh simultaneous session data/new-case-20261004/sensor-check/20261004_132106_e8b131av
+completed: 400 frames at 20.006 Hz, 4,519 IMU groups at 204.060 Hz; strict raw
+checks pass, no sequence gaps or FIFO faults. Power flags 0x0. Actual image
+inspected upright, camera sees tabletop objects; no AprilGrid detected. Preview:
+evidence/new-case-20261004/current-camera.png. This validates acquisition only;
+relative camera/IMU timing, extrinsics and mapping remain uncalibrated. Awaiting
+AprilGrid in view and user-measured outer tag width/height for fresh calibration.
+
+Fresh target check: evidence/new-case-20261004/camera-wide-rgr42tik/.
+Full printed six-by-six AprilGrid is visible; 12–16 tags decoded across five
+frames at 820x616, 7992 us exposure, gain4. Image inspected. Target occupies
+approximately 220 pixels across; closer views should improve coverage/detection.
+Awaiting fresh measured outer large-tag width and height, excluding peripheral
+small squares and page border. No nominal print scale promoted to measurement.
+
+User confirms same A4 print as last time. Historical print scale was nominal
+20mm tags / 6mm gaps, not measured; reuse authorized for preliminary fitting.
+Copied target-ASSUMED-A4.yaml and recorded provenance in new-case-20261004.
+Started fresh raw guided capture data/new-case-20261004/calibration-views/20261004_145013_ry1l759i (600s cap, SIGUSR1 finish).
+Identity and finish command in calibration/new-case-20261004/active-capture.json.
+On user done, finish this capture promptly, inspect acquisition, static-view
+coverage and multiaxis excitation, then fit/review fresh calibration candidates.
+
+User cannot participate in repeated guided calibration and requests autonomous
+work. No more guided actions requested. The 600s capture had already completed:
+12,004 frames, 122,848 IMU samples, strict acquisition passes without faults.
+Gyro variation max 0.224 deg/s after median subtraction; no excitation observed.
+21 sampled grid views vary only 1.96 px RMS from first. Full camera-intrinsics
+preflight result: insufficient varied views, 1 distinct views.
+No joint fit run on this unobservable stationary input.
+
+Completed stationary IMU characterization over 572s (116,727 samples); reviewed
+Allan and temperature plots. All six short-time white-noise slopes compatible,
+but long-term random walk not identified; accelerometer Z is correlated at
+longer averaging times. Bias estimates remain diagnostics, not promoted to a
+validated estimator bundle. Results in calibration/new-case-20261004/
+stationary-noise/ and stationary-review.json. No recorder or analysis job left
+running. Calibration/mapping remain incomplete; no ongoing user question.
+
+User is available again ("okie im in"). Started single-pass raw calibration
+recording data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev, 360s cap with SIGUSR1 finish.
+Identity in calibration/new-case-20261004/active-capture.json. On done, finish
+promptly and analyze then fit autonomously; no repeated per-step confirmations.
+
+## New-case moving capture and provisional application update — 2026-10-04
+
+User replied done; recorder ended normally via SIGUSR1. Motion session
+`data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev` has 5,743
+frames and 58,999 IMU groups; strict acquisition and full bag payload verification
+pass. OpenCV found only 2 still viewpoints. Native Kalibr detected small targets
+much better; added opt-in native backend to existing intrinsics and visibility
+tools without changing view/motion/coverage gates. Cross-detector board coordinates
+agree within 0.485 px on a shared view. Native extraction yields 13 still views
+covering 11/25 cells, insufficient for accepted fresh full-field intrinsics.
+Existing camera-only intrinsics match geometry and yield subpixel new-view
+residuals, so retained provisionally, explicitly recorded in joint-fit-plan.json.
+
+Fresh joint fits on camera-relative 60–120s and 170–230s converged (a2/b2).
+Initial a/b attempts failed only because Kalibr rejects the OpenCV YAML header;
+standard YAML inputs corrected, failures retained. Repeat difference 0.6696 deg,
+8.775 mm, 0.963 ms. Selected a2: effective dt +9.7057 ms, separation 32.65 mm.
+Fresh stationary-noise-envelope weights tested at 0.5x and 2x: differences versus
+selected fit <=0.129 deg, <=0.980 mm, <=0.069 ms. No covariance invented.
+
+Natural-feature replay completed: 5,518 poses, 2,162 poses with MSCKF features,
+peak position norm 0.742m, final norm 0.096m. Grid feature tracker and tag ZUPT
+veto disabled. Physical grid was present. Target-derived comparison anchored only
+on initial resting interval (no scale fit): moving RMS 0.050m, max 0.165m;
+this is shared-calibration consistency, NOT independent ground truth. Added
+compare_target_replay.py and verified coordinate conventions on a synthetic
+known-transform trajectory. Saved figures reviewed.
+
+Created guarded manual-natural-v1 bundle (experimental manual only, navigation
+acceptance false), updated native application defaults to it and the exact 8ms
+camera-candidate.json. Updated scene instructions for natural features. Offscreen
+GUI/default/guard check passes; no sensors opened by that check. Original old
+bundles remain invalidated. Requested one grid-covered live room test; user
+readiness pending. No new sensor capture started while awaiting readiness.
+
+User ready for grid-free room test. Actual probe camera-wide-s8u48gm_ shows
+room/window/furniture, no grid. Darker than calibration scene but image detail
+present; geometry/exposure kept identical. Added explicit --archive-camera
+controller option; restarted idle controller with it and --start. Live session
+data/native-live/20261004_180214_z0qtdjzh is recording camera+IMU+VIO with every raw PGM.
+Stationary-ready true observed before requesting one slow sideways movement,
+gentle room turn, return and rest. 120s bound. On done, finish promptly and
+analyze; identity in calibration/new-case-20261004/active-room-test.json.
+
+## Room-test recording failure and verified buffer fix — 2026-10-04
+
+User replied done. The first grid-free room recording had already stopped after
+942 frames (~47s): the 32-frame image queue filled during a 3.5s disk-write
+stall. Saved prefix has continuous camera/IMU data but the session failed.
+Estimator remained stationary-ready, initialized=false, with no MSCKF update;
+stationary pose rows do not demonstrate moving tracking. Failure retained at
+`data/native-live/20261004_180214_z0qtdjzh`; display review marks unusable VIO.
+
+Increased the bounded image queue to 128 frames (6.4s at 20Hz, ~65MB).
+Controlled physical test deliberately paused frame 60 writing for 3.500s.
+First test attempt missed the native library environment and failed before
+injection; rerun using tools/env.sh completed normally: 300/300 frames,
+queue high-water 70, strict raw checks pass, no camera gaps, estimator exit 0.
+Session: `data/new-case-20261004/write-stall-check/20261004_184142_wjl17os7`.
+Evidence: `evidence/new-case-20261004/room-test1-review.json`.
+Python compilation and git diff whitespace checks pass. Longer stalls can
+still exceed this bounded queue. No capture currently running; one moving
+grid-free retry remains needed. Full calibration/navigation/map acceptance
+has not been granted; provisional new-case bundle remains manual-test only.
+
+User ready; started room retry data/native-live/20261004_184508_m4n0p5ht. Recorder queue capacity 128 verified, estimator initialized seen at 7.4s. Requested one 30-second movement and done. 120-second recording cap; stop promptly on done. Active identity in calibration/new-case-20261004/active-room-test.json.
+
+## Grid-free moving test and front-end investigation — 2026-10-04
+
+User ready/done: saved room trial `data/native-live/20261004_184508_m4n0p5ht`
+via normal finish signal. All 1782 images and 18788 IMU samples pass strict raw
+checks. Recorder buffer high-water 19/128; no acquisition errors. Case movement
+observed at ~20–50 camera-relative seconds. Original V1 tracking diverged to
+173m norm while resting; rejected in display-review.json.
+
+Offline original-config replay also failed (negative EKF covariance diagonal).
+Contrast enhancement causes large false optical flow in dim resting images.
+NONE histogram/FAST10 candidate completes the first room replay: peak 0.912m,
+final norm 0.121m, resting-tail span 0.124m, final speed 0.082m/s. NONE/FAST20
+ablation also completes but has fewer corrections and more final displacement.
+Earlier 5743-frame motion replay completes with NONE/FAST10; shared-target
+moving discrepancy 0.0578m RMS/0.1238m max, not independent ground truth.
+Reference stream replay completes all 1782 room frames; processing p95 14.25ms.
+V2 was provisionally installed, but then WITHDRAWN on the additional test below.
+
+A second app capture `data/native-live/20261004_185233_60ou9gje` started during
+analysis using still-loaded V1. All 2401 frames pass raw checks. Exact V2 replay
+without retuning also diverges: peak 698m/final597m, only 10 output poses with
+MSCKF features. Static initialization succeeds; the initial moving interval
+(replay 5–13s) has zero triangulated features and 285 ill-conditioned rejections.
+No SLAM landmarks established. Thus V2 is not a reliable mapping fix. Both V1
+and V2 manual-demo approvals withdrawn; live start guard rejects both. Raw
+sensor acquisition remains usable. App default points at retained V2 candidate,
+controller reloaded idle, latest failed run marked rejected. No capture running.
+
+Reports and plots in evidence/new-case-20261004/room-test2-review.json,
+room-test2-comparison.png, room-test3-v2-review.json, room-stream-no-clahe-review.json,
+no-clahe-holdout-review.json, and static-flow diagnostic. Original failures and
+all inputs retained. No accepted full calibration or persistent room map. More
+physical motion was not requested after these failures. Outstanding: robust
+natural-feature initialization/tracking and complete calibration evidence.
+
+Final checks: 9 calibration-guard unit tests pass; actual V1/V2 bundles both
+reject experimental start with the recorded withdrawal reason. Qt widget
+constructs; Python compilation and diff whitespace checks pass. Controller
+reloaded idle to show the latest rejection; no active sensor capture.
+
+User prepared shelves scene. 10s original gain4 camera/IMU check: 200 images,
+2494 IMU samples, strict checks pass. Scene dim but natural ROI x<500 excludes
+visible AprilGrid and gives ~104 separated FAST10 points; resting half-second
+p95 apparent motion ~0.32px. Requested gain16 probe gives actual analog10.667
+plus digital1.50 at same7992us; image brighter but noise motion p95~0.99px.
+Gain16 not adopted. Original camera settings retained. No estimator reenabled.
+Started raw sideways-only diagnostic data/new-case-20261004/room-sideways-check/20261004_190842_po_z09l7 (180s cap, SIGUSR1 finish).
+Requested cover grid, 5s rest, 20–30cm slow sideways out/back without turns, rest
+and done. Active identity in calibration/new-case-20261004/active-room-test.json.
+
+## Raw recording isolation and local controls — 2026-10-04
+
+User done: sideways capture `data/new-case-20261004/room-sideways-check/20261004_190842_po_z09l7`
+had already failed after 2276 saved frames. Image queue reached128 during ~8s
+write latency. Raw saved prefix has no continuity faults except failed completion,
+but sampled views retain the grid and all IMU windows are resting-level. Requested
+movement missed; no calibration/replay attempted on this stationary failed take.
+
+Added opt-in raw-only `record.py --ram-recording` (<=300s, complete budget checked
+against tmpfs and available memory). Source/config/raw/images/status written to
+private /dev/shm directory during acquisition; no periodic SD log writes in this
+mode. After all sensor/writer threads stop, archive files are copied, fsynced and
+SHA-256 verified. Only successful verified staging is deleted. Failed archiving
+retains complete RAM input and an error pointer. New recording_storage.py helper;
+finish_capture resolves staged session; strict analysis requires saved-archive
+completion evidence. Existing calibration guards remain unchanged/withdrawn.
+
+Added desktop and LAN Record sensors action independent of VIO. User-local start,
+5-second stillness countdown, camera preview, explicit Stop and save, saving
+status, then Saved. No estimator or screen-video load for raw runs. Closing during
+saving is deferred to preserve acquisition. Live tracking button stays disabled.
+
+Physical 10s test: 200 images, 2484 IMU samples, all strict checks pass. Forced9s
+disk-copy delay begins only after sensor shutdown; queue high-water1, 214 staged
+files verify byte-for-byte, staging removed after successful archive. Real LAN
+start/stop test: 180 images, guided_finish_signal, capture+save phases observed,
+strict raw checks pass. No movement requested during these stationary tests.
+Three storage preservation/failure/no-overwrite tests, nine calibration guard tests,
+ten FIFO tests pass; Python and JS syntax checks and diff whitespace check pass.
+Evidence: ram-archive-check-report.json and raw-controls-check.json. App/page
+reloaded; left idle, awaiting user-controlled capture. Reliable VIO/mapping and
+full calibration remain unresolved. No automatic motion take is running.
+
+For the next user done: read data/native-control/current-session.txt and its
+recording-storage.json first. Local Record sensors creates the new identity there;
+calibration/new-case-20261004/active-room-test.json refers to the earlier failed
+chat-started take. Never signal its old PID. If local take is still active, use
+finish_capture on the current folder; otherwise analyze the saved local take.
+
+After idle controller reload, a new local raw take started through the controls:
+data/native-live/20261004_192929_fl8a4n5t. RAM capture active; no estimator. User informed
+to follow movement instructions then Stop and save. Active-room-test identity
+updated. On done check archive saved state and analyze; do not use older session.
+
+## Local sideways take: complete capture and bounded natural-feature replay
+
+The user-controlled take 20261004_192929_fl8a4n5t stopped via the page and saved
+561 frames / 6157 IMU samples. RAM archive verified, strict raw checks pass.
+Actual out/back movement captured. V2 offline replay completes all561 frames:
+peak position norm0.222m, final0.0103m, final speed0.00183m/s, 20 SLAM landmarks.
+The grid reappears at right near the end, so this alone is not grid-free evidence.
+
+Repeated with an offline feature mask excluding every image column x>=500,
+covering the target region for the whole recording. Original images/calibration
+unchanged; tag tracker and tag ZUPT veto remain disabled. Natural-region replay
+completes: peak0.194m, final0.00881m, final speed0.00327m/s, 20 SLAM landmarks,
+86 poses with MSCKF features, final stationary update. This shows usable natural
+feature triangulation on a bounded short movement; it is NOT independently
+measured accuracy or persistent mapping. Prior failed room cases still unresolved.
+V1/V2 live estimator approval remains withdrawn; raw Record sensors available.
+
+Report and plots: evidence/new-case-20261004/local-sideways-review.json,
+local-sideways-result.png/.pdf. User told no repeat needed. No capture or analysis
+job left running; controller idle and latest local take saved. Full calibration,
+robust live room tracking, and proper persistent mapping remain incomplete.
+
+## Tracking supervision, independent reset maps, and RAM live capture — 2026-10-04
+
+Implemented shared replay/stream health supervision. Instrumented completed
+MSCKF/SLAM EKF corrections (no state arithmetic or rejection-gate changes).
+Requires actual depth support before usable pose publication. Initial no-depth
+motion expires after2s; established constraint freshness1s; explicit slow-handheld
+speed2m/s and position-std1m envelope. Loss recreates manager with original IMU
+pre-roll and a new epoch. No timestamp changes or inter-epoch registration.
+OpenVINS patch audit remains exact/disjoint; VioManager.cpp's prior ZUPT wiring is
+now included in openvins-visual-update-evidence.patch rather than duplicated.
+
+Added tracking.csv, valid-poses.csv, epochs.csv, stable-ID landmarks.csv and
+map-epoch-N.ply. RViz publishes health-qualified poses and accumulated real local
+landmarks, clears invalid/stale/reset paths and maps; stored SLAM points no longer
+imply recent corrections. Local controller reports depth initialization and loss,
+including recovery after the one-frame lost event. Map scope remains sparse,
+unoptimized local features; no loop closure, relocalization or dense room model.
+
+Results in evidence/new-case-20261004/tracking-recovery/:
+- Short full-image and grid-excluded replay: all561 frames, no reset; full original
+  poses/covariances byte-identical. Natural-only map95 retained feature IDs,
+  peak0.194m, end0.00881m, final speed0.00327m/s. Accuracy not independently known.
+- Prior usable room2: all1782 frames,1265 usable poses,186 map landmarks, no reset;
+  peak0.912m/end0.121m. Same estimator behavior, not tighter accuracy claims.
+- Prior divergent room3: all2401 frames; initialdepth timeout7.753s, another94.276s,
+  zero published usable poses/maps. Untrackable scene still lacks geometric depth;
+  failure is rejected/reinitialized rather than hidden as a continuous map.
+- Explicit black-image fixture11–15s: correction loss12.056s, output withheld;
+  later static ready. Separate explicitly synthetic two-clip recovery fixture
+  establishes a new map in epoch1. Neither fixture is physical accuracy evidence.
+- Paced561-frame reference streaming + display: identical usable poses/map,
+  p95total15.08ms/max22.52ms vs50ms frame period; not hardware-clock validation.
+- Real15s stationary acquisition20261004_200416_6zkps202:300frames/3707IMU groups,
+  strict raw pass, live transport300frames/3363mappedIMU, clockcheckmax380us,
+  imagequeuehigh1, estimator exit0. No usable depth claimed:275ready frames.
+  Every archived file verified. Sensor-outputp9555.63ms/max57.94ms.
+
+Live recorder now permits full bounded RAM staging including estimator outputs;
+nested ram-estimator-output rejected. Native UI always archives allcamera frames,
+no desktop video encoding/SD load during capture; shutdown protects verified save.
+Source snapshots include supervisor headers, binary/library/patch hashes.
+
+V3 reviewed ONLY for bounded slow handheld manual development. V1/V2 remain
+withdrawn and normal hardware acceptance remainsfalse. Default native app now
+supervised-natural-v3; LANlive buttonenabled. Fresh moving live operation, broad
+room mapping, full intrinsics and independently measured accuracy remain pending.
+No new motion requested or started by agent; controller leftidle for local userstart.
+
+Validation: C++healthtests; 36EKF/144feature-cleanup comparisons; 3storage/4transport/
+9calibrationguard/10onlineIMU/10FIFO tests; Qtcheckshealthlabels and manual-only
+review; Pythoncompile, whitespace checks. Build initialadapter template-qualification
+error fixed, finaladapters andtestbuilt. Binarycompute traces unchanged on goodtakes.
+Code notes docs/TRACKING_HEALTH.md; map image tracking-recovery/natural-local-map.png.
+
+## User moving run and publication checkpoint — 2026-10-04
+
+User reports the live test works well, then loses points at a plain wall.
+Saved run data/native-live/20261004_201533_ymht70tv: all2401frames, strict raw
+checks pass, verified archive saved. Epoch0:812health-qualified poses and186
+retained landmarks, usable6.168–46.705s. Visual corrections expire46.755s
+(1.050s age); epoch1 restarts46.805s and returns to ready without depth lock.
+This is first fresh moving live evidence for V3, not independent accuracy or
+uninterrupted room mapping acceptance. Prior map retained in map-epoch-0.ply.
+
+User requested code save/push. Checkpoint new-case-local-map-2026-10-04 includes
+new-case calibration results, withdrawn old approvals, code/patches/tests and
+updated recovery instructions. Large raw bags and transient logs stay local.
+47 Python tests, C++ health test and existing-machine restore check pass.
+Drone use remains a future integration: this build has no autopilot odometry
+interface, static recovery creates a new origin, and calibration/flight dynamics
+are unvalidated. It estimates local pose, not georeferenced coordinates.

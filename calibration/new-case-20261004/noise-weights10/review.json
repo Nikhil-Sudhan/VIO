@@ -1,0 +1,54 @@
+{
+  "accepted_as_identified_sensor_noise": false,
+  "accepted_for_hardware_estimation": false,
+  "purpose": "Provisional weights for exploratory joint fitting and sensitivity tests only",
+  "method": "Across explicitly selected quiet windows and axes, take max(AD*sqrt(tau)) for 0.005\u20130.3 s and max(AD*sqrt(3/tau)) for 10\u201330 s; multiply all scalar model weights by recorded inflation.",
+  "interpretation": "The long-time quantity includes white/colored noise, temperature/tilt drift and is an empirical surrogate, not a detected +1/2 random-walk slope or statistical confidence bound.",
+  "short_envelope_axes_si": [
+    0.00010877154466348197,
+    7.357963188996946e-05,
+    4.271838856381456e-05,
+    0.0013679483025289478,
+    0.002194657670729368,
+    0.000818612194547322
+  ],
+  "long_envelope_axes_si": [
+    1.1172744905164804e-05,
+    6.502910826569648e-06,
+    7.773678442200253e-06,
+    0.00023326406290336934,
+    0.00024574921071147894,
+    0.0013079819165366822
+  ],
+  "inflation": 10.0,
+  "yaml_values": {
+    "rostopic": "/imu0",
+    "update_rate": 204.0355927763645,
+    "gyroscope_noise_density": 0.0010877154466348196,
+    "accelerometer_noise_density": 0.021946576707293677,
+    "gyroscope_random_walk": 0.00011172744905164805,
+    "accelerometer_random_walk": 0.013079819165366822
+  },
+  "sources": [
+    {
+      "report": "calibration/new-case-20261004/stationary-noise/report.json",
+      "report_sha256": "29c7a7182b2cb1bd9e63d5fdfc9f6ea3e93f66bdf61c166e45b2fab837087c11",
+      "allan_sha256": "a126fc2261b53af78911d20c27fc64570bb1a4d7faa093a2f47ceea5a5ecd79c",
+      "window_s": [
+        30.001169134,
+        602.1369159420001
+      ]
+    }
+  ],
+  "sample_rate_source": "data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev/analysis/report.json",
+  "limits": [
+    "Quiet windows are not concatenated and raw data remains unchanged.",
+    "No accepted long-term random-walk identification exists.",
+    "Compare 0.5x and 2x weights, residuals, covariance and independent motion data before any calibration acceptance.",
+    "New-case 572-second stationary window reviewed in stationary-review.json; temperature varies and no long-term random-walk identification is available."
+  ],
+  "official_guidance": [
+    "https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model",
+    "https://docs.openvins.com/gs-calibration.html"
+  ]
+}

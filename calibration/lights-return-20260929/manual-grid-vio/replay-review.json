@@ -1,0 +1,24 @@
+{
+  "straight-slide-new-fit-aprilgrid-output-20260929": {
+    "complete": true,
+    "output_poses": 781,
+    "maximum_position_norm_m": 0.3750480940447338,
+    "max_landmarks": 67,
+    "source": "/home/pluto/vio-project/data/straight-slide-new-fit-aprilgrid-output-20260929"
+  },
+  "controlled-new-fit-aprilgrid-output-20260929": {
+    "complete": true,
+    "output_poses": 608,
+    "maximum_position_norm_m": 0.079788054144559,
+    "max_landmarks": 43,
+    "source": "/home/pluto/vio-project/data/controlled-new-fit-aprilgrid-output-20260929"
+  },
+  "translation-new-fit-aprilgrid-output-20260929": {
+    "complete": false,
+    "output_poses": 412,
+    "maximum_position_norm_m": 0.37889813833648545,
+    "max_landmarks": 0,
+    "source": "/home/pluto/vio-project/data/translation-new-fit-aprilgrid-output-20260929"
+  },
+  "conclusion": "Promising grid-assisted camera/IMU VIO on straight slide and controlled yaw; independent earlier translation exited with nonpositive covariance. Not validated walking VIO. Bounded slow manual trial only."
+}

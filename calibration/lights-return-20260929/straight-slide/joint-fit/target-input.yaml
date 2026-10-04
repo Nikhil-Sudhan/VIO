@@ -1,0 +1,7 @@
+# Preliminary target geometry from supplied PDF. Actual printed scale is UNMEASURED.
+# User has no ruler; printing on A4 does not independently verify 100% scale.
+target_type: aprilgrid
+tagCols: 6
+tagRows: 6
+tagSize: 0.020
+tagSpacing: 0.3

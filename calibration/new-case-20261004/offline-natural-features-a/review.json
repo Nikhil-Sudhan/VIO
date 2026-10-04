@@ -1,0 +1,19 @@
+{
+  "scope": "offline natural-feature replay candidate only; not accepted for live estimation or navigation",
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "mounting_id": "IMX219-LSM6DSOX-screw-fixed-three-pin-case-20261004",
+  "joint_fit": "../joint-fit-a2",
+  "joint_comparison": "../joint-comparison/comparison.json",
+  "camera_intrinsics": "existing camera-only values provisionally checked on new observations; fresh full-field lens calibration incomplete",
+  "noise": "new stationary-run envelope; long-term random walk unidentified",
+  "target": "same A4 print, nominal 20mm tags; physical metric scale unmeasured",
+  "aprilgrid_feature_tracker": false,
+  "aprilgrid_zupt_veto": false,
+  "physical_grid_present_in_recording": true,
+  "files_sha256": {
+    "imu.yaml": "7e079eae338a0f7cf6e5b2d1258f335ca8473537901080d167617b00e56ac845",
+    "imucam.yaml": "384079054d7ee728f115c8ec810baa99accd56de41bdbfb59c076de591baff55",
+    "estimator_config.yaml": "7c60f97c1dabc0a872dd60cac0fd1e00325736db901f73744743f3f1618f5155"
+  }
+}

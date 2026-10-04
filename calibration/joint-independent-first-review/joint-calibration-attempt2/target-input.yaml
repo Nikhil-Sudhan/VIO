@@ -1,0 +1,9 @@
+# User ruler measurement 2026-09-26: six-tag extent 133 x 133 mm.
+# Includes 6 tag widths + 5 gaps; gap/tag = 0.3.
+# Preserve screen zoom. Total measurement uncertainty not independently quantified.
+# See screen-measurement-20260926.json.
+target_type: aprilgrid
+tagCols: 6
+tagRows: 6
+tagSize: 0.017733333333333335
+tagSpacing: 0.3

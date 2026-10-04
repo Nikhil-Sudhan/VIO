@@ -1,0 +1,4 @@
+{
+  "scope": "Offline experiment only: recognize stops after initial motion using upstream visual stationarity gate (rs_d455 settings). Must verify actual motion is not suppressed.",
+  "accepted": false
+}

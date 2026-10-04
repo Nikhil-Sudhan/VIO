@@ -1,0 +1,4 @@
+Setting printing level to: INFO
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+ERROR: Nonfinite or invalid IMU input

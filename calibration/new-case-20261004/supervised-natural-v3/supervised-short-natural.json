@@ -1,0 +1,31 @@
+{
+  "scope": "Recorded-data software evaluation. Health gates are not ground truth or accuracy validation.",
+  "folder": "/home/pluto/vio-project/data/new-case-20261004/supervised-short-natural",
+  "processed_frames": 561,
+  "valid_pose_count": 416,
+  "segments": [
+    {
+      "epoch": 0,
+      "camera_frames": 561,
+      "valid_pose_count": 416,
+      "states": {
+        "initializing": 19,
+        "initializing_depth": 18,
+        "ready": 108,
+        "tracking": 330,
+        "stationary": 86
+      },
+      "lost_events": [],
+      "persistent_landmarks": 95,
+      "first_valid_time_s": 9.306843307000001,
+      "last_valid_time_s": 30.050627307000003,
+      "max_position_norm_m": 0.19435776401585161,
+      "final_position_norm_m": 0.008806478328802549,
+      "max_speed_m_s": 0.1705417717302547,
+      "final_speed_m_s": 0.0032679060936775983
+    }
+  ],
+  "lost_events": [],
+  "map_scope": "Sparse local landmarks only. Independent reset frames are not registered; no loop closure.",
+  "navigation_validated": false
+}

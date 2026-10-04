@@ -1,0 +1,39 @@
+{
+  "scope": "Relative camera/gyro rotation diagnostic using native target poses and existing intrinsics; no translation or calibration acceptance",
+  "pairs": 193,
+  "gyro_bias_rad_s": [
+    0.0062057013404923835,
+    -0.009980088887389443,
+    0.001877463214585015
+  ],
+  "nominal_errors_p50_p95_max_deg": [
+    1.0543593475884292,
+    4.201734230057292,
+    8.544456236071968
+  ],
+  "fitted_errors_p50_p95_max_deg": [
+    0.8232457429945275,
+    2.3500477718774135,
+    5.260872267354691
+  ],
+  "fitted_R_cam_imu": [
+    [
+      0.9985698718329303,
+      -0.04732462535274388,
+      0.024871487747771672
+    ],
+    [
+      0.031887159246562234,
+      0.1538060418957065,
+      -0.9875864066255472
+    ],
+    [
+      0.04291177161047427,
+      0.986967112578529,
+      0.15509512740783288
+    ]
+  ],
+  "offset_s": 0.013416791203315258,
+  "rotation_change_from_user_nominal_deg": 9.403670859641279,
+  "optimizer_success": true
+}

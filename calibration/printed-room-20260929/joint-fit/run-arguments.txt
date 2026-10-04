@@ -1,0 +1,6 @@
+Actual bag interval: 80 to 175 seconds
+Feature extraction: 10 Hz
+Source bag: /home/pluto/vio-project/data/printed-calibration-20260929.bag
+Camera input: /home/pluto/vio-project/calibration/joint-preparation/camera-intrinsics.yaml
+Target input: /home/pluto/vio-project/calibration/printed-room-20260929/target-ASSUMED-A4.yaml
+Noise input: /home/pluto/vio-project/calibration/noise-provisional-weights-10x/noise.yaml

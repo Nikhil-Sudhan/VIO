@@ -1,0 +1,21 @@
+{
+  "scope": "Diagnostic only: same-image target PnP and assumed 20 mm printed tag scale are not independent ground truth. Fixed initial extrinsic used for lever arm; filter calibrates it online. One initial rigid alignment, no scale fitting.",
+  "paired_samples": 176,
+  "relative_position_error_p50_p95_max_m": [
+    0.10208600701035729,
+    0.3203777299315028,
+    0.34290455102320533
+  ],
+  "orientation_error_p50_p95_max_deg": [
+    2.3582630408527376,
+    2.9416598794261475,
+    3.6645519218219733
+  ],
+  "target_implied_max_excursion_m": 0.08278414336792317,
+  "estimated_max_excursion_from_first_pair_m": 0.3753550223276484,
+  "last_difference_m": [
+    -0.23444609812484277,
+    0.002995314999802323,
+    0.21847654235910416
+  ]
+}

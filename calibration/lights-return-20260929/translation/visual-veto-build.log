@@ -1,0 +1,148 @@
+[1/5] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o
+[2/5] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o
+[3/5] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterZeroVelocity.cpp.o
+In file included from /home/pluto/vio-project/deps/usr/include/boost/math/distributions/chi_squared.hpp:13,
+                 from /home/pluto/vio-project/vendor/open_vins/ov_msckf/src/update/UpdaterZeroVelocity.cpp:36:
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘boost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::operator()() [with T = long double; result_type = std::pair<long double, long double>]’:
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/fraction.hpp:217:20:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int]’
+  217 |    value_type v = g();
+      |                   ~^~
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/fraction.hpp:252:31:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double]’
+  252 |    return continued_fraction_a(g, factor, max_iter);
+      |           ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:314:68:   required from ‘T boost::math::detail::upper_gamma_fraction(T, T, T) [with T = long double]’
+  314 |    return 1 / (z - a + 1 + boost::math::tools::continued_fraction_a(f, eps));
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:1176:44:   required from ‘T boost::math::detail::gamma_incomplete_imp(T, T, bool, bool, const Policy&, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+ 1176 |          result += log(upper_gamma_fraction(a, x, policies::get_epsilon<T, Policy>()));
+      |                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:356:67:   required from ‘std::tuple<T, T, T> boost::math::detail::gamma_p_inverse_func<T, Policy>::operator()(const T&) const [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+  356 |       f = static_cast<T>(boost::math::detail::gamma_incomplete_imp(
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  357 |                static_cast<value_type>(a),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~                         
+  358 |                static_cast<value_type>(x),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~                         
+  359 |                true, invert,
+      |                ~~~~~~~~~~~~~                                       
+  360 |                forwarding_policy(), &ft));
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~                           
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/roots.hpp:550:35:   required from ‘T boost::math::tools::detail::second_order_root_finder(F, T, T, T, int, uintmax_t&) [with Stepper = halley_step; F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int]’
+  550 |             detail::unpack_tuple(f(result), f0, f1, f2);
+      |                                  ~^~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/roots.hpp:723:64:   required from ‘T boost::math::tools::halley_iterate(F, T, T, T, int, uintmax_t&) [with F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int]’
+  723 |    return detail::second_order_root_finder<detail::halley_step>(f, guess, min, max, digits, max_iter);
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:446:33:   required from ‘T boost::math::detail::gamma_p_inv_imp(T, T, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+  446 |    guess = tools::halley_iterate(
+      |            ~~~~~~~~~~~~~~~~~~~~~^
+  447 |       detail::gamma_p_inverse_func<T, Policy>(a, p, false),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  448 |       guess,
+      |       ~~~~~~                     
+  449 |       lower,
+      |       ~~~~~~                     
+  450 |       tools::max_value<T>(),
+      |       ~~~~~~~~~~~~~~~~~~~~~~     
+  451 |       digits,
+      |       ~~~~~~~                    
+  452 |       max_iter);
+      |       ~~~~~~~~~                  
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:525:34:   required from ‘boost::math::tools::promote_args_t<RT1, RT2> boost::math::gamma_p_inv(T1, T2, const Policy&) [with T1 = double; T2 = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>; tools::promote_args_t<RT1, RT2> = double]’
+  525 |    return detail::gamma_p_inv_imp(
+      |           ~~~~~~~~~~~~~~~~~~~~~~~^
+  526 |       static_cast<result_type>(a),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  527 |       static_cast<result_type>(p), pol);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/distributions/chi_squared.hpp:169:39:   required from ‘RealType boost::math::quantile(const chi_squared_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>]’
+  169 |    return 2 * boost::math::gamma_p_inv(degrees_of_freedom / 2, p, Policy());
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/vendor/open_vins/ov_msckf/src/update/UpdaterZeroVelocity.cpp:61:49:   required from here
+   61 |     chi_squared_table[i] = boost::math::quantile(chi_squared_dist, 0.95);
+      |                            ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:299:16: note: parameter passing for argument of type ‘std::pair<long double, long double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  299 |    result_type operator()()
+      |                ^~~~~~~~
+[4/5] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o
+[5/5] Linking CXX shared library libov_msckf_lib.so
+[1/4] Building CXX object CMakeFiles/vio_stream.dir/stream.cpp.o
+In file included from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/JPLQuat.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/PoseJPL.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/IMU.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_msckf/src/state/State.h:33,
+                 from /home/pluto/vio-project/adapter/stream.cpp:21:
+/home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/Type.h: In member function ‘virtual std::shared_ptr<ov_type::Type> ov_type::Type::check_if_subvariable(std::shared_ptr<ov_type::Type>)’:
+/home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/Type.h:119:82: warning: unused parameter ‘check’ [-Wunused-parameter]
+  119 |   virtual std::shared_ptr<Type> check_if_subvariable(const std::shared_ptr<Type> check) { return nullptr; }
+      |                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /home/pluto/vio-project/deps/usr/include/eigen3/Eigen/Core:341,
+                 from /home/pluto/vio-project/deps/usr/include/eigen3/Eigen/StdVector:14,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_msckf/src/core/VioManager.h:25,
+                 from /home/pluto/vio-project/adapter/stream.cpp:19:
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, 3, 3>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1, 1, 1, 3> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, 3, 3>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2/4] Linking CXX executable vio_stream
+[3/4] Building CXX object CMakeFiles/vio_replay.dir/replay.cpp.o
+In file included from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/JPLQuat.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/PoseJPL.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/IMU.h:25,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_msckf/src/state/State.h:33,
+                 from /home/pluto/vio-project/adapter/replay.cpp:15:
+/home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/Type.h: In member function ‘virtual std::shared_ptr<ov_type::Type> ov_type::Type::check_if_subvariable(std::shared_ptr<ov_type::Type>)’:
+/home/pluto/vio-project/adapter/../vendor/open_vins/ov_core/src/types/Type.h:119:82: warning: unused parameter ‘check’ [-Wunused-parameter]
+  119 |   virtual std::shared_ptr<Type> check_if_subvariable(const std::shared_ptr<Type> check) { return nullptr; }
+      |                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /home/pluto/vio-project/deps/usr/include/eigen3/Eigen/Core:341,
+                 from /home/pluto/vio-project/deps/usr/include/eigen3/Eigen/StdVector:14,
+                 from /home/pluto/vio-project/adapter/../vendor/open_vins/ov_msckf/src/core/VioManager.h:25,
+                 from /home/pluto/vio-project/adapter/replay.cpp:13:
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, 3, 3>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1, 1, 1, 3> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, 3, 3>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4/4] Linking CXX executable vio_replay

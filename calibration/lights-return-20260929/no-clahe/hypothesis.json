@@ -1,0 +1,4 @@
+{
+  "scope": "Offline only: test whether contrast amplification of visible grain harms KLT tracks. No calibration/noise/triangulation-gate changes.",
+  "accepted": false
+}

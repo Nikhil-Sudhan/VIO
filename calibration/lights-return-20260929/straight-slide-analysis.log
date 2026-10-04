@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/pluto/vio-project/tools/analyse_recording.py", line 196, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/pluto/vio-project/tools/analyse_recording.py", line 95, in main
+    map_time, clock_info, residuals, widths, selected = fit_clock(anchors)
+                                                        ~~~~~~~~~^^^^^^^^^
+  File "/home/pluto/vio-project/tools/clock_mapping.py", line 29, in fit_clock
+    if mask.sum()<5:raise ValueError('Insufficient local clock observations; reject rather than invent mapping')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Insufficient local clock observations; reject rather than invent mapping

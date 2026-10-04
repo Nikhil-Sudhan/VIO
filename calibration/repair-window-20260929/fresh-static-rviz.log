@@ -1,0 +1,37 @@
+[rospack] Error: no such package media_export
+[librospack]: error while executing command
+[ERROR] [1790693797.054717765]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/visibility.svg'
+[ERROR] [1790693797.144042449]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/rotate.svg'
+[ERROR] [1790693797.144108229]: Could not load pixmap 'package://rviz/icons/rotate.svg' -- using default cursor instead.
+[ERROR] [1790693797.144603176]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/rotate_cam.svg'
+[ERROR] [1790693797.144626874]: Could not load pixmap 'package://rviz/icons/rotate_cam.svg' -- using default cursor instead.
+[ERROR] [1790693797.144753120]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/move2d.svg'
+[ERROR] [1790693797.144771985]: Could not load pixmap 'package://rviz/icons/move2d.svg' -- using default cursor instead.
+[ERROR] [1790693797.144881827]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/move_z.svg'
+[ERROR] [1790693797.144901637]: Could not load pixmap 'package://rviz/icons/move_z.svg' -- using default cursor instead.
+[ERROR] [1790693797.145313162]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/zoom.svg'
+[ERROR] [1790693797.145332231]: Could not load pixmap 'package://rviz/icons/zoom.svg' -- using default cursor instead.
+[ERROR] [1790693797.145847858]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/crosshair.svg'
+[ERROR] [1790693797.145871315]: Could not load pixmap 'package://rviz/icons/crosshair.svg' -- using default cursor instead.
+[ERROR] [1790693797.147933122]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/cursor.svg'
+[ERROR] [1790693797.208703322]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/FocusCamera.svg'
+[ERROR] [1790693797.209250330]: Could not load pixmap 'package://rviz/icons/crosshair.svg' -- using default cursor instead.
+[ERROR] [1790693797.210025095]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/Measure.svg'
+[ERROR] [1790693797.210264867]: Could not load pixmap 'package://rviz/icons/crosshair.svg' -- using default cursor instead.
+[ERROR] [1790693797.214613775]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/PublishPoint.svg'
+[ERROR] [1790693797.215155452]: Could not load pixmap 'package://rviz/icons/rotate.svg' -- using default cursor instead.
+[ERROR] [1790693797.215182556]: Could not load pixmap 'package://rviz/icons/rotate_cam.svg' -- using default cursor instead.
+[ERROR] [1790693797.215194516]: Could not load pixmap 'package://rviz/icons/move2d.svg' -- using default cursor instead.
+[ERROR] [1790693797.215207568]: Could not load pixmap 'package://rviz/icons/move_z.svg' -- using default cursor instead.
+[ERROR] [1790693797.215221212]: Could not load pixmap 'package://rviz/icons/zoom.svg' -- using default cursor instead.
+[ERROR] [1790693797.215233802]: Could not load pixmap 'package://rviz/icons/crosshair.svg' -- using default cursor instead.
+[ERROR] [1790693797.220286474]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/Displays.svg'
+[ERROR] [1790693797.235088990]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/Views.svg'
+[ERROR] [1790693797.240282515]: Could not load pixmap '/home/pluto/vio-project/deps/usr/share/rviz/icons/classes/Time.svg'
+[ INFO] [1790693795.807636260]: rviz version 1.14.25
+[ INFO] [1790693795.807669418]: compiled against Qt version 6.8.2
+[ INFO] [1790693795.807675158]: compiled against OGRE version 1.12.10 (Rhagorthua)
+[ INFO] [1790693795.811018099]: Forcing OpenGl version 0.
+[ INFO] [1790693797.034873723]: Stereo is NOT SUPPORTED
+[ INFO] [1790693797.034938466]: OpenGL device: V3D 7.1.10.2
+[ INFO] [1790693797.034956406]: OpenGl version: 3.1 (GLSL 1.4).

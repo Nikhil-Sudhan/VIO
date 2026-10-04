@@ -1,0 +1,278 @@
+/home/pluto/vio-project/data/repair-live-20260929/20260929_202635_if7tp65t
+[1:13:50.076240488] [7863]  INFO Camera camera_manager.cpp:340 libcamera v0.7.2+rpt20260817
+[1:13:50.089235570] [7876]  INFO RPI pisp.cpp:725 libpisp version v1.7.0 07-08-2026 (09:22:13)
+[1:13:50.101777231] [7876]  INFO IPAProxy ipa_proxy.cpp:184 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx219.json
+[1:13:50.112649412] [7876]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10' for pipeline handler rpi/pisp
+[1:13:50.112699770] [7876]  INFO RPI pisp.cpp:1186 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10 to CFE device /dev/media3 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[1:13:50.116596920] [7876]  WARN V4L2 v4l2_pixelformat.cpp:346 Unsupported V4L2 pixel format Nc30
+[1:13:50.116649259] [7876]  WARN V4L2 v4l2_pixelformat.cpp:346 Unsupported V4L2 pixel format Nc12
+[1:13:50.117179679] [7863]  INFO Camera camera.cpp:1216 configuring streams: (0) 820x616-YUV420/SMPTE170M (1) 1640x1232-BGGR_PISP_COMP1/RAW
+[1:13:50.117308405] [7876]  INFO RPI pisp.cpp:1502 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10 - Selected sensor format: 1640x1232-SBGGR10_1X10/RAW - Selected CFE format: 1640x1232-PC1B/RAW
+{
+  "schema": 2,
+  "created_utc": "2026-09-29T14:56:35.425606+00:00",
+  "status": "failed",
+  "purpose": "raw calibration/acquisition input, NOT calibrated VIO",
+  "calibrated": false,
+  "requested_seconds": 90.0,
+  "camera_requested": {
+    "status": "candidate; not calibrated",
+    "sensor_model": "imx219",
+    "sensor": {
+      "output_size": [
+        1640,
+        1232
+      ],
+      "bit_depth": 10
+    },
+    "main": {
+      "size": [
+        820,
+        616
+      ],
+      "format": "YUV420"
+    },
+    "controls": {
+      "FrameRate": 20,
+      "AeEnable": false,
+      "ExposureTime": 16000,
+      "AnalogueGain": 4.0
+    },
+    "transform": "identity",
+    "expected_scaler_crop": [
+      0,
+      0,
+      3280,
+      2464
+    ],
+    "buffer_count": 8,
+    "queue": false,
+    "notes": "Provisional indoor demo: original calibrated geometry, 16ms exposure and gain4. Move slowly. Timing is not recalibrated."
+  },
+  "capture_mode": "camera-and-imu",
+  "temperature_recorded": true,
+  "image_format": "png",
+  "experimental_calibration": true,
+  "pid": 7863,
+  "finish_on_usr1": true,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "acquisition_source_sha256": {
+    "record.py": "966b89ff14bfc6c7ba5f28127481e7ab51a9a0f2170e45673d9d24e279acb2bb",
+    "imu_fifo_probe.py": "ca9438e0fc4e0e20e5bdb5d17ef8969ca15de10a72bb20ba0a00d27af10f0209",
+    "live_bridge.py": "3cefe9d885a8f3727b97be9aba6206ce5a949a996e16221c787aaa6731c1b269",
+    "online_imu.py": "549afac6fb84f11cc585d120c7729aa38e17bf7107ab73ecf616ce4d0fd58939",
+    "stream_protocol.py": "a47634a7b72479e66fb40b3fba2428539606fcb8bf6bdfcfe83cb81afedc2373",
+    "calibration_guard.py": "dc3cd67c5351a55dcca509036fe83fa313fe26e26bdd6ce2d5f8e4f2da7f6b22"
+  },
+  "camera_timestamp": "unmodified SensorTimestamp; not an exposure midpoint",
+  "imu_timestamp": "FIFO hardware ticks and host clock read brackets; mapping is derived separately",
+  "clock_start": {
+    "boottime_ns": 4429792328196,
+    "monotonic_ns": 4429792329288
+  },
+  "frames_enqueued": 2,
+  "frames_written": 2,
+  "image_queue_high_water": 1,
+  "raw_queue_high_water": 2,
+  "raw_records_written": 135,
+  "fifo_words": 1290,
+  "fifo_max_level": 30,
+  "fifo_overflow_or_full_batches": 0,
+  "estimator_binary_sha256": "6ced1d54e63c87fa519ee2f02f5641a3f43018bf7df23712b3b63b618073ba2b",
+  "errors": [
+    "Traceback (most recent call last):\n  File \"/home/pluto/vio-project/tools/live_bridge.py\", line 52, in run\n    elif item['kind']=='fifo':self.emit_groups(self.decoder.push(item))\n                              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/pluto/vio-project/tools/live_bridge.py\", line 36, in emit_groups\n    ns=self.clock.map_sample(group['ticks'],group['receipt_ns'])\n  File \"/home/pluto/vio-project/tools/online_imu.py\", line 120, in map_sample\n    raise ValueError('Clock observations stale')\nValueError: Clock observations stale\n",
+    "Estimator exit -15; estimator.log tail:\n"
+  ],
+  "estimator_config": "/home/pluto/vio-project/calibration/repair-window-20260929/manual-continuous/estimator_config.yaml",
+  "estimator_config_sha256": "0b2a5442c4f1cd4bc9bece669e436670fbfcd2bfbbc6fdef5667a6d07a257fa8",
+  "calibration_review": {
+    "accepted_for_hardware_estimation": false,
+    "approved_for_manual_development_demo": true,
+    "scope": "manual development demo; NOT validated navigation",
+    "mounting_id": "IMX219-LSM6DSOX-printed-room-20260929-reported-flex-continuous-stop-20260929",
+    "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+    "imu_configured_registers": {
+      "7": 0,
+      "8": 0,
+      "9": 85,
+      "10": 70,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "16": 88,
+      "17": 84,
+      "18": 68,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 32
+    },
+    "files_sha256": {
+      "estimator_config.yaml": "0b2a5442c4f1cd4bc9bece669e436670fbfcd2bfbbc6fdef5667a6d07a257fa8",
+      "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+      "imucam.yaml": "c9785421d251cae3ad290efc5241d4483401c9bfa76cc095bb4aac0e85d68185"
+    },
+    "supporting_reports": {
+      "fit-results.txt": "4387015650020a2c29cd1c7e3d1e9e96a86f382fde7f4d152328ac18691352e0",
+      "mount-instability.json": "c3fa49f376aae354f7c83e2337199e356814cf47c9c859096585dd37acc65fd6",
+      "preparation.json": "e7e36f8eb33a514fa9f1b17d83b07053e1f336fce66efb1933dd6efb040b181a",
+      "failed-fast-replay.json": "38b2c76e5ba7770506b031fd36355d2e68e28481a242fcaef4f9e6c10993415e",
+      "repair-validation.json": "987d9d02b2d505a0748b81a7f4e11b1352e0d951d0062b1f5c3c0345ea041892",
+      "electrical-self-test.json": "140a873339deb1cac1e07fd7169b6368fd4d6b0c138779305cf45775deb2aefa",
+      "motion-mismatch.json": "1ffbf2e0194fe6ea23bacf2ee03f969be57ce52114779a525b3b58aef1e0f424",
+      "stop-test.json": "f8dba41351a0b10a99044a46e685d16842d9daf8bff3ef1a45587ca5149c32d6"
+    },
+    "candidate_parameters": {
+      "rotation_from_nominal_deg": 12.595792288103315,
+      "sensor_offset_norm_m": 0.0439953440116064,
+      "timeshift_cam_imu_s": 0.004108977340000053
+    },
+    "limitations": [
+      "Printed target metric scale assumed from PDF, not measured.",
+      "User reports inadequate cardboard support; a changing transform cannot be represented by this calibration.",
+      "16ms exposure and unmodeled rolling shutter; existing camera intrinsics used.",
+      "Empirical provisional noise weights; fit on same recording is not independent trajectory validation.",
+      "No navigation acceptance; candidate replay required."
+    ],
+    "display_note": "CAMERA/IMU MOTION MISMATCH - DEVELOPMENT ONLY",
+    "authorization": "User explicitly requests actual output today with known shaky cardboard mount and grants Pi access. Bounded slower manual live attempt only.",
+    "offline_motion_test_passed": false,
+    "change": "Enable unchanged inertial zero-velocity detector after startup. No noise/gating or calibration changes. Moving VIO still failed validation.",
+    "moving_vio_validated": false
+  },
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "imu_internal_freq_fine_raw": 242,
+  "camera_configuration": {
+    "use_case": "video",
+    "transform": "<libcamera.Transform 'identity'>",
+    "colour_space": "<libcamera.ColorSpace 'SMPTE170M'>",
+    "buffer_count": 8,
+    "queue": false,
+    "main": {
+      "format": "YUV420",
+      "size": [
+        820,
+        616
+      ],
+      "preserve_ar": true,
+      "stride": 896,
+      "framesize": 827904
+    },
+    "lores": null,
+    "raw": {
+      "format": "BGGR_PISP_COMP1",
+      "size": [
+        1640,
+        1232
+      ],
+      "stride": 1664,
+      "framesize": 2050048
+    },
+    "controls": {
+      "NoiseReductionMode": "NoiseReductionModeEnum.Off",
+      "FrameDurationLimits": [
+        33333,
+        33333
+      ],
+      "FrameRate": 20,
+      "AeEnable": false,
+      "ExposureTime": 16000,
+      "AnalogueGain": 4.0
+    },
+    "sensor": {
+      "bit_depth": 10,
+      "output_size": [
+        1640,
+        1232
+      ]
+    },
+    "display": "main",
+    "encode": "main"
+  },
+  "camera_properties": {
+    "Model": "imx219",
+    "UnitCellSize": [
+      1120,
+      1120
+    ],
+    "ColorFilterArrangement": 0,
+    "Location": 2,
+    "Rotation": 180,
+    "PixelArraySize": [
+      3280,
+      2464
+    ],
+    "PixelArrayActiveAreas": [
+      [
+        8,
+        8,
+        3280,
+        2464
+      ]
+    ],
+    "ScalerCropMaximum": [
+      0,
+      0,
+      3280,
+      2464
+    ],
+    "PipelineHandler": "rpi/pisp",
+    "SystemDevices": [
+      20753,
+      20754,
+      20755,
+      20756,
+      20757,
+      20758,
+      20759,
+      20739,
+      20740,
+      20741,
+      20742
+    ],
+    "SensorSensitivity": 1.0
+  },
+  "camera_delivery": "Picamera2 post_callback per successful request",
+  "completion_reason": "error",
+  "live_transport": {
+    "scope": "Experimental physical stream; output requires separate validation",
+    "imu_sent": 1,
+    "camera_sent": 0,
+    "clock_warmup_imu_excluded": 425,
+    "clock_warmup_camera_excluded": 1,
+    "event_queue_high_water": 1,
+    "normal_end_sent": false,
+    "estimator_exit_code": -15,
+    "estimator_error_tail": "",
+    "clock_prediction_checks": 0,
+    "clock_prediction_max_abs_us": 0.0
+  },
+  "clock_end": {
+    "boottime_ns": 4433479380894,
+    "monotonic_ns": 4433479382542
+  }
+}

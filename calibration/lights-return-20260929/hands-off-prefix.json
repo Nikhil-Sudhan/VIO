@@ -1,0 +1,15 @@
+{
+  "scope": "User-confirmed hands-off prefix before requested controlled turn",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_214205_goon60aj",
+  "interval_s": [
+    10.042691161,
+    59.979189161
+  ],
+  "position_norm_max_m": 0.0065648644498487955,
+  "position_extent_m": [
+    0.0009525601752983456,
+    0.001831872770902593,
+    8.396108837986182e-05
+  ],
+  "position_endpoint_change_m": 0.0013111682103001431
+}

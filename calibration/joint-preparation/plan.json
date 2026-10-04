@@ -1,0 +1,27 @@
+{
+  "status": "prepared input selection only; joint calibration not run",
+  "source_bag": "data/calibration-poses4.bag",
+  "verified_bag_report": "evidence/calibration-poses4-bag-roundtrip.json",
+  "camera_source": "calibration/camera-820x616-v1/camera.yaml",
+  "camera_source_sha256": "8823b4e213c7b1a4663db663d1b24c3841f62d37a573f2becd4b5d8150edd505",
+  "target": "calibration/target/target-screen-MEASURED.yaml",
+  "camera_to_bag_start_s": 2.054662994,
+  "selected_camera_interval_s": [
+    100,
+    260
+  ],
+  "kalibr_bag_from_to_s": [
+    102.054662994,
+    262.054662994
+  ],
+  "feature_extraction_hz": 10,
+  "original_image_rate_hz": 20.0066,
+  "motion_report": "calibration/motion-preflight-poses4-run3/report.json",
+  "noise_input": null,
+  "requirements": [
+    "Review stationary noise and temperature before assigning fitting weights.",
+    "Keep original hardware-derived timestamps; do not enable Kalibr perform-synchronization.",
+    "Fit spatial and temporal parameters, then review covariance, inertial/visual residuals and repeatability.",
+    "Rolling shutter (~12 ms readout) remains an unmodeled limitation for OpenVINS."
+  ]
+}

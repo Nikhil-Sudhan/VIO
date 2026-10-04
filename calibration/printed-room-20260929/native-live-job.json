@@ -1,0 +1,7 @@
+{
+  "controller_pid": 6187,
+  "started_unix": 1790692031.9731097,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "log": "/home/pluto/vio-project/calibration/printed-room-20260929/native-live-controller.log",
+  "scope": "Live manual development attempt, known unreliable mounting, no navigation acceptance"
+}

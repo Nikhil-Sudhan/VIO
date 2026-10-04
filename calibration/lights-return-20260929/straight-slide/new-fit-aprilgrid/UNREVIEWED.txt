@@ -1,0 +1,1 @@
+Offline candidate only: latest straight-slide Kalibr T_cam_imu and time offset. Intrinsics, noise and filter gates unchanged. No navigation acceptance.

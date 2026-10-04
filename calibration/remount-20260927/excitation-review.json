@@ -1,0 +1,27 @@
+{
+  "scope": "Excitation review from measured IMU; gyro integration is not ground truth and residual bias accumulates",
+  "duration_s": 362.152048765,
+  "static_prefix_bias_rad_s": [
+    0.009124412840437747,
+    -0.009299280747974885,
+    0.0009098120290574291
+  ],
+  "fraction_samples_angular_speed_above_0_05_rad_s": 0.00322021973264058,
+  "angular_speed_rad_s_p50_p95_p99_max": [
+    0.004561338145648191,
+    0.01089848647145515,
+    0.0225706302455814,
+    0.5607783756023548
+  ],
+  "gyro_integrated_angle_from_start_deg_p50_p95_max": [
+    7.104587377579419,
+    12.056858020070068,
+    12.973193888060939
+  ],
+  "gyro_covariance_eigenvalues": [
+    2.9182588301499888e-05,
+    3.710678159112216e-05,
+    0.00010242090810365245
+  ],
+  "joint_calibration_accepted": false
+}

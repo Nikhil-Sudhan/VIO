@@ -1,0 +1,1 @@
+Offline diagnostic only: original inertial zero velocity gate restricted to startup. No live acceptance.

@@ -1,0 +1,1 @@
+Offline diagnostic only. USER NOMINAL AXES, assumed 50 mm forward camera/IMU offset, old time offset. Not measured calibration.

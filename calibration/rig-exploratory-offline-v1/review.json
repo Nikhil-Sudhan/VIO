@@ -1,0 +1,21 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "scope": "ONE exploratory offline replay of recorded Pi measurements; not an accepted live calibration or accuracy result",
+  "camera_imu_source": "data/joint-calibration-attempt2/input-camchain-imucam.yaml",
+  "noise_source": "data/joint-calibration-attempt2/noise-input.yaml",
+  "noise_status": "Conservative empirical fitting surrogates from this sensor; long-term random walk NOT identified",
+  "imu_intrinsic_status": "Factory SI conversion retained; identity correction matrices mean no additional scale/misalignment calibration",
+  "gravity_status": "Standard gravity 9.80665 m/s\u00b2, not locally measured",
+  "estimator_algorithm_settings_template": "config/reference/tumvi-mono/estimator_config.yaml",
+  "calibration_policy": "Fixed fitted camera intrinsics, extrinsics and time offset; no online calibration to hide a bad starting fit",
+  "independent_interval_rotation_difference_deg": 1.43076607167418,
+  "physical_validation": "Unperformed",
+  "files_sha256": {
+    "imucam.yaml": "f2a0926a0db70f94aa13877a76fae61f7bda8315833bc8d9fb5e09164900e41d",
+    "estimator_config.yaml": "69912e12c94cecca349266dd5aa15a184a00d9c14b28527bba3a68b213f8567d",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration.",
+  "approved_for_manual_development_demo": false
+}

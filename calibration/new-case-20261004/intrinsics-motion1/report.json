@@ -1,0 +1,118 @@
+{
+  "purpose": "camera-only intrinsics candidate, NOT metric camera/IMU calibration",
+  "physical_target_size_measured": false,
+  "board_unit": "one displayed tag width",
+  "assumptions": [
+    "flat display",
+    "aspect ratio preserved",
+    "6x6 generated April36h11 grid, gap/tag=0.3"
+  ],
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "attempted_frames": 718,
+  "distinct_views": 2,
+  "detector": {
+    "library": "OpenCV",
+    "version": "4.10.0",
+    "dictionary": "AprilTag36h11",
+    "border_bits": 2,
+    "corner_method": "apriltag"
+  },
+  "motion_filter": {
+    "max_median_motion_px": 2.5,
+    "neighbor_frame_distance": 2,
+    "rejected_frames": 26
+  },
+  "views": [
+    {
+      "path": "data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev/images/005504.pgm",
+      "tags": 14,
+      "ids": [
+        7,
+        8,
+        19,
+        9,
+        14,
+        11,
+        15,
+        31,
+        20,
+        22,
+        27,
+        23,
+        34,
+        35
+      ],
+      "motion_px": 0.015330223366618156,
+      "projected_grid_corners": [
+        [
+          231.4769744873047,
+          333.1382141113281
+        ],
+        [
+          444.7074890136719,
+          336.5392150878906
+        ],
+        [
+          444.16827392578125,
+          141.01612854003906
+        ],
+        [
+          241.6991729736328,
+          129.45138549804688
+        ]
+      ]
+    },
+    {
+      "path": "data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev/images/003336.pgm",
+      "tags": 26,
+      "ids": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        6,
+        10,
+        7,
+        11,
+        12,
+        17,
+        16,
+        15,
+        22,
+        18,
+        24,
+        23,
+        21,
+        25,
+        26,
+        29,
+        30,
+        27,
+        31,
+        34,
+        35
+      ],
+      "motion_px": 1.4061579704284668,
+      "projected_grid_corners": [
+        [
+          335.9864196777344,
+          487.5366516113281
+        ],
+        [
+          566.5579833984375,
+          494.8646545410156
+        ],
+        [
+          562.3090209960938,
+          268.3066711425781
+        ],
+        [
+          347.08526611328125,
+          259.7706604003906
+        ]
+      ]
+    }
+  ],
+  "status": "insufficient varied views"
+}

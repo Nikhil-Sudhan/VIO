@@ -1,0 +1,1 @@
+Offline candidate only. Visual stationarity veto enabled at 0.5 pixels mean frame-to-frame displacement and >20 tracks. All original IMU gates and EKF equations unchanged. No live acceptance.

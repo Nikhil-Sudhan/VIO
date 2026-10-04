@@ -1,0 +1,1 @@
+Analytic covariance unavailable: the pinned Kalibr --recover-covariance path calls an unsupported BSplineMotionError Jacobian and aborts. This run omits that optional step. Residual, weight-sensitivity and independent-repeat checks remain required; no covariance is invented.

@@ -1,0 +1,2 @@
+Usage: vio_replay config.yaml images.csv imu.csv output_dir max_frames(0=all)
+images: #t_ns,path0[,path1]; imu: #t_ns,wx,wy,wz,ax,ay,az (SI, gravity retained)

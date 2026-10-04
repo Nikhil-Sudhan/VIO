@@ -1,0 +1,6 @@
+{
+  "scope": "Offline only; excludes observed nearby foreground fabric; no calibration or gating changes",
+  "mask": "rows >=300 excluded",
+  "source": "calibration/printed-room-20260929/manual-live-attempt",
+  "accepted": false
+}

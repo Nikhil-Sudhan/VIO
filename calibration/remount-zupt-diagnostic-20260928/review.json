@@ -1,0 +1,23 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "scope": "Offline stationary-update reentry diagnostic; not accepted calibration",
+  "mounting_id": "IMX219-LSM6DSOX-remounted-20260928",
+  "nominal_axes": "IMU X camera-forward, Y left, Z up",
+  "evidence": "evidence/remount-check-20260928/yaw-retry-comparison.json",
+  "yaw_rate_correlation": 0.9955184279938972,
+  "limitations": [
+    "Yaw direction supported by captured turns; full rotation, translation and timing not calibrated.",
+    "Camera image fit assumes rotation and reports magnitude disagreement.",
+    "Zero lever arm and old 7.97ms timing retained only as provisional diagnostic guesses.",
+    "No navigation or live configuration accepted."
+  ],
+  "files_sha256": {
+    "estimator_config.yaml": "0b2a5442c4f1cd4bc9bece669e436670fbfcd2bfbbc6fdef5667a6d07a257fa8",
+    "imucam.yaml": "f315f1234907ede75dc098b90c848376cb6ee59c0969de87ca4dbe3ed3a16e49",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "hypothesis": "Nominal run left stationary mode at51.6s, before main motion at60s; allow upstream inertial-gated ZUPT reentry. No threshold changes.",
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
+}

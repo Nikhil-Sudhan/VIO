@@ -1,0 +1,163 @@
+[1/8] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterZeroVelocity.cpp.o
+In file included from /home/pluto/vio-project/deps/usr/include/boost/math/distributions/chi_squared.hpp:13,
+                 from /home/pluto/vio-project/vendor/open_vins/ov_msckf/src/update/UpdaterZeroVelocity.cpp:36:
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘boost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::operator()() [with T = long double; result_type = std::pair<long double, long double>]’:
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/fraction.hpp:217:20:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int]’
+  217 |    value_type v = g();
+      |                   ~^~
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/fraction.hpp:252:31:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double]’
+  252 |    return continued_fraction_a(g, factor, max_iter);
+      |           ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:314:68:   required from ‘T boost::math::detail::upper_gamma_fraction(T, T, T) [with T = long double]’
+  314 |    return 1 / (z - a + 1 + boost::math::tools::continued_fraction_a(f, eps));
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:1176:44:   required from ‘T boost::math::detail::gamma_incomplete_imp(T, T, bool, bool, const Policy&, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+ 1176 |          result += log(upper_gamma_fraction(a, x, policies::get_epsilon<T, Policy>()));
+      |                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:356:67:   required from ‘std::tuple<T, T, T> boost::math::detail::gamma_p_inverse_func<T, Policy>::operator()(const T&) const [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+  356 |       f = static_cast<T>(boost::math::detail::gamma_incomplete_imp(
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  357 |                static_cast<value_type>(a),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~                         
+  358 |                static_cast<value_type>(x),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~                         
+  359 |                true, invert,
+      |                ~~~~~~~~~~~~~                                       
+  360 |                forwarding_policy(), &ft));
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~                           
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/roots.hpp:550:35:   required from ‘T boost::math::tools::detail::second_order_root_finder(F, T, T, T, int, uintmax_t&) [with Stepper = halley_step; F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int]’
+  550 |             detail::unpack_tuple(f(result), f0, f1, f2);
+      |                                  ~^~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/tools/roots.hpp:723:64:   required from ‘T boost::math::tools::halley_iterate(F, T, T, T, int, uintmax_t&) [with F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int]’
+  723 |    return detail::second_order_root_finder<detail::halley_step>(f, guess, min, max, digits, max_iter);
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:446:33:   required from ‘T boost::math::detail::gamma_p_inv_imp(T, T, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+  446 |    guess = tools::halley_iterate(
+      |            ~~~~~~~~~~~~~~~~~~~~~^
+  447 |       detail::gamma_p_inverse_func<T, Policy>(a, p, false),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  448 |       guess,
+      |       ~~~~~~                     
+  449 |       lower,
+      |       ~~~~~~                     
+  450 |       tools::max_value<T>(),
+      |       ~~~~~~~~~~~~~~~~~~~~~~     
+  451 |       digits,
+      |       ~~~~~~~                    
+  452 |       max_iter);
+      |       ~~~~~~~~~                  
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:525:34:   required from ‘boost::math::tools::promote_args_t<RT1, RT2> boost::math::gamma_p_inv(T1, T2, const Policy&) [with T1 = double; T2 = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>; tools::promote_args_t<RT1, RT2> = double]’
+  525 |    return detail::gamma_p_inv_imp(
+      |           ~~~~~~~~~~~~~~~~~~~~~~~^
+  526 |       static_cast<result_type>(a),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  527 |       static_cast<result_type>(p), pol);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/distributions/chi_squared.hpp:169:39:   required from ‘RealType boost::math::quantile(const chi_squared_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>]’
+  169 |    return 2 * boost::math::gamma_p_inv(degrees_of_freedom / 2, p, Policy());
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/vendor/open_vins/ov_msckf/src/update/UpdaterZeroVelocity.cpp:61:49:   required from here
+   61 |     chi_squared_table[i] = boost::math::quantile(chi_squared_dist, 0.95);
+      |                            ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pluto/vio-project/deps/usr/include/boost/math/special_functions/gamma.hpp:299:16: note: parameter passing for argument of type ‘std::pair<long double, long double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  299 |    result_type operator()()
+      |                ^~~~~~~~
+[2/8] Building CXX object CMakeFiles/run_simulation.dir/src/run_simulation.cpp.o
+[3/8] Linking CXX shared library libov_msckf_lib.so
+[4/8] Building CXX object CMakeFiles/test_sim_meas.dir/src/test_sim_meas.cpp.o
+[5/8] Linking CXX executable run_simulation
+[6/8] Linking CXX executable test_sim_meas
+[7/8] Building CXX object CMakeFiles/test_sim_repeat.dir/src/test_sim_repeat.cpp.o
+[8/8] Linking CXX executable test_sim_repeat
+-- Install configuration: "Release"
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/Grider_FAST.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/Grider_GRID.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackKLT.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackDescriptor.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackAruco.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackSIM.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiV1.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiV2.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/BsplineSE3.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/LandmarkRepresentation.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/JPLQuat.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Vec.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Landmark.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/PoseJPL.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Type.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/IMU.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/print.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/opencv_yaml_parse.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/quat_ops.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/opencv_lambda_body.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/colors.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/dataset_reader.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/sensor_data.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/Feature.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureInitializerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureDatabase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//plot
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//plot/matplotlibcpp.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamRadtan.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamEqui.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//dynamic
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//dynamic/DynamicInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//static
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//static/StaticInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init/InertialInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init/InertialInitializerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/SimulatorInit.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/helper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_ImuCPIv1.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_ImageReprojCalib.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/State_JPLQuatLocal.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_GenericPrior.h
+-- Installing: /home/pluto/vio-project/install/lib/libov_msckf_lib.so
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/lib/libov_msckf_lib.so" to ""
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterMSCKF.h
+-- Installing: /home/pluto/vio-project/install/include/open_vins//update/UpdaterZeroVelocity.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterSLAM.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/Simulator.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/NoiseManager.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/Propagator.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/StateHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/StateOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/State.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//core
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//core/VioManager.h
+-- Installing: /home/pluto/vio-project/install/include/open_vins//core/VioManagerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROS1Visualizer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROS2Visualizer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROSVisualizerHelper.h
+-- Installing: /home/pluto/vio-project/install/bin/run_simulation
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/run_simulation" to ""
+-- Installing: /home/pluto/vio-project/install/bin/test_sim_meas
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/test_sim_meas" to ""
+-- Installing: /home/pluto/vio-project/install/bin/test_sim_repeat
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/test_sim_repeat" to ""

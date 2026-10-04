@@ -1,0 +1,8 @@
+{
+  "scope": "Offline rotational-deskew replay only; no live approval",
+  "estimator_parameters": "Original v4 unchanged except adding union-of-invalid-borders image mask",
+  "original_data": "data/hardware-demo-poses4-window/images.csv",
+  "corrected_data": "data/deskew-poses4-positive/images.csv",
+  "readout_direction": "Positive row time is an explicit unvalidated hypothesis",
+  "baseline": "data/rig-refinement-poses4-run1"
+}

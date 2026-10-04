@@ -1,0 +1,27 @@
+[
+  {
+    "error": "Causal clock prediction residual exceeds 1 ms",
+    "anchor": {
+      "kind": "clock_anchor",
+      "host_before_boot_ns": 4555965075196,
+      "host_after_boot_ns": 4555965843629,
+      "sensor_ticks_u32": 1704986,
+      "raw_hex": "1a041a00"
+    },
+    "model": [
+      1700542,
+      4555850008545.006,
+      25530.315520236447
+    ],
+    "previous_residuals_us": [
+      -12.833576171875,
+      19.9580966796875,
+      14.122947265625,
+      14.675228515625,
+      -41.707771484375,
+      -61.327888671875,
+      170.872640625,
+      1994.145322265625
+    ]
+  }
+]

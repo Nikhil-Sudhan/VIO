@@ -20,6 +20,7 @@
 #include "aprilgrid_tracker.h"
 #include "state/StateHelper.h"
 #include "state/State.h"
+#include "supervised_vio.h"
 #include "utils/print.h"
 #include "utils/sensor_data.h"
 
@@ -80,6 +81,8 @@ int main(int argc,char **argv) try {
   parser->parse_config("verbosity",verbosity,false);
   ov_core::Printer::setPrintLevel(verbosity);
   ov_msckf::VioManagerOptions options;options.print_and_load(parser);
+  bool supervised=false;
+  parser->parse_config("tracking_supervisor",supervised,false);
   bool aprilgrid=false;
   parser->parse_config("use_aprilgrid_features",aprilgrid,false);
   int aprilgrid_corners=4;bool tag_zupt=false;
@@ -97,7 +100,7 @@ int main(int argc,char **argv) try {
           <<"\nquaternion=Hamilton xyzw, IMU-to-local active rotation"
           <<"\nstate_time=camera-clock seconds relative to origin; IMU time adds estimated dt"
           <<"\ncovariance=OpenVINS 15D error state [orientation,pos,vel,gyro_bias,accel_bias]"
-          <<"\nreset_epoch=0; new process creates a new output directory\n";
+          <<"\nreset_epochs=independent local frames; see tracking.csv and epochs.csv\n";
   poses<<"t_rel_s,px,py,pz,qx,qy,qz,qw,vx,vy,vz,dt_cam_to_imu_s,msckf_features\n";
   timing<<"frame,t_rel_s,processing_ms,initialized,state_current,sensor_to_output_ms,receipt_to_output_ms,pending_frames\n";
   covs<<"#t_rel_s,15x15 row-major OpenVINS error covariance\n";
@@ -106,8 +109,8 @@ int main(int argc,char **argv) try {
   poses<<std::setprecision(17);timing<<std::setprecision(17);covs<<std::setprecision(17);
   manifest<<"aprilgrid_features="<<aprilgrid<<'\n';
   manifest<<"aprilgrid_corners_per_tag="<<aprilgrid_corners<<"\naprilgrid_zupt_veto="<<tag_zupt<<'\n';
-  DisplayVioManager estimator(options,aprilgrid,aprilgrid_corners,tag_zupt);
-  double last_visual_update=-1;
+  SupervisedVio<DisplayVioManager> estimator(options,aprilgrid,aprilgrid_corners,tag_zupt,supervised,output);
+  manifest<<"tracking_supervisor="<<supervised<<"\nposes_csv=raw diagnostics; see tracking.csv and valid-poses.csv for validity and independent epochs\n";
   // Optional native RViz bridge. These are actual OpenVINS tracks and landmarks,
   // never reconstructed from a plotted path or generated for presentation.
   const bool display=std::getenv("VIO_NATIVE_DISPLAY")!=nullptr;
@@ -121,7 +124,7 @@ int main(int argc,char **argv) try {
   auto process=[&]() {
     while(!frames.empty() && have_imu) {
       const Frame &f=frames.front();const double t=seconds(f.ns);
-      const double dt=estimator.get_state()->_calib_dt_CAMtoIMU->value()(0);
+      const double dt=estimator->get_state()->_calib_dt_CAMtoIMU->value()(0);
       if(!std::isfinite(dt) || std::abs(dt)>.5) throw std::runtime_error("Time offset outside supported buffer range");
       if(seconds(last_imu)<t+dt+.01) break;
       if(live_mode && (f.ns>boot_ns()+1000000ULL || boot_ns()-f.ns>1000000000ULL))
@@ -130,16 +133,14 @@ int main(int argc,char **argv) try {
       ov_core::CameraData c;c.timestamp=t;c.sensor_ids={0};c.images={f.gray};
       c.masks={options.use_mask ? options.masks.at(0) : cv::Mat::zeros(f.gray.size(),CV_8UC1)};
       estimator.feed_measurement_camera(c);++processed;
-      auto state=estimator.get_state();
+      auto state=estimator->get_state();
       // initialized() also requires the first normal visual update. Before
       // movement, a successful stationary initialization can remain in ZUPT.
-      const bool current=estimator.initialized_time()>=0 && std::abs(state->_timestamp-t)<1e-7;
-      const bool stationary_update=current && estimator.zero_velocity_update();
-      if(current && !stationary_update && !estimator.get_good_features_MSCKF().empty())
-        last_visual_update=t;
+      const bool current=estimator->initialized_time()>=0 && std::abs(state->_timestamp-t)<1e-7;
+      const bool stationary_update=current && estimator->zero_velocity_update();
       const uint64_t emitted=boot_ns();
       timing<<f.sequence<<','<<t<<','<<std::chrono::duration<double,std::milli>(Clock::now()-start).count()
-        <<','<<estimator.initialized()<<','<<current<<',';
+        <<','<<estimator->initialized()<<','<<current<<',';
       if(live_mode) timing<<double(int64_t(emitted)-int64_t(f.ns))/1e6<<','<<double(int64_t(emitted)-int64_t(f.receipt))/1e6;
       else timing<<"nan,nan";
       timing<<','<<frames.size()<<'\n';
@@ -151,13 +152,13 @@ int main(int argc,char **argv) try {
           throw std::runtime_error("Nonfinite estimator state/covariance");
         poses<<t<<','<<p.x()<<','<<p.y()<<','<<p.z()<<','<<q.x()<<','<<q.y()<<','<<q.z()<<','<<q.w()<<','
           <<v.x()<<','<<v.y()<<','<<v.z()<<','<<state->_calib_dt_CAMtoIMU->value()(0)<<','
-          <<estimator.get_good_features_MSCKF().size()<<'\n';
+          <<estimator->get_good_features_MSCKF().size()<<'\n';
         covs<<t;for(int r=0;r<15;++r) for(int col=0;col<15;++col) covs<<','<<cov(r,col);covs<<'\n';++states;
       }
       if(display && processed%4==0) {
         cv::Scalar luma_mean,luma_std;
         cv::meanStdDev(f.gray,luma_mean,luma_std);
-        cv::Mat tracks=estimator.current_tracks_image();
+        cv::Mat tracks=estimator->current_tracks_image();
         if(!tracks.empty()) {
           if(!cv::imwrite((output/"tracks.tmp.jpg").string(),tracks,{cv::IMWRITE_JPEG_QUALITY,85}))
             throw std::runtime_error("Cannot write tracker image");
@@ -166,12 +167,15 @@ int main(int argc,char **argv) try {
         std::ofstream snap(output/"display.tmp.json");
         snap.exceptions(std::ios::badbit|std::ios::failbit);
         snap<<std::setprecision(17)<<"{\"sequence\":"<<f.sequence<<",\"t\":"<<t
-            <<",\"emitted_boot_ns\":"<<boot_ns()<<",\"initialized\":"<<(current && estimator.initialized()?"true":"false")
-            <<",\"stationary_ready\":"<<(current && !estimator.initialized()?"true":"false")
+            <<",\"emitted_boot_ns\":"<<boot_ns()<<",\"initialized\":"<<(current && estimator->initialized()?"true":"false")
+            <<",\"stationary_ready\":"<<(current && !estimator->initialized()?"true":"false")
+            <<",\"tracking_state\":\""<<estimator.health.state<<"\",\"pose_valid\":"<<(estimator.health.valid?"true":"false")
+            <<",\"reset_epoch\":"<<estimator.epoch<<",\"accepted_visual_features\":"<<estimator->accepted_visual_features()
+            <<",\"tracking_reason\":\""<<estimator.health.reason<<"\""
             <<",\"zero_velocity_update\":"<<(stationary_update?"true":"false")
             <<",\"image_mean_luma\":"<<luma_mean[0]<<",\"image_std_luma\":"<<luma_std[0]
             <<",\"last_msckf_update_age_s\":";
-        if(last_visual_update>=0) snap<<t-last_visual_update; else snap<<"null";
+        if(estimator.health.last_visual>=0) snap<<t-estimator.health.last_visual; else snap<<"null";
         if(current) {
           Eigen::Quaterniond q(state->_imu->Rot().transpose());q.normalize();
           auto p=state->_imu->pos(),v=state->_imu->vel();
@@ -185,9 +189,10 @@ int main(int argc,char **argv) try {
             }
             snap<<']';
           };
-          points("msckf",estimator.get_good_features_MSCKF());
-          points("slam",estimator.get_features_SLAM());
-          points("aruco",estimator.get_features_ARUCO());
+          points("msckf",estimator->get_good_features_MSCKF());
+          points("slam",estimator->get_features_SLAM());
+          points("map",estimator.map_points());
+          points("aruco",estimator->get_features_ARUCO());
         }
         snap<<"}\n";snap.close();
         std::filesystem::rename(output/"display.tmp.json",output/"display.json");
@@ -258,5 +263,6 @@ int main(int argc,char **argv) try {
     <<"\nwall_seconds="<<std::chrono::duration<double>(Clock::now()-begun).count()<<"\ntransport_completed=true\n";
   manifest.flush();
   if(!states) throw std::runtime_error("No initialized states; transport completion is not a VIO pass");
+  estimator.finish();
   return 0;
 } catch(const std::exception &e) {std::cerr<<"ERROR: "<<e.what()<<'\n';return 1;}

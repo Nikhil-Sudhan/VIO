@@ -1,0 +1,60 @@
+{
+  "mounting_id": "IMX219-LSM6DSOX-screw-fixed-three-pin-case-20261004",
+  "status": "Fresh provisional joint calibration fitted and checked; app set to bounded natural-feature manual test. Full lens/noise calibration and grid-free room validation incomplete.",
+  "user_confirmed_rigid": true,
+  "user_confirmed_axes": {
+    "viewpoint": "behind camera looking toward scene",
+    "imu_positive_x": "right",
+    "imu_positive_y": "forward toward camera scene",
+    "imu_positive_z": "up"
+  },
+  "nominal_rotation_only": {
+    "status": "geometric prior from user description, NOT measured calibration; image orientation unverified",
+    "convention": "camera optical x right, y down, z forward; p_camera = R_camera_imu p_imu + t_camera_imu",
+    "R_camera_imu": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "translation_m": null,
+    "timeshift_cam_imu_s": null
+  },
+  "camera_status": "IMX219 detected after reboot; 400 frames at 20.006 Hz; actual scene image inspected upright",
+  "camera_check_session": "data/new-case-20261004/sensor-check/20261004_132106_e8b131av",
+  "imu_check_session": "data/new-case-20261004/imu-check/20261004_130416_k480c_pi",
+  "imu_raw_capture_checks_passed": true,
+  "imu_observed_hz": 204.0614604963331,
+  "imu_samples": 4101,
+  "imu_mean_accel_m_s2": [
+    -0.02951527130755913,
+    0.25822558478490615,
+    10.017638168897758
+  ],
+  "imu_mean_gyro_rad_s": [
+    0.007862450800547195,
+    -0.00958310668912178,
+    -0.00016913861935475408
+  ],
+  "imu_mean_note": "Short stationary diagnostic only; no bias, scale, or noise calibration applied. Gravity observation cannot verify all axis directions.",
+  "next_steps": [
+    "Run bounded live natural-feature test with grid removed, starting at rest.",
+    "Assess pose/feature continuity, latency and return consistency; do not claim persistent mapping from a short tracking demo.",
+    "Obtain broader static camera views and measured target scale before claiming complete calibration."
+  ],
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "combined_raw_capture_checks_passed": true,
+  "active_manual_bundle": "manual-natural-v1"
+}

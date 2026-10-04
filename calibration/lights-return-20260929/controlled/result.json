@@ -1,0 +1,30 @@
+{
+  "session": "/home/pluto/vio-project/data/native-live/20260929_214205_goon60aj",
+  "raw_capture_checks_passed": true,
+  "camera_frames": 6002,
+  "imu_samples": 61845,
+  "max_position_norm_m": 0.09982925471080455,
+  "msckf_update_frames": 0,
+  "camera_rotation_deg": 19.45841634499216,
+  "gyro_rotation_deg": 18.829822673431785,
+  "rotation_comparison_interval_imu_s": [
+    [
+      200,
+      202
+    ],
+    [
+      213,
+      215
+    ]
+  ],
+  "rotation_source": "Mean AprilGrid PnP rotations and resting-bias-corrected integrated gyro; target PnP is diagnostic, not ground truth",
+  "limitations": [
+    "Pure turning provides little triangulation baseline",
+    "Grid clipped and nearby fabric dominates image",
+    "Printed metric scale remains assumed",
+    "Zero velocity detector sometimes accepts while scene moves"
+  ],
+  "moving_vio_validated": false,
+  "start_only_replay_max_position_norm_m": 26.167052575425178,
+  "continuous_replay_max_position_norm_m": 0.08810070152561694
+}

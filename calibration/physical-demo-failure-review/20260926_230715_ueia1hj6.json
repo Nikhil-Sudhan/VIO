@@ -1,0 +1,14 @@
+{
+  "result": "FAILED physical VIO demonstration",
+  "poses": 2195,
+  "maximum_position_norm_m": 23412.754062590666,
+  "maximum_speed_m_s": 608.5718699805452,
+  "poses_with_nonzero_msckf_features": 0,
+  "processing_ms_p50_p95_max": [
+    12.932717,
+    15.922686149999999,
+    138.673055
+  ],
+  "physical_accuracy": "Not established; estimates grossly inconsistent with handheld activity",
+  "estimator_log": "data/live-demo/20260926_230715_ueia1hj6/estimator.log"
+}

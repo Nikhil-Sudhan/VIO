@@ -1,0 +1,27 @@
+{
+  "scope": "Additional room recording discovered after front-end selection; exact V2 replay without further tuning; not independent ground truth or fresh live V2 validation",
+  "session": "data/native-live/20261004_185233_60ou9gje",
+  "raw_capture_checks_passed": true,
+  "processed_frames": 2401,
+  "poses": 2324,
+  "poses_with_msckf_features": 10,
+  "peak_position_norm_m": 698.3761432022574,
+  "final_position_norm_m": 596.6895661956294,
+  "final_speed_m_s": 17.45705698417788,
+  "last_audit_zupt": false,
+  "live_v1_result": "Lost visual corrections and diverged; rejected.",
+  "mapping_validated": false,
+  "tracking_passed": false,
+  "diagnosis": {
+    "initialization": "Static initialization succeeded before movement.",
+    "initial_moving_interval_replay_s": [
+      5,
+      13
+    ],
+    "initial_moving_interval_triangulated_features": 0,
+    "initial_moving_interval_ill_conditioned_triangulations": 285,
+    "slam_landmarks_max": 0,
+    "interpretation": "Failure begins when early movement produces no usable 3D feature triangulations. Poor triangulation geometry, dim images and low texture contribute; exact metric movement is not independently measured. Later movement of a person through the image is visible while the IMU rests. No single-cause claim."
+  },
+  "promotion": "Withdrawn V2 and V1 manual-demo approval after room failures; physical sensor recording remains available."
+}

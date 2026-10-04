@@ -1,0 +1,6 @@
+{
+  "purpose": "Weight sensitivity only",
+  "source": "../noise-weights10/noise.yaml",
+  "factor": 2.0,
+  "accepted_for_hardware_estimation": false
+}

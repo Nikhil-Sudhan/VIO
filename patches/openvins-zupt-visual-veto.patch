@@ -1,25 +1,3 @@
-diff --git a/ov_msckf/src/core/VioManager.cpp b/ov_msckf/src/core/VioManager.cpp
-index 6a0d7b9..c2c55a4 100644
---- a/ov_msckf/src/core/VioManager.cpp
-+++ b/ov_msckf/src/core/VioManager.cpp
-@@ -159,7 +159,7 @@ VioManager::VioManager(VioManagerOptions &params_) : thread_init_running(false),
-   if (params.try_zupt) {
-     updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
-                                                         propagator, params.gravity_mag, params.zupt_max_velocity,
--                                                        params.zupt_noise_multiplier, params.zupt_max_disparity);
-+                                                        params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
-   }
- }
- 
-@@ -206,7 +206,7 @@ void VioManager::feed_measurement_simulation(double timestamp, const std::vector
-     if (params.try_zupt) {
-       updaterZUPT = std::make_shared<UpdaterZeroVelocity>(params.zupt_options, params.imu_noises, trackFEATS->get_feature_database(),
-                                                           propagator, params.gravity_mag, params.zupt_max_velocity,
--                                                          params.zupt_noise_multiplier, params.zupt_max_disparity);
-+                                                          params.zupt_noise_multiplier, params.zupt_max_disparity, params.zupt_visual_veto_px);
-     }
-     PRINT_WARNING(RED "[SIM]: casting our tracker to a TrackSIM object!\n" RESET);
-   }
 diff --git a/ov_msckf/src/core/VioManagerOptions.h b/ov_msckf/src/core/VioManagerOptions.h
 index 0df7d15..1cef5e0 100644
 --- a/ov_msckf/src/core/VioManagerOptions.h

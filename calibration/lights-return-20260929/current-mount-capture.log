@@ -1,0 +1,224 @@
+/home/pluto/vio-project/data/current-mount-calibration/20260929_223132_t753o1vb
+[3:18:46.757587869] [23324]  INFO Camera camera_manager.cpp:340 libcamera v0.7.2+rpt20260817
+[3:18:46.766683011] [23339]  INFO RPI pisp.cpp:725 libpisp version v1.7.0 07-08-2026 (09:22:13)
+[3:18:46.778804769] [23339]  INFO IPAProxy ipa_proxy.cpp:184 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx219.json
+[3:18:46.786297670] [23339]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10' for pipeline handler rpi/pisp
+[3:18:46.786366713] [23339]  INFO RPI pisp.cpp:1186 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10 to CFE device /dev/media3 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[3:18:46.791152007] [23339]  WARN V4L2 v4l2_pixelformat.cpp:346 Unsupported V4L2 pixel format Nc30
+[3:18:46.791196696] [23339]  WARN V4L2 v4l2_pixelformat.cpp:346 Unsupported V4L2 pixel format Nc12
+[3:18:46.791652418] [23324]  INFO Camera camera.cpp:1216 configuring streams: (0) 820x616-YUV420/SMPTE170M (1) 1640x1232-BGGR_PISP_COMP1/RAW
+[3:18:46.791765334] [23339]  INFO RPI pisp.cpp:1502 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx219@10 - Selected sensor format: 1640x1232-SBGGR10_1X10/RAW - Selected CFE format: 1640x1232-PC1B/RAW
+100 images, 4314 FIFO words, queue 0
+200 images, 7371 FIFO words, queue 0
+300 images, 10440 FIFO words, queue 0
+400 images, 13494 FIFO words, queue 0
+500 images, 16554 FIFO words, queue 0
+600 images, 19626 FIFO words, queue 0
+701 images, 22686 FIFO words, queue 1
+801 images, 25749 FIFO words, queue 0
+901 images, 28800 FIFO words, queue 0
+1001 images, 31872 FIFO words, queue 0
+1101 images, 34932 FIFO words, queue 0
+1201 images, 37986 FIFO words, queue 0
+1301 images, 41052 FIFO words, queue 0
+1401 images, 44106 FIFO words, queue 0
+1501 images, 47166 FIFO words, queue 0
+1601 images, 50238 FIFO words, queue 0
+1701 images, 53298 FIFO words, queue 0
+1801 images, 56352 FIFO words, queue 0
+1901 images, 59424 FIFO words, queue 0
+2001 images, 62487 FIFO words, queue 0
+2101 images, 65541 FIFO words, queue 0
+2201 images, 68601 FIFO words, queue 0
+2301 images, 71664 FIFO words, queue 0
+2401 images, 74724 FIFO words, queue 0
+{
+  "schema": 2,
+  "created_utc": "2026-09-29T17:01:32.114075+00:00",
+  "status": "completed",
+  "purpose": "raw calibration/acquisition input, NOT calibrated VIO",
+  "calibrated": false,
+  "requested_seconds": 120.0,
+  "camera_requested": {
+    "status": "candidate; not calibrated",
+    "sensor_model": "imx219",
+    "sensor": {
+      "output_size": [
+        1640,
+        1232
+      ],
+      "bit_depth": 10
+    },
+    "main": {
+      "size": [
+        820,
+        616
+      ],
+      "format": "YUV420"
+    },
+    "controls": {
+      "FrameRate": 20,
+      "AeEnable": false,
+      "ExposureTime": 16000,
+      "AnalogueGain": 4.0
+    },
+    "transform": "identity",
+    "expected_scaler_crop": [
+      0,
+      0,
+      3280,
+      2464
+    ],
+    "buffer_count": 8,
+    "queue": false,
+    "notes": "Provisional indoor demo: original calibrated geometry, 16ms exposure and gain4. Move slowly. Timing is not recalibrated."
+  },
+  "capture_mode": "camera-and-imu",
+  "temperature_recorded": false,
+  "image_format": "png",
+  "experimental_calibration": false,
+  "pid": 23324,
+  "finish_on_usr1": true,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "acquisition_source_sha256": {
+    "record.py": "787f4ce97de81784cb1e8aa46ba3b1e21dda4ae4ca7c3be4c251959b3144ee08",
+    "imu_fifo_probe.py": "ca9438e0fc4e0e20e5bdb5d17ef8969ca15de10a72bb20ba0a00d27af10f0209",
+    "live_bridge.py": "3cefe9d885a8f3727b97be9aba6206ce5a949a996e16221c787aaa6731c1b269",
+    "online_imu.py": "6261dd3d86a8300e3655e28cda8582ac08adc9892108d21726381a7736591dd8",
+    "stream_protocol.py": "a47634a7b72479e66fb40b3fba2428539606fcb8bf6bdfcfe83cb81afedc2373",
+    "calibration_guard.py": "dc3cd67c5351a55dcca509036fe83fa313fe26e26bdd6ce2d5f8e4f2da7f6b22"
+  },
+  "camera_timestamp": "unmodified SensorTimestamp; not an exposure midpoint",
+  "imu_timestamp": "FIFO hardware ticks and host clock read brackets; mapping is derived separately",
+  "clock_start": {
+    "boottime_ns": 11926480832115,
+    "monotonic_ns": 11926480833707
+  },
+  "frames_enqueued": 2401,
+  "frames_written": 2401,
+  "image_queue_high_water": 10,
+  "raw_queue_high_water": 1,
+  "raw_records_written": 7548,
+  "fifo_words": 74778,
+  "fifo_max_level": 21,
+  "fifo_overflow_or_full_batches": 0,
+  "errors": [],
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "imu_internal_freq_fine_raw": 242,
+  "camera_configuration": {
+    "use_case": "video",
+    "transform": "<libcamera.Transform 'identity'>",
+    "colour_space": "<libcamera.ColorSpace 'SMPTE170M'>",
+    "buffer_count": 8,
+    "queue": false,
+    "main": {
+      "format": "YUV420",
+      "size": [
+        820,
+        616
+      ],
+      "preserve_ar": true,
+      "stride": 896,
+      "framesize": 827904
+    },
+    "lores": null,
+    "raw": {
+      "format": "BGGR_PISP_COMP1",
+      "size": [
+        1640,
+        1232
+      ],
+      "stride": 1664,
+      "framesize": 2050048
+    },
+    "controls": {
+      "NoiseReductionMode": "NoiseReductionModeEnum.Off",
+      "FrameDurationLimits": [
+        33333,
+        33333
+      ],
+      "FrameRate": 20,
+      "AeEnable": false,
+      "ExposureTime": 16000,
+      "AnalogueGain": 4.0
+    },
+    "sensor": {
+      "bit_depth": 10,
+      "output_size": [
+        1640,
+        1232
+      ]
+    },
+    "display": "main",
+    "encode": "main"
+  },
+  "camera_properties": {
+    "Model": "imx219",
+    "UnitCellSize": [
+      1120,
+      1120
+    ],
+    "ColorFilterArrangement": 0,
+    "Location": 2,
+    "Rotation": 180,
+    "PixelArraySize": [
+      3280,
+      2464
+    ],
+    "PixelArrayActiveAreas": [
+      [
+        8,
+        8,
+        3280,
+        2464
+      ]
+    ],
+    "ScalerCropMaximum": [
+      0,
+      0,
+      3280,
+      2464
+    ],
+    "PipelineHandler": "rpi/pisp",
+    "SystemDevices": [
+      20753,
+      20754,
+      20755,
+      20756,
+      20757,
+      20758,
+      20759,
+      20739,
+      20740,
+      20741,
+      20742
+    ],
+    "SensorSensitivity": 1.0
+  },
+  "camera_delivery": "Picamera2 post_callback per successful request",
+  "completion_reason": "duration",
+  "clock_end": {
+    "boottime_ns": 12049322952791,
+    "monotonic_ns": 12049322954736
+  }
+}

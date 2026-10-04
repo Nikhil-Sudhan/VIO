@@ -1,0 +1,26 @@
+{
+  "scope": "Recorded arrival-order software test; not live physical synchronization",
+  "session": "/home/pluto/vio-project/data/repair-static-20260929/20260929_201729_qda98zjz",
+  "compared_samples": 61262,
+  "startup_samples_explicitly_excluded": 430,
+  "trailing_incomplete_slot_trimmed": false,
+  "causal_vs_offline_abs_difference_us_p50_p95_max": [
+    10.0995,
+    61.7707499999999,
+    953.795
+  ],
+  "prior_anchor_prediction_residual_us_p50_p95_max": [
+    19.57958447265625,
+    109.75164267578094,
+    430.69572265625
+  ],
+  "sample_receipt_latency_ms_min_p50_p95_max": [
+    7.992977,
+    16.0253245,
+    24.966528699999998,
+    41.349114
+  ],
+  "all_fifo_payloads_match_offline": true,
+  "software_checks_passed": true,
+  "limitations": "Different causal/offline clock maps retain uncertainty. No camera/IMU offset or filter delay is inferred."
+}

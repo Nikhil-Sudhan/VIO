@@ -1,0 +1,16 @@
+{
+  "scope": "Preliminary camera-IMU calibration preparation with assumed print scale",
+  "user_constraint": "No ruler; supplied PDF printed on A4",
+  "source_pdf": "/home/pluto/vio-project/calibration/target/aprilgrid-a4.pdf",
+  "source_pdf_sha256": "01b198c82f36ae0507ca2707eb3d7920dccff069f2dcd57372ac63169abdf800",
+  "assumed_tag_size_m": 0.02,
+  "assumed_gap_m": 0.006,
+  "physical_print_scale_verified": false,
+  "accepted_for_hardware_estimation": false,
+  "limitations": [
+    "Printer scaling is unknown; any fitted translations and metric results remain provisional.",
+    "User reported the assembly fell; current camera-IMU extrinsics require calibration on the current rigid mounting.",
+    "Image visibility and multi-axis excitation will be checked before a fit."
+  ],
+  "next_step": "Short still prefix, guided camera+IMU movement together facing fixed single target, still suffix."
+}

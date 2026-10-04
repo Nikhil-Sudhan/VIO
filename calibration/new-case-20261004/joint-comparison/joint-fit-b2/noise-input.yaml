@@ -1,0 +1,7 @@
+# EXPERIMENTAL FITTING WEIGHTS, NOT IDENTIFIED SENSOR NOISE. See review.json.
+rostopic: /imu0
+update_rate: 204.0355927763645
+gyroscope_noise_density: 0.0010877154466348196
+accelerometer_noise_density: 0.021946576707293677
+gyroscope_random_walk: 0.00011172744905164805
+accelerometer_random_walk: 0.013079819165366822

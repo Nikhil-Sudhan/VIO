@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "completed": true,
+  "accepted_for_hardware_estimation": false,
+  "poses": 1074,
+  "max_position_norm_m": 0.13468940230066853,
+  "max_excursion_from_first_pose_m": 0.13401688970613618,
+  "endpoint_from_first_pose_m": 0.12429637114687542,
+  "max_speed_m_s": 0.14067065729427314,
+  "pose_frames_with_msckf": 96,
+  "final_time_offset_s": -0.00031673965517683766,
+  "processed_frames": 1166,
+  "offline_processing_p50_p95_max_ms": [
+    25.6794295,
+    33.68611825,
+    42.210992
+  ]
+}

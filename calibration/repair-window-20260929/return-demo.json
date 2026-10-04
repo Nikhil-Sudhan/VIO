@@ -1,0 +1,9 @@
+{
+  "controller_pid": 11106,
+  "started_at": "2026-09-29T20:38:01+0530",
+  "default_calibration": "/home/pluto/vio-project/calibration/repair-window-20260929/manual-continuous/estimator_config.yaml",
+  "scope": "Real live OpenVINS development test; not validated moving VIO",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_203803_y6byvq9q",
+  "recorder_pid": 11123,
+  "initial_status": "Live sensors, scene too dark, not initialized"
+}

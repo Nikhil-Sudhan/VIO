@@ -11,6 +11,7 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse
 from PIL import Image
+from recording_storage import capture_folder
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTROL = ROOT/'data/native-control'
@@ -22,7 +23,8 @@ html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#000;color:
 #controls{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;background:#0009;gap:14px}
 #controls.hidden{display:none}button,a{font:inherit;padding:14px 22px;border-radius:8px;border:0;cursor:pointer}a{color:white}#status{max-width:650px;white-space:pre-wrap;text-align:center}
 </style><img id="screen" alt=""><div id="controls">
-<button id="start" onclick="action('start')">Start 120-second demo + recording</button>
+<button id="raw" onclick="action('start_raw')">Record sensors</button>
+<button id="start" onclick="action('start')">Start live tracking</button>
 <button id="stop" onclick="action('stop')" hidden>Stop and save</button>
 <a href="/video" id="video">Download latest screen video</a><div id="status">Ready</div></div>
 <script>
@@ -32,9 +34,13 @@ img.onload=()=>setTimeout(frame,400);
 img.onerror=()=>{controls.classList.remove('hidden');st.textContent='Display disconnected — retrying';setTimeout(frame,1000)};
 function frame(){img.src='/screen.jpg?t='+Date.now()}frame();
 async function action(action){
- if(action==='start'){
-  if(document.documentElement.requestFullscreen)document.documentElement.requestFullscreen().catch(()=>{});
-  active=true;seenLive=false;requestedAt=Date.now();controls.classList.add('hidden');
+ if(action==='start'||action==='start_raw'){
+  active=true;seenLive=false;requestedAt=Date.now();
+  if(action==='start'){
+   if(document.documentElement.requestFullscreen)document.documentElement.requestFullscreen().catch(()=>{});
+   controls.classList.add('hidden');
+  }
+  st.textContent='Starting sensors — keep the case still.';
  }
  try{let r=await fetch('/control',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})});if(!r.ok)throw Error(await r.text());if(action==='stop'){active=false;controls.classList.remove('hidden')}}
  catch(e){active=false;controls.classList.remove('hidden');st.textContent=e}
@@ -48,8 +54,10 @@ async function state(){try{
  document.getElementById('video').hidden=!x.video;
  if(x.running)seenLive=true;
  if(active&&!x.running&&(seenLive||Date.now()-requestedAt>20000)){active=false;controls.classList.remove('hidden')}
- document.getElementById('start').hidden=!!x.running||active;
+ document.getElementById('start').hidden=!!x.running||active||!x.tracking_available;
+ document.getElementById('raw').hidden=!!x.running||active;
  document.getElementById('stop').hidden=!x.running&&!active;
+ document.getElementById('stop').disabled=x.phase==='saving';
 }catch(e){controls.classList.remove('hidden');st.textContent='Connection interrupted — retrying'}setTimeout(state,1000)}state();
 </script></html>'''
 
@@ -65,12 +73,15 @@ def status():
         age = (time.clock_gettime_ns(time.CLOCK_BOOTTIME)-controller['emitted_boot_ns'])/1e9
         if controller['boot_id'] == Path('/proc/sys/kernel/random/boot_id').read_text().strip() and 0 <= age < 3:
             result.update({k: controller[k] for k in ('running', 'message', 'phase')})
+            result['tracking_available'] = controller.get('tracking_available', False)
+            result['raw_mode'] = controller.get('raw_mode', False)
             return result
     except (OSError, ValueError, KeyError):
         pass
     try:
         folder = Path((CONTROL/'current-session.txt').read_text().strip())
-        session = json.loads((folder/'session.json').read_text())
+        current = capture_folder(folder)
+        session = json.loads((current/'session.json').read_text())
         boot = Path('/proc/sys/kernel/random/boot_id').read_text().strip()
         if session.get('boot_id') != boot:
             return result
@@ -78,15 +89,15 @@ def status():
         result['running'] = state in ('recording', 'starting')
         result['message'] = 'Capture: '+state
         if state in ('recording', 'starting'):
-            snap = json.loads((folder/'vio/display.json').read_text())
+            snap = json.loads((current/'vio/display.json').read_text())
             age = (time.clock_gettime_ns(time.CLOCK_BOOTTIME)-snap['emitted_boot_ns'])/1e9
             count = sum(len(snap.get(k, [])) for k in ('msckf','slam','aruco'))
             if age > 2:
                 result['message'] += '\nEstimator delayed — do not move.'
-            elif snap.get('stationary_ready') or snap.get('initialized'):
-                result['message'] += f'\nInitialized — move slowly. Visual landmarks: {count}. Output age: {age:.2f}s.'
+            elif snap.get('pose_valid') is True:
+                result['message'] += f'\nTracking local map — move slowly. Visual landmarks: {count}. Output age: {age:.2f}s.'
             else:
-                result['message'] += '\nInitializing — keep the rig still.'
+                result['message'] += '\nTracking state: '+snap.get('tracking_state', 'unverified')
         elif state == 'failed':
             result['message'] += '\nRun stopped with an error; saved data and video are diagnostic only.'
         else:
@@ -146,7 +157,7 @@ class Handler(BaseHTTPRequestHandler):
             size=int(self.headers.get('Content-Length','0'))
             if not 0<size<128:raise ValueError()
             command=json.loads(self.rfile.read(size))
-            if command.get('action') not in ('start','stop'):raise ValueError()
+            if command.get('action') not in ('start','start_raw','stop'):raise ValueError()
             CONTROL.mkdir(exist_ok=True)
             with lock:
                 temp=CONTROL/'request.tmp.json';temp.write_text(json.dumps(command));temp.replace(CONTROL/'request.json')

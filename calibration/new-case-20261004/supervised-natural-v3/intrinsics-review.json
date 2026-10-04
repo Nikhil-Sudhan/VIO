@@ -1,0 +1,33 @@
+{
+  "scope": "Existing camera-only intrinsic parameters used provisionally for fresh remount joint fitting; NOT a completed fresh lens calibration",
+  "source": "calibration/camera-820x616-v1/camera.yaml",
+  "camera_geometry_hash_matches": true,
+  "new_view_reprojection_report": "motion1-native-visibility/report.json",
+  "new_camera_calibration_attempt": "intrinsics-native-motion1/report.json",
+  "distinct_still_views": 13,
+  "image_coverage_cells_all_views": 11,
+  "accepted_as_fresh_intrinsics": false,
+  "bag_camera_origin_offset_s": 2.032882786,
+  "joint_fit_camera_relative_intervals_s": [
+    [
+      60,
+      120
+    ],
+    [
+      170,
+      230
+    ]
+  ],
+  "joint_fit_bag_relative_intervals_s": [
+    [
+      62.032882786,
+      122.032882786
+    ],
+    [
+      172.032882786,
+      232.032882786
+    ]
+  ],
+  "target_scale": "nominal A4; unmeasured",
+  "noise_model": "fresh stationary-data envelope weights; provisional"
+}

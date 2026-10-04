@@ -6,6 +6,8 @@ import math
 import time
 from pathlib import Path
 
+from recording_storage import capture_folder
+
 import cv2
 import rospy
 from geometry_msgs.msg import PoseStamped, TransformStamped
@@ -22,16 +24,16 @@ def main():
     parser.add_argument('session', type=Path)
     args = parser.parse_args()
     boot_id = Path('/proc/sys/kernel/random/boot_id').read_text().strip()
-    same_boot = json.loads((args.session/'session.json').read_text()).get('boot_id') == boot_id
+    same_boot = json.loads((capture_folder(args.session)/'session.json').read_text()).get('boot_id') == boot_id
     try:
-        display_note = json.loads((args.session/'calibration/review.json').read_text()).get('display_note', '')
+        display_note = json.loads((capture_folder(args.session)/'calibration/review.json').read_text()).get('display_note', '')
     except (OSError, ValueError):
         display_note = ''
     rospy.init_node('pi_openvins_display', disable_signals=True)
     pub_image = rospy.Publisher('/ov_msckf/trackhist', Image, queue_size=1)
     pub_path = rospy.Publisher('/ov_msckf/pathimu', RosPath, queue_size=1)
     pub_points = {name: rospy.Publisher('/ov_msckf/points_'+name, PointCloud2, queue_size=1)
-                  for name in ('msckf', 'slam', 'aruco')}
+                  for name in ('msckf', 'slam', 'aruco', 'map')}
     pub_tf = rospy.Publisher('/tf', TFMessage, queue_size=2)
     pub_static = rospy.Publisher('/tf_static', TFMessage, queue_size=1, latch=True)
     pub_status = rospy.Publisher('/ov_msckf/status', Marker, queue_size=1, latch=True)
@@ -43,13 +45,14 @@ def main():
     pub_static.publish(TFMessage([origin]))
     path = RosPath()
     path.header.frame_id = 'global'
+    previous_epoch = None
     previous = None
     last_image = None
     last_position = [0., 0., 0.]
     snap = {}
     while not rospy.is_shutdown():
         try:
-            snap = json.loads((args.session/'vio/display.json').read_text())
+            snap = json.loads((capture_folder(args.session)/'vio/display.json').read_text())
         except (OSError, ValueError):
             pass
         age = (time.clock_gettime_ns(time.CLOCK_BOOTTIME)-snap.get('emitted_boot_ns', 0))/1e9
@@ -59,7 +62,7 @@ def main():
         changed = snap.get('sequence') != previous
         rejected = False
         try:
-            review = json.loads((args.session/'vio/display-review.json').read_text())
+            review = json.loads((capture_folder(args.session)/'vio/display-review.json').read_text())
             rejected = review.get('usable_vio') is False
         except (OSError, ValueError):
             pass
@@ -70,20 +73,30 @@ def main():
             state = 'STOPPED / STALE' if previous is not None else 'WAITING FOR SENSOR DATA'
         elif snap.get('image_mean_luma', 255) < 24 and snap.get('image_std_luma', 255) < 4:
             state = 'SCENE TOO DARK - turn on room lights'
-        elif snap.get('zero_velocity_update'):
-            state = 'STATIONARY UPDATE - moving accuracy unverified'
-        elif snap.get('initialized'):
-            visual_age = snap.get('last_msckf_update_age_s')
-            state = (f'LIVE | {count} current 3D features' if snap.get('slam') or snap.get('aruco') or (visual_age is not None and visual_age <= 1)
-                     else 'NO RECENT VISUAL CORRECTIONS - pose unreliable')
-        elif snap.get('stationary_ready'):
-            state = 'READY - keep both sensors fixed together'
         else:
-            state = 'INITIALIZING - keep the rig still'
+            labels = {
+                'initializing': ('RECOVERING AFTER LOSS - keep still; new local map'
+                                 if snap.get('reset_epoch', 0) else 'INITIALIZING - keep the rig still'),
+                'ready': 'READY - move sideways slowly to establish depth',
+                'initializing_depth': 'ESTABLISHING DEPTH - pose not available',
+                'tracking': f'TRACKING | {count} current 3D features',
+                'stationary': 'STATIONARY - local map retained',
+                'lost': 'TRACKING LOST - hold still to restart a separate local map',
+            }
+            state = labels.get(snap.get('tracking_state'), 'UNVERIFIED OUTPUT - no tracking health evidence')
+        epoch = snap.get('reset_epoch')
+        usable = fresh and not rejected and snap.get('pose_valid') is True
+        if epoch != previous_epoch or not usable:
+            path.poses.clear()
+            path.header.stamp = stamp
+            pub_path.publish(path)
+            for pub in pub_points.values():
+                pub.publish(point_cloud2.create_cloud_xyz32(header, []))
+            previous_epoch = epoch
         if changed:
             previous = snap['sequence']
-            last_image = cv2.imread(str(args.session/'vio/tracks.jpg'))
-            if fresh and (snap['initialized'] or snap.get('stationary_ready')):
+            last_image = cv2.imread(str(capture_folder(args.session)/'vio/tracks.jpg'))
+            if usable:
                 p, q = snap['position'], snap['quaternion']
                 last_position = p
                 pose = PoseStamped(header=header)

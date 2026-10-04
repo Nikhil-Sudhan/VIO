@@ -1,0 +1,9 @@
+{
+  "recorder_pid": 23324,
+  "started_at": "2026-09-29T22:31:31+0530",
+  "duration_seconds": 120,
+  "purpose": "Fresh all-axis camera/IMU calibration after user confirms mounting and framing",
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "session": "/home/pluto/vio-project/data/current-mount-calibration/20260929_223132_t753o1vb",
+  "preview_pid": 23336
+}

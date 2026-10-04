@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-26T12:16:55.257871+00:00",
+  "method": "user ruler measurement on displayed grid",
+  "horizontal_raw_reply": "horizonatal one row - 13.3 cm.",
+  "grid_width_mm": 133.0,
+  "grid_height_mm": 133.0,
+  "extent_definition": "outer edge first large tag to outer edge sixth large tag including five gaps, excluding small corner squares and white margin",
+  "tags_per_row": 6,
+  "nominal_gap_to_tag_ratio": 0.3,
+  "derived_horizontal_tag_size_m": 0.017733333333333334,
+  "status": "user-reported horizontal and vertical extents agree; accepted target scale with unquantified ruler/edge-placement uncertainty",
+  "measurement_uncertainty": "not independently quantified; user reported to 1 mm, which is not a total accuracy bound",
+  "zoom_unchanged_instruction_given": true,
+  "vertical_raw_reply": "same 13.3 cm - it is a square right?",
+  "tag_size_m": 0.017733333333333334,
+  "tag_gap_m": 0.00532,
+  "invalid_after": "screen zoom, image aspect ratio or displayed target changes"
+}

@@ -1,0 +1,650 @@
+Setting printing level to: INFO
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+frames=1 states=0 t=2.02746
+[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,60 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,58 < 15
+[0m[33m[init]: disparity is 0.615,1.483 (1.50 thresh)
+[0m[32m[init]: successful initialization in 0.0004 seconds
+[0m[32m[init]: orientation = 0.0264, -0.0245, -0.9994, 0.0006
+[0m[32m[init]: bias gyro = 0.0081, -0.0087, 0.0016
+[0m[32m[init]: velocity = 0.0000, 0.0000, 0.0000
+[0m[32m[init]: bias accel = -0.0119, 0.0111, 0.2258
+[0m[32m[init]: position = 0.0000, 0.0000, 0.0000
+[0m[33m[ZUPT]: visual veto nan px, 0 tracks (limit 0.500)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.507 px, 120 tracks (limit 0.500)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.523 px, 120 tracks (limit 0.500)
+[0m[33m[ZUPT]: visual veto 0.605 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = -0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0111,0.2260
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.001 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.521 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0119,0.0111,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.001 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.013 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.530 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0111,0.2266
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.627 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0111,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.706 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0110,0.2266
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0mframes=101 states=58 t=7.02809
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.563 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0111,0.2269
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.563 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0088,0.0015 | ba = -0.0120,0.0111,0.2269
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.001 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.001 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.001 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.000 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0mframes=201 states=158 t=12.0286
+[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.002 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.132 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.981 px, 132 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0128,0.0105,0.2270
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.994 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.000 | dist = 0.00 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0128,0.0105,0.2270
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.182 px, 12 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = 0.000,0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0128,0.0105,0.2270
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 3.472 < 16.919)
+[0m[33m[ZUPT]: visual veto 0.747 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = 0.001,0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0126,0.0107,0.2262
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.831 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = 0.001,0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0126,0.0107,0.2262
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 1.859 < 16.919)
+[0m[33m[ZUPT]: visual veto 1.064 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.025,-0.999,0.001 | p_IinG = 0.001,0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.950 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.025,-0.999,0.001 | p_IinG = 0.000,0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.883 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = 0.000,-0.000,0.001 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.658 px, 140 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.001 | p_IinG = -0.000,-0.000,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.220 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.001 | p_IinG = -0.000,-0.000,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.535 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.025,-0.999,0.001 | p_IinG = -0.000,0.000,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.933 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.025,-0.999,0.001 | p_IinG = -0.001,0.000,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.371 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.026,-0.999,0.001 | p_IinG = -0.001,0.000,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.462 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.026,-0.026,-0.999,0.001 | p_IinG = -0.001,0.001,0.002 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 2.201 px, 24 tracks (limit 0.500)
+[0mq_GtoI = 0.025,-0.025,-0.999,0.001 | p_IinG = -0.001,0.001,0.003 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.711 px, 104 tracks (limit 0.500)
+[0mq_GtoI = 0.025,-0.026,-0.999,0.000 | p_IinG = -0.002,0.001,0.003 | dist = 0.00 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.960 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.025,-0.027,-0.999,0.000 | p_IinG = -0.002,0.001,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto nan px, 0 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.027,-0.999,0.000 | p_IinG = -0.002,0.002,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto nan px, 0 tracks (limit 0.500)
+[0mq_GtoI = -0.028,0.026,0.999,0.000 | p_IinG = -0.003,0.002,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 2.290 px, 116 tracks (limit 0.500)
+[0mq_GtoI = -0.027,0.026,0.999,0.000 | p_IinG = -0.003,0.002,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 0.686 px, 132 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.026,-0.999,0.000 | p_IinG = -0.003,0.002,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.325 px, 140 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.026,-0.999,0.001 | p_IinG = -0.003,0.002,0.003 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.779 px, 132 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.026,-0.999,0.001 | p_IinG = -0.003,0.002,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.573 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.026,-0.999,0.002 | p_IinG = -0.002,0.003,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 3.206 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.026,-0.999,0.004 | p_IinG = -0.001,0.004,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.438 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.025,-0.999,0.004 | p_IinG = -0.000,0.004,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.814 px, 24 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.025,-0.999,0.004 | p_IinG = 0.000,0.005,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.075 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.004 | p_IinG = 0.001,0.005,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.390 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.004 | p_IinG = 0.002,0.005,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.158 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.004 | p_IinG = 0.003,0.006,0.004 | dist = 0.01 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.378 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.005 | p_IinG = 0.005,0.007,0.004 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0130,0.0103,0.2267
+camera-imu timeoffset = 0.02321
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.003,-0.010
+[33m[ZUPT]: visual veto 1.692 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.006 | p_IinG = 0.011,0.002,0.005 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0131,0.0091,0.2265
+camera-imu timeoffset = 0.02497
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.002,-0.010
+[33m[ZUPT]: visual veto 1.870 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.007 | p_IinG = 0.013,0.002,0.006 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0131,0.0091,0.2265
+camera-imu timeoffset = 0.02497
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.002,-0.010
+[33m[ZUPT]: visual veto 1.445 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.022,-0.999,0.007 | p_IinG = 0.013,0.001,0.006 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0131,0.0091,0.2265
+camera-imu timeoffset = 0.02497
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.002,-0.010
+[33m[ZUPT]: visual veto 1.044 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.023,-0.999,0.007 | p_IinG = 0.014,0.001,0.006 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0131,0.0091,0.2265
+camera-imu timeoffset = 0.02497
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.002,-0.010
+[33m[ZUPT]: visual veto 1.552 px, 124 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.023,-0.999,0.007 | p_IinG = 0.016,0.001,0.006 | dist = 0.02 (meters)
+bg = 0.0081,-0.0090,0.0015 | ba = -0.0131,0.0091,0.2265
+camera-imu timeoffset = 0.02497
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.002,-0.010
+[33m[ZUPT]: visual veto 1.241 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.024,-0.999,0.008 | p_IinG = 0.008,-0.008,0.002 | dist = 0.02 (meters)
+bg = 0.0080,-0.0090,0.0015 | ba = -0.0132,0.0098,0.2263
+camera-imu timeoffset = 0.02522
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.004,-0.010
+[33m[ZUPT]: visual veto 1.887 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.008 | p_IinG = 0.008,-0.008,0.002 | dist = 0.02 (meters)
+bg = 0.0080,-0.0090,0.0015 | ba = -0.0128,0.0097,0.2259
+camera-imu timeoffset = 0.02463
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.004,-0.010
+[33m[ZUPT]: visual veto 1.687 px, 24 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.009 | p_IinG = 0.007,-0.007,0.002 | dist = 0.02 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0122,0.0090,0.2249
+camera-imu timeoffset = 0.02449
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 2.133 px, 88 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.022,-0.999,0.010 | p_IinG = 0.008,-0.007,0.002 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0124,0.0090,0.2257
+camera-imu timeoffset = 0.02357
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.005,-0.010
+[33m[ZUPT]: visual veto 2.232 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.022,-0.999,0.011 | p_IinG = 0.008,-0.007,0.003 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0126,0.0090,0.2263
+camera-imu timeoffset = 0.02365
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.005,-0.011
+[33m[ZUPT]: visual veto 1.739 px, 128 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.022,-0.999,0.012 | p_IinG = 0.009,-0.008,0.003 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0125,0.0091,0.2258
+camera-imu timeoffset = 0.02387
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.005,-0.011
+[33m[ZUPT]: visual veto 1.502 px, 112 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.022,-0.999,0.012 | p_IinG = 0.007,-0.007,0.003 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0084,0.2255
+camera-imu timeoffset = 0.02253
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.000,0.005,-0.010
+[33m[ZUPT]: visual veto 0.797 px, 104 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.022,-0.999,0.012 | p_IinG = 0.005,-0.006,0.003 | dist = 0.03 (meters)
+bg = 0.0082,-0.0088,0.0015 | ba = -0.0114,0.0081,0.2239
+camera-imu timeoffset = 0.02159
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.004,-0.009
+frames=301 states=258 t=17.029
+[33m[ZUPT]: visual veto 2.146 px, 112 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = 0.005,-0.009,0.003 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0116,0.0088,0.2241
+camera-imu timeoffset = 0.02057
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 1.568 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.024,-0.999,0.012 | p_IinG = 0.005,-0.010,0.004 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0118,0.0091,0.2242
+camera-imu timeoffset = 0.02008
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 0.828 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.029,-0.023,-0.999,0.012 | p_IinG = 0.005,-0.011,0.005 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0122,0.0092,0.2251
+camera-imu timeoffset = 0.02042
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 1.604 px, 96 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = 0.004,-0.010,0.004 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0119,0.0091,0.2246
+camera-imu timeoffset = 0.01981
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 1.105 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = 0.003,-0.010,0.005 | dist = 0.03 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0120,0.0089,0.2254
+camera-imu timeoffset = 0.01888
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.010
+[33m[ZUPT]: visual veto 1.072 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = 0.002,-0.010,0.005 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0117,0.0088,0.2247
+camera-imu timeoffset = 0.01874
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.149 px, 44 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = 0.002,-0.011,0.006 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto nan px, 0 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.012 | p_IinG = 0.001,-0.012,0.006 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto nan px, 0 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.024,-0.999,0.012 | p_IinG = -0.001,-0.012,0.006 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 5.608 px, 20 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.024,-0.999,0.011 | p_IinG = -0.002,-0.012,0.007 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.375 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.011 | p_IinG = -0.003,-0.013,0.007 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.075 px, 116 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.011 | p_IinG = -0.004,-0.013,0.007 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 4.077 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = -0.006,-0.013,0.007 | dist = 0.04 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 6.118 px, 88 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = -0.007,-0.014,0.008 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 5.099 px, 96 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.012 | p_IinG = -0.008,-0.014,0.008 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.512 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.012 | p_IinG = -0.010,-0.014,0.008 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.225 px, 96 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.012 | p_IinG = -0.011,-0.014,0.008 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 4.494 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.012 | p_IinG = -0.012,-0.015,0.009 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.583 px, 56 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.012 | p_IinG = -0.013,-0.015,0.009 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 2.181 px, 120 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.013 | p_IinG = -0.015,-0.015,0.009 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 5.157 px, 100 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.013 | p_IinG = -0.016,-0.015,0.009 | dist = 0.05 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.358 px, 92 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.013 | p_IinG = -0.017,-0.016,0.010 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.798 px, 104 tracks (limit 0.500)
+[0mq_GtoI = 0.028,-0.023,-0.999,0.013 | p_IinG = -0.017,-0.016,0.010 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 2.211 px, 92 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.023,-0.999,0.013 | p_IinG = -0.018,-0.016,0.010 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 0.827 px, 96 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.022,-0.999,0.013 | p_IinG = -0.019,-0.016,0.010 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.309 px, 96 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.022,-0.999,0.013 | p_IinG = -0.021,-0.016,0.011 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01758
+cam0 extrinsics = -0.459,0.440,-0.599,0.486 | -0.001,0.005,-0.009
+[33m[ZUPT]: visual veto 1.295 px, 108 tracks (limit 0.500)
+[0mq_GtoI = 0.027,-0.022,-0.999,0.013 | p_IinG = -0.022,-0.016,0.011 | dist = 0.06 (meters)
+bg = 0.0081,-0.0089,0.0015 | ba = -0.0121,0.0092,0.2259
+camera-imu timeoffset = 0.01

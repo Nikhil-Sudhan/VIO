@@ -18,3 +18,8 @@ target_link_libraries(${adapter_target} PRIVATE
   ${VIO_ROOT}/build/openvins/libov_msckf_lib.so ${OpenCV_LIBRARIES} ${Boost_LIBRARIES})
 target_compile_options(${adapter_target} PRIVATE -Wall -Wextra)
 endforeach()
+
+enable_testing()
+add_executable(test_tracking_health ../tests/test_tracking_health.cpp)
+target_compile_options(test_tracking_health PRIVATE -UNDEBUG -Wall -Wextra)
+add_test(NAME tracking_health COMMAND test_tracking_health)

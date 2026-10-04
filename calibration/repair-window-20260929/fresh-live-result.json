@@ -1,0 +1,14 @@
+{
+  "scope": "Live transport succeeded; VIO initialization failed in nearly dark scene",
+  "session": "/home/pluto/vio-project/data/repair-live-20260929/20260929_203405_rnmp287n",
+  "frames": 1801,
+  "imu_sent": 18561,
+  "camera_sent": 1799,
+  "normal_transport_end": true,
+  "clock_max_checked_error_us": 294.3084208984375,
+  "invalid_images": 0,
+  "raw_report_faults": [
+    "Session did not complete normally"
+  ],
+  "usable_vio": false
+}

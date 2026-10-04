@@ -1,0 +1,26 @@
+[
+  {
+    "source": "data/native-live/20260929_195713_4yn7523l",
+    "samples_mapped": 44887,
+    "error": null,
+    "max_withheld_residual_us": 264.4878618164062
+  },
+  {
+    "source": "data/repair-static-20260929/20260929_201729_qda98zjz",
+    "samples_mapped": 60831,
+    "error": null,
+    "max_withheld_residual_us": 430.69572265625
+  },
+  {
+    "source": "data/repair-live-20260929/20260929_202757_tzk8uy3j",
+    "samples_mapped": 8447,
+    "error": null,
+    "max_withheld_residual_us": 630.763134765625
+  },
+  {
+    "source": "data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+    "samples_mapped": 50827,
+    "error": null,
+    "max_withheld_residual_us": 478.3521350097656
+  }
+]

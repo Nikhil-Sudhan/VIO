@@ -1,0 +1,12 @@
+{
+  "observed_failure_session": "data/native-live/20260929_230224_qcnkez0c",
+  "last_three_seconds": {
+    "total_anchors": 26,
+    "width_qualified": 20,
+    "training_qualified": 15,
+    "required_training": 16
+  },
+  "change": "Record host/IMU clock anchors every requested 50 ms instead of 100 ms. No accuracy, sufficiency, monotonicity or stale thresholds relaxed.",
+  "tests": "All 9 online IMU tests pass, including higher-rate anchors with every third read explicitly rejected for excessive bracket width.",
+  "live_retest_pending": true
+}

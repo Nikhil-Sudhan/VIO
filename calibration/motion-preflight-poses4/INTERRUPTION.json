@@ -1,0 +1,7 @@
+{
+  "status": "incomplete",
+  "reason": "External reboot around 18:13; old process absent on host inspection, partial observations retained",
+  "old_boot_id": "8184f4cd-e726-4346-9f3b-1f8ca63ef79b",
+  "new_boot_id": "44e17527-9457-46de-8c54-e35055bad738",
+  "not_a_completed_report": true
+}

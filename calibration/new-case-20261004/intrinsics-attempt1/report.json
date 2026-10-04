@@ -1,0 +1,76 @@
+{
+  "purpose": "camera-only intrinsics candidate, NOT metric camera/IMU calibration",
+  "physical_target_size_measured": false,
+  "board_unit": "one displayed tag width",
+  "assumptions": [
+    "flat display",
+    "aspect ratio preserved",
+    "6x6 generated April36h11 grid, gap/tag=0.3"
+  ],
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "attempted_frames": 1501,
+  "distinct_views": 1,
+  "detector": {
+    "library": "OpenCV",
+    "version": "4.10.0",
+    "dictionary": "AprilTag36h11",
+    "border_bits": 2,
+    "corner_method": "apriltag"
+  },
+  "motion_filter": {
+    "max_median_motion_px": 2.5,
+    "neighbor_frame_distance": 2,
+    "rejected_frames": 0
+  },
+  "views": [
+    {
+      "path": "data/new-case-20261004/calibration-views/20261004_145013_ry1l759i/images/005368.pgm",
+      "tags": 23,
+      "ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        5,
+        8,
+        13,
+        10,
+        18,
+        11,
+        19,
+        20,
+        25,
+        16,
+        17,
+        21,
+        27,
+        28,
+        32,
+        34,
+        35
+      ],
+      "motion_px": 0.02893868088722229,
+      "projected_grid_corners": [
+        [
+          246.18023681640625,
+          346.6241760253906
+        ],
+        [
+          468.7543029785156,
+          345.58306884765625
+        ],
+        [
+          462.6911926269531,
+          142.79458618164062
+        ],
+        [
+          255.231689453125,
+          138.30166625976562
+        ]
+      ]
+    }
+  ],
+  "status": "insufficient varied views"
+}

@@ -1,0 +1,1 @@
+Offline diagnostic only. Calibration updates disabled to test fixed transforms, not accepted for live estimation.

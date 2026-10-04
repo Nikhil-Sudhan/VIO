@@ -1,0 +1,76 @@
+{
+  "scope": "Recorded-data software evaluation. Health gates are not ground truth or accuracy validation.",
+  "folder": "/home/pluto/vio-project/data/new-case-20261004/supervised-room3",
+  "processed_frames": 2401,
+  "valid_pose_count": 0,
+  "segments": [
+    {
+      "epoch": 0,
+      "camera_frames": 114,
+      "valid_pose_count": 0,
+      "states": {
+        "initializing": 19,
+        "initializing_depth": 40,
+        "ready": 54,
+        "lost": 1
+      },
+      "lost_events": [
+        {
+          "reset_epoch": "0",
+          "event": "lost",
+          "t_rel_s": "7.7525676900000002",
+          "reason": "depth_initialization_timeout"
+        }
+      ],
+      "persistent_landmarks": 0
+    },
+    {
+      "epoch": 1,
+      "camera_frames": 1731,
+      "valid_pose_count": 0,
+      "states": {
+        "initializing": 123,
+        "initializing_depth": 40,
+        "ready": 1567,
+        "lost": 1
+      },
+      "lost_events": [
+        {
+          "reset_epoch": "1",
+          "event": "lost",
+          "t_rel_s": "94.276247690000005",
+          "reason": "depth_initialization_timeout"
+        }
+      ],
+      "persistent_landmarks": 0
+    },
+    {
+      "epoch": 2,
+      "camera_frames": 556,
+      "valid_pose_count": 0,
+      "states": {
+        "initializing": 294,
+        "initializing_depth": 1,
+        "ready": 261
+      },
+      "lost_events": [],
+      "persistent_landmarks": 0
+    }
+  ],
+  "lost_events": [
+    {
+      "reset_epoch": "0",
+      "event": "lost",
+      "t_rel_s": "7.7525676900000002",
+      "reason": "depth_initialization_timeout"
+    },
+    {
+      "reset_epoch": "1",
+      "event": "lost",
+      "t_rel_s": "94.276247690000005",
+      "reason": "depth_initialization_timeout"
+    }
+  ],
+  "map_scope": "Sparse local landmarks only. Independent reset frames are not registered; no loop closure.",
+  "navigation_validated": false
+}

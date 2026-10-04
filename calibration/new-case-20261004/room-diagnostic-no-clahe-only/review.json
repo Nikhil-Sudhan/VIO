@@ -1,0 +1,10 @@
+{
+  "scope": "Offline grid-free failure diagnostic only; not accepted for live use",
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "parent": "calibration/new-case-20261004/manual-natural-v1",
+  "changes": {
+    "histogram_method": "NONE"
+  },
+  "calibration_unchanged": true
+}

@@ -1,0 +1,302 @@
+{
+  "accepted_for_estimator": false,
+  "scope": "Short-run noise characterization; physical stationarity must be reviewed",
+  "source": "/home/pluto/vio-project/data/noise-recordings/20260926_182118_wf02yn1t",
+  "input_sha256": "d63f6f0e84a288d15babf93acb0a125062b2ce015651e0b3495b992a426f5f68",
+  "analysis_sha256": "862be35a23ce45efde73957222c369435ca3ac6aebe7010c889e95fe5f37a32e",
+  "window_start_s": 60.001977446000005,
+  "window_end_s": 499.99936324400005,
+  "duration_s": 439.99738579800004,
+  "samples": 89787,
+  "mean_dt_s": 0.004900512171140267,
+  "relative_dt_max_deviation": 0.00011729975298968576,
+  "mean_native_axes_si": {
+    "gx_rad_s": 0.011455670716123807,
+    "gy_rad_s": -0.009696481290719436,
+    "gz_rad_s": 0.001591258804328659,
+    "ax_m_s2": -0.606823057328778,
+    "ay_m_s2": 2.706795692695935,
+    "az_m_s2": 9.583388522471495
+  },
+  "white_fit_tau_s": [
+    0.03,
+    0.3
+  ],
+  "white_noise_candidates": [
+    {
+      "axis": "gx_rad_s",
+      "log_log_slope": -0.6429341163836831,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 7.410264247826532e-05
+    },
+    {
+      "axis": "gy_rad_s",
+      "log_log_slope": -0.4266593243948792,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.00012934045833121874
+    },
+    {
+      "axis": "gz_rad_s",
+      "log_log_slope": -0.4226619281575682,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 6.160634546528955e-05
+    },
+    {
+      "axis": "ax_m_s2",
+      "log_log_slope": -0.54285682735136,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.00074478906214448
+    },
+    {
+      "axis": "ay_m_s2",
+      "log_log_slope": -0.5440243828157515,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.0006711840864384177
+    },
+    {
+      "axis": "az_m_s2",
+      "log_log_slope": -0.6959025124999816,
+      "white_slope_compatible": false,
+      "provisional_density_si_per_sqrt_hz": null
+    }
+  ],
+  "bias_random_walk": null,
+  "random_walk_fit_tau_s": [
+    10,
+    100
+  ],
+  "bias_random_walk_candidates": [
+    {
+      "axis": "gx_rad_s",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    },
+    {
+      "axis": "gy_rad_s",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    },
+    {
+      "axis": "gz_rad_s",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    },
+    {
+      "axis": "ax_m_s2",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    },
+    {
+      "axis": "ay_m_s2",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    },
+    {
+      "axis": "az_m_s2",
+      "random_walk_slope_compatible": false,
+      "provisional_bias_diffusion_si": null,
+      "reason": "Insufficient long-time averaging range with at least ten independent pairs"
+    }
+  ],
+  "si_axis_order": [
+    "gx_rad_s",
+    "gy_rad_s",
+    "gz_rad_s",
+    "ax_m_s2",
+    "ay_m_s2",
+    "az_m_s2"
+  ],
+  "minute_blocks": [
+    {
+      "start_s": 60.001977446000005,
+      "samples": 12245,
+      "mean_si": [
+        0.011322882317602414,
+        -0.00962393364042233,
+        0.0015415055827128676,
+        -0.6008151847489058,
+        2.7050941566128057,
+        9.584289220690218
+      ],
+      "std_si": [
+        0.0019964610253237597,
+        0.0023592864597455814,
+        0.0008397182964652456,
+        0.012135272756746042,
+        0.014550061329749965,
+        0.029542764597722444
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.01100405525626639
+    },
+    {
+      "start_s": 120.00197744600001,
+      "samples": 12243,
+      "mean_si": [
+        0.011385953248902313,
+        -0.009678219925763868,
+        0.0015883094933886904,
+        -0.6037395530881036,
+        2.7065130824063774,
+        9.584137236456058
+      ],
+      "std_si": [
+        0.002017912271486288,
+        0.0025168142211962263,
+        0.0008726360835012288,
+        0.01289031694008941,
+        0.01470959002815326,
+        0.027572310946541168
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.01706327148266152
+    },
+    {
+      "start_s": 180.001977446,
+      "samples": 12243,
+      "mean_si": [
+        0.011432156075870538,
+        -0.009706984428730582,
+        0.00162006770004662,
+        -0.6070570219121185,
+        2.706610804476136,
+        9.58419401297858
+      ],
+      "std_si": [
+        0.0020825572931000404,
+        0.002586327189516853,
+        0.0008951403115905791,
+        0.012990792778013318,
+        0.014218193391809228,
+        0.026677769847998425
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.010366726855702856
+    },
+    {
+      "start_s": 240.00197744600004,
+      "samples": 12243,
+      "mean_si": [
+        0.011467132513996526,
+        -0.00971344583919746,
+        0.0016293232339587055,
+        -0.6052594244389923,
+        2.7059454149031836,
+        9.583635433627839
+      ],
+      "std_si": [
+        0.002167045257511048,
+        0.0033229721564277223,
+        0.0011689793138600156,
+        0.01786325954451811,
+        0.015529371248830614,
+        0.02720712046280259
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.05186062393630702
+    },
+    {
+      "start_s": 300.001977446,
+      "samples": 12244,
+      "mean_si": [
+        0.011497602338803075,
+        -0.009702075627147744,
+        0.0015891775916629922,
+        -0.6073338070084962,
+        2.7069003044955764,
+        9.583061039104667
+      ],
+      "std_si": [
+        0.0020351105535376625,
+        0.0027752276512617137,
+        0.0009562670786732647,
+        0.014063154282383935,
+        0.0145737612150128,
+        0.025483903491011026
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.015758665672047457
+    },
+    {
+      "start_s": 360.00197744600007,
+      "samples": 12244,
+      "mean_si": [
+        0.011505784460582234,
+        -0.009722206640183667,
+        0.0015842633294968352,
+        -0.6097030805131595,
+        2.7073190093649497,
+        9.582690604995015
+      ],
+      "std_si": [
+        0.002130909277184947,
+        0.002717272115676843,
+        0.0009278458400371106,
+        0.013882567065070742,
+        0.014436477113792714,
+        0.025202531799920314
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.01908892781867563
+    },
+    {
+      "start_s": 420.00197744600007,
+      "samples": 12244,
+      "mean_si": [
+        0.011543801392263636,
+        -0.009724277116121765,
+        0.0015892025371562275,
+        -0.611755955799154,
+        2.7084519065074155,
+        9.581958042473332
+      ],
+      "std_si": [
+        0.0022367976459212098,
+        0.0027893738334872566,
+        0.000945476183488093,
+        0.013729011527731452,
+        0.014113272123868049,
+        0.025305179301704762
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.013889630210571383
+    },
+    {
+      "start_s": 480.00197744600007,
+      "samples": 4081,
+      "mean_si": [
+        0.01155883963707152,
+        -0.00970917981143737,
+        0.0015821724008216282,
+        -0.6131160834030877,
+        2.709001477190875,
+        9.582650883775168
+      ],
+      "std_si": [
+        0.0022781496004660945,
+        0.0027512712080605814,
+        0.0009194063402898533,
+        0.01346537181129086,
+        0.013819741556675504,
+        0.02504081363619753
+      ],
+      "gyro_max_deviation_from_full_window_median_rad_s": 0.009915981816713977
+    }
+  ],
+  "temperature": {
+    "samples": 437,
+    "min_max_c": [
+      30.6328125,
+      31.0
+    ],
+    "first_last_c": [
+      30.6953125,
+      30.99609375
+    ]
+  },
+  "notes": [
+    "Averaging uses actual consecutive hardware samples and mean mapped sample interval; no interpolated samples.",
+    "Allan estimates overlap; plotted point count is not an independent sample count.",
+    "No accepted random-walk parameter is generated automatically; any slope-compatible candidate still needs stationarity and duration review.",
+    "Kalibr recommends 15\u201324 hours stationary data for full noise identification; temperature and motion errors need separate assessment."
+  ],
+  "source_documentation": "https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model"
+}

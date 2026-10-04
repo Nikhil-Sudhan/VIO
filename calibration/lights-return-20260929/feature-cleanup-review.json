@@ -1,0 +1,11 @@
+{
+  "change": "Replace repeated per-element vector erases in Feature cleanup with stable linear compaction; selection predicates, order, and retained pixel values unchanged.",
+  "regression_identical": true,
+  "pose_rows": 781,
+  "pose_sha256": "7a9a30fa999bf2c33fdaf00195292acfe56d0a0ae424e32f2dd3ffecbc9d9a4b",
+  "before": "/home/pluto/vio-project/data/straight-slide-new-fit-aprilgrid-output-20260929/poses.csv",
+  "after": "/home/pluto/vio-project/data/straight-slide-cleanup-regression-20260929/poses.csv",
+  "unit_and_benchmark": "PASS: 144 exact-result comparisons; 6000-observation history benchmark old_ms=348.671 new_ms=0.728399",
+  "trigger": "First motion after 212 s static initialization caused a 3088.95 ms feed call in live session 20260929_224520_g6dt5uug; next input rejected as stale.",
+  "live_retest_pending": true
+}

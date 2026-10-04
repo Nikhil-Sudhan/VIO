@@ -1,0 +1,10 @@
+{
+  "bag": "/home/pluto/vio-project/data/translation-current-20260929.bag",
+  "source": "/home/pluto/vio-project/data/native-live/20260929_215510_9a3st1lo",
+  "counts": {
+    "camera": 1563,
+    "imu": 16573
+  },
+  "all_sample_timestamps_and_payloads_match": true,
+  "scope": "Export integrity only; camera/IMU synchronization and calibration remain unverified"
+}

@@ -1,0 +1,65 @@
+{
+  "scope": "Recorded grid-free room trial and offline diagnosis; no independent ground truth or persistent map validation",
+  "session": "/home/pluto/vio-project/data/native-live/20261004_184508_m4n0p5ht",
+  "raw_capture_checks_passed": true,
+  "live_tracking_passed": false,
+  "grid_free_mapping_validated": false,
+  "original_offline_baseline": "Failed with negative EKF covariance diagonal around 73s; incomplete outputs retained, excluded from completed-run metrics.",
+  "raw_report": "/home/pluto/vio-project/data/native-live/20261004_184508_m4n0p5ht/analysis/report.json",
+  "runs": {
+    "live_original": {
+      "processed_frames": 1782,
+      "output_states": 1700,
+      "peak_position_norm_m": 173.3993328083805,
+      "final_position_m": [
+        148.22529451826543,
+        88.91770269755006,
+        -13.792491810948443
+      ],
+      "final_position_norm_m": 173.3993328083805,
+      "final_speed_m_s": 13.381576581489961,
+      "poses_with_msckf_features": 126,
+      "moving_poses_with_msckf_features": 93,
+      "resting_55s_onwards_position_span_m": 175.62935363763975,
+      "resting_interval_basis": "IMU variability and recorded images show case resting after approximately 50 camera-relative seconds; 55s excludes settling. Not independently measured ground truth."
+    },
+    "offline_no_clahe_fast10": {
+      "processed_frames": 1782,
+      "output_states": 1290,
+      "peak_position_norm_m": 0.9119194460558492,
+      "final_position_m": [
+        0.07630324295269857,
+        0.09307401275289481,
+        -0.013859559951585455
+      ],
+      "final_position_norm_m": 0.12114885115871368,
+      "final_speed_m_s": 0.08244042363816417,
+      "poses_with_msckf_features": 506,
+      "moving_poses_with_msckf_features": 219,
+      "resting_55s_onwards_position_span_m": 0.1239052162971007,
+      "resting_interval_basis": "IMU variability and recorded images show case resting after approximately 50 camera-relative seconds; 55s excludes settling. Not independently measured ground truth."
+    },
+    "offline_no_clahe_fast20": {
+      "processed_frames": 1782,
+      "output_states": 1290,
+      "peak_position_norm_m": 0.8466059176810727,
+      "final_position_m": [
+        -0.33177816301194146,
+        0.006717946835343981,
+        -0.12389867130607057
+      ],
+      "final_position_norm_m": 0.3542213446599042,
+      "final_speed_m_s": 0.067795133312457,
+      "poses_with_msckf_features": 127,
+      "moving_poses_with_msckf_features": 127,
+      "resting_55s_onwards_position_span_m": 0.30145705783219223,
+      "resting_interval_basis": "IMU variability and recorded images show case resting after approximately 50 camera-relative seconds; 55s excludes settling. Not independently measured ground truth."
+    }
+  },
+  "front_end_changes": {
+    "histogram_method": "CLAHE -> NONE",
+    "fast_threshold": "20 -> 10",
+    "calibration_and_gates": "Unchanged camera/IMU transform, intrinsics, time offset, noise, outlier gates and zero-velocity gates."
+  },
+  "interpretation": "No-CLAHE suppresses false apparent motion in stationary dim images. FAST 10 yields more visual corrections than FAST 20 in this saved trial. Candidate selection uses this recording, so this is not an independent validation set."
+}

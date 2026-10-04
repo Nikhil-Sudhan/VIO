@@ -1,0 +1,22 @@
+[
+  {
+    "paths": [
+      "/home/pluto/vio-project/data/all-axis-2340-calibration.bag",
+      "/home/pluto/vio-project/calibration/lights-return-20260929/all-axis-2340-fit/input.bag"
+    ],
+    "bytes": 975652866,
+    "sha256": "f5f2abd4fccb2aec3e410cd4159f9800fba0d96236c777e65d20a1a7d2adc636",
+    "source_recording": "/home/pluto/vio-project/data/current-mount-calibration/20260929_234048__wzje0kl",
+    "reason": "Completed calibration; remove regenerable selected ROS bag, preserve raw recordings, selection provenance and fit results"
+  },
+  {
+    "paths": [
+      "/home/pluto/vio-project/data/tilt-roll-calibration.bag",
+      "/home/pluto/vio-project/calibration/lights-return-20260929/tilt-roll-fit/input.bag"
+    ],
+    "bytes": 487650965,
+    "sha256": "db91f4179c820a5ef1fbd16ede0d530916ccd50b9b5da7fb8636d6a2ebc1d46b",
+    "source_recording": "/home/pluto/vio-project/data/current-mount-calibration/20260929_235643_xt2pev7y",
+    "reason": "Completed calibration; remove regenerable selected ROS bag, preserve raw recordings, selection provenance and fit results"
+  }
+]

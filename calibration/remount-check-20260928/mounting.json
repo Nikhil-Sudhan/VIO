@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-28T16:14:47.943112+00:00",
+  "user_statement": "Mounted: camera at front, IMU behind, on same rigid structure. IMU +X forward, +Y left, +Z up.",
+  "nominal_R_cam_imu": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "translation": "Unknown; not inferred from pictures or previous mounting.",
+  "status": "Physical axis and rigidity check pending; not calibrated."
+}

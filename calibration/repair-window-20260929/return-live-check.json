@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-29T20:39:57.503381+05:30",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_203803_y6byvq9q",
+  "session_status": "recording",
+  "frames_written": 2201,
+  "errors": [],
+  "snapshot_age_s": 0.048242712,
+  "snapshot": {
+    "sequence": 2276,
+    "t": 111.78748785600001,
+    "emitted_boot_ns": 5231821571729,
+    "initialized": false,
+    "stationary_ready": false,
+    "zero_velocity_update": false,
+    "image_mean_luma": 17.217894757681343,
+    "image_std_luma": 0.9705034154119975,
+    "last_msckf_update_age_s": null
+  }
+}

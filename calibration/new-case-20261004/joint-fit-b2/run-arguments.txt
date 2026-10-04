@@ -1,0 +1,6 @@
+Actual bag interval: 172.032882786 to 232.032882786 seconds
+Maximum feature extraction rate: 10 Hz
+Source bag: /home/pluto/vio-project/data/new-case-20261004/motion1.bag
+Camera input: /home/pluto/vio-project/calibration/new-case-20261004/camera-intrinsics-provisional.yaml
+Target input: /home/pluto/vio-project/calibration/new-case-20261004/target-ASSUMED-A4.yaml
+Noise input: /home/pluto/vio-project/calibration/new-case-20261004/noise-weights10/noise.yaml

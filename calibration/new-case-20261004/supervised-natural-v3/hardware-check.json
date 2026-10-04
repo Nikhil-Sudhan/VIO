@@ -1,0 +1,32 @@
+{
+  "scope": "Real stationary camera/IMU/live-estimator and RAM archive check. Not a moving tracking or mapping accuracy test.",
+  "session": "/home/pluto/vio-project/data/new-case-20261004/supervised-hardware-check/20261004_200416_6zkps202",
+  "camera_frames": 300,
+  "raw_capture_checks_passed": true,
+  "archive_verified_files": 355,
+  "image_queue_high_water": 1,
+  "transport": {
+    "scope": "Experimental physical stream; output requires separate validation",
+    "imu_sent": 3363,
+    "camera_sent": 300,
+    "clock_warmup_imu_excluded": 344,
+    "clock_warmup_camera_excluded": 0,
+    "event_queue_high_water": 2,
+    "normal_end_sent": true,
+    "max_event_queue_wait_ms": 2.53844,
+    "max_event_processing_ms": 2.12644,
+    "max_camera_write_ms": 2.105089,
+    "max_imu_group_write_ms": 0.035574,
+    "trailing_incomplete_slot_trimmed": false,
+    "estimator_exit_code": 0,
+    "clock_prediction_checks": 60,
+    "clock_prediction_max_abs_us": 379.6327890625
+  },
+  "tracking_states": {
+    "initializing": 24,
+    "initializing_depth": 1,
+    "ready": 275
+  },
+  "usable_poses": 0,
+  "interpretation": "Stationary initialization successful, correctly does not claim a depth map without movement."
+}

@@ -1,0 +1,5 @@
+{
+  "scope": "offline sensitivity test, not accepted hardware calibration",
+  "change": "Remove 10x exploratory fitting-weight inflation; use max empirical quiet-window noise envelopes. Long-term bias walk still provisional.",
+  "source_noise_review": "calibration/noise-provisional-weights-10x/review.json"
+}

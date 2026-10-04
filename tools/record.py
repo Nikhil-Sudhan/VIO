@@ -17,6 +17,12 @@ from pathlib import Path
 from picamera2 import Picamera2
 from libcamera import controls
 from imu_fifo_probe import FifoDevice, boot_ns, ROOT
+from recording_storage import RawRecordingStorage
+
+# At 20 Hz this absorbs 6.4 seconds of temporary SD-card write stalls.
+# 820x616 luma frames occupy about 65 MB at the bound. The queue still fails
+# explicitly if storage cannot catch up; frames are never silently dropped.
+IMAGE_QUEUE_FRAMES = 128
 
 
 def main():
@@ -29,6 +35,7 @@ def main():
     p.add_argument('--image-format', choices=['pgm','png'], default='pgm', help='Lossless stored image format; PNG reduces storage while preserving every pixel')
     p.add_argument('--estimator-config', type=Path, help='Experimental live OpenVINS; requires a reviewed joint-calibration bundle')
     p.add_argument('--ram-estimator-output', action='store_true', help='Keep derived estimator output in RAM during the live run, then copy it to the session; raw sensor data stays on disk')
+    p.add_argument('--ram-recording', action='store_true', help='Bounded raw and optional VIO take in RAM; verify and save after sensors stop')
     p.add_argument('--experimental-calibration', action='store_true', help='Explicit bounded manual demo using reviewed provisional calibration; NOT navigation validation')
     p.add_argument('--finish-on-usr1', action='store_true', help='SIGUSR1 ends a guided capture normally, with IMU tail')
     p.add_argument('--save-camera-every', type=int, default=1, help='Demo archive stride only; every camera frame still feeds live VIO')
@@ -48,6 +55,8 @@ def main():
         p.error('Experimental calibration requires estimator-config and a bounded run of at most 300 seconds')
     if args.ram_estimator_output and not args.estimator_config:
         p.error('ram-estimator-output requires estimator-config')
+    if args.ram_recording and (args.seconds > 300 or args.ram_estimator_output):
+        p.error('ram-recording is bounded to 300 seconds and already includes estimator output')
     cfg = json.loads(args.config.read_text())
     calibration_review = None
     if args.estimator_config:
@@ -62,11 +71,15 @@ def main():
     if shutil.disk_usage(args.output).free < required:
         raise RuntimeError(f'Insufficient storage: require {required} bytes')
     folder = Path(tempfile.mkdtemp(prefix=datetime.now().strftime('%Y%m%d_%H%M%S_'), dir=args.output))
+    archive_folder = folder
+    storage = RawRecordingStorage(archive_folder, required) if args.ram_recording else None
+    if storage:
+        folder = storage.folder
     if not args.imu_only:
         (folder / 'images').mkdir()
     stop, imu_ready, capture_enabled = threading.Event(), threading.Event(), threading.Event()
     finish_requested = threading.Event()
-    images = queue.Queue(maxsize=32)
+    images = queue.Queue(maxsize=IMAGE_QUEUE_FRAMES)
     raw_records = queue.Queue(maxsize=1024)
     errors, workers = [], []
     status_stop = threading.Event()
@@ -87,13 +100,17 @@ def main():
               'boot_id': Path('/proc/sys/kernel/random/boot_id').read_text().strip(),
               'camera_config_sha256': None if args.imu_only else hashlib.sha256(args.config.read_bytes()).hexdigest(),
               'acquisition_source_sha256': {name: hashlib.sha256((ROOT / 'tools' / name).read_bytes()).hexdigest()
-                                           for name in ('record.py', 'imu_fifo_probe.py', 'live_bridge.py', 'online_imu.py', 'stream_protocol.py', 'calibration_guard.py')},
+                                           for name in ('record.py', 'recording_storage.py', 'imu_fifo_probe.py', 'live_bridge.py', 'online_imu.py', 'stream_protocol.py', 'calibration_guard.py')},
               'camera_timestamp': 'unmodified SensorTimestamp; not an exposure midpoint',
               'imu_timestamp': 'FIFO hardware ticks and host clock read brackets; mapping is derived separately',
               'clock_start': {'boottime_ns': boot_ns(), 'monotonic_ns': time.monotonic_ns()},
               'frames_enqueued': 0, 'frames_written': 0, 'image_queue_high_water': 0,
+              'image_queue_capacity': IMAGE_QUEUE_FRAMES,
               'raw_queue_high_water': 0, 'raw_records_written': 0,
               'fifo_words': 0, 'fifo_max_level': 0, 'fifo_overflow_or_full_batches': 0}
+    if storage:
+        report['raw_recording_storage'] = {k: v for k, v in storage.pointer.items() if k != 'state'}
+        report['raw_recording_storage']['status_file'] = str(archive_folder/'recording-storage.json')
     # Preserve the actual implementation/configuration used by this run, even
     # if the worktree changes later. No existing recording is modified.
     source_folder = folder / 'acquisition_source'
@@ -105,7 +122,13 @@ def main():
         shutil.copytree(args.estimator_config.resolve().parent, folder / 'calibration')
         binary = ROOT / 'build/adapter/vio_stream'
         report['estimator_binary_sha256'] = hashlib.sha256(binary.read_bytes()).hexdigest()
-        shutil.copyfile(ROOT / 'adapter/stream.cpp', source_folder / 'stream.cpp')
+        for name in ('stream.cpp', 'supervised_vio.h', 'tracking_health.h', 'aprilgrid_tracker.h'):
+            shutil.copyfile(ROOT / 'adapter' / name, source_folder / name)
+        library = ROOT / 'install/lib/libov_msckf_lib.so'
+        with library.open('rb') as lib:
+            report['estimator_library_sha256'] = hashlib.file_digest(lib, 'sha256').hexdigest()
+        report['estimator_patch_sha256'] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+                                            for p in (ROOT/'patches').glob('openvins-*.patch')}
 
     def save_session():
         report['errors'] = errors.copy()
@@ -118,7 +141,8 @@ def main():
             while not status_stop.wait(5):
                 if stream:
                     report['live_transport'] = stream.report.copy()
-                print(f"{report['frames_enqueued']} images, {report['fifo_words']} FIFO words, queue {images.qsize()}", flush=True)
+                if not storage:  # No periodic SD log writes during a RAM take.
+                    print(f"{report['frames_enqueued']} images, {report['fifo_words']} FIFO words, queue {images.qsize()}", flush=True)
                 save_session()
         except Exception:
             errors.append(traceback.format_exc())
@@ -259,7 +283,7 @@ def main():
     signal.signal(signal.SIGTERM, interrupt)
     if args.finish_on_usr1:
         signal.signal(signal.SIGUSR1, lambda _sig, _frame: finish_requested.set())
-    print(folder, flush=True)
+    print(archive_folder, flush=True)
     save_session()
     try:
         if args.estimator_config:
@@ -291,6 +315,7 @@ def main():
             cam.start()
             stop.wait(2)
         report['status'] = 'recording'
+        report['recording_started_boot_ns'] = boot_ns()
         save_session()
         status_worker = threading.Thread(target=status_writer, name='status-writer', daemon=True)
         status_worker.start()
@@ -347,6 +372,16 @@ def main():
             report['status'] = 'failed'
         report['clock_end'] = {'boottime_ns': boot_ns(), 'monotonic_ns': time.monotonic_ns()}
         save_session()
+        if storage:
+            try:
+                if any(worker.is_alive() for worker in workers) or (status_worker and status_worker.is_alive()):
+                    raise RuntimeError('Writers still active; staged data retained, archive not attempted')
+                storage.persist()
+            except Exception:
+                errors.append(traceback.format_exc())
+                report['status'] = 'failed'
+                storage.set_state('save_failed', errors[-1])
+                save_session()
     print(json.dumps(report, indent=2, default=str), flush=True)
     return int(report['status'] != 'completed')
 

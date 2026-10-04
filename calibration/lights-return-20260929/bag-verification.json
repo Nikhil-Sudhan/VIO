@@ -1,0 +1,10 @@
+{
+  "bag": "/home/pluto/vio-project/data/lights-return-20260929.bag",
+  "source": "/home/pluto/vio-project/data/native-live/20260929_213333_3in6mrhs",
+  "counts": {
+    "camera": 1581,
+    "imu": 16746
+  },
+  "all_sample_timestamps_and_payloads_match": true,
+  "scope": "Export integrity only; camera/IMU synchronization and calibration remain unverified"
+}

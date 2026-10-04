@@ -1,0 +1,71 @@
+{
+  "accepted_for_estimator": false,
+  "scope": "Short-run noise characterization; physical stationarity must be reviewed",
+  "source": "/home/pluto/vio-project/data/calibration-views/20260926_170448_9cgf6d4f",
+  "input_sha256": "85b80e8c1417b468cd5c91a9fe1f4e2112fbb765aa63a2bc8ea2afdd50b22da4",
+  "analysis_sha256": "41dc7a7ebaba9cfbe423c553f6430d0b245f6c83be32bccb743b768718626719",
+  "window_start_s": 5.0006271280000005,
+  "window_end_s": 92.14434279000001,
+  "duration_s": 87.143715662,
+  "samples": 17780,
+  "mean_dt_s": 0.004901497028066822,
+  "relative_dt_max_deviation": 0.00023747274078589342,
+  "mean_native_axes_si": {
+    "gx_rad_s": 0.011674242818652758,
+    "gy_rad_s": -0.00967274870636525,
+    "gz_rad_s": 0.002005324903853925,
+    "ax_m_s2": -0.5007320430711115,
+    "ay_m_s2": 0.6829613644360464,
+    "az_m_s2": 10.003982303655215
+  },
+  "white_fit_tau_s": [
+    0.03,
+    0.3
+  ],
+  "white_noise_candidates": [
+    {
+      "axis": "gx_rad_s",
+      "log_log_slope": -0.5637951739473909,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 6.309300191813133e-05
+    },
+    {
+      "axis": "gy_rad_s",
+      "log_log_slope": -0.38897804592043894,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.00013082624748521872
+    },
+    {
+      "axis": "gz_rad_s",
+      "log_log_slope": -0.336535449819598,
+      "white_slope_compatible": false,
+      "provisional_density_si_per_sqrt_hz": null
+    },
+    {
+      "axis": "ax_m_s2",
+      "log_log_slope": -0.598677066764296,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.0008332158802186806
+    },
+    {
+      "axis": "ay_m_s2",
+      "log_log_slope": -0.618894816602228,
+      "white_slope_compatible": true,
+      "provisional_density_si_per_sqrt_hz": 0.0007260230435571748
+    },
+    {
+      "axis": "az_m_s2",
+      "log_log_slope": -0.6894637567098292,
+      "white_slope_compatible": false,
+      "provisional_density_si_per_sqrt_hz": null
+    }
+  ],
+  "bias_random_walk": null,
+  "notes": [
+    "Averaging uses actual consecutive hardware samples and mean mapped sample interval; no interpolated samples.",
+    "Allan estimates overlap; plotted point count is not an independent sample count.",
+    "No random-walk value inferred from a short run or Allan minimum.",
+    "Kalibr recommends 15\u201324 hours stationary data for full noise identification; temperature and motion errors need separate assessment."
+  ],
+  "source_documentation": "https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model"
+}

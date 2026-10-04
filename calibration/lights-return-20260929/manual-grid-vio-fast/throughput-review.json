@@ -1,0 +1,16 @@
+{
+  "scope": "Same 20 original sensor frames, detector dictionary/border/refinement unchanged. Only OpenCV worker thread count varied.",
+  "mean_detection_ms": {
+    "1": 21.5086,
+    "2": 14.7825,
+    "4": 10.4622
+  },
+  "p95_detection_ms": {
+    "1": 23.0143,
+    "2": 16.6756,
+    "4": 12.9274
+  },
+  "all_tag_counts_identical": true,
+  "camera_capture_rate_unchanged_hz": 20,
+  "estimator_camera_imu_callbacks_remain_serial": true
+}

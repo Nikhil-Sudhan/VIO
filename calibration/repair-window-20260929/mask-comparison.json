@@ -1,0 +1,24 @@
+{
+  "slow-live-motion-output-v2-20260929": {
+    "poses": 379,
+    "max_norm_m": 7.607397174872884,
+    "final_pos_m": [
+      3.638178812190732,
+      6.2452384308769195,
+      2.3734244559893543
+    ],
+    "visual_update_frames": 5,
+    "max_speed_m_s": 0.958160754364082
+  },
+  "slow-live-background-output-20260929": {
+    "poses": 379,
+    "max_norm_m": 6.256860026082463,
+    "final_pos_m": [
+      -2.3112773747017417,
+      5.795672307214012,
+      0.46527066377869847
+    ],
+    "visual_update_frames": 1,
+    "max_speed_m_s": 0.7539599574897183
+  }
+}

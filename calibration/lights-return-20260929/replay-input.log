@@ -1,0 +1,20 @@
+{
+  "scope": "Pi measurement export; not accepted estimator calibration or VIO output",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_213333_3in6mrhs",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "counts": {
+    "images": 1581,
+    "imu": 16746
+  },
+  "source_sha256": {
+    "analysis/report.json": "418468a5fce19c03ed4298d69d0f7fe9cd8970e593dacb2e0983e0e07156aa00",
+    "analysis/imu_derived.csv": "a56517c0921d18ddcd53eb260629e07d7217a2cc006632098108d4a0e0b7982e",
+    "frames.csv": "0ce2a5dd212af4de9b37fb0ae4db55f02202befd5f5fc9b7ab039d72978ba867",
+    "session.json": "d58b9d7c8865338e50ec57e11e9596791a935794497207e55c3b5ddc242e505f"
+  },
+  "images": "Absolute paths to preserved original 8-bit PGM files; no image transformation",
+  "camera_timestamp": "Unmodified SensorTimestamp, driver frame-start clock; no midpoint correction",
+  "imu_timestamp": "Derived hardware counter clock mapping; no invented replacement samples",
+  "units_and_axes": "rad/s and m/s^2 including gravity; native IMU XYZ",
+  "required_before_estimation": "Reviewed calibration for this exact camera geometry, IMU settings and rigid mounting, including time offset and noise"
+}

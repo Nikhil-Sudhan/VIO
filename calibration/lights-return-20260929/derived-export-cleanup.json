@@ -1,0 +1,68 @@
+{
+  "time": "2026-09-29T22:28:19+0530",
+  "reason": "Reclaim disk for further user-authorized VIO captures; exact exports can be regenerated from retained source recordings.",
+  "entries": [
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/native-live/20260929_213333_3in6mrhs",
+      "export_bytes": 805389802,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/lights-return-20260929.bag",
+        "/home/pluto/vio-project/calibration/lights-return-20260929/joint-fit/input.bag",
+        "/home/pluto/vio-project/calibration/lights-return-20260929/joint-fit-v2/input.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/lights-return-20260929.provenance.json"
+    },
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/native-live/20260929_215510_9a3st1lo",
+      "export_bytes": 796227166,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/translation-current-20260929.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/translation-current-20260929.provenance.json"
+    },
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/native-live/20260929_220949_1xjelsnb",
+      "export_bytes": 480550948,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/straight-slide-20260929.bag",
+        "/home/pluto/vio-project/calibration/lights-return-20260929/straight-slide/joint-fit/input.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/straight-slide-20260929.provenance.json",
+      "time": "2026-09-29T22:39:10.011828"
+    },
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/native-live/20260929_220949_1xjelsnb",
+      "export_bytes": 998425291,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/straight-slide-uncompressed-20260929.bag",
+        "/home/pluto/vio-project/calibration/lights-return-20260929/straight-slide/joint-fit-uncompressed/input.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/straight-slide-uncompressed-20260929.provenance.json",
+      "time": "2026-09-29T22:39:10.104484"
+    },
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+      "export_bytes": 2537310797,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/printed-calibration-20260929.bag",
+        "/home/pluto/vio-project/calibration/printed-room-20260929/joint-fit/input.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/printed-calibration-20260929.provenance.json",
+      "time": "2026-09-29T22:44:29.580326"
+    },
+    {
+      "source_recording_retained": "/home/pluto/vio-project/data/calibration-views/20260926_172822_0aw0gyzi",
+      "export_bytes": 3087824950,
+      "removed_derived_export_paths": [
+        "/home/pluto/vio-project/data/calibration-poses4.bag",
+        "/home/pluto/vio-project/data/joint-calibration-attempt1/input.bag",
+        "/home/pluto/vio-project/data/joint-calibration-weights20/input.bag",
+        "/home/pluto/vio-project/data/joint-calibration-weights5/input.bag",
+        "/home/pluto/vio-project/data/joint-calibration-independent110/input.bag",
+        "/home/pluto/vio-project/data/joint-calibration-attempt2/input.bag"
+      ],
+      "provenance_retained": "/home/pluto/vio-project/data/calibration-poses4.provenance.json",
+      "time": "2026-09-29T22:53:44.218544"
+    }
+  ]
+}

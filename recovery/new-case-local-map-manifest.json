@@ -1,0 +1,36 @@
+{
+  "checkpoint_tag": "new-case-local-map-2026-10-04",
+  "scope": "Experimental handheld local VIO/mapping, new fixed case; not flight/navigation acceptance",
+  "parent_commit": "564f3aa706941abe3592047fe19c67eed0032e0f",
+  "calibration": "calibration/new-case-20261004/supervised-natural-v3/estimator_config.yaml",
+  "camera": "config/camera-candidate.json",
+  "launch": "bash tools/start_remote_demo.sh",
+  "restore_check": "bash tools/restore_demo.sh --check",
+  "hashes": {
+    "build/adapter/vio_stream": "8172265f54ca629a35cd6dc3c5d24ea01a27019ad3a3a6b4e635a1201086f33e",
+    "build/adapter/vio_replay": "4f2b102f57bf79b25313bfea35eb8f8aabd7e4142e1207cfdf16e6f15c1dd784",
+    "install/lib/libov_msckf_lib.so": "e13d14e4be6f122a5646b7f1345f2f85c2fdfa8ec3cb4cf7f4c327ce7fc900b4",
+    "patches/openvins-visual-update-evidence.patch": "665b77b94ccd8f382805ce6d1668f0ba38030f77878744c4e15263c497a5f690",
+    "patches/openvins-ekf-cross-covariance.patch": "c59e3db6a51ac3f013506ee665a10f171289e46d9abfae80d24b8e56567464e9",
+    "patches/openvins-feature-cleanup.patch": "c7d41c19cd732592c2f7bcadbf0b4ce9398d9c39a1b6a0cb0851cf63a1c1588a",
+    "patches/openvins-zupt-visual-veto.patch": "4960253250326fc11def97f4acde556f08963f359cb516b40f8f23a5bb75504e",
+    "calibration/new-case-20261004/supervised-natural-v3/imucam.yaml": "384079054d7ee728f115c8ec810baa99accd56de41bdbfb59c076de591baff55",
+    "calibration/new-case-20261004/supervised-natural-v3/estimator_config.yaml": "8a29f04bf8081b5cd3fc39a3e1f1f832e8b77c0b4309f8746c41547dc73a5f57",
+    "calibration/new-case-20261004/supervised-natural-v3/imu.yaml": "7e079eae338a0f7cf6e5b2d1258f335ca8473537901080d167617b00e56ac845",
+    "calibration/new-case-20261004/supervised-natural-v3/review.json": "30d095e50705cd81a509ae569f10b0808d42eb1626f057d2a607a2ab03f8f1a7",
+    "config/camera-candidate.json": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9"
+  },
+  "validation": {
+    "python_unit_tests": 47,
+    "cpp_tracking_health_test": "passed",
+    "source_recovery_check": "passed",
+    "latest_live_capture": "data/native-live/20261004_201533_ymht70tv",
+    "raw_capture_checks_passed": true,
+    "frames": 2401,
+    "map_landmarks_before_wall_loss": 186,
+    "loss_time_s": 46.755199535,
+    "reason": "visual_corrections_expired"
+  },
+  "raw_recordings": "Stored on Pi outside Git; this source checkpoint is not a full SD-card backup",
+  "calibration_status": "Provisional intrinsics, target scale and noise; fixed new-case extrinsics/time offset retained"
+}

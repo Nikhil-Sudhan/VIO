@@ -5,7 +5,7 @@ cd "$VIO_ROOT"
 expected=$(/usr/bin/python3 -c 'import json; print(json.load(open("config/sources.lock.json"))["openvins"]["commit"])')
 test "$(git -C vendor/open_vins rev-parse HEAD)" = "$expected"
 # Only the pinned source plus these exact recorded patches may be built.
-patch_files=("$VIO_ROOT/patches/openvins-feature-cleanup.patch" "$VIO_ROOT/patches/openvins-zupt-visual-veto.patch" "$VIO_ROOT/patches/openvins-ekf-cross-covariance.patch")
+patch_files=("$VIO_ROOT/patches/openvins-feature-cleanup.patch" "$VIO_ROOT/patches/openvins-zupt-visual-veto.patch" "$VIO_ROOT/patches/openvins-ekf-cross-covariance.patch" "$VIO_ROOT/patches/openvins-visual-update-evidence.patch")
 for patch_file in "${patch_files[@]}"; do
   if git -C vendor/open_vins apply --check "$patch_file" 2>/dev/null; then
     git -C vendor/open_vins apply "$patch_file"

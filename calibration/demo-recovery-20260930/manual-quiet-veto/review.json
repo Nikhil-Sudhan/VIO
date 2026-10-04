@@ -1,6 +1,6 @@
 {
   "accepted_for_hardware_estimation": false,
-  "approved_for_manual_development_demo": true,
+  "approved_for_manual_development_demo": false,
   "scope": "manual development demo; NOT validated navigation",
   "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
   "imu_configured_registers": {
@@ -50,5 +50,7 @@
     "Two-corner replay: 0.251m current/0.135m heldout maximum norm; same-image disagreement up to 0.235m; manual prototype only.",
     "Latest current replay diagnostic maximum discrepancy 8.5 cm; camera noise, unmeasured print scale and unverified moving accuracy remain."
   ],
-  "change": "Fix fitted extrinsic/time offset during this short demo; require visual stationarity from separately retained tag corner history in addition to the IMU stationary test. Keep two measured corners per detected tag and at most 20 ordinary persistent landmarks; total persistent map is at most 92 landmarks. Use 1.0 px tag visual veto: stationary camera jitter repeatedly exceeded 0.5 px. Original IMU consistency gate unchanged."
+  "change": "Fix fitted extrinsic/time offset during this short demo; require visual stationarity from separately retained tag corner history in addition to the IMU stationary test. Keep two measured corners per detected tag and at most 20 ordinary persistent landmarks; total persistent map is at most 92 landmarks. Use 1.0 px tag visual veto: stationary camera jitter repeatedly exceeded 0.5 px. Original IMU consistency gate unchanged.",
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
 }

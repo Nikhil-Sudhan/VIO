@@ -1,0 +1,138 @@
+{
+  "purpose": "camera-only intrinsics candidate, NOT metric camera/IMU calibration",
+  "physical_target_size_measured": false,
+  "board_unit": "one displayed tag width",
+  "assumptions": [
+    "flat display",
+    "aspect ratio preserved",
+    "6x6 generated April36h11 grid, gap/tag=0.3"
+  ],
+  "camera_config_sha256": "1aaaa4592c920cd1610b4f531e42bc63e8d8cea4b1118f85267bad584aebcba9",
+  "attempted_frames": 251,
+  "distinct_views": 2,
+  "motion_filter": {
+    "max_median_motion_px": 2.5,
+    "neighbor_frame_distance": 2,
+    "rejected_frames": 77
+  },
+  "views": [
+    {
+      "path": "data/calibration-views/20260926_170344_spwp4_rt/images/000056.pgm",
+      "tags": 32,
+      "ids": [
+        4,
+        5,
+        3,
+        2,
+        0,
+        1,
+        11,
+        6,
+        10,
+        9,
+        7,
+        8,
+        12,
+        16,
+        13,
+        14,
+        15,
+        23,
+        18,
+        22,
+        19,
+        20,
+        21,
+        24,
+        28,
+        25,
+        27,
+        30,
+        26,
+        31,
+        34,
+        32
+      ],
+      "motion_px": 0.020438387989997864,
+      "projected_grid_corners": [
+        [
+          150.1439666748047,
+          579.1260375976562
+        ],
+        [
+          600.3367919921875,
+          596.91162109375
+        ],
+        [
+          591.1634521484375,
+          170.969970703125
+        ],
+        [
+          195.3213348388672,
+          155.5312957763672
+        ]
+      ]
+    },
+    {
+      "path": "data/calibration-views/20260926_170903_uk5ads6d/images/001624.pgm",
+      "tags": 35,
+      "ids": [
+        4,
+        11,
+        5,
+        2,
+        0,
+        1,
+        10,
+        6,
+        9,
+        8,
+        16,
+        12,
+        7,
+        23,
+        29,
+        18,
+        22,
+        35,
+        15,
+        13,
+        28,
+        21,
+        27,
+        14,
+        24,
+        30,
+        34,
+        19,
+        3,
+        26,
+        33,
+        20,
+        25,
+        31,
+        32
+      ],
+      "motion_px": 0.017895741388201714,
+      "projected_grid_corners": [
+        [
+          264.2704772949219,
+          510.35015869140625
+        ],
+        [
+          577.9156494140625,
+          510.0176086425781
+        ],
+        [
+          568.74755859375,
+          199.98980712890625
+        ],
+        [
+          267.4862976074219,
+          203.34573364257812
+        ]
+      ]
+    }
+  ],
+  "status": "insufficient varied views"
+}

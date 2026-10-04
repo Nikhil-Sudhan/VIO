@@ -1,0 +1,394 @@
+{
+  "scope": "Motion/target visibility preflight only; not an accepted joint calibration",
+  "session": "/home/pluto/vio-project/data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev",
+  "camera_sha256": "8823b4e213c7b1a4663db663d1b24c3841f62d37a573f2becd4b5d8150edd505",
+  "target_sha256": "8151f7034c46e2e5ae85cb46accef7a74eed9f0a8f02227cc471e11fc455ad1e",
+  "source_analysis_sha256": "b0d352b81f41a77326713832995b15dd6a843295e74fe69f3015c961299c0e27",
+  "opencv_version": "4.10.0",
+  "frame_stride": 10,
+  "origin_camera_ns": 8370128257000,
+  "exposure_change_review": null,
+  "pose_convention": "R and t transform fixed target coordinates to camera optical coordinates",
+  "caveats": [
+    "PnP moving poses inherit rolling-shutter distortion and corner noise.",
+    "Gyro covariance only screens for excitation; full calibration observability remains to be evaluated.",
+    "Timestamps remain separate clock-mapped observations; no synchronization is asserted."
+  ],
+  "windows": [
+    {
+      "start_s": 0.0,
+      "end_s": 20.0,
+      "frames_checked": 41,
+      "target_poses": 39,
+      "target_pose_fraction": 0.9512195121951219,
+      "reprojection_rms_p50_p95_px": [
+        0.5763943791389465,
+        0.6299511313438415
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        2.3668002565443524e-07,
+        4.960866406653026e-07,
+        1.695188308440557e-06
+      ],
+      "gyro_axis_std_rad_s": [
+        0.0012420416439043653,
+        0.0008045184953734718,
+        0.0004872808009607408
+      ],
+      "accel_axis_std_m_s2": [
+        0.014591154511230673,
+        0.025486596317715323,
+        0.009455916279875723
+      ]
+    },
+    {
+      "start_s": 20.0,
+      "end_s": 40.0,
+      "frames_checked": 40,
+      "target_poses": 39,
+      "target_pose_fraction": 0.975,
+      "reprojection_rms_p50_p95_px": [
+        0.5656275749206543,
+        0.6063038885593415
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        2.320756816234077e-07,
+        4.797293160069122e-07,
+        1.734364740107319e-06
+      ],
+      "gyro_axis_std_rad_s": [
+        0.0012542486364091829,
+        0.0007995450632895714,
+        0.000482864614738242
+      ],
+      "accel_axis_std_m_s2": [
+        0.014684541879660468,
+        0.025284163261827974,
+        0.010977437751499472
+      ]
+    },
+    {
+      "start_s": 40.0,
+      "end_s": 60.0,
+      "frames_checked": 40,
+      "target_poses": 37,
+      "target_pose_fraction": 0.925,
+      "reprojection_rms_p50_p95_px": [
+        0.5608054399490356,
+        0.6350346684455872
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.004384944568184891,
+        0.006580583870566736,
+        0.009488042506092085
+      ],
+      "gyro_axis_std_rad_s": [
+        0.09702011365077642,
+        0.0806156296882819,
+        0.06735559991767341
+      ],
+      "accel_axis_std_m_s2": [
+        0.15664860470090988,
+        0.16687442294698482,
+        0.2376665031196243
+      ]
+    },
+    {
+      "start_s": 60.0,
+      "end_s": 80.0,
+      "frames_checked": 40,
+      "target_poses": 0,
+      "target_pose_fraction": 0.0,
+      "reprojection_rms_p50_p95_px": null,
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.010582488559537678,
+        0.021860069318586268,
+        0.02990677192908956
+      ],
+      "gyro_axis_std_rad_s": [
+        0.14781414064555623,
+        0.10372772780080433,
+        0.17241109714641142
+      ],
+      "accel_axis_std_m_s2": [
+        0.4678774635064963,
+        0.46262650713988773,
+        0.36225466942618223
+      ]
+    },
+    {
+      "start_s": 80.0,
+      "end_s": 100.0,
+      "frames_checked": 40,
+      "target_poses": 0,
+      "target_pose_fraction": 0.0,
+      "reprojection_rms_p50_p95_px": null,
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.0238268714729342,
+        0.04918495476519864,
+        0.08745001683032819
+      ],
+      "gyro_axis_std_rad_s": [
+        0.15859851587716398,
+        0.2937123577001419,
+        0.22136414686712697
+      ],
+      "accel_axis_std_m_s2": [
+        2.5367866486884494,
+        0.4933271021669066,
+        1.3521154526605366
+      ]
+    },
+    {
+      "start_s": 100.0,
+      "end_s": 120.0,
+      "frames_checked": 40,
+      "target_poses": 6,
+      "target_pose_fraction": 0.15,
+      "reprojection_rms_p50_p95_px": [
+        0.5665210783481598,
+        0.601283386349678
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.056320182389374154,
+        0.12531799905836796,
+        0.21983363427726757
+      ],
+      "gyro_axis_std_rad_s": [
+        0.3550404130646081,
+        0.46727751629747233,
+        0.238686915485439
+      ],
+      "accel_axis_std_m_s2": [
+        5.163930165115484,
+        2.1673218775495204,
+        1.774511994023431
+      ]
+    },
+    {
+      "start_s": 120.0,
+      "end_s": 140.0,
+      "frames_checked": 40,
+      "target_poses": 0,
+      "target_pose_fraction": 0.0,
+      "reprojection_rms_p50_p95_px": null,
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.026620830400344367,
+        0.03348090068919972,
+        0.5543507892640618
+      ],
+      "gyro_axis_std_rad_s": [
+        0.19858762152626008,
+        0.7394136077088197,
+        0.16772724722071236
+      ],
+      "accel_axis_std_m_s2": [
+        8.4608180880502,
+        1.2539202861200054,
+        3.977528433067841
+      ]
+    },
+    {
+      "start_s": 140.0,
+      "end_s": 160.0,
+      "frames_checked": 40,
+      "target_poses": 0,
+      "target_pose_fraction": 0.0,
+      "reprojection_rms_p50_p95_px": null,
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.07169198037983211,
+        0.10051314513048584,
+        0.46992109175537633
+      ],
+      "gyro_axis_std_rad_s": [
+        0.3211062408574675,
+        0.6788503686588846,
+        0.2793238819149262
+      ],
+      "accel_axis_std_m_s2": [
+        3.4844567033388096,
+        1.3367791856318654,
+        8.697213929785146
+      ]
+    },
+    {
+      "start_s": 160.0,
+      "end_s": 180.0,
+      "frames_checked": 40,
+      "target_poses": 7,
+      "target_pose_fraction": 0.175,
+      "reprojection_rms_p50_p95_px": [
+        0.4998152554035187,
+        0.6189371645450592
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.026520702868550343,
+        0.028138123188533117,
+        0.052697791180106666
+      ],
+      "gyro_axis_std_rad_s": [
+        0.16791900109549063,
+        0.16481345933158562,
+        0.22796939154789142
+      ],
+      "accel_axis_std_m_s2": [
+        0.6418175845823803,
+        0.41736377179569223,
+        0.4155018391628732
+      ]
+    },
+    {
+      "start_s": 180.0,
+      "end_s": 200.0,
+      "frames_checked": 40,
+      "target_poses": 3,
+      "target_pose_fraction": 0.075,
+      "reprojection_rms_p50_p95_px": [
+        0.5598764419555664,
+        0.5714713633060455
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.023297281954758362,
+        0.031021044373715008,
+        0.05206109569335902
+      ],
+      "gyro_axis_std_rad_s": [
+        0.1830440901550893,
+        0.15971904314791882,
+        0.21757307585788505
+      ],
+      "accel_axis_std_m_s2": [
+        0.6101212758390328,
+        0.605053970901737,
+        0.5205872841058471
+      ]
+    },
+    {
+      "start_s": 200.0,
+      "end_s": 220.0,
+      "frames_checked": 40,
+      "target_poses": 1,
+      "target_pose_fraction": 0.025,
+      "reprojection_rms_p50_p95_px": [
+        0.5842514038085938,
+        0.5842514038085938
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.029474409917797966,
+        0.05049630696905804,
+        0.1120838877444323
+      ],
+      "gyro_axis_std_rad_s": [
+        0.17530337359847947,
+        0.22688521586851593,
+        0.3313598624600748
+      ],
+      "accel_axis_std_m_s2": [
+        0.7287602528445559,
+        0.7457997099665035,
+        0.6779316677312521
+      ]
+    },
+    {
+      "start_s": 220.0,
+      "end_s": 240.0,
+      "frames_checked": 40,
+      "target_poses": 0,
+      "target_pose_fraction": 0.0,
+      "reprojection_rms_p50_p95_px": null,
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.017824061458721063,
+        0.027683585584646425,
+        0.03999101121036596
+      ],
+      "gyro_axis_std_rad_s": [
+        0.17846499730034987,
+        0.14009758332822755,
+        0.18439256958815575
+      ],
+      "accel_axis_std_m_s2": [
+        0.3830158653073952,
+        0.39717897137019886,
+        0.49007044000996447
+      ]
+    },
+    {
+      "start_s": 240.0,
+      "end_s": 260.0,
+      "frames_checked": 40,
+      "target_poses": 2,
+      "target_pose_fraction": 0.05,
+      "reprojection_rms_p50_p95_px": [
+        0.511299654841423,
+        0.5265120849013328
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.03636787377568906,
+        0.05036965555336092,
+        0.4324852439117167
+      ],
+      "gyro_axis_std_rad_s": [
+        0.22350989140354993,
+        0.652835980017116,
+        0.20722947565596642
+      ],
+      "accel_axis_std_m_s2": [
+        7.702450576494705,
+        0.5321512544983434,
+        4.050885432882754
+      ]
+    },
+    {
+      "start_s": 260.0,
+      "end_s": 280.0,
+      "frames_checked": 40,
+      "target_poses": 23,
+      "target_pose_fraction": 0.575,
+      "reprojection_rms_p50_p95_px": [
+        0.5051307082176208,
+        0.6148069500923157
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        0.023021839644827777,
+        0.04716279344038875,
+        0.11598678647778313
+      ],
+      "gyro_axis_std_rad_s": [
+        0.17765892356743143,
+        0.3292288917988036,
+        0.21487541547614122
+      ],
+      "accel_axis_std_m_s2": [
+        2.9202016019514256,
+        0.7036843933999481,
+        2.4285194234924385
+      ]
+    },
+    {
+      "start_s": 280.0,
+      "end_s": 287.01390200000003,
+      "frames_checked": 14,
+      "target_poses": 14,
+      "target_pose_fraction": 1.0,
+      "reprojection_rms_p50_p95_px": [
+        0.5957203507423401,
+        0.6281894207000732
+      ],
+      "gyro_covariance_eigenvalues_rad2_s2": [
+        1.0529978292751025e-06,
+        3.4309694451227184e-06,
+        0.00025130165338751694
+      ],
+      "gyro_axis_std_rad_s": [
+        0.00636737442002387,
+        0.014606882281256785,
+        0.001304763431621258
+      ],
+      "accel_axis_std_m_s2": [
+        0.133303055151336,
+        0.06347227134892515,
+        0.040119464463553585
+      ]
+    }
+  ]
+}

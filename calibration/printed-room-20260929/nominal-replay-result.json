@@ -1,0 +1,14 @@
+{
+  "scope": "Offline nominal-axis baseline on actual current rig movement; not a successful live demo",
+  "poses": 1927,
+  "max_position_norm_m": 3034.476899948214,
+  "end_position_m": [
+    -1332.8876769914555,
+    2711.2635769829585,
+    -283.74339282037323
+  ],
+  "max_speed_m_s": 99.69028620861673,
+  "poses_with_msckf_features": 42,
+  "max_slam_landmarks": 0,
+  "usable_vio": false
+}

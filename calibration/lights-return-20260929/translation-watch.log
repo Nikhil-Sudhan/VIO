@@ -1,0 +1,2 @@
+usage: watch_short_demo.py [-h] [--scope SCOPE] session
+watch_short_demo.py: error: unrecognized arguments: --max-position 1 --max-speed 1

@@ -1,0 +1,48 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "scope": "manual development demo; NOT validated navigation",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "mounting_id": "IMX219-LSM6DSOX-rigid-user-confirmed-unchanged-20260930",
+  "files_sha256": {
+    "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+    "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "supporting_reports": {
+    "offline-review.json": "c8e46c825d4d41dea24a6adb0bf69448e0fd726b566191d01a5e02eabbc0d434",
+    "fit-results.txt": "d74f5fdb6c65b35dfab090f5f98e47e0a17a264ae0057cc5b6e89127495e6b3f"
+  },
+  "display_note": "ALL-AXIS CANDIDATE | ACCURACY UNVERIFIED",
+  "moving_vio_validated": false,
+  "authorization": "User requested continuation and actual output, confirmed unchanged mounting, lights on and ready, and full access on 2026-09-30.",
+  "limitations": [
+    "Failed straight-slide consistency check; later movement replay improved but is not independent ground-truth validation.",
+    "Only one grid may be visible; repeated sheet IDs are ambiguous.",
+    "Assumed unmeasured 20 mm print scale, provisional 10x noise and unmodeled rolling shutter.",
+    "Manual bounded development only; no accepted navigation calibration."
+  ],
+  "change": "Only replace fitted T_cam_imu and effective time offset with all-axis-2340 fit; estimator options, camera, noise and freshness guards unchanged.",
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
+}

@@ -1,0 +1,120 @@
+{
+  "status": "FAILED; no change promoted to live navigation",
+  "replay_build": "evidence/triangulation-diagnostic-build-fixed.log",
+  "triangulation_evidence": {
+    "folder": "data/daylight-triangulation-reasons-v2",
+    "t137_784s": {
+      "eligible_tracks": 80,
+      "behind_camera": 80,
+      "median_depth_m": -0.0714474
+    },
+    "interpretation": "Initial scene geometry disagrees with predicted motion; subsequent stationary observations are ill-conditioned. This does not isolate a unique root cause."
+  },
+  "experiments": {
+    "scope": "Same original rig recording; every trajectory failed physical plausibility",
+    "runs": {
+      "uncorrected": {
+        "count": 775,
+        "position_span_m": [
+          5.558626746818891,
+          2.7019626406900668,
+          3.917281367301368
+        ],
+        "final_position_m": [
+          5.21215744612252,
+          -1.59148998434209,
+          1.2985559791068695
+        ],
+        "max_speed_m_s": 0.895844690149545,
+        "nonzero_msckf_frames": 167,
+        "max_msckf_features": 37,
+        "accepted": false
+      },
+      "deskew_positive": {
+        "count": 775,
+        "position_span_m": [
+          166.35655962291207,
+          21.76251361140561,
+          16.265974887325022
+        ],
+        "final_position_m": [
+          166.35649332339196,
+          -9.948167851739857,
+          14.737921448165427
+        ],
+        "max_speed_m_s": 11.746984549211865,
+        "nonzero_msckf_frames": 21,
+        "max_msckf_features": 11,
+        "accepted": false
+      },
+      "dynamic_start": {
+        "count": 744,
+        "position_span_m": [
+          764.6198176669492,
+          1446.840794855657,
+          338.3411988885514
+        ],
+        "final_position_m": [
+          -764.6191248553856,
+          1446.7602210450498,
+          -338.3028566657516
+        ],
+        "max_speed_m_s": 131.56384406251922,
+        "nonzero_msckf_frames": 32,
+        "max_msckf_features": 21,
+        "accepted": false
+      }
+    }
+  },
+  "deskew": {
+    "scope": "Experimental offline rotational deskew; NOT accepted calibration or VIO",
+    "frames": 1100,
+    "readout_ms_hypothesis": 12.013,
+    "effective_camera_to_imu_offset_s": 0.007970614446713634,
+    "gyro_bias_rad_s": [
+      0.013199480244984607,
+      -0.009611245858059649,
+      0.0018836508729826644
+    ],
+    "timestamp_handling": "Input image timestamps unchanged; calibrated effective frame time used as rotation reference, not relabeled exposure midpoint",
+    "limitations": [
+      "Readout sign/phase not optically established",
+      "Translation and motion blur uncorrected",
+      "Fixed bias and extrinsic rotation",
+      "Two source-row fixed-point iterations with nearest-row rotation lookup"
+    ],
+    "masked_fraction": 0.04391233766233766,
+    "processing_ms_p50_p95_max": [
+      307.082869000169,
+      325.53548839987343,
+      379.15162899980714
+    ],
+    "inputs_sha256": {
+      "data/hardware-demo-poses4-window/images.csv": "54fcddd710196528e9655c4237fdb20cf38be08d56a5bb1660a5944ac725922a",
+      "data/hardware-replay-poses4/imu.csv": "93bd7a5a195f6cc4bfe87d1cc0be61a3b7d53ff5c086e515ef5a2f649d1465fc",
+      "calibration/rig-exploratory-online-refinement-v4/imucam.yaml": "f2a0926a0db70f94aa13877a76fae61f7bda8315833bc8d9fb5e09164900e41d"
+    }
+  },
+  "target_comparison": {
+    "scope": "Paired target reprojection comparison, not independent pose truth or VIO accuracy",
+    "sample_stride": 10,
+    "paired_frames": 81,
+    "median_raw_corrected_px": [
+      0.42756158113479614,
+      0.42532968521118164
+    ],
+    "p95_raw_corrected_px": [
+      0.7289866805076599,
+      0.7155892252922058
+    ],
+    "fraction_improved": 0.4074074074074074
+  },
+  "software_checks": {
+    "analytic_deskew_tests": 3,
+    "result": "passed",
+    "log": "evidence/deskew-analytic-tests.log",
+    "scope": "Synthetic rotation/identity/no-extrapolation checks only"
+  },
+  "physical_result": "No reliable live pose result. Current-mount camera/IMU calibration remains untrusted. New measured target125mm square is recorded but capture lacks sustained excitation.",
+  "next_required_evidence": "Usable camera/IMU motion for the currently fixed assembly, then calibration consistency and one bounded physical validation. No physical action can be performed by this software."
+}

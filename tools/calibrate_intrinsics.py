@@ -21,6 +21,8 @@ def object_corners(tag):
 
 
 def detect(path, detector):
+    if isinstance(detector, KalibrDetector):
+        return detector.detect(path)
     im=cv2.imread(str(path),cv2.IMREAD_GRAYSCALE)
     if im is None:raise ValueError(f'Cannot decode {path}')
     corners,ids,_=detector.detectMarkers(im)
@@ -34,6 +36,36 @@ def detect(path, detector):
     signature=cv2.perspectiveTransform(np.array([[[0,0],[7.5,0],[7.5,7.5],[0,7.5]]],np.float32),h)[0]
     return {'object':obj,'image':pts,'signature':signature,'path':str(path),'tags':len(keep),
             'ids':[i for i,_ in keep],'size':(im.shape[1],im.shape[0])}
+
+
+class KalibrDetector:
+    """Native AprilGrid extraction in tag units, retaining the same view gates."""
+    def __init__(self):
+        import aslam_cv as acv
+        import aslam_cv_backend as acvb
+        import kalibr_common as kc
+        import kalibr_camera_calibration as kcc
+        self.acv=acv
+        target=Path(__file__).resolve().parents[1]/'calibration/target/target-CAMERA-ONLY-UNIT-SCALE.yaml'
+        self.detector=kcc.TargetDetector(kc.CalibrationTargetParameters(str(target)),
+                                        acvb.DistortedPinhole.geometry()).detector
+
+    def detect(self,path):
+        im=cv2.imread(str(path),cv2.IMREAD_GRAYSCALE)
+        if im is None:raise ValueError(f'Cannot decode {path}')
+        ok,obs=self.detector.findTargetNoTransformation(self.acv.Time(0,0),im)
+        if not ok:return None
+        obj=np.asarray(obs.getCornersTargetFrame(),np.float32)
+        pts=np.asarray(obs.getCornersImageFrame(),np.float32)
+        # Kalibr returns matched target/image corners in matching index order.
+        cells=np.floor((obj[:,:2]+1e-5)/1.3).astype(int)
+        ids=sorted(set((cells[:,1]*6+cells[:,0]).tolist()))
+        if len(ids)<12 or any(i<0 or i>=36 for i in ids):return None
+        h,inliers=cv2.findHomography(obj[:,:2],pts,cv2.RANSAC,3)
+        if h is None or inliers.mean()<.85:return None
+        signature=cv2.perspectiveTransform(np.array([[[0,0],[7.5,0],[7.5,7.5],[0,7.5]]],np.float32),h)[0]
+        return {'object':obj,'image':pts,'signature':signature,'path':str(path),
+                'tags':len(ids),'ids':ids,'size':(im.shape[1],im.shape[0])}
 
 
 def motion_score(path, neighbor_paths, points):
@@ -57,11 +89,14 @@ def main():
                    help='Maximum median target motion to +/-2 neighboring frames (~100 ms each side)')
     p.add_argument('--corner-method',choices=['apriltag','subpix'],default='apriltag',
                    help='AprilTag edge fitting avoids unstable tiny-window refinement on small displayed tags')
+    p.add_argument('--detector-backend',choices=['opencv','kalibr'],default='opencv',
+                   help='Native Kalibr extraction requires tools/kalibr_env.sh; all view acceptance gates remain unchanged')
     a=p.parse_args();a.output.mkdir()
     params=cv2.aruco.DetectorParameters();params.markerBorderBits=2
     params.cornerRefinementMethod=(cv2.aruco.CORNER_REFINE_APRILTAG if a.corner_method=='apriltag'
                                    else cv2.aruco.CORNER_REFINE_SUBPIX)
     detector=cv2.aruco.ArucoDetector(cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_APRILTAG_36h11),params)
+    if a.detector_backend=='kalibr':detector=KalibrDetector()
     views=[];attempts=0;cfg_hash=None;size=None;motion_rejected=0
     for session in a.sessions:
         info=json.loads((session/'session.json').read_text())
@@ -92,11 +127,13 @@ def main():
                 continue
             views.append(v)
     evidence={'purpose':'camera-only intrinsics candidate, NOT metric camera/IMU calibration',
-              'physical_target_size_measured':False,'board_unit':'one displayed tag width',
-              'assumptions':['flat display','aspect ratio preserved','6x6 generated April36h11 grid, gap/tag=0.3'],
+              'physical_target_size_measured':False,'board_unit':'one tag width',
+              'assumptions':['flat calibration target','aspect ratio preserved','6x6 generated April36h11 grid, gap/tag=0.3'],
               'camera_config_sha256':cfg_hash,'attempted_frames':attempts,'distinct_views':len(views),
-              'detector':{'library':'OpenCV','version':cv2.__version__,'dictionary':'AprilTag36h11',
-                          'border_bits':2,'corner_method':a.corner_method},
+              'detector':{'library':'Kalibr' if a.detector_backend=='kalibr' else 'OpenCV',
+                          'version':'project-pinned Kalibr build' if a.detector_backend=='kalibr' else cv2.__version__,
+                          'opencv_version':cv2.__version__,'dictionary':'AprilTag36h11',
+                          'border_bits':2,'corner_method':'native' if a.detector_backend=='kalibr' else a.corner_method},
               'motion_filter':{'max_median_motion_px':a.max_motion_px,'neighbor_frame_distance':2,'rejected_frames':motion_rejected},
               'views':[{'path':v['path'],'tags':v['tags'],'ids':v['ids'],'motion_px':v['motion_px'],'projected_grid_corners':v['signature'].tolist()} for v in views]}
     def save(): (a.output/'report.json').write_text(json.dumps(evidence,indent=2)+'\n')

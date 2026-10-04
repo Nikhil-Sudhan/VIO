@@ -1,0 +1,12 @@
+{
+  "bag_interval_seconds": [
+    80,
+    175
+  ],
+  "reason": "Selected from independent IMU activity (all three axes) and inspected images at82,95,110,125,140,155,170s. Includes resting lead-in and end.",
+  "source": "data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+  "target_scale": "Nominal PDF20mmtags/6mmgaps assumed; user has no ruler.",
+  "mounting": "User reports camera may move relative to IMU on cardboard. Fit is exploratory and can fail fixed-extrinsics assumption.",
+  "noise": "Existing10xprovisionalempiricalweights, unchanged from currentdevelopmentestimator; no sweep for favourable residuals.",
+  "accepted_for_hardware_estimation": false
+}

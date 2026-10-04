@@ -1,0 +1,10 @@
+{
+  "scope": "Paced recorded-input reference stream with live display generation; not physical capture or hardware-clock mapping.",
+  "frames": 561,
+  "total_processing_p50_ms": 8.0372,
+  "total_processing_p95_ms": 15.0783,
+  "total_processing_max_ms": 22.5175,
+  "target_camera_period_ms": 50,
+  "valid_poses_byte_identical_to_offline": true,
+  "map_byte_identical_to_offline": true
+}

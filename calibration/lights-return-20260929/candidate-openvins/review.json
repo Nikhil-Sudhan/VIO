@@ -1,0 +1,41 @@
+{
+  "scope": "Offline candidate only; no navigation or manual live acceptance",
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "source_fit": "/home/pluto/vio-project/calibration/lights-return-20260929/joint-fit-v2",
+  "rotation_change_deg": 10.480653240479793,
+  "time_offset_s": -0.005571981714868694,
+  "T_cam_imu": [
+    [
+      0.06964907481820126,
+      -0.9939484275187813,
+      0.08494427473298133,
+      -0.037093616377171235
+    ],
+    [
+      0.3122541096337546,
+      -0.059150112911633135,
+      -0.9481553855562778,
+      -0.046777454628001036
+    ],
+    [
+      0.9474420179587779,
+      0.09256234426312171,
+      0.3062447306170599,
+      0.04847292012607208
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "caveats": [
+    "Nominal A4 print scale",
+    "User confirms current rigid mounting",
+    "Residual consistency and motion replay must be assessed; fit alone is not validation"
+  ],
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
+}

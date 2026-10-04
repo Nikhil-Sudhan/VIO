@@ -1,0 +1,125 @@
+/home/pluto/vio-project/data/repair-static-20260929/20260929_201729_qda98zjz
+0 images, 3054 FIFO words, queue 0
+0 images, 6114 FIFO words, queue 0
+0 images, 9180 FIFO words, queue 0
+0 images, 12237 FIFO words, queue 0
+0 images, 15297 FIFO words, queue 0
+0 images, 18357 FIFO words, queue 0
+0 images, 21414 FIFO words, queue 0
+0 images, 24489 FIFO words, queue 0
+0 images, 27552 FIFO words, queue 0
+0 images, 30615 FIFO words, queue 0
+0 images, 33678 FIFO words, queue 0
+0 images, 36741 FIFO words, queue 0
+0 images, 39798 FIFO words, queue 0
+0 images, 42858 FIFO words, queue 0
+0 images, 45924 FIFO words, queue 0
+0 images, 48990 FIFO words, queue 0
+0 images, 52041 FIFO words, queue 0
+0 images, 55101 FIFO words, queue 0
+0 images, 58170 FIFO words, queue 0
+0 images, 61230 FIFO words, queue 0
+0 images, 64290 FIFO words, queue 0
+0 images, 67347 FIFO words, queue 0
+0 images, 70416 FIFO words, queue 0
+0 images, 73482 FIFO words, queue 0
+0 images, 76542 FIFO words, queue 0
+0 images, 79611 FIFO words, queue 0
+0 images, 82671 FIFO words, queue 0
+0 images, 85734 FIFO words, queue 0
+0 images, 88794 FIFO words, queue 0
+0 images, 91854 FIFO words, queue 0
+0 images, 94923 FIFO words, queue 0
+0 images, 97989 FIFO words, queue 0
+0 images, 101049 FIFO words, queue 0
+0 images, 104115 FIFO words, queue 0
+0 images, 107181 FIFO words, queue 0
+0 images, 110241 FIFO words, queue 0
+0 images, 113304 FIFO words, queue 0
+0 images, 116364 FIFO words, queue 0
+0 images, 119427 FIFO words, queue 0
+0 images, 122490 FIFO words, queue 0
+0 images, 125550 FIFO words, queue 0
+0 images, 128616 FIFO words, queue 0
+0 images, 131676 FIFO words, queue 0
+0 images, 134745 FIFO words, queue 0
+0 images, 137820 FIFO words, queue 0
+0 images, 140883 FIFO words, queue 0
+0 images, 143955 FIFO words, queue 0
+0 images, 147024 FIFO words, queue 0
+0 images, 150093 FIFO words, queue 0
+0 images, 153156 FIFO words, queue 0
+0 images, 156219 FIFO words, queue 0
+0 images, 159291 FIFO words, queue 0
+0 images, 162357 FIFO words, queue 0
+0 images, 165420 FIFO words, queue 0
+0 images, 168489 FIFO words, queue 0
+0 images, 171552 FIFO words, queue 0
+0 images, 174615 FIFO words, queue 0
+0 images, 177687 FIFO words, queue 0
+0 images, 180753 FIFO words, queue 0
+{
+  "schema": 2,
+  "created_utc": "2026-09-29T14:47:29.837501+00:00",
+  "status": "completed",
+  "purpose": "raw calibration/acquisition input, NOT calibrated VIO",
+  "calibrated": false,
+  "requested_seconds": 300.0,
+  "camera_requested": null,
+  "capture_mode": "imu-only",
+  "temperature_recorded": true,
+  "experimental_calibration": false,
+  "pid": 7041,
+  "finish_on_usr1": false,
+  "boot_id": "55417e1e-8a40-412e-9be0-ee6b8e77ca41",
+  "camera_config_sha256": null,
+  "acquisition_source_sha256": {
+    "record.py": "010745db7164df8dd6f458db09e49608ff53c3bb88867cc700c9fb5e6027d4e4",
+    "imu_fifo_probe.py": "ca9438e0fc4e0e20e5bdb5d17ef8969ca15de10a72bb20ba0a00d27af10f0209",
+    "live_bridge.py": "3cefe9d885a8f3727b97be9aba6206ce5a949a996e16221c787aaa6731c1b269",
+    "online_imu.py": "549afac6fb84f11cc585d120c7729aa38e17bf7107ab73ecf616ce4d0fd58939",
+    "stream_protocol.py": "a47634a7b72479e66fb40b3fba2428539606fcb8bf6bdfcfe83cb81afedc2373",
+    "calibration_guard.py": "dc3cd67c5351a55dcca509036fe83fa313fe26e26bdd6ce2d5f8e4f2da7f6b22"
+  },
+  "camera_timestamp": "unmodified SensorTimestamp; not an exposure midpoint",
+  "imu_timestamp": "FIFO hardware ticks and host clock read brackets; mapping is derived separately",
+  "clock_start": {
+    "boottime_ns": 3884204408491,
+    "monotonic_ns": 3884204410880
+  },
+  "frames_enqueued": 0,
+  "frames_written": 0,
+  "image_queue_high_water": 0,
+  "raw_queue_high_water": 2,
+  "raw_records_written": 19040,
+  "fifo_words": 183786,
+  "fifo_max_level": 18,
+  "fifo_overflow_or_full_batches": 0,
+  "errors": [],
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "imu_internal_freq_fine_raw": 242,
+  "completion_reason": "duration",
+  "clock_end": {
+    "boottime_ns": 4184596154061,
+    "monotonic_ns": 4184596155801
+  }
+}

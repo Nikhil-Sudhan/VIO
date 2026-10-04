@@ -1,0 +1,10 @@
+{
+  "bag": "/home/pluto/vio-project/data/printed-calibration-20260929.bag",
+  "source": "/home/pluto/vio-project/data/printed-calibration-20260929/20260929_194041_w49d3hcz",
+  "counts": {
+    "camera": 4982,
+    "imu": 51249
+  },
+  "all_sample_timestamps_and_payloads_match": true,
+  "scope": "Export integrity only; camera/IMU synchronization and calibration remain unverified"
+}

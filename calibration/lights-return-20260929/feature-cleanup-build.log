@@ -1,0 +1,174 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at CMakeLists.txt:11 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found AMD headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found AMD library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libamd.so
+-- Found CAMD headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found CAMD library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found CCOLAMD library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found CHOLMOD library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found COLAMD library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found SPQR library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libspqr.so
+-- Found Config headers in: /home/pluto/vio-project/deps/usr/include/suitesparse
+-- Found Config library: /home/pluto/vio-project/deps/usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2022.1 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /home/pluto/vio-project/deps/usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /home/pluto/vio-project/deps/usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- OPENCV: 4.10.0 | BOOST: 1.83.0 | CERES: 2.2.0
+CMake Warning at CMakeLists.txt:22 (message):
+  DISABLING ARUCOTAG TRACKING!
+
+
+-- No ROS versions found or building with ROS disabled, building ROS1.cmake without ROS
+CMake Deprecation Warning at cmake/ROS1.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  CMakeLists.txt:52 (include)
+
+
+CMake Warning at cmake/ROS1.cmake:16 (message):
+  BUILDING WITHOUT ROS!
+Call Stack (most recent call first):
+  CMakeLists.txt:52 (include)
+
+
+-- MANUALLY LINKING TO OV_CORE LIBRARY....
+-- MANUALLY LINKING TO OV_INIT LIBRARY....
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pluto/vio-project/build/openvins
+[1/5] Building CXX object CMakeFiles/ov_msckf_lib.dir/home/pluto/vio-project/vendor/open_vins/ov_core/src/feat/Feature.cpp.o
+[2/5] Linking CXX shared library libov_msckf_lib.so
+[3/5] Linking CXX executable run_simulation
+[4/5] Linking CXX executable test_sim_meas
+[5/5] Linking CXX executable test_sim_repeat
+-- Install configuration: "Release"
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/Grider_FAST.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/Grider_GRID.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackKLT.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackDescriptor.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackAruco.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//track/TrackSIM.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiV1.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cpi/CpiV2.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/BsplineSE3.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/LandmarkRepresentation.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/JPLQuat.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Vec.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Landmark.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/PoseJPL.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/Type.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//types/IMU.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/print.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/opencv_yaml_parse.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/quat_ops.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/opencv_lambda_body.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/colors.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/dataset_reader.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/sensor_data.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/Feature.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureInitializerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//feat/FeatureDatabase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//plot
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//plot/matplotlibcpp.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamRadtan.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamEqui.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//cam/CamBase.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//dynamic
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//dynamic/DynamicInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//static
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//static/StaticInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init/InertialInitializer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//init/InertialInitializerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/SimulatorInit.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/helper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_ImuCPIv1.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_ImageReprojCalib.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/State_JPLQuatLocal.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ceres/Factor_GenericPrior.h
+-- Installing: /home/pluto/vio-project/install/lib/libov_msckf_lib.so
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/lib/libov_msckf_lib.so" to ""
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins/
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterMSCKF.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterZeroVelocity.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterSLAM.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//update/UpdaterOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//sim/Simulator.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//utils/NoiseManager.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/Propagator.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/StateHelper.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/StateOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//state/State.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//core
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//core/VioManager.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//core/VioManagerOptions.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROS1Visualizer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROS2Visualizer.h
+-- Up-to-date: /home/pluto/vio-project/install/include/open_vins//ros/ROSVisualizerHelper.h
+-- Installing: /home/pluto/vio-project/install/bin/run_simulation
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/run_simulation" to ""
+-- Installing: /home/pluto/vio-project/install/bin/test_sim_meas
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/test_sim_meas" to ""
+-- Installing: /home/pluto/vio-project/install/bin/test_sim_repeat
+-- Set non-toolchain portion of runtime path of "/home/pluto/vio-project/install/bin/test_sim_repeat" to ""
+CMake Warning (dev) at CMakeLists.txt:6 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pluto/vio-project/build/adapter
+[1/2] Linking CXX executable vio_stream
+[2/2] Linking CXX executable vio_replay

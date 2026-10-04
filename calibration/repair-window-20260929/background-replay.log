@@ -1,0 +1,2059 @@
+Setting printing level to: INFO
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+frames=1 states=0 t=2.00478
+[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,30 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,31 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,32 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,32 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,32 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,33 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,34 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,34 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,34 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,37 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,37 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,39 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,40 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,40 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,39 < 15
+[0m[33m[init]: disparity is 0.267,3.691 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 0.315,3.739 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 0.600,3.775 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 0.914,3.585 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.069,3.209 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.422,3.097 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.615,3.030 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.904,2.942 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.820,2.825 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.089,2.775 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.265,3.371 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.653,3.055 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.952,3.392 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.225,3.464 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.442,2.585 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.611,2.132 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.717,1.896 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.866,2.351 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.843,1.807 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.597,1.743 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.537,2.001 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.254,2.624 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.219,2.371 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.069,2.262 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.039,2.096 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.072,2.043 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.898,2.239 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.334,2.498 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.382,2.507 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.811,2.472 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.477,2.345 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.434,3.039 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.400,2.581 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.019,2.800 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.254,2.726 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.118,2.386 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.536,2.675 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.416,2.426 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.554,2.396 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.389,2.505 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.363,2.188 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.477,2.503 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.500,2.578 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.479,2.593 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.562,2.294 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.572,1.716 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.960,1.806 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.561,1.759 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.907,2.063 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.860,2.227 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.874,1.974 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.109,2.013 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.520,1.843 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.509,1.690 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.497,1.941 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.427,2.495 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.931,1.680 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.652,1.760 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.606,1.620 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.413,1.582 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.561,1.535 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.439,1.386 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.781,1.270 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.117,1.273 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.284,1.227 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.302,1.256 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.262,0.968 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.880,1.511 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.849,1.442 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.879,1.731 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.972,2.220 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.216,1.926 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.762,1.711 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.822,1.853 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.672,1.969 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.600,1.829 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.527,1.992 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.409,2.229 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.470,2.361 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.376,2.543 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.123,2.850 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.239,2.260 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.832,2.412 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0mframes=101 states=0 t=7.00378
+[33m[init]: disparity is 1.469,2.266 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.517,2.409 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.839,2.484 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.925,2.235 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.885,2.016 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.974,2.064 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.968,1.885 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.968,1.588 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.243,1.239 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.203,1.528 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.260,1.746 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.612,1.607 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.145,1.445 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 3.029,1.392 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.950,1.314 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.276,1.330 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.389,1.353 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.281,1.334 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.499,1.370 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.638,1.547 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.182,1.472 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.058,1.219 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.827,1.200 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.563,1.115 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.734,1.229 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.505,1.187 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.830,1.401 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.796,1.249 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.442,1.594 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.315,1.594 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.349,1.749 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.424,2.684 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.539,2.285 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.470,2.253 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.588,2.035 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.626,2.099 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.558,2.025 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.289,2.082 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.118,2.046 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.345,2.141 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.192,2.225 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.457,2.161 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.450,2.051 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.763,2.215 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.587,2.344 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.584,2.171 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.345,2.177 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.377,2.162 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.406,2.058 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.272,2.385 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.537,2.530 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.246,2.178 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.216,2.225 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.165,2.635 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.254,2.426 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.413,2.487 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.408,1.916 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.280,2.076 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.362,1.532 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.370,1.807 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.505,2.083 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.724,1.926 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.454,1.586 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.118,1.500 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.263,1.884 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.353,2.006 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.045,2.258 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.107,2.433 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.439,2.462 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.238,2.281 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.498,1.996 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.087,1.537 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.486,1.555 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.255,1.373 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.179,1.580 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.794,1.687 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.879,1.901 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.065,2.062 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.865,2.123 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.830,2.213 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.778,2.116 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.941,1.917 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.133,1.705 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.652,1.533 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.744,1.742 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.409,1.736 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.372,1.894 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.119,1.826 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.437,1.703 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 1.650,1.625 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.805,1.424 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.879,1.342 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.960,1.045 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.350,1.039 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.364,0.889 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.085,1.251 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.002,1.111 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.131,1.089 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.070,1.205 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.811,0.944 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0mframes=201 states=0 t=12.0028
+[33m[init]: disparity is 1.705,1.120 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.921,1.133 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.983,1.397 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 2.183,0.964 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.846,0.805 (1.50 thresh)
+[0m[33m[init]: failed static init: no accel jerk detected, platform moving too much
+[0m[33m[init]: disparity is 1.446,0.894 (1.50 thresh)
+[0m[32m[init]: successful initialization in 0.0003 seconds
+[0m[32m[init]: orientation = -0.0892, -0.0027, 0.9960, 0.0002
+[0m[32m[init]: bias gyro = 0.0059, -0.0087, 0.0014
+[0m[32m[init]: velocity = 0.0000, 0.0000, 0.0000
+[0m[32m[init]: bias accel = -0.0441, -0.0013, 0.2440
+[0m[32m[init]: position = 0.0000, 0.0000, 0.0000
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.000 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.000 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.000 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.000 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.001 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.003 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 0.154 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 1.933 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.002 (chi2 3.285 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 3.985 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.438 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.156 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.129 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.468 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.599 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.209 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.088 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.185 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.377 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.300 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.465 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.220 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.130 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.103 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.124 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.181 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.192 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.180 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.106 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.183 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.146 < 16.919)
+[0mframes=301 states=0 t=17.0018
+[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.122 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.223 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.353 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.217 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.128 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.930 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 4.179 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 1.148 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 1.556 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 1.538 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.407 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.069 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.114 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.137 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.130 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.136 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.155 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.245 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.098 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.083 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.308 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.337 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.587 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.260 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.275 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.159 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.036 < 16.919)
+[0mq_GtoI = -0.061,0.005,0.998,0.000 | p_IinG = -0.008,-0.001,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = -0.068,0.006,0.998,0.000 | p_IinG = -0.009,-0.001,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = -0.071,0.007,0.997,0.000 | p_IinG = -0.010,-0.001,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.075,-0.011,-0.997,0.001 | p_IinG = -0.010,-0.001,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.077,-0.012,-0.997,0.002 | p_IinG = -0.011,-0.002,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.083,-0.010,-0.997,0.002 | p_IinG = -0.012,-0.002,-0.002 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.080,-0.008,-0.997,0.002 | p_IinG = -0.012,-0.002,-0.003 | dist = 0.00 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.071,-0.008,-0.997,0.002 | p_IinG = -0.013,-0.002,-0.004 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.063,-0.004,-0.998,0.003 | p_IinG = -0.013,-0.003,-0.005 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.056,-0.002,-0.998,0.003 | p_IinG = -0.014,-0.003,-0.006 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.047,-0.000,-0.999,0.003 | p_IinG = -0.014,-0.003,-0.006 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.040,-0.004,-0.999,0.003 | p_IinG = -0.015,-0.003,-0.007 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.029,-0.003,-1.000,0.004 | p_IinG = -0.015,-0.004,-0.008 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.024,-0.000,-1.000,0.003 | p_IinG = -0.016,-0.004,-0.009 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.021,0.005,-1.000,0.002 | p_IinG = -0.017,-0.004,-0.010 | dist = 0.01 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.018,0.009,-1.000,0.001 | p_IinG = -0.018,-0.005,-0.012 | dist = 0.02 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = 0.013,0.012,-1.000,0.000 | p_IinG = -0.018,-0.005,-0.013 | dist = 0.02 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = -0.010,-0.012,1.000,0.000 | p_IinG = -0.019,-0.005,-0.014 | dist = 0.02 (meters)
+bg = 0.0061,-0.0082,0.0019 | ba = -0.0557,-0.0016,0.2460
+camera-imu timeoffset = 0.00411
+cam0 extrinsics = -0.475,0.429,-0.580,0.504 | 0.003,0.029,-0.033
+q_GtoI = -0.006,-0.013,1.000,0.001 | p_IinG = -0.055,0.002,-0.037 | dist = 0.02 (meters)
+bg = 0.0059,-0.0082,0.0019 | ba = -0.0569,-0.0008,0.2430
+camera-imu timeoffset = 0.00324
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.002,0.020,-0.032
+q_GtoI = -0.003,-0.016,1.000,0.002 | p_IinG = -0.057,0.002,-0.037 | dist = 0.02 (meters)
+bg = 0.0059,-0.0082,0.0019 | ba = -0.0569,-0.0008,0.2430
+camera-imu timeoffset = 0.00323
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.002,0.020,-0.032
+q_GtoI = 0.001,-0.020,1.000,0.003 | p_IinG = -0.056,0.003,-0.037 | dist = 0.03 (meters)
+bg = 0.0059,-0.0082,0.0019 | ba = -0.0572,-0.0006,0.2416
+camera-imu timeoffset = 0.00326
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.003,0.020,-0.032
+q_GtoI = 0.004,-0.023,1.000,0.004 | p_IinG = -0.056,0.003,-0.037 | dist = 0.03 (meters)
+bg = 0.0059,-0.0082,0.0019 | ba = -0.0562,-0.0009,0.2450
+camera-imu timeoffset = 0.00392
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.005,0.020,-0.031
+q_GtoI = 0.007,-0.027,1.000,0.005 | p_IinG = -0.066,0.003,-0.037 | dist = 0.03 (meters)
+bg = 0.0059,-0.0083,0.0019 | ba = -0.0560,-0.0014,0.2469
+camera-imu timeoffset = 0.00395
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.005,0.020,-0.033
+q_GtoI = 0.011,-0.027,1.000,0.006 | p_IinG = -0.066,0.003,-0.038 | dist = 0.03 (meters)
+bg = 0.0060,-0.0083,0.0019 | ba = -0.0560,-0.0021,0.2462
+camera-imu timeoffset = 0.00390
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | -0.003,0.017,-0.032
+q_GtoI = 0.016,-0.023,1.000,0.006 | p_IinG = -0.075,0.003,-0.037 | dist = 0.04 (meters)
+bg = 0.0061,-0.0083,0.0019 | ba = -0.0571,-0.0019,0.2430
+camera-imu timeoffset = 0.00408
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | 0.003,0.017,-0.034
+q_GtoI = 0.016,-0.019,1.000,0.006 | p_IinG = -0.126,0.002,-0.029 | dist = 0.04 (meters)
+bg = 0.0061,-0.0084,0.0020 | ba = -0.0604,-0.0011,0.2372
+camera-imu timeoffset = 0.00302
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.008,0.018,-0.030
+q_GtoI = 0.016,-0.016,1.000,0.006 | p_IinG = -0.130,0.002,-0.028 | dist = 0.05 (meters)
+bg = 0.0060,-0.0084,0.0020 | ba = -0.0603,-0.0008,0.2375
+camera-imu timeoffset = 0.00303
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.008,0.017,-0.031
+q_GtoI = 0.017,-0.015,1.000,0.006 | p_IinG = -0.133,0.001,-0.026 | dist = 0.05 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0599,0.0000,0.2384
+camera-imu timeoffset = 0.00305
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.009,0.015,-0.030
+q_GtoI = 0.019,-0.015,1.000,0.006 | p_IinG = -0.137,0.001,-0.025 | dist = 0.06 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0597,0.0001,0.2392
+camera-imu timeoffset = 0.00310
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.009,0.015,-0.030
+q_GtoI = 0.023,-0.015,1.000,0.006 | p_IinG = -0.142,0.001,-0.023 | dist = 0.06 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0597,-0.0000,0.2391
+camera-imu timeoffset = 0.00311
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.009,0.015,-0.030
+q_GtoI = 0.027,-0.013,1.000,0.006 | p_IinG = -0.148,0.001,-0.022 | dist = 0.07 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0599,-0.0001,0.2385
+camera-imu timeoffset = 0.00306
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.010,0.015,-0.030
+q_GtoI = 0.028,-0.010,1.000,0.007 | p_IinG = -0.151,0.001,-0.021 | dist = 0.07 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0592,-0.0002,0.2400
+camera-imu timeoffset = 0.00354
+cam0 extrinsics = -0.476,0.429,-0.580,0.503 | 0.009,0.015,-0.033
+q_GtoI = 0.025,-0.010,1.000,0.007 | p_IinG = -0.170,0.001,-0.019 | dist = 0.08 (meters)
+bg = 0.0058,-0.0086,0.0019 | ba = -0.0594,0.0002,0.2426
+camera-imu timeoffset = 0.00270
+cam0 extrinsics = -0.476,0.430,-0.580,0.503 | 0.012,0.014,-0.036
+q_GtoI = 0.026,-0.008,1.000,0.007 | p_IinG = -0.168,0.002,-0.021 | dist = 0.09 (meters)
+bg = 0.0059,-0.0085,0.0019 | ba = -0.0584,-0.0002,0.2427
+camera-imu timeoffset = 0.00255
+cam0 extrinsics = -0.476,0.430,-0.580,0.503 | 0.012,0.014,-0.038
+q_GtoI = 0.028,-0.009,1.000,0.007 | p_IinG = -0.182,0.002,-0.019 | dist = 0.09 (meters)
+bg = 0.0059,-0.0085,0.0019 | ba = -0.0598,-0.0002,0.2402
+camera-imu timeoffset = 0.00273
+cam0 extrinsics = -0.476,0.430,-0.580,0.503 | 0.011,0.014,-0.040
+q_GtoI = 0.030,-0.009,0.999,0.007 | p_IinG = -0.189,0.002,-0.017 | dist = 0.10 (meters)
+bg = 0.0059,-0.0085,0.0019 | ba = -0.0598,-0.0002,0.2402
+camera-imu timeoffset = 0.00273
+cam0 extrinsics = -0.476,0.430,-0.580,0.503 | 0.011,0.014,-0.040
+q_GtoI = 0.032,-0.009,0.999,0.007 | p_IinG = -0.182,0.001,-0.020 | dist = 0.11 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0560,-0.0005,0.2456
+camera-imu timeoffset = 0.00273
+cam0 extrinsics = -0.475,0.429,-0.580,0.503 | 0.011,0.014,-0.041
+q_GtoI = 0.030,-0.010,0.999,0.007 | p_IinG = -0.191,0.002,-0.017 | dist = 0.11 (meters)
+bg = 0.0058,-0.0085,0.0019 | ba = -0.0563,0.0002,0.2460
+camera-imu timeoffset = 0.00275
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.012,0.013,-0.041
+q_GtoI = 0.026,-0.010,1.000,0.007 | p_IinG = -0.199,0.002,-0.014 | dist = 0.12 (meters)
+bg = 0.0058,-0.0084,0.0019 | ba = -0.0568,0.0001,0.2449
+camera-imu timeoffset = 0.00258
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.013,0.013,-0.039
+q_GtoI = 0.020,-0.008,1.000,0.006 | p_IinG = -0.202,0.002,-0.014 | dist = 0.13 (meters)
+bg = 0.0059,-0.0084,0.0019 | ba = -0.0554,-0.0003,0.2465
+camera-imu timeoffset = 0.00279
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.011,0.011,-0.042
+q_GtoI = 0.012,-0.008,1.000,0.006 | p_IinG = -0.213,0.002,-0.010 | dist = 0.13 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0547,-0.0002,0.2493
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.010,-0.043
+q_GtoI = 0.006,-0.007,1.000,0.006 | p_IinG = -0.217,0.002,-0.007 | dist = 0.14 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = 0.004,-0.008,1.000,0.006 | p_IinG = -0.223,0.003,-0.005 | dist = 0.15 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.002,-0.009,1.000,0.005 | p_IinG = -0.229,0.003,-0.003 | dist = 0.15 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.014,-0.006,1.000,0.005 | p_IinG = -0.236,0.003,-0.002 | dist = 0.16 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.025,-0.008,1.000,0.005 | p_IinG = -0.242,0.003,-0.001 | dist = 0.16 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,-0.007,1.000,0.005 | p_IinG = -0.248,0.004,-0.001 | dist = 0.17 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,-0.007,1.000,0.005 | p_IinG = -0.255,0.004,-0.000 | dist = 0.18 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,-0.007,0.999,0.004 | p_IinG = -0.261,0.005,-0.000 | dist = 0.18 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,-0.006,0.999,0.004 | p_IinG = -0.268,0.005,0.000 | dist = 0.19 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,-0.006,0.999,0.004 | p_IinG = -0.274,0.006,0.000 | dist = 0.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,-0.006,0.999,0.004 | p_IinG = -0.280,0.007,0.001 | dist = 0.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,-0.006,0.999,0.004 | p_IinG = -0.287,0.008,0.001 | dist = 0.21 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,-0.005,0.999,0.004 | p_IinG = -0.293,0.009,0.002 | dist = 0.22 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,-0.005,0.999,0.004 | p_IinG = -0.300,0.010,0.002 | dist = 0.22 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,-0.005,0.999,0.004 | p_IinG = -0.306,0.011,0.003 | dist = 0.23 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,-0.005,0.999,0.004 | p_IinG = -0.313,0.012,0.004 | dist = 0.24 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.035,-0.004,0.999,0.004 | p_IinG = -0.320,0.013,0.004 | dist = 0.24 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+frames=401 states=58 t=22.0008
+q_GtoI = -0.035,-0.004,0.999,0.004 | p_IinG = -0.326,0.014,0.005 | dist = 0.25 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.036,-0.004,0.999,0.004 | p_IinG = -0.333,0.015,0.006 | dist = 0.26 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.036,-0.003,0.999,0.004 | p_IinG = -0.339,0.017,0.007 | dist = 0.26 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,-0.003,0.999,0.004 | p_IinG = -0.346,0.018,0.007 | dist = 0.27 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,-0.003,0.999,0.004 | p_IinG = -0.353,0.020,0.008 | dist = 0.28 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,-0.002,0.999,0.004 | p_IinG = -0.359,0.021,0.009 | dist = 0.28 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,-0.002,0.999,0.004 | p_IinG = -0.366,0.023,0.010 | dist = 0.29 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.373,0.025,0.011 | dist = 0.30 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.380,0.027,0.012 | dist = 0.31 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.386,0.029,0.013 | dist = 0.31 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.393,0.030,0.014 | dist = 0.32 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.400,0.033,0.015 | dist = 0.33 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.002,0.999,0.003 | p_IinG = -0.407,0.035,0.016 | dist = 0.33 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.001,0.999,0.003 | p_IinG = -0.414,0.037,0.017 | dist = 0.34 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.001,0.999,0.003 | p_IinG = -0.420,0.039,0.018 | dist = 0.35 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.001,0.999,0.003 | p_IinG = -0.427,0.042,0.019 | dist = 0.36 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,-0.001,0.999,0.003 | p_IinG = -0.434,0.044,0.020 | dist = 0.36 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.441,0.047,0.022 | dist = 0.37 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.448,0.049,0.023 | dist = 0.38 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.455,0.052,0.024 | dist = 0.39 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.462,0.055,0.025 | dist = 0.39 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.469,0.058,0.026 | dist = 0.40 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.475,0.061,0.027 | dist = 0.41 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.482,0.064,0.028 | dist = 0.42 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.489,0.067,0.030 | dist = 0.42 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.496,0.071,0.031 | dist = 0.43 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.503,0.074,0.032 | dist = 0.44 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.510,0.077,0.033 | dist = 0.45 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.517,0.081,0.034 | dist = 0.46 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.524,0.084,0.036 | dist = 0.46 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.531,0.088,0.037 | dist = 0.47 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.538,0.092,0.038 | dist = 0.48 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,-0.001,0.999,0.003 | p_IinG = -0.545,0.096,0.040 | dist = 0.49 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.552,0.100,0.041 | dist = 0.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.560,0.104,0.043 | dist = 0.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.567,0.108,0.044 | dist = 0.51 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.574,0.112,0.046 | dist = 0.52 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.581,0.116,0.047 | dist = 0.53 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.588,0.121,0.049 | dist = 0.54 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.595,0.125,0.051 | dist = 0.55 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.602,0.130,0.052 | dist = 0.56 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.610,0.135,0.054 | dist = 0.56 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.617,0.139,0.056 | dist = 0.57 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.624,0.144,0.057 | dist = 0.58 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.631,0.149,0.059 | dist = 0.59 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.638,0.154,0.061 | dist = 0.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.646,0.159,0.062 | dist = 0.61 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,-0.000,0.999,0.003 | p_IinG = -0.653,0.165,0.064 | dist = 0.62 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.660,0.170,0.066 | dist = 0.63 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.667,0.175,0.068 | dist = 0.64 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.675,0.181,0.069 | dist = 0.65 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.682,0.186,0.071 | dist = 0.65 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.689,0.192,0.073 | dist = 0.66 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.696,0.198,0.074 | dist = 0.67 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.704,0.204,0.076 | dist = 0.68 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.711,0.209,0.078 | dist = 0.69 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.718,0.215,0.080 | dist = 0.70 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.725,0.222,0.081 | dist = 0.71 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.733,0.228,0.083 | dist = 0.72 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.740,0.234,0.085 | dist = 0.73 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.747,0.240,0.087 | dist = 0.74 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.755,0.247,0.088 | dist = 0.75 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.762,0.254,0.090 | dist = 0.76 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.769,0.260,0.092 | dist = 0.77 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.776,0.267,0.093 | dist = 0.78 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.784,0.274,0.095 | dist = 0.79 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.791,0.281,0.097 | dist = 0.80 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.000,0.999,0.003 | p_IinG = -0.799,0.288,0.098 | dist = 0.81 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.806,0.295,0.100 | dist = 0.82 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.813,0.303,0.101 | dist = 0.83 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.821,0.310,0.103 | dist = 0.84 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.828,0.317,0.105 | dist = 0.85 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.835,0.325,0.106 | dist = 0.86 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.843,0.333,0.108 | dist = 0.88 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.850,0.341,0.109 | dist = 0.89 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.857,0.349,0.111 | dist = 0.90 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.865,0.357,0.113 | dist = 0.91 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.872,0.365,0.114 | dist = 0.92 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.880,0.373,0.116 | dist = 0.93 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.887,0.381,0.117 | dist = 0.94 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.894,0.390,0.119 | dist = 0.95 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.902,0.398,0.121 | dist = 0.96 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.909,0.407,0.122 | dist = 0.98 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.917,0.416,0.124 | dist = 0.99 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.924,0.425,0.126 | dist = 1.00 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.932,0.434,0.127 | dist = 1.01 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.939,0.443,0.129 | dist = 1.02 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.946,0.452,0.131 | dist = 1.03 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.954,0.461,0.132 | dist = 1.05 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.961,0.471,0.134 | dist = 1.06 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.969,0.480,0.136 | dist = 1.07 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.976,0.490,0.137 | dist = 1.08 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.984,0.500,0.139 | dist = 1.10 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.991,0.510,0.141 | dist = 1.11 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -0.998,0.520,0.142 | dist = 1.12 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.006,0.530,0.144 | dist = 1.13 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.013,0.540,0.146 | dist = 1.15 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.021,0.550,0.148 | dist = 1.16 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.028,0.561,0.150 | dist = 1.17 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.035,0.571,0.152 | dist = 1.19 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+frames=501 states=158 t=26.9998
+q_GtoI = -0.040,0.001,0.999,0.003 | p_IinG = -1.043,0.582,0.153 | dist = 1.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.050,0.593,0.155 | dist = 1.21 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.058,0.603,0.157 | dist = 1.22 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.065,0.614,0.159 | dist = 1.24 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.073,0.626,0.161 | dist = 1.25 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.080,0.637,0.163 | dist = 1.27 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.088,0.648,0.166 | dist = 1.28 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.095,0.660,0.168 | dist = 1.29 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.102,0.671,0.170 | dist = 1.31 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.039,0.001,0.999,0.003 | p_IinG = -1.110,0.683,0.172 | dist = 1.32 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,0.001,0.999,0.003 | p_IinG = -1.117,0.695,0.174 | dist = 1.34 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,0.001,0.999,0.003 | p_IinG = -1.125,0.707,0.176 | dist = 1.35 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.038,0.001,0.999,0.003 | p_IinG = -1.132,0.719,0.178 | dist = 1.36 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,0.001,0.999,0.003 | p_IinG = -1.140,0.731,0.180 | dist = 1.38 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.037,0.002,0.999,0.003 | p_IinG = -1.147,0.743,0.182 | dist = 1.39 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.036,0.002,0.999,0.003 | p_IinG = -1.154,0.755,0.184 | dist = 1.41 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.035,0.001,0.999,0.003 | p_IinG = -1.162,0.768,0.187 | dist = 1.42 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.035,0.001,0.999,0.003 | p_IinG = -1.169,0.780,0.189 | dist = 1.44 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,0.001,0.999,0.003 | p_IinG = -1.177,0.793,0.191 | dist = 1.45 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,0.001,0.999,0.003 | p_IinG = -1.184,0.806,0.193 | dist = 1.47 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,0.001,0.999,0.002 | p_IinG = -1.191,0.819,0.195 | dist = 1.48 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.034,0.001,0.999,0.002 | p_IinG = -1.199,0.832,0.197 | dist = 1.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.206,0.845,0.199 | dist = 1.51 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.214,0.858,0.201 | dist = 1.53 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.221,0.871,0.202 | dist = 1.54 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.228,0.885,0.204 | dist = 1.56 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.236,0.898,0.206 | dist = 1.57 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.243,0.912,0.208 | dist = 1.59 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.250,0.925,0.210 | dist = 1.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.258,0.939,0.212 | dist = 1.62 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.265,0.953,0.213 | dist = 1.64 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.273,0.967,0.215 | dist = 1.65 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.280,0.981,0.217 | dist = 1.67 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.033,0.001,0.999,0.002 | p_IinG = -1.287,0.996,0.219 | dist = 1.68 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.295,1.010,0.220 | dist = 1.70 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.302,1.024,0.222 | dist = 1.72 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.309,1.039,0.224 | dist = 1.73 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.317,1.054,0.226 | dist = 1.75 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.324,1.069,0.227 | dist = 1.77 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.332,1.084,0.229 | dist = 1.78 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.339,1.099,0.231 | dist = 1.80 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.346,1.114,0.232 | dist = 1.82 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.354,1.129,0.234 | dist = 1.83 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.361,1.145,0.236 | dist = 1.85 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.369,1.160,0.238 | dist = 1.87 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.376,1.176,0.240 | dist = 1.89 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.383,1.192,0.241 | dist = 1.90 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.391,1.207,0.243 | dist = 1.92 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.398,1.223,0.245 | dist = 1.94 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.406,1.240,0.247 | dist = 1.96 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.413,1.256,0.249 | dist = 1.97 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.420,1.272,0.250 | dist = 1.99 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.428,1.289,0.252 | dist = 2.01 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.435,1.305,0.254 | dist = 2.03 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.442,1.322,0.256 | dist = 2.05 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,0.999,0.002 | p_IinG = -1.450,1.339,0.258 | dist = 2.07 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.032,0.001,1.000,0.002 | p_IinG = -1.457,1.356,0.259 | dist = 2.08 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.001,1.000,0.002 | p_IinG = -1.464,1.373,0.261 | dist = 2.10 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.001,1.000,0.002 | p_IinG = -1.472,1.390,0.263 | dist = 2.12 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.001,1.000,0.002 | p_IinG = -1.479,1.407,0.265 | dist = 2.14 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.486,1.425,0.267 | dist = 2.16 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.493,1.442,0.268 | dist = 2.18 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.501,1.460,0.270 | dist = 2.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.508,1.478,0.272 | dist = 2.22 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.515,1.495,0.274 | dist = 2.24 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.523,1.513,0.276 | dist = 2.26 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.530,1.532,0.278 | dist = 2.28 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.537,1.550,0.280 | dist = 2.29 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.544,1.568,0.282 | dist = 2.31 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.552,1.587,0.283 | dist = 2.33 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.559,1.605,0.285 | dist = 2.35 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.566,1.624,0.287 | dist = 2.37 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.573,1.643,0.289 | dist = 2.40 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.581,1.662,0.291 | dist = 2.42 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.588,1.681,0.293 | dist = 2.44 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.595,1.700,0.296 | dist = 2.46 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.602,1.719,0.298 | dist = 2.48 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.609,1.739,0.300 | dist = 2.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.616,1.758,0.302 | dist = 2.52 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.624,1.778,0.304 | dist = 2.54 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.631,1.798,0.306 | dist = 2.56 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.638,1.818,0.308 | dist = 2.58 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.645,1.838,0.310 | dist = 2.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.652,1.858,0.312 | dist = 2.63 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.659,1.878,0.314 | dist = 2.65 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.666,1.899,0.316 | dist = 2.67 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.673,1.919,0.318 | dist = 2.69 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.680,1.940,0.320 | dist = 2.71 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.687,1.960,0.322 | dist = 2.73 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.694,1.981,0.324 | dist = 2.76 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.701,2.002,0.327 | dist = 2.78 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.708,2.023,0.329 | dist = 2.80 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.715,2.045,0.331 | dist = 2.82 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.722,2.066,0.333 | dist = 2.85 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.031,0.002,1.000,0.002 | p_IinG = -1.729,2.087,0.335 | dist = 2.87 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.736,2.109,0.337 | dist = 2.89 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.743,2.131,0.339 | dist = 2.91 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.750,2.153,0.342 | dist = 2.94 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.757,2.174,0.344 | dist = 2.96 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.764,2.197,0.346 | dist = 2.98 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+frames=601 states=258 t=31.9988
+q_GtoI = -0.030,0.002,1.000,0.002 | p_IinG = -1.771,2.219,0.348 | dist = 3.01 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.777,2.241,0.350 | dist = 3.03 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.784,2.263,0.352 | dist = 3.05 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.791,2.286,0.355 | dist = 3.08 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.798,2.309,0.357 | dist = 3.10 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.804,2.331,0.359 | dist = 3.13 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.811,2.354,0.361 | dist = 3.15 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.818,2.377,0.363 | dist = 3.17 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.824,2.401,0.365 | dist = 3.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.831,2.424,0.367 | dist = 3.22 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.838,2.447,0.369 | dist = 3.25 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.844,2.471,0.371 | dist = 3.27 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.851,2.494,0.373 | dist = 3.30 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.857,2.518,0.375 | dist = 3.32 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.864,2.542,0.377 | dist = 3.34 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.870,2.566,0.379 | dist = 3.37 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.877,2.590,0.381 | dist = 3.39 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.883,2.615,0.383 | dist = 3.42 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.890,2.639,0.385 | dist = 3.45 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.896,2.664,0.386 | dist = 3.47 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.902,2.688,0.388 | dist = 3.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.909,2.713,0.390 | dist = 3.52 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.915,2.738,0.392 | dist = 3.55 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.921,2.763,0.393 | dist = 3.57 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.928,2.788,0.395 | dist = 3.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.934,2.814,0.397 | dist = 3.63 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.940,2.839,0.398 | dist = 3.65 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.946,2.865,0.400 | dist = 3.68 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.952,2.890,0.402 | dist = 3.70 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.958,2.916,0.403 | dist = 3.73 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.964,2.942,0.405 | dist = 3.76 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.970,2.968,0.406 | dist = 3.78 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.976,2.994,0.408 | dist = 3.81 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.982,3.021,0.409 | dist = 3.84 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.988,3.047,0.411 | dist = 3.87 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -1.994,3.073,0.412 | dist = 3.89 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.000,3.100,0.414 | dist = 3.92 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.006,3.127,0.415 | dist = 3.95 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.011,3.154,0.416 | dist = 3.98 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.017,3.181,0.418 | dist = 4.00 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.023,3.208,0.419 | dist = 4.03 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.028,3.235,0.420 | dist = 4.06 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.034,3.263,0.422 | dist = 4.09 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.040,3.290,0.423 | dist = 4.11 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.045,3.318,0.424 | dist = 4.14 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.050,3.346,0.426 | dist = 4.17 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.056,3.374,0.427 | dist = 4.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.061,3.402,0.428 | dist = 4.23 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.067,3.430,0.429 | dist = 4.26 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.030,0.002,1.000,0.001 | p_IinG = -2.072,3.458,0.430 | dist = 4.29 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.077,3.487,0.432 | dist = 4.31 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.082,3.515,0.433 | dist = 4.34 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.087,3.544,0.434 | dist = 4.37 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.092,3.573,0.435 | dist = 4.40 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.098,3.601,0.436 | dist = 4.43 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.103,3.631,0.437 | dist = 4.46 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.107,3.660,0.438 | dist = 4.49 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.112,3.689,0.440 | dist = 4.52 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.117,3.718,0.441 | dist = 4.55 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.122,3.748,0.442 | dist = 4.58 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.127,3.778,0.443 | dist = 4.61 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.132,3.807,0.444 | dist = 4.64 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.136,3.837,0.445 | dist = 4.67 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.141,3.867,0.446 | dist = 4.70 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.146,3.898,0.447 | dist = 4.73 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.150,3.928,0.448 | dist = 4.76 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.155,3.958,0.449 | dist = 4.79 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.159,3.989,0.450 | dist = 4.82 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.163,4.019,0.450 | dist = 4.85 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.168,4.050,0.451 | dist = 4.89 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.172,4.081,0.452 | dist = 4.92 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.176,4.112,0.453 | dist = 4.95 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.180,4.143,0.453 | dist = 4.98 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.185,4.175,0.454 | dist = 5.01 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.189,4.206,0.455 | dist = 5.04 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.193,4.238,0.456 | dist = 5.08 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.197,4.269,0.456 | dist = 5.11 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.201,4.301,0.457 | dist = 5.14 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.204,4.333,0.457 | dist = 5.17 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.208,4.365,0.458 | dist = 5.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.212,4.398,0.459 | dist = 5.24 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.216,4.430,0.459 | dist = 5.27 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.219,4.462,0.460 | dist = 5.30 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.223,4.495,0.460 | dist = 5.33 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.226,4.528,0.461 | dist = 5.37 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.230,4.561,0.461 | dist = 5.40 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.233,4.594,0.461 | dist = 5.43 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.237,4.627,0.462 | dist = 5.47 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.240,4.660,0.462 | dist = 5.50 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.243,4.693,0.463 | dist = 5.53 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.246,4.727,0.463 | dist = 5.57 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.249,4.761,0.463 | dist = 5.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.252,4.794,0.464 | dist = 5.64 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.255,4.828,0.464 | dist = 5.67 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.258,4.862,0.464 | dist = 5.70 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.261,4.897,0.465 | dist = 5.74 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.264,4.931,0.465 | dist = 5.77 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.267,4.966,0.465 | dist = 5.81 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.269,5.000,0.465 | dist = 5.84 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.272,5.035,0.466 | dist = 5.88 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+frames=701 states=358 t=36.9977
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.274,5.070,0.466 | dist = 5.91 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.277,5.105,0.466 | dist = 5.95 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.279,5.140,0.466 | dist = 5.98 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.282,5.175,0.466 | dist = 6.02 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.284,5.211,0.466 | dist = 6.05 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.286,5.246,0.467 | dist = 6.09 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.288,5.282,0.467 | dist = 6.12 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.290,5.318,0.467 | dist = 6.16 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.292,5.354,0.467 | dist = 6.20 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.294,5.390,0.467 | dist = 6.23 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.296,5.426,0.467 | dist = 6.27 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.298,5.462,0.467 | dist = 6.30 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.300,5.499,0.467 | dist = 6.34 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.301,5.535,0.467 | dist = 6.38 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.303,5.572,0.466 | dist = 6.41 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.305,5.609,0.466 | dist = 6.45 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.306,5.646,0.466 | dist = 6.49 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.308,5.683,0.466 | dist = 6.53 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.309,5.721,0.466 | dist = 6.56 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.310,5.758,0.466 | dist = 6.60 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040
+q_GtoI = -0.029,0.002,1.000,0.001 | p_IinG = -2.311,5.796,0.465 | dist = 6.64 (meters)
+bg = 0.0059,-0.0084,0.0020 | ba = -0.0535,-0.0005,0.2519
+camera-imu timeoffset = 0.00247
+cam0 extrinsics = -0.475,0.430,-0.580,0.503 | 0.014,0.009,-0.040

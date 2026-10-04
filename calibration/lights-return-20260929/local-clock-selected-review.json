@@ -1,0 +1,62 @@
+{
+  "selected_fit_count": 4,
+  "accuracy_limits_changed": false,
+  "minimum_training_observations_unchanged": 16,
+  "warmup_and_stale_limits_unchanged": true,
+  "tests_passed": {
+    "online_imu": 10,
+    "live_transport": 3
+  },
+  "recorded_results": [
+    {
+      "session": "data/current-mount-calibration/20260929_223132_t753o1vb",
+      "fit_count": 4,
+      "checked_samples": 24926,
+      "max_prior_error_us": 519.5525859375,
+      "error": null
+    },
+    {
+      "session": "data/native-live/20260929_214205_goon60aj",
+      "fit_count": 4,
+      "checked_samples": 61845,
+      "max_prior_error_us": 430.889794921875,
+      "error": null
+    },
+    {
+      "session": "data/native-live/20260929_220949_1xjelsnb",
+      "fit_count": 4,
+      "checked_samples": 20680,
+      "max_prior_error_us": 586.8691953125,
+      "error": null
+    },
+    {
+      "session": "data/native-live/20260929_224047_byejlm6c",
+      "fit_count": 4,
+      "checked_samples": 12702,
+      "max_prior_error_us": 558.887263671875,
+      "error": null
+    },
+    {
+      "session": "data/native-live/20260929_225346_zb__kita",
+      "fit_count": 4,
+      "checked_samples": 22110,
+      "max_prior_error_us": 251.616470703125,
+      "error": null
+    },
+    {
+      "session": "data/native-live/20260929_230224_qcnkez0c",
+      "fit_count": 4,
+      "checked_samples": 38965,
+      "max_prior_error_us": 536.9167890625,
+      "error": "Insufficient recent clock observations"
+    },
+    {
+      "session": "data/native-live/20260929_231618_9w9xcozw",
+      "fit_count": 4,
+      "checked_samples": 16450,
+      "max_prior_error_us": 670.061010925293,
+      "error": null
+    }
+  ],
+  "note": "The older 100 ms cadence session still fails its unchanged 16-anchor sufficiency guard; the recorder now collects anchors every requested 50 ms. The post-reboot 50 ms failure recording passes four-anchor local fitting; original eight-anchor fitting exceeds 1 ms. Live retest required."
+}

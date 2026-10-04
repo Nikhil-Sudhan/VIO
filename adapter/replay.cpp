@@ -13,6 +13,7 @@
 #include "core/VioManager.h"
 #include "state/StateHelper.h"
 #include "state/State.h"
+#include "supervised_vio.h"
 #include "utils/print.h"
 #include "utils/sensor_data.h"
 #include "diagnostics.h"
@@ -54,6 +55,8 @@ int main(int argc, char **argv) try {
   ov_core::Printer::setPrintLevel(verbosity);
   ov_msckf::VioManagerOptions options;
   options.print_and_load(parser);
+  bool supervised=false;
+  parser->parse_config("tracking_supervisor",supervised,false);
   bool aprilgrid=false;
   parser->parse_config("use_aprilgrid_features",aprilgrid,false);
   int aprilgrid_corners=4;bool tag_zupt=false;
@@ -84,7 +87,8 @@ int main(int argc, char **argv) try {
   poses << std::setprecision(17); timing << std::setprecision(17); covs << std::setprecision(17);
   manifest << "aprilgrid_features=" << aprilgrid << '\n';
   manifest<<"aprilgrid_corners_per_tag="<<aprilgrid_corners<<"\naprilgrid_zupt_veto="<<tag_zupt<<'\n';
-  DiagnosticVioManager estimator(options,aprilgrid,aprilgrid_corners,tag_zupt);
+  SupervisedVio<DiagnosticVioManager> estimator(options,aprilgrid,aprilgrid_corners,tag_zupt,supervised,output);
+  manifest<<"tracking_supervisor="<<supervised<<"\nposes_csv=raw diagnostics; see tracking.csv and valid-poses.csv for validity and independent epochs\n";
   const bool diagnostics=std::getenv("VIO_DIAGNOSTICS")!=nullptr;
   const char *cadence=std::getenv("VIO_DIAGNOSTICS_EVERY");
   const size_t audit_every=cadence?std::stoull(cadence):20;
@@ -100,7 +104,7 @@ int main(int argc, char **argv) try {
   for (size_t k=0;k<frames.size() && (!limit || k<limit);++k) {
     auto begun=Clock::now(); const double t=seconds(frames[k].ns);
     // Feed through at least one sample beyond the current calibrated image time.
-    const double dt=estimator.get_state()->_calib_dt_CAMtoIMU->value()(0);
+    const double dt=estimator->get_state()->_calib_dt_CAMtoIMU->value()(0);
     const double required=t+dt;
     if (seconds(imu.front().ns)>required) continue;
     if (seconds(imu.back().ns)<=required+0.02) break;
@@ -121,11 +125,11 @@ int main(int argc, char **argv) try {
       camera.masks.push_back(options.use_mask ? options.masks.at(c) : cv::Mat::zeros(gray.size(),CV_8UC1));
     }
     estimator.feed_measurement_camera(camera); ++processed;
-    if(diagnostics && k%audit_every==0) estimator.audit(audit,t);
-    auto state=estimator.get_state();
-    const bool current=estimator.initialized() && std::abs(state->_timestamp-t)<1e-7;
+    if(diagnostics && k%audit_every==0) estimator->audit(audit,t);
+    auto state=estimator->get_state();
+    const bool current=estimator->initialized() && std::abs(state->_timestamp-t)<1e-7;
     timing << k << ',' << t << ',' << std::chrono::duration<double,std::milli>(Clock::now()-begun).count()
-           << ',' << estimator.initialized() << ',' << current << '\n';
+           << ',' << estimator->initialized() << ',' << current << '\n';
     if (current) {
       Eigen::Quaterniond q(state->_imu->Rot().transpose()); q.normalize();
       auto p=state->_imu->pos(), v=state->_imu->vel();
@@ -133,7 +137,7 @@ int main(int argc, char **argv) try {
       poses << state->_timestamp << ',' << p.x() << ',' << p.y() << ',' << p.z() << ','
             << q.x() << ',' << q.y() << ',' << q.z() << ',' << q.w() << ','
             << v.x() << ',' << v.y() << ',' << v.z() << ',' << state->_calib_dt_CAMtoIMU->value()(0)
-            << ',' << estimator.get_good_features_MSCKF().size() << '\n';
+            << ',' << estimator->get_good_features_MSCKF().size() << '\n';
       auto cov=ov_msckf::StateHelper::get_marginal_covariance(state,{state->_imu});
       if (cov.rows()!=15 || !cov.allFinite()) throw std::runtime_error("Invalid covariance");
       covs << state->_timestamp;
@@ -144,6 +148,7 @@ int main(int argc, char **argv) try {
   }
   manifest << "processed_frames=" << processed << "\noutput_states=" << states
            << "\nwall_seconds=" << std::chrono::duration<double>(Clock::now()-start).count() << '\n';
+  estimator.finish();
   if (!states) throw std::runtime_error("No initialized states; replay did not validate estimator");
   return 0;
 } catch (const std::exception &e) { std::cerr << "ERROR: " << e.what() << '\n'; return 1; }

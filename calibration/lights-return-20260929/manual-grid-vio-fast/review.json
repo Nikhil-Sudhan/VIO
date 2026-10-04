@@ -1,0 +1,50 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "scope": "manual development demo; NOT validated navigation",
+  "camera_config_sha256": "636b665853526fef659776d108692ce09dec975c942f7043ff1743c96d852cfe",
+  "imu_configured_registers": {
+    "7": 0,
+    "8": 0,
+    "9": 85,
+    "10": 70,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "16": 88,
+    "17": 84,
+    "18": 68,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 32
+  },
+  "mounting_id": "IMX219-LSM6DSOX-user-confirmed-rigid-20260929-grid-trial",
+  "files_sha256": {
+    "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+    "imucam.yaml": "1426881f72bd1cafb800b98ece9f01ef22102297d423381a74739e50e1f021c7",
+    "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee"
+  },
+  "supporting_reports": {
+    "fit-results.txt": "b1789402b4ad4df1707659ed9deb8c527bee8adbd902e13cf9d0508ba71e5fcb",
+    "replay-review.json": "43176737105328c7d405ba2b1cf03ec2b8a11f053ece375ed377b180d4d47917",
+    "throughput-review.json": "19bf8f3884d2c8c12147cd163636078f877a28a3549e94b54515a81dcb7ba9fd"
+  },
+  "display_note": "GRID-ASSISTED CAMERA + IMU | SLOW TEST",
+  "moving_vio_validated": false,
+  "authorization": "User explicitly authorizes Pi access and live OpenVINS-only repair and has confirmed readiness for this bounded development trial.",
+  "limitations": [
+    "Only one printed grid visible: other sheets repeat tag IDs.",
+    "Uses measured image corners with the actual OpenVINS IMU filter; no known target pose or size is injected.",
+    "A4 metric scale assumed, unmeasured; calibration excitation limited.",
+    "Earlier independent translation replay hit a covariance failure; this is not a navigation-qualified calibration.",
+    "16ms exposure and unmodeled rolling shutter."
+  ],
+  "change": "Use configured OpenCV four workers on Pi 5; serial VIO and all original sensor samples preserved. Linear feature cleanup and current-feature display fixes are in the adapter/library.",
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
+}

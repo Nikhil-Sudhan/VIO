@@ -68,6 +68,7 @@ private:
 
 class PiVioManager : public ov_msckf::VioManager {
 public:
+  bool zero_velocity_update() const { return did_zupt_update; }
   PiVioManager(ov_msckf::VioManagerOptions &options, bool aprilgrid=false, int corners=4, bool tag_zupt=false)
       : ov_msckf::VioManager(options) {
     if(aprilgrid) {

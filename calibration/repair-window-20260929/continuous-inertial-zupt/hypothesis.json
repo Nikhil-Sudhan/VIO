@@ -1,0 +1,4 @@
+{
+  "scope": "Offline ablation: only permit original unchanged inertial stop detector after motion. No visual override and no gate/noise/calibration changes.",
+  "accepted": false
+}

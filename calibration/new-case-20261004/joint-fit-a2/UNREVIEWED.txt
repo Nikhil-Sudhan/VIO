@@ -1,0 +1,1 @@
+CANDIDATE ONLY. Review inertial/visual residuals, covariance, motion observability and repeatability before use.

@@ -1,0 +1,6 @@
+{
+  "user_report": "Hand shaky; camera angle changing because cardboard lacks proper support. All requested movements completed.",
+  "implication": "Whole-rig movement is part of calibration, but changing camera-to-IMU transform violates fixed-extrinsics model. Relative movement is reported/possible, not independently quantified.",
+  "requested_action": "Inspect saved capture and attempt actual output today.",
+  "provisional_only": true
+}

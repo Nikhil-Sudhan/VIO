@@ -1,0 +1,149 @@
+[
+  {
+    "session": "data/current-mount-calibration/20260929_223132_t753o1vb",
+    "fit_count": 4,
+    "checked_samples": 24926,
+    "max_prior_error_us": 519.5525859375,
+    "error": null
+  },
+  {
+    "session": "data/current-mount-calibration/20260929_223132_t753o1vb",
+    "fit_count": 6,
+    "checked_samples": 24926,
+    "max_prior_error_us": 421.80641015625,
+    "error": null
+  },
+  {
+    "session": "data/current-mount-calibration/20260929_223132_t753o1vb",
+    "fit_count": 8,
+    "checked_samples": 24926,
+    "max_prior_error_us": 430.9937109375,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_214205_goon60aj",
+    "fit_count": 4,
+    "checked_samples": 61845,
+    "max_prior_error_us": 430.889794921875,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_214205_goon60aj",
+    "fit_count": 6,
+    "checked_samples": 61845,
+    "max_prior_error_us": 400.00390234375,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_214205_goon60aj",
+    "fit_count": 8,
+    "checked_samples": 61845,
+    "max_prior_error_us": 405.665623046875,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_220949_1xjelsnb",
+    "fit_count": 4,
+    "checked_samples": 20680,
+    "max_prior_error_us": 586.8691953125,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_220949_1xjelsnb",
+    "fit_count": 6,
+    "checked_samples": 20680,
+    "max_prior_error_us": 496.572091796875,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_220949_1xjelsnb",
+    "fit_count": 8,
+    "checked_samples": 20680,
+    "max_prior_error_us": 487.449830078125,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_224047_byejlm6c",
+    "fit_count": 4,
+    "checked_samples": 12702,
+    "max_prior_error_us": 558.887263671875,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_224047_byejlm6c",
+    "fit_count": 6,
+    "checked_samples": 12702,
+    "max_prior_error_us": 330.766619140625,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_224047_byejlm6c",
+    "fit_count": 8,
+    "checked_samples": 12702,
+    "max_prior_error_us": 283.550580078125,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_225346_zb__kita",
+    "fit_count": 4,
+    "checked_samples": 22110,
+    "max_prior_error_us": 251.616470703125,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_225346_zb__kita",
+    "fit_count": 6,
+    "checked_samples": 22110,
+    "max_prior_error_us": 238.718568359375,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_225346_zb__kita",
+    "fit_count": 8,
+    "checked_samples": 22110,
+    "max_prior_error_us": 233.12458984375,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_230224_qcnkez0c",
+    "fit_count": 4,
+    "checked_samples": 38965,
+    "max_prior_error_us": 536.9167890625,
+    "error": "Insufficient recent clock observations"
+  },
+  {
+    "session": "data/native-live/20260929_230224_qcnkez0c",
+    "fit_count": 6,
+    "checked_samples": 38965,
+    "max_prior_error_us": 515.677193359375,
+    "error": "Insufficient recent clock observations"
+  },
+  {
+    "session": "data/native-live/20260929_230224_qcnkez0c",
+    "fit_count": 8,
+    "checked_samples": 38965,
+    "max_prior_error_us": 503.8896796875,
+    "error": "Insufficient recent clock observations"
+  },
+  {
+    "session": "data/native-live/20260929_231618_9w9xcozw",
+    "fit_count": 4,
+    "checked_samples": 16450,
+    "max_prior_error_us": 670.061010925293,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_231618_9w9xcozw",
+    "fit_count": 6,
+    "checked_samples": 16450,
+    "max_prior_error_us": 690.6227059326172,
+    "error": null
+  },
+  {
+    "session": "data/native-live/20260929_231618_9w9xcozw",
+    "fit_count": 8,
+    "checked_samples": 16445,
+    "max_prior_error_us": 1247.6893248901367,
+    "error": "Causal clock prediction residual exceeds 1 ms"
+  }
+]

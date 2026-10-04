@@ -1,0 +1,7 @@
+{
+  "failure": "Live latency exceeded one second during stationary ZUPT; capture stopped explicitly, no motion result claimed",
+  "last_sensor_to_output_ms": 1009.159107,
+  "feed_processing_ms_mean": 36.301379705932206,
+  "source": "/home/pluto/vio-project/data/native-live/20260929_224047_byejlm6c",
+  "fix_candidate": "Render actual current feature observations rather than growing historical-track copies. Add measured complete processing-cycle timing. Retain all transport and stale-data checks."
+}

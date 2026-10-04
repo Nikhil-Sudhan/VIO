@@ -1,0 +1,14 @@
+{
+  "scope": "Offline fitted-calibration test on current fast/shaky guided recording",
+  "poses": 1926,
+  "max_position_norm_m": 4266.227157150768,
+  "end_position_m": [
+    -3771.3836293497056,
+    1979.150463549181,
+    -245.6076532130638
+  ],
+  "max_speed_m_s": 135.19905210485445,
+  "poses_with_msckf_features": 31,
+  "max_slam_landmarks": 0,
+  "usable_vio": false
+}

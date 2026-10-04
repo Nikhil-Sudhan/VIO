@@ -1,0 +1,155 @@
+{
+  "accepted_for_hardware_estimation": false,
+  "scope": "Candidate sensitivity/repeatability comparison; no automatic acceptance or statistical covariance",
+  "time_convention": "t_imu = t_camera + timeshift_cam_imu; effective fitted offset, not established exposure midpoint",
+  "candidates": {
+    "joint-calibration-attempt2": {
+      "source": "/home/pluto/vio-project/data/joint-calibration-attempt2",
+      "T_cam_imu": [
+        [
+          -0.22445103575213096,
+          -0.9518654041482302,
+          0.20874382610156889,
+          -0.03557568783469749
+        ],
+        [
+          0.38626863671164696,
+          -0.28356570894221805,
+          -0.877716941277211,
+          0.01879738075502854
+        ],
+        [
+          0.8946609820723834,
+          -0.11637328343663617,
+          0.4313223690691859,
+          -0.017517574467584108
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": 0.007970614446713634,
+      "separation_m": 0.043884353742407047,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.2472711207349797,
+          "median_norm": 0.1933603088847251,
+          "std_norm": 0.22219276207976152,
+          "rms_norm": 0.33243440055169743
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.007994102167132889,
+          "median_norm": 0.005102946226682886,
+          "std_norm": 0.01141607406613135,
+          "rms_norm": 0.013936729047447093
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.10101845814759684,
+          "median_norm": 0.06717106730298192,
+          "std_norm": 0.143592934785584,
+          "rms_norm": 0.17556668193838704
+        }
+      },
+      "run_arguments": "Actual bag interval: 182.054662994 to 242.054662994 seconds\nFeature extraction: 10 Hz\n"
+    },
+    "joint-calibration-independent110": {
+      "source": "/home/pluto/vio-project/data/joint-calibration-independent110",
+      "T_cam_imu": [
+        [
+          -0.22712633816727945,
+          -0.9493643202128301,
+          0.2170737524841581,
+          -0.03475390453150339
+        ],
+        [
+          0.40492842987453775,
+          -0.29477959206487264,
+          -0.8655275609600244,
+          0.017302945063358176
+        ],
+        [
+          0.8856898967415536,
+          -0.10868477174332292,
+          0.4513768128748281,
+          -0.014299933905925906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": 0.008456274899756705,
+      "separation_m": 0.041372864268313506,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.3584659108907591,
+          "median_norm": 0.26127271692304943,
+          "std_norm": 0.31872865710520715,
+          "rms_norm": 0.4796725613695559
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.011565611930998303,
+          "median_norm": 0.0063354516223544976,
+          "std_norm": 0.01927351632167011,
+          "rms_norm": 0.02247736218376468
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.12916272409433294,
+          "median_norm": 0.07364726905756244,
+          "std_norm": 0.23643766974538669,
+          "rms_norm": 0.26941748452930314
+        }
+      },
+      "run_arguments": "Actual bag interval: 112.054662994 to 172.054662994 seconds\nFeature extraction: 10 Hz\n"
+    }
+  },
+  "pairwise_comparisons": [
+    {
+      "a": "joint-calibration-attempt2",
+      "b": "joint-calibration-independent110",
+      "rotation_difference_deg": 1.43076607167418,
+      "translation_difference_mm": 3.641685958175827,
+      "time_shift_difference_ms": 0.4856604530430707
+    }
+  ],
+  "files_sha256": {
+    "joint-calibration-attempt2/input-camchain-imucam.yaml": "a5f08a32f4b69c186200f08e6d8c6494acac2be3f770b820a233ec96ac6638ff",
+    "joint-calibration-attempt2/input-imu.yaml": "fff7a9e8df843a651c838bd3eff7f8ec4ba3f74ea4c3f441115b13839461ba26",
+    "joint-calibration-attempt2/input-results-imucam.txt": "6e8acf40d115b257ddf1561f2ad2e97d78a40b834cc29bb95467ce0b7aafbce9",
+    "joint-calibration-attempt2/input-report-imucam.pdf": "28d4039b9888377c89ec9c0c008be63eb9a48f2962ee38e56890f9d84cd69fe9",
+    "joint-calibration-attempt2/noise-input.yaml": "9b5362351bffd4efd1a6197ecd98a8f0b74cc5de92a2d38cabebe04c2bef22d1",
+    "joint-calibration-attempt2/camera-input.yaml": "c2d9573bad94177902bcdc2b042377d898f13d1cfc0380528ae7df3d1dc8f8e1",
+    "joint-calibration-attempt2/target-input.yaml": "8ca05596e5262b6d616498bc7807beaf11a55fb8626bc2c2c4b6290866e5de6f",
+    "joint-calibration-attempt2/run-arguments.txt": "4baa5e043cfacc6efb6defb6acb4a3fd329cbef92e085d9e63d3e6b8907d790d",
+    "joint-calibration-attempt2/UNCERTAINTY_LIMITATION.txt": "c6c6c8fedafc2aab2c02b4becbd0a9d4ca978192d367f5602571dc1a1c016c34",
+    "joint-calibration-independent110/input-camchain-imucam.yaml": "7608e57c1e0543396560d9a05ff1282b37e0fbb2c9d6dcce7e07fc288305d412",
+    "joint-calibration-independent110/input-imu.yaml": "fff7a9e8df843a651c838bd3eff7f8ec4ba3f74ea4c3f441115b13839461ba26",
+    "joint-calibration-independent110/input-results-imucam.txt": "fbe2dd4cb46866cea126281834c76bf44c5e01833c630112f879369a82a8b10d",
+    "joint-calibration-independent110/input-report-imucam.pdf": "73043e238365808cb616910549a8609b8574cb905a329fe21323caca7e62c079",
+    "joint-calibration-independent110/noise-input.yaml": "9b5362351bffd4efd1a6197ecd98a8f0b74cc5de92a2d38cabebe04c2bef22d1",
+    "joint-calibration-independent110/camera-input.yaml": "c2d9573bad94177902bcdc2b042377d898f13d1cfc0380528ae7df3d1dc8f8e1",
+    "joint-calibration-independent110/target-input.yaml": "8ca05596e5262b6d616498bc7807beaf11a55fb8626bc2c2c4b6290866e5de6f",
+    "joint-calibration-independent110/run-arguments.txt": "122d3427936ff730317f07167495c5a50f2d8b5170576ec1b40396e9cdadb833",
+    "joint-calibration-independent110/UNCERTAINTY_LIMITATION.txt": "c6c6c8fedafc2aab2c02b4becbd0a9d4ca978192d367f5602571dc1a1c016c34"
+  },
+  "limitations": [
+    "Shared source recording, camera intrinsics and measured screen scale create shared systematic errors.",
+    "Weight variants fit identical measurements and are not independent repeated calibrations.",
+    "Nonoverlapping intervals check motion dependence but are not a new acquisition or remounting test.",
+    "Factory IMU scale and axis alignment retained; bias splines estimated. Long-term sensor noise identification is incomplete.",
+    "Analytic covariance recovery is unavailable in the pinned native Kalibr path.",
+    "Approximately 12 ms rolling shutter is not modeled by OpenVINS or these joint fits.",
+    "Physical transform plausibility and independent replay/live validation remain required."
+  ]
+}

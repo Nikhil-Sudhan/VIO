@@ -1,0 +1,10 @@
+{
+  "controller_pid": 22159,
+  "started_at": "2026-09-29T22:09:41+0530",
+  "duration_seconds": 120,
+  "config": "existing manual continuous zero velocity; experimental visual veto DISABLED",
+  "instruction": "Straight 5\u201310 cm sideways and back without turning to follow grid; awaiting actual completion.",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_220949_1xjelsnb",
+  "recorder_pid": 22168,
+  "watcher_pid": 22323
+}

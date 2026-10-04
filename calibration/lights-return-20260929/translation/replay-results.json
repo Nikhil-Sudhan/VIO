@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "states": 784,
+    "max_position_norm_m": 4.650200530473311,
+    "msckf_frames": 6
+  },
+  "fixed-existing": {
+    "states": 784,
+    "max_position_norm_m": 36.02236343136659,
+    "msckf_frames": 6
+  },
+  "fixed-nominal": {
+    "states": 784,
+    "max_position_norm_m": 20.815897442374848,
+    "msckf_frames": 5
+  }
+}

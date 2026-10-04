@@ -1,0 +1,573 @@
+{
+  "scope": "Offline calibration review on two separate earlier recordings; no automatic promotion.",
+  "accepted_for_hardware_estimation": false,
+  "fits": {
+    "all-axis-2340-fit": {
+      "source": "/home/pluto/vio-project/calibration/lights-return-20260929/all-axis-2340-fit",
+      "T_cam_imu": [
+        [
+          -0.03202742869948379,
+          -0.9965115685266328,
+          0.07706450287577349,
+          -0.006667103688238051
+        ],
+        [
+          0.09374535210449886,
+          -0.07975917932497507,
+          -0.9923962324959776,
+          0.025232786622067998
+        ],
+        [
+          0.9950809277489463,
+          -0.024559460621053686,
+          0.09597280929669559,
+          -0.03118389862592344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": -0.00031673965517683766,
+      "separation_m": 0.0406642266103316,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.2701713620336,
+          "median_norm": 0.24185096275595297,
+          "std_norm": 0.1639390988293921,
+          "rms_norm": 0.316019924985884
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.0019471237609418651,
+          "median_norm": 0.0012611580602124926,
+          "std_norm": 0.0033966244231768594,
+          "rms_norm": 0.003915143472792016
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.025164971641315908,
+          "median_norm": 0.017913062936062443,
+          "std_norm": 0.04076994317296922,
+          "rms_norm": 0.04791100149271953
+        }
+      },
+      "run_arguments": "Actual bag interval: 0 to 150 seconds\nFeature extraction: 10 Hz\nSource bag: /home/pluto/vio-project/data/all-axis-2340-calibration.bag\nCamera input: /home/pluto/vio-project/calibration/lights-return-20260929/camera-kalibr.yaml\nTarget input: /home/pluto/vio-project/calibration/printed-room-20260929/target-ASSUMED-A4.yaml\nNoise input: /home/pluto/vio-project/calibration/noise-provisional-weights-10x/noise.yaml\n"
+    },
+    "tilt-roll-fit": {
+      "source": "/home/pluto/vio-project/calibration/lights-return-20260929/tilt-roll-fit",
+      "T_cam_imu": [
+        [
+          -0.0035455371945738454,
+          -0.99646304648547,
+          0.08395728768188576,
+          0.012271283771906581
+        ],
+        [
+          0.048845739136141875,
+          -0.08403017059142753,
+          -0.9952653034234744,
+          0.0372960218827236
+        ],
+        [
+          0.9988000415169429,
+          0.0005722056209306325,
+          0.04897090612273283,
+          -0.04835021713008993
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_to_imu_shift_s": -0.00036335094413177983,
+      "separation_m": 0.062284196632967,
+      "residuals": {
+        "reprojection": {
+          "unit": "px",
+          "mean_norm": 0.21889365862718857,
+          "median_norm": 0.2042653253606195,
+          "std_norm": 0.12217756873926024,
+          "rms_norm": 0.25068265215254293
+        },
+        "gyroscope": {
+          "unit": "rad/s",
+          "mean_norm": 0.0024556359890794376,
+          "median_norm": 0.0017194681737343095,
+          "std_norm": 0.0028484853744233565,
+          "rms_norm": 0.003760853232866967
+        },
+        "accelerometer": {
+          "unit": "m/s^2",
+          "mean_norm": 0.026759327825234495,
+          "median_norm": 0.019685338298873215,
+          "std_norm": 0.03532530528080553,
+          "rms_norm": 0.04431634934017553
+        }
+      },
+      "run_arguments": "Actual bag interval: 0 to 90 seconds\nMaximum feature extraction rate: 11 Hz\nSource bag: /home/pluto/vio-project/data/tilt-roll-calibration.bag\nCamera input: /home/pluto/vio-project/calibration/lights-return-20260929/camera-kalibr.yaml\nTarget input: /home/pluto/vio-project/calibration/printed-room-20260929/target-ASSUMED-A4.yaml\nNoise input: /home/pluto/vio-project/calibration/noise-provisional-weights-10x/noise.yaml\n"
+    }
+  },
+  "pairwise_comparisons": [
+    {
+      "a": "all-axis-2340-fit",
+      "b": "tilt-roll-fit",
+      "rotation_difference_deg": 3.0740591177259007,
+      "translation_difference_mm": 28.264229257685006,
+      "time_offset_difference_ms": 0.046611288954942175
+    }
+  ],
+  "binary_sha256": "df63523ccb47590b7e617ae8cd863d75c3a739c07b2971ac30699044998a29d6",
+  "runs": {
+    "straight-slide--baseline": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 781,
+      "max_position_norm_m": 0.3750480940447338,
+      "max_excursion_from_first_pose_m": 0.3760092136086433,
+      "endpoint_from_first_pose_m": 0.35360875877844045,
+      "max_speed_m_s": 0.2722227906545669,
+      "pose_frames_with_msckf": 2,
+      "final_time_offset_s": 0.002922201044828474,
+      "max_slam_landmarks": 57,
+      "sampled_zupt_fraction": 0.8620689655172413,
+      "processed_frames": 1160,
+      "offline_processing_p50_p95_max_ms": [
+        41.930681500000006,
+        45.699607199999996,
+        264.246749
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 176,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.10208600701035708,
+          0.32037772993150304,
+          0.34290455102320533
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          2.358263040852736,
+          2.9416598794261475,
+          3.6645519218219746
+        ],
+        "target_implied_max_excursion_m": 0.08278414336792349,
+        "estimated_paired_max_excursion_m": 0.3753550223276484
+      },
+      "wall_seconds": 45.163268591999895,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/baseline/estimator_config.yaml",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/straight-slide--baseline",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "372e1cee899e5936ae2ecc383308df05fae7cc6001e85682c557593c8aeb3fee",
+        "imu.csv": "5ed63165931556b1f285fc0e6c5aaa201f250e147624868dd7c5b089313760ea"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "1426881f72bd1cafb800b98ece9f01ef22102297d423381a74739e50e1f021c7"
+      }
+    },
+    "straight-slide--all-axis-2340-fit": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 852,
+      "max_position_norm_m": 0.5808395328534233,
+      "max_excursion_from_first_pose_m": 0.5830429678419577,
+      "endpoint_from_first_pose_m": 0.4875169691486697,
+      "max_speed_m_s": 0.26676063534069405,
+      "pose_frames_with_msckf": 5,
+      "final_time_offset_s": 0.0023779268381500652,
+      "max_slam_landmarks": 97,
+      "sampled_zupt_fraction": 0.7931034482758621,
+      "processed_frames": 1160,
+      "offline_processing_p50_p95_max_ms": [
+        22.047283,
+        27.765098849999998,
+        51.989733
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 197,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.03986855288239095,
+          0.5138215159437163,
+          0.523917432181015
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          3.8018261846373784,
+          4.608212412347941,
+          5.331663104559763
+        ],
+        "target_implied_max_excursion_m": 0.11163257180218795,
+        "estimated_paired_max_excursion_m": 0.584678890611702
+      },
+      "wall_seconds": 26.83394414199995,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/all-axis-2340-fit/estimator_config.yaml",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/straight-slide--all-axis-2340-fit",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "372e1cee899e5936ae2ecc383308df05fae7cc6001e85682c557593c8aeb3fee",
+        "imu.csv": "5ed63165931556b1f285fc0e6c5aaa201f250e147624868dd7c5b089313760ea"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8"
+      }
+    },
+    "straight-slide--tilt-roll-fit": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 852,
+      "max_position_norm_m": 0.5617848128808799,
+      "max_excursion_from_first_pose_m": 0.5638021511840912,
+      "endpoint_from_first_pose_m": 0.4819833150728299,
+      "max_speed_m_s": 0.23554296828929122,
+      "pose_frames_with_msckf": 5,
+      "final_time_offset_s": 0.001361749312764962,
+      "max_slam_landmarks": 74,
+      "sampled_zupt_fraction": 0.7931034482758621,
+      "processed_frames": 1160,
+      "offline_processing_p50_p95_max_ms": [
+        22.364759,
+        28.413711749999997,
+        45.416904
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 197,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.040485165094730255,
+          0.4885358208915755,
+          0.4995529808047012
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          3.654663929103181,
+          4.594388296698239,
+          5.29783318878568
+        ],
+        "target_implied_max_excursion_m": 0.1097619130320079,
+        "estimated_paired_max_excursion_m": 0.5651849722645245
+      },
+      "wall_seconds": 27.102385596999966,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/tilt-roll-fit/estimator_config.yaml",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/straight-slide--tilt-roll-fit",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "372e1cee899e5936ae2ecc383308df05fae7cc6001e85682c557593c8aeb3fee",
+        "imu.csv": "5ed63165931556b1f285fc0e6c5aaa201f250e147624868dd7c5b089313760ea"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "233745cfcb77676e943bfdcbbb0261b75a78d544363f82d917d748131bc160fb"
+      }
+    },
+    "later-movement--baseline": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 327,
+      "max_position_norm_m": 2.9466603353804586,
+      "max_excursion_from_first_pose_m": 2.9465813894267314,
+      "endpoint_from_first_pose_m": 2.5435168855618913,
+      "max_speed_m_s": 1.096952868921863,
+      "pose_frames_with_msckf": 63,
+      "final_time_offset_s": 0.0017061495374906675,
+      "max_slam_landmarks": 194,
+      "sampled_zupt_fraction": 0.5588235294117647,
+      "processed_frames": 680,
+      "offline_processing_p50_p95_max_ms": [
+        41.3017055,
+        77.23009499999998,
+        207.489338
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 33,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.21621119306632225,
+          2.7257926794639533,
+          2.845683284633053
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          1.9365423264340738,
+          3.9688341806520606,
+          5.784367325104358
+        ],
+        "target_implied_max_excursion_m": 0.11311106761664731,
+        "estimated_paired_max_excursion_m": 2.93444480396669
+      },
+      "wall_seconds": 26.827131001999987,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/baseline/estimator_config.yaml",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/later-movement--baseline",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "9812cdddefcf9d6ff449d46f0c302742b0c832cd926b01b58ae4df4759459151",
+        "imu.csv": "42df479c5ce2c900a68d5971e7911d539cf79ccd7fdd4b192ee12be0524a0e90"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "1426881f72bd1cafb800b98ece9f01ef22102297d423381a74739e50e1f021c7"
+      }
+    },
+    "later-movement--all-axis-2340-fit": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 326,
+      "max_position_norm_m": 0.12593665317855823,
+      "max_excursion_from_first_pose_m": 0.12433961607611393,
+      "endpoint_from_first_pose_m": 0.029900774850888035,
+      "max_speed_m_s": 0.11644548763818947,
+      "pose_frames_with_msckf": 138,
+      "final_time_offset_s": 0.0011135007403888456,
+      "max_slam_landmarks": 193,
+      "sampled_zupt_fraction": 0.7352941176470589,
+      "processed_frames": 680,
+      "offline_processing_p50_p95_max_ms": [
+        22.460692,
+        37.564598949999954,
+        209.073847
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 33,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.06727460591671554,
+          0.13566213421260653,
+          0.13716662546319675
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          1.4126658636869949,
+          2.250850492806667,
+          2.259333484266908
+        ],
+        "target_implied_max_excursion_m": 0.11373933342867586,
+        "estimated_paired_max_excursion_m": 0.12365510958903009
+      },
+      "wall_seconds": 17.247542418999956,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/all-axis-2340-fit/estimator_config.yaml",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/later-movement--all-axis-2340-fit",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "9812cdddefcf9d6ff449d46f0c302742b0c832cd926b01b58ae4df4759459151",
+        "imu.csv": "42df479c5ce2c900a68d5971e7911d539cf79ccd7fdd4b192ee12be0524a0e90"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8"
+      }
+    },
+    "later-movement--tilt-roll-fit": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 326,
+      "max_position_norm_m": 21.098457478841507,
+      "max_excursion_from_first_pose_m": 21.099554298217317,
+      "endpoint_from_first_pose_m": 21.099554298217317,
+      "max_speed_m_s": 6.18076600263671,
+      "pose_frames_with_msckf": 75,
+      "final_time_offset_s": 0.0030988600969058993,
+      "max_slam_landmarks": 159,
+      "sampled_zupt_fraction": 0.5882352941176471,
+      "processed_frames": 680,
+      "offline_processing_p50_p95_max_ms": [
+        22.3030555,
+        31.526207349999993,
+        168.2165
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 33,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.12045271252694827,
+          17.062077917621004,
+          18.620588405663597
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          2.2049996842849535,
+          9.8722868848813,
+          10.234451506663486
+        ],
+        "target_implied_max_excursion_m": 0.1143345332069332,
+        "estimated_paired_max_excursion_m": 18.588348797104256
+      },
+      "wall_seconds": 17.332208019000063,
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/tilt-roll-fit/estimator_config.yaml",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/later-movement--tilt-roll-fit",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "9812cdddefcf9d6ff449d46f0c302742b0c832cd926b01b58ae4df4759459151",
+        "imu.csv": "42df479c5ce2c900a68d5971e7911d539cf79ccd7fdd4b192ee12be0524a0e90"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "a0dae8c4e4609cf70a17c5773b746020393a6cb5fc85ab65fb0d088189539e49",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "233745cfcb77676e943bfdcbbb0261b75a78d544363f82d917d748131bc160fb"
+      }
+    },
+    "straight-slide--all-axis-fixed": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 852,
+      "max_position_norm_m": 0.6809804308854376,
+      "max_excursion_from_first_pose_m": 0.6835444161302079,
+      "endpoint_from_first_pose_m": 0.5433662247354543,
+      "max_speed_m_s": 0.3147953960932358,
+      "pose_frames_with_msckf": 3,
+      "final_time_offset_s": -0.00031673965517683766,
+      "max_slam_landmarks": 114,
+      "sampled_zupt_fraction": 0.7931034482758621,
+      "processed_frames": 1160,
+      "offline_processing_p50_p95_max_ms": [
+        22.0391895,
+        28.020545249999998,
+        61.714254
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 197,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.03986855288239095,
+          0.5780945281740256,
+          0.596887088868774
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          3.8794479605813734,
+          4.66373695987125,
+          5.596023794955121
+        ],
+        "target_implied_max_excursion_m": 0.11163257180218795,
+        "estimated_paired_max_excursion_m": 0.6849859932980082
+      },
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/all-axis-fixed/estimator_config.yaml",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/straight-slide-motion-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/straight-slide--all-axis-fixed",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "372e1cee899e5936ae2ecc383308df05fae7cc6001e85682c557593c8aeb3fee",
+        "imu.csv": "5ed63165931556b1f285fc0e6c5aaa201f250e147624868dd7c5b089313760ea"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "e56e12037a07d04263fe85313586f3c107ae2dd34939461f6fb292490d4f4849",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8"
+      }
+    },
+    "later-movement--all-axis-fixed": {
+      "exit_code": 0,
+      "completed": true,
+      "accepted_for_hardware_estimation": false,
+      "poses": 326,
+      "max_position_norm_m": 0.1893532165662284,
+      "max_excursion_from_first_pose_m": 0.1877249534147537,
+      "endpoint_from_first_pose_m": 0.05876037808281422,
+      "max_speed_m_s": 0.16275067451824984,
+      "pose_frames_with_msckf": 44,
+      "final_time_offset_s": -0.00031673965517683766,
+      "max_slam_landmarks": 138,
+      "sampled_zupt_fraction": 0.7058823529411765,
+      "processed_frames": 680,
+      "offline_processing_p50_p95_max_ms": [
+        22.022804,
+        31.565307299999976,
+        109.092398
+      ],
+      "target_comparison": {
+        "scope": "Same-image PnP, nominal 20 mm tags; fixed initial extrinsic for lever arm although filter refines extrinsic online. One initial rigid pose alignment, no fitted scale; NOT independent ground truth.",
+        "paired_samples": 33,
+        "available": true,
+        "position_disagreement_p50_p95_max_m": [
+          0.07170013081521105,
+          0.09730407821674113,
+          0.15517899279425237
+        ],
+        "orientation_disagreement_p50_p95_max_deg": [
+          1.4697471980475796,
+          4.237775170610639,
+          4.268945238562219
+        ],
+        "target_implied_max_excursion_m": 0.11373933342867586,
+        "estimated_paired_max_excursion_m": 0.14098641415987745
+      },
+      "command": [
+        "/home/pluto/vio-project/build/adapter/vio_replay",
+        "/home/pluto/vio-project/evidence/resume-20260930/all-axis-fixed/estimator_config.yaml",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/images.csv",
+        "/home/pluto/vio-project/data/user-motion-selected-input-20260929/imu.csv",
+        "/home/pluto/vio-project/evidence/resume-20260930/later-movement--all-axis-fixed",
+        "0"
+      ],
+      "input_sha256": {
+        "images.csv": "9812cdddefcf9d6ff449d46f0c302742b0c832cd926b01b58ae4df4759459151",
+        "imu.csv": "42df479c5ce2c900a68d5971e7911d539cf79ccd7fdd4b192ee12be0524a0e90"
+      },
+      "configuration_sha256": {
+        "estimator_config.yaml": "e56e12037a07d04263fe85313586f3c107ae2dd34939461f6fb292490d4f4849",
+        "imu.yaml": "31f3db6a27cf5b11a935b2186ba00d18b856826f1d3900ecd3a0c30f04ff2eee",
+        "imucam.yaml": "9d1a69e8e12db8b29b0dafdf35e2eb5bd2b450f4bf6778547ca5073f111febf8"
+      }
+    }
+  },
+  "limitations": [
+    "Nominal unmeasured printed target scale.",
+    "Provisional 10x noise weights.",
+    "No independent trajectory ground truth.",
+    "No analytic calibration covariance.",
+    "Rolling shutter is unmodeled."
+  ]
+}

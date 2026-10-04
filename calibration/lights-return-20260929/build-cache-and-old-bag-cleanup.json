@@ -1,0 +1,63 @@
+[
+  {
+    "path": "/home/pluto/vio-project/data/acquisition-check-30s.bag",
+    "bytes": 306753311,
+    "kind": "Regenerable ROS bag export; original raw recording and provenance retained",
+    "sha256": "d7ce4fcf28476f1bbab6469b576dcf7a6e5006a7f3974f3430ea6b4d0209250c"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/home/pluto/vio-project/vendor/open_vins/ov_init/src/dynamic/DynamicInitializer.cpp.o",
+    "bytes": 86309144,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o",
+    "bytes": 85153040,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterSLAM.cpp.o",
+    "bytes": 48267792,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o",
+    "bytes": 47386592,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o",
+    "bytes": 46818712,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/home/pluto/vio-project/vendor/open_vins/ov_core/src/feat/FeatureInitializer.cpp.o",
+    "bytes": 44883976,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o",
+    "bytes": 41592272,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o",
+    "bytes": 40654608,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/home/pluto/vio-project/vendor/open_vins/ov_core/src/cpi/CpiV2.cpp.o",
+    "bytes": 35290736,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterZeroVelocity.cpp.o",
+    "bytes": 33455000,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  },
+  {
+    "path": "/home/pluto/vio-project/build/openvins/CMakeFiles/ov_msckf_lib.dir/home/pluto/vio-project/vendor/open_vins/ov_init/src/ceres/Factor_ImuCPIv1.cpp.o",
+    "bytes": 33056000,
+    "kind": "Regenerable CMake object cache; C++ source, built shared library and installed library retained"
+  }
+]

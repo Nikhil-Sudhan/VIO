@@ -1,0 +1,10 @@
+%YAML:1.0
+# CAMERA-ONLY CANDIDATE; review report.json before acceptance.
+# Board dimensions are unmeasured; target-frame translations are not metres.
+cam0:
+  camera_model: pinhole
+  distortion_model: radtan
+  intrinsics: [643.5405708668497, 643.0836831340531, 400.2828209323799, 287.6453671924157]
+  distortion_coeffs: [0.14490470714794032, -0.23718824216434337, -0.0022996680639507747, 0.00043129346185966853]
+  resolution: [820, 616]
+  rostopic: /cam0/image_raw

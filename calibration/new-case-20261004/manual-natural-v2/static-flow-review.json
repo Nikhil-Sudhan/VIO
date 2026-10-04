@@ -1,0 +1,119 @@
+{
+  "CLAHE": [
+    {
+      "frame": 40,
+      "detected": 200,
+      "tracked": 198,
+      "median_apparent_motion_px": 0.30874133110046387,
+      "p95_apparent_motion_px": 9.007156372070312
+    },
+    {
+      "frame": 100,
+      "detected": 200,
+      "tracked": 198,
+      "median_apparent_motion_px": 0.3111608624458313,
+      "p95_apparent_motion_px": 8.61970329284668
+    },
+    {
+      "frame": 200,
+      "detected": 200,
+      "tracked": 199,
+      "median_apparent_motion_px": 0.24650423228740692,
+      "p95_apparent_motion_px": 10.135224342346191
+    },
+    {
+      "frame": 300,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.3722330629825592,
+      "p95_apparent_motion_px": 11.468282699584961
+    },
+    {
+      "frame": 1050,
+      "detected": 200,
+      "tracked": 195,
+      "median_apparent_motion_px": 0.26198244094848633,
+      "p95_apparent_motion_px": 9.67824649810791
+    },
+    {
+      "frame": 1200,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.3003227114677429,
+      "p95_apparent_motion_px": 12.422340393066406
+    },
+    {
+      "frame": 1400,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.2462010234594345,
+      "p95_apparent_motion_px": 11.13390827178955
+    },
+    {
+      "frame": 1600,
+      "detected": 200,
+      "tracked": 196,
+      "median_apparent_motion_px": 0.2497635930776596,
+      "p95_apparent_motion_px": 13.891633987426758
+    }
+  ],
+  "NONE": [
+    {
+      "frame": 40,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.056302547454833984,
+      "p95_apparent_motion_px": 0.19766707718372345
+    },
+    {
+      "frame": 100,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.04916688799858093,
+      "p95_apparent_motion_px": 0.29411932826042175
+    },
+    {
+      "frame": 200,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.0998520702123642,
+      "p95_apparent_motion_px": 0.2174612134695053
+    },
+    {
+      "frame": 300,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.057631269097328186,
+      "p95_apparent_motion_px": 0.24275486171245575
+    },
+    {
+      "frame": 1050,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.05864037573337555,
+      "p95_apparent_motion_px": 0.22582706809043884
+    },
+    {
+      "frame": 1200,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.11009648442268372,
+      "p95_apparent_motion_px": 0.2647145688533783
+    },
+    {
+      "frame": 1400,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.04675976559519768,
+      "p95_apparent_motion_px": 0.18078863620758057
+    },
+    {
+      "frame": 1600,
+      "detected": 200,
+      "tracked": 200,
+      "median_apparent_motion_px": 0.05929978936910629,
+      "p95_apparent_motion_px": 0.15556007623672485
+    }
+  ],
+  "scope": "Independent pairwise optical-flow diagnostic on IMU-quiet portions; top FAST corners, no estimator state changes. This is not identical to the production grid selection or RANSAC."
+}

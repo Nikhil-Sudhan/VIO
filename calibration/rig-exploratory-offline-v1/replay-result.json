@@ -1,0 +1,24 @@
+{
+  "status": "failed_initialization",
+  "software_built": true,
+  "hardware_vio_validated": false,
+  "mode": "one exploratory offline replay; no live sensor-to-estimator run",
+  "input_images": "data/hardware-replay-motion1/images.csv",
+  "input_imu": "data/hardware-replay-motion1/imu.csv",
+  "calibration": "calibration/rig-exploratory-offline-v1",
+  "config_status": "measured fitted geometry/timing with explicitly provisional empirical noise, not accepted live calibration",
+  "processed_frames": 1901,
+  "initialized_states": 0,
+  "exit_code": 1,
+  "error": "No initialized states; replay did not validate estimator",
+  "cause": "Not yet diagnosed; no guessed explanation or parameter sweep",
+  "next_action": "Inspect static-initializer prerequisites against this recording; user requested one simple test and no repeated test loop",
+  "provenance_sha256": {
+    "build/adapter/vio_replay": "ef4ab15afac8032719e2310c31bbff90a892ce0b1276197b61c17915ec04c560",
+    "adapter/replay.cpp": "366af6a45746cee3f20a1764261305572361749c612d5879c00ea0f43367ffd7",
+    "data/hardware-replay-motion1/images.csv": "93f15f4d68ab2a1da53b3edfbcf23421cb4941f2cd89efaafa09d5218ee6fb70",
+    "data/hardware-replay-motion1/imu.csv": "f1c7e52bbc856176ceef766ab7875349b24b79dd4b274cb3815832d08ac9fe52",
+    "evidence/rig-exploratory-motion1-run1-format-fixed.log": "47b2299f75305f6fd2479f65266de892b118dc028ea059bd7b1683c4cc6ffd09"
+  },
+  "recorded_at": "2026-09-26T19:24:18.527058+05:30"
+}

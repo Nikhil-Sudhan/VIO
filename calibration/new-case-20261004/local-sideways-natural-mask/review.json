@@ -1,0 +1,8 @@
+{
+  "scope": "Offline target-exclusion diagnostic only",
+  "accepted_for_hardware_estimation": false,
+  "approved_for_manual_development_demo": false,
+  "excluded_region": "All image columns x >= 500 throughout recording, including visible AprilGrid on right",
+  "input_images": "Original images unchanged; feature mask only",
+  "calibration": "Same provisional V2 geometry/timing/noise, no gate tuning"
+}

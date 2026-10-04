@@ -1,0 +1,18 @@
+{
+  "scope": "Offline only; no calibration acceptance",
+  "rationale": "Test joint visual/inertial startup instead of static gravity initialization after systematic negative-depth failures",
+  "source_config": "calibration/rig-exploratory-online-refinement-v4",
+  "changes": {
+    "try_zupt": "false",
+    "init_imu_thresh": "0.0",
+    "init_dyn_use": "true",
+    "init_window_time": "2.0",
+    "init_max_disparity": "1.5",
+    "init_dyn_mle_max_time": "0.5",
+    "init_dyn_mle_max_threads": "2",
+    "init_dyn_bias_g": "[0.013199480244984607, -0.009611245858059649, 0.0018836508729826644]"
+  },
+  "gyro_bias_source": "Mean of original poses4 IMU at100\u2013110 seconds, saved rotation alignment audit",
+  "accelerometer_bias_initial_guess": "Unmeasured zero starting guess, optimized by upstream dynamic initializer; not claimed measured",
+  "data": "Original measured-mount poses4 recording; does not establish validity for current mounting"
+}

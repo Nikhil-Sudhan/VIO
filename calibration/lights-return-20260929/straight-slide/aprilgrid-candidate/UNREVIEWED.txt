@@ -1,0 +1,1 @@
+Offline candidate only: actual OpenVINS visual/inertial EKF with extra 2D AprilGrid corner tracks. No PnP poses, known target scale or known point positions supplied. One grid with IDs 0..35, tag36h11, two-bit borders. Repeated printed boards elsewhere have the same IDs and are outside this diagnostic scope.

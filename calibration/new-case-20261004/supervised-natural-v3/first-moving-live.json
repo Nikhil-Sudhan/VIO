@@ -1,0 +1,58 @@
+{
+  "scope": "Physical live-stream software evidence. Health gates alone do not validate moving accuracy or mapping.",
+  "folder": "/home/pluto/vio-project/data/native-live/20261004_201533_ymht70tv/vio",
+  "processed_frames": 2401,
+  "valid_pose_count": 812,
+  "segments": [
+    {
+      "epoch": 0,
+      "camera_frames": 928,
+      "valid_pose_count": 812,
+      "states": {
+        "initializing": 25,
+        "initializing_depth": 17,
+        "ready": 73,
+        "tracking": 810,
+        "stationary": 2,
+        "lost": 1
+      },
+      "lost_events": [
+        {
+          "reset_epoch": "0",
+          "event": "lost",
+          "t_rel_s": "46.755199535000003",
+          "reason": "visual_corrections_expired"
+        }
+      ],
+      "persistent_landmarks": 186,
+      "first_valid_time_s": 6.167534535000001,
+      "last_valid_time_s": 46.705199535000006,
+      "max_position_norm_m": 0.29754743673340905,
+      "final_position_norm_m": 0.1377996510447701,
+      "max_speed_m_s": 0.16303044955122206,
+      "final_speed_m_s": 0.06463231374029345
+    },
+    {
+      "epoch": 1,
+      "camera_frames": 1473,
+      "valid_pose_count": 0,
+      "states": {
+        "initializing": 139,
+        "initializing_depth": 1,
+        "ready": 1333
+      },
+      "lost_events": [],
+      "persistent_landmarks": 0
+    }
+  ],
+  "lost_events": [
+    {
+      "reset_epoch": "0",
+      "event": "lost",
+      "t_rel_s": "46.755199535000003",
+      "reason": "visual_corrections_expired"
+    }
+  ],
+  "map_scope": "Sparse local landmarks only. Independent reset frames are not registered; no loop closure.",
+  "navigation_validated": false
+}

@@ -1,0 +1,26 @@
+{
+  "lights-return-baseline-output-20260929": {
+    "poses": 509,
+    "max_position_norm_m": 21.90725354235633,
+    "last_position_m": [
+      -0.8604283891098758,
+      19.074189869664398,
+      10.740703029703862
+    ],
+    "visual_update_frames": 27,
+    "slam_landmarks_max": 1,
+    "first_pose_time_s": 39.593076487000005
+  },
+  "lights-return-no-clahe-output-20260929": {
+    "poses": 1165,
+    "max_position_norm_m": 413.4354538191655,
+    "last_position_m": [
+      -98.4107381190409,
+      392.3453086495677,
+      85.4947944508924
+    ],
+    "visual_update_frames": 5,
+    "slam_landmarks_max": 5,
+    "first_pose_time_s": 6.801912487
+  }
+}

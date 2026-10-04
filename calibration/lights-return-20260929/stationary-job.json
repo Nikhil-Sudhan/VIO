@@ -1,0 +1,9 @@
+{
+  "controller_pid": 20065,
+  "started_at": "2026-09-29T21:42:03+0530",
+  "user_report": "Resting \u2014 hands off; both sensors rigidly fixed",
+  "configuration": "existing manual continuous stop detection; new calibration not yet accepted",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_214205_goon60aj",
+  "recorder_pid": 20085,
+  "watcher_pid": 20275
+}

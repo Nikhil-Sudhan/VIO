@@ -1,0 +1,24 @@
+{
+  "scope": "Regression on earlier calibration motion, not independent accuracy or live grid-free validation",
+  "processed_frames": 5743,
+  "poses": 5520,
+  "poses_with_msckf_features": 2162,
+  "peak_position_norm_m": 0.7622181394576949,
+  "final_position_norm_m": 0.08278593456558996,
+  "final_speed_m_s": 0.04479432849861222,
+  "target_shared_calibration_consistency": {
+    "samples": 329,
+    "position_error_m_p50_p95_max": [
+      0.05517946173483771,
+      0.08442632551259104,
+      0.12382110840592399
+    ],
+    "position_rms_m": 0.05777096442825564,
+    "orientation_difference_deg_p50_p95_max": [
+      1.6451389674802839,
+      4.114242984152863,
+      6.226853551028364
+    ]
+  },
+  "limitations": "Physical grid present in earlier recording, tag tracker disabled. Same intrinsics and nominal target scale; not independent ground truth."
+}

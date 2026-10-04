@@ -1,0 +1,49 @@
+{
+  "scope": "Live resting observation only; no independent position ground truth and no moving VIO validation",
+  "session": "/home/pluto/vio-project/data/native-live/20260929_213333_3in6mrhs",
+  "time_s": 59.688304538000004,
+  "sampled_last_seconds": 19.994597,
+  "last20s_position_extent_m": [
+    119.06425238155109,
+    96.51219346562549,
+    9.084687248218167
+  ],
+  "last20s_displacement_m": 150.765807539523,
+  "position_norm_max_m": 158.69150427277364,
+  "last20s_speed_p50_p95_max_m_s": [
+    4.118376247408081,
+    12.311395406059424,
+    13.04949659218953
+  ],
+  "msckf_update_frames": 6,
+  "last_snapshot": {
+    "sequence": 1232,
+    "t": 59.588351538000005,
+    "emitted_boot_ns": 8509933985294,
+    "initialized": true,
+    "stationary_ready": false,
+    "zero_velocity_update": false,
+    "image_mean_luma": 89.16269005384859,
+    "image_std_luma": 25.28591057548694,
+    "last_msckf_update_age_s": 0.7997920000000036,
+    "position": [
+      -129.36460983028883,
+      89.65569284006158,
+      1.1459388843725107
+    ],
+    "quaternion": [
+      -0.02803219937691884,
+      -0.006563656272873385,
+      -0.6707603443783029,
+      0.7411151561153805
+    ],
+    "velocity": [
+      -9.727402998948673,
+      8.589653858957753,
+      0.1179850286668661
+    ],
+    "msckf": [],
+    "slam": []
+  },
+  "errors": []
+}

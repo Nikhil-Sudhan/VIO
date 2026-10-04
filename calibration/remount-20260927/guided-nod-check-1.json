@@ -1,0 +1,87 @@
+{
+  "scope": "Completed-capture diagnostic; receipt time windows; not calibration acceptance",
+  "duration_s": 602.119782694,
+  "decoder_fault": null,
+  "active_seconds_above_0_05_approx": 0.1371827946608298,
+  "gyro_peak_rad_s": 0.11512986722001595,
+  "active_windows": [
+    {
+      "start_s": 380.0,
+      "axis_std_rad_s": [
+        0.0030430513726583007,
+        0.006157317317013894,
+        0.0015125140426939714
+      ],
+      "peak_rad_s": 0.11512986722001595,
+      "active_fraction": 0.006369426751592357
+    },
+    {
+      "start_s": 390.0,
+      "axis_std_rad_s": [
+        0.0030016105039331734,
+        0.007636740740106689,
+        0.0017771513253062817
+      ],
+      "peak_rad_s": 0.09251634196880083,
+      "active_fraction": 0.004894762604013705
+    },
+    {
+      "start_s": 530.0,
+      "axis_std_rad_s": [
+        0.0024429506626535034,
+        0.005757916854788417,
+        0.0015135784154006616
+      ],
+      "peak_rad_s": 0.06778815338652613,
+      "active_fraction": 0.0019588638589618022
+    },
+    {
+      "start_s": 540.0,
+      "axis_std_rad_s": [
+        0.0016627453302371044,
+        0.003874701245924876,
+        0.0010674211117127994
+      ],
+      "peak_rad_s": 0.056123191815095654,
+      "active_fraction": 0.0004899559039686428
+    }
+  ],
+  "target_checks": [
+    {
+      "frame": "images/011205.pgm",
+      "tags": 26
+    },
+    {
+      "frame": "images/011305.pgm",
+      "tags": 28
+    },
+    {
+      "frame": "images/011405.pgm",
+      "tags": 29
+    },
+    {
+      "frame": "images/011505.pgm",
+      "tags": 30
+    },
+    {
+      "frame": "images/011605.pgm",
+      "tags": 30
+    },
+    {
+      "frame": "images/011705.pgm",
+      "tags": 27
+    },
+    {
+      "frame": "images/011805.pgm",
+      "tags": 26
+    },
+    {
+      "frame": "images/011905.pgm",
+      "tags": 26
+    },
+    {
+      "frame": "images/012003.pgm",
+      "tags": 29
+    }
+  ]
+}

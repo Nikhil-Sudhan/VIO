@@ -1,0 +1,19 @@
+{
+  "translation-veto": {
+    "completed": true,
+    "states": 1533,
+    "through_s": 80.12253294,
+    "max_position_norm_m": 30.937506403950863,
+    "msckf_frames": 4
+  },
+  "controlled-veto": {
+    "completed": true,
+    "states": 870,
+    "through_s": 47.989140836000004,
+    "max_position_norm_m": 259.8449865843225,
+    "msckf_frames": 0
+  },
+  "decision": "Rejected: visual veto remains disabled in all live configurations.",
+  "default_behavior_regression": "Patched library with option omitted produces byte-identical pose CSV on controlled motion replay.",
+  "build": "Full OpenVINS and both adapters rebuilt and installed; exact source patch preserved."
+}

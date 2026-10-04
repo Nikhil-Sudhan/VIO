@@ -1,0 +1,75 @@
+{
+  "accepted_as_identified_sensor_noise": false,
+  "accepted_for_hardware_estimation": false,
+  "purpose": "Provisional weights for exploratory joint fitting and sensitivity tests only",
+  "method": "Across explicitly selected quiet windows and axes, take max(AD*sqrt(tau)) for 0.005\u20130.3 s and max(AD*sqrt(3/tau)) for 10\u201330 s; multiply all scalar model weights by recorded inflation.",
+  "interpretation": "The long-time quantity includes white/colored noise, temperature/tilt drift and is an empirical surrogate, not a detected +1/2 random-walk slope or statistical confidence bound.",
+  "short_envelope_axes_si": [
+    0.00021808309467941526,
+    0.00027638303694322533,
+    8.908050311625022e-05,
+    0.0021943117666613555,
+    0.0015057718375008355,
+    0.0027176766288825537
+  ],
+  "long_envelope_axes_si": [
+    1.0208999821902878e-05,
+    1.4770260860981915e-05,
+    8.902709678029922e-06,
+    0.0004806982704652754,
+    0.0006702362158537627,
+    0.0003166772632918609
+  ],
+  "inflation": 10,
+  "yaml_values": {
+    "rostopic": "/imu0",
+    "update_rate": 204.090470950253,
+    "gyroscope_noise_density": 0.002763830369432253,
+    "accelerometer_noise_density": 0.027176766288825538,
+    "gyroscope_random_walk": 0.00014770260860981916,
+    "accelerometer_random_walk": 0.0067023621585376265
+  },
+  "sources": [
+    {
+      "report": "calibration/noise-30min-quiet-60-500/report.json",
+      "report_sha256": "b034757480528a06be6e67b8f1dc02f7e46f7702df1b5911af084f4bff92c0c1",
+      "allan_sha256": "407bfe103b000964159a754c2803bfefc38c2b7733a5a9b9db9c8cc1d5fc77f8",
+      "window_s": [
+        60.001977446000005,
+        499.99936324400005
+      ]
+    },
+    {
+      "report": "calibration/noise-30min-quiet-680-950/report.json",
+      "report_sha256": "20b386ddda6abd3e3d4dbd292c9584c1e4ba36c89c695a98766a0acab58bf3b0",
+      "allan_sha256": "3bcec1080cd73b4d61a936a0c29df528fedf3146aefb93140e19ea30922bbdef",
+      "window_s": [
+        680.0010312530001,
+        949.9996800020001
+      ]
+    },
+    {
+      "report": "calibration/noise-30min-quiet-1620-1740/report.json",
+      "report_sha256": "21b461ce47ca1dae199f77e8b5d232f6569a645fac726cefedf6726aca2e3076",
+      "allan_sha256": "a81f64b0c83530fa188349d0b07ccec06fdd0132662a124af670ea3efdd54519",
+      "window_s": [
+        1620.0017949310002,
+        1739.999018834
+      ]
+    }
+  ],
+  "sample_rate_source": "data/calibration-views/20260926_172822_0aw0gyzi/analysis/report.json",
+  "limits": [
+    "Complete 30-minute dataset is rejected as stationary because of disturbances.",
+    "Quiet windows are not concatenated and raw data remains unchanged.",
+    "No accepted long-term random-walk identification exists.",
+    "Compare 0.5x and 2x weights, residuals, covariance and independent motion data before any calibration acceptance."
+  ],
+  "official_guidance": [
+    "https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model",
+    "https://docs.openvins.com/gs-calibration.html"
+  ],
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration.",
+  "approved_for_manual_development_demo": false
+}

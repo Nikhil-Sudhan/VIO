@@ -1,0 +1,7 @@
+# Fresh-run envelope weights; sensitivity trial only, not identified sensor noise.
+rostopic: /imu0
+update_rate: 204.0355927763645
+gyroscope_noise_density: 0.002175430893269639
+accelerometer_noise_density: 0.043893153414587355
+gyroscope_random_walk: 0.0002234548981032961
+accelerometer_random_walk: 0.026159638330733644

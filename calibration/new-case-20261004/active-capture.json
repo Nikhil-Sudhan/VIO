@@ -1,0 +1,15 @@
+{
+  "session": "data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev",
+  "pid": 12535,
+  "boot_id": "0abdf339-34f6-48c0-bbe2-4ce5cdb42ae3",
+  "started_utc": "2026-10-04T09:59:11.717417+00:00",
+  "max_seconds": 360,
+  "exec_session_id": 77364,
+  "status": "completed",
+  "target": "calibration/new-case-20261004/target-ASSUMED-A4.yaml",
+  "scale_measured": false,
+  "instructions": "5 seconds still; 20 distinct views held 3 seconds each; 60-90 seconds gentle multiaxis rotation and translation with stationary full grid visible; 5 seconds still; done",
+  "finish_command": "/usr/bin/python3 tools/finish_capture.py data/new-case-20261004/calibration-motion/20261004_152911_rv6mciev",
+  "completion_reason": "guided_finish_signal",
+  "frames_written": 5743
+}

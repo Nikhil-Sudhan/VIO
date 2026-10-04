@@ -12,7 +12,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 import yaml
-from calibrate_intrinsics import detect
+from calibrate_intrinsics import detect, KalibrDetector
 
 
 def main():
@@ -22,6 +22,7 @@ def main():
     p.add_argument('--target', type=Path, default=Path('calibration/target/target-screen-MEASURED.yaml'))
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--stride', type=int, default=2)
+    p.add_argument('--detector-backend', choices=['opencv','kalibr'], default='opencv')
     p.add_argument('--allow-exposure-change', action='store_true',
                    help='For this diagnostic only, allow exposure/gain changes after checking all remaining camera settings')
     a = p.parse_args()
@@ -58,6 +59,7 @@ def main():
     params.markerBorderBits = 2
     params.cornerRefinementMethod = cv2.aruco.CORNER_REFINE_APRILTAG
     detector = cv2.aruco.ArucoDetector(cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_APRILTAG_36h11),params)
+    if a.detector_backend == 'kalibr': detector = KalibrDetector()
     cv2.setNumThreads(1)
     with (a.session/'frames.csv').open() as f: frames = list(csv.DictReader(f))
     origin = int(frames[0]['sensor_timestamp_ns'])
@@ -102,7 +104,8 @@ def main():
         'session':str(a.session.resolve()),'camera_sha256':hashlib.sha256(a.camera.read_bytes()).hexdigest(),
         'target_sha256':hashlib.sha256(a.target.read_bytes()).hexdigest(),
         'source_analysis_sha256':hashlib.sha256((a.session/'analysis/report.json').read_bytes()).hexdigest(),
-        'opencv_version':cv2.__version__,'frame_stride':a.stride,'origin_camera_ns':origin,
+        'opencv_version':cv2.__version__,'detector_backend':a.detector_backend,
+        'frame_stride':a.stride,'origin_camera_ns':origin,
         'exposure_change_review':exposure_change,
         'pose_convention':'R and t transform fixed target coordinates to camera optical coordinates',
         'caveats':['PnP moving poses inherit rolling-shutter distortion and corner noise.',

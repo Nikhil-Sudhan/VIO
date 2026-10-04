@@ -55,5 +55,7 @@
     "Repeating printed sheets are ordinary texture only; they are not identified as fixed tag landmarks.",
     "Live room sweep 20260930_204002_h42ebrd4 lost visual corrections and diverged despite clean power. Trial withdrawn from live use pending diagnosis."
   ],
-  "change": "Isolated natural-feature manual trial. Tag observations and tag-specific stationary history disabled; ordinary KLT camera observations and IMU fusion retained. Physical calibration unchanged. Offline feasibility replay completed; room movement remains unvalidated."
+  "change": "Isolated natural-feature manual trial. Tag observations and tag-specific stationary history disabled; ordinary KLT camera observations and IMU fusion retained. Physical calibration unchanged. Offline feasibility replay completed; room movement remains unvalidated.",
+  "invalidated": true,
+  "invalidation_reason": "New screw-fixed three-pin enclosure installed 2026-10-04; camera/IMU mounting changed. Requires fresh measured calibration."
 }

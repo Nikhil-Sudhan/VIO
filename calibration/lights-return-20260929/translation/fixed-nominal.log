@@ -1,0 +1,2170 @@
+Setting printing level to: INFO
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+parameter T_imu_cam not found, trying T_cam_imu instead (will return T_imu_cam still)!
+frames=1 states=0 t=2.11701
+[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,0 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,55 < 15
+[0m[33m[init]: not enough feats to compute disp: 0,52 < 15
+[0m[33m[init]: disparity is 0.769,1.572 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 0.555,1.723 (1.50 thresh)
+[0m[33m[init]: failed static init: platform moving too much
+[0m[33m[init]: disparity is 0.700,1.440 (1.50 thresh)
+[0m[32m[init]: successful initialization in 0.0004 seconds
+[0m[32m[init]: orientation = 0.0443, -0.0066, -0.7071, 0.7057
+[0m[32m[init]: bias gyro = 0.0071, -0.0095, 0.0015
+[0m[32m[init]: velocity = 0.0000, 0.0000, 0.0000
+[0m[32m[init]: bias accel = -0.0115, 0.0155, 0.2151
+[0m[32m[init]: position = 0.0000, 0.0000, 0.0000
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.120 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.003 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.004 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.005 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.006 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.004 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.006 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.007 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.008 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.079 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.012 < 16.919)
+[0mframes=101 states=0 t=7.10975
+[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.009 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.010 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.011 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.012 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.013 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.007 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.014 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.066 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.015 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.062 < 16.919)
+[0mframes=201 states=0 t=12.1027
+[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.068 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.092 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.108 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.016 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.068 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.017 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.066 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0mframes=301 states=0 t=17.0958
+[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.087 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.058 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.093 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.018 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.113 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.187 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.123 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.068 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.130 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.096 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.087 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.069 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.078 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.077 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.058 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.123 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.077 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.084 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0mframes=401 states=0 t=22.0891
+[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.087 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.141 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.090 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.087 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.096 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.094 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.102 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.210 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.225 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.243 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.106 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.119 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.068 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.083 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.091 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.088 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.145 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.219 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.170 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.107 < 16.919)
+[0mframes=501 states=0 t=27.0826
+[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.109 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.082 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.087 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.040 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.066 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.124 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.081 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.125 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.088 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.056 < 16.919)
+[0mframes=601 states=0 t=32.0762
+[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.102 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.070 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.005 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.009 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.159 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.120 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.097 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.116 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.092 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.010 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.025 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.111 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.043 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.084 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.011 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0mframes=701 states=0 t=37.0701
+[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.019 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.111 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.032 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.022 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.052 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.018 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.017 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.073 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.128 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.133 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.501 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.205 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 1.112 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.173 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.481 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.133 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.725 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.540 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 4.410 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 1.950 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.693 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 2.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.431 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 5.537 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 2.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.918 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 1.582 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 1.450 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 7.454 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.280 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.296 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.070 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.308 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.151 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.059 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.106 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.060 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.407 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 0.543 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 4.409 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 1.913 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 15.164 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.019 (chi2 9.967 < 16.919)
+[0mq_GtoI = 0.054,0.002,-0.735,0.676 | p_IinG = 0.003,0.008,0.001 | dist = 0.00 (meters)
+bg = 0.0074,-0.0090,0.0015 | ba = 0.0953,0.0199,0.2202
+q_GtoI = 0.048,-0.004,-0.738,0.673 | p_IinG = 0.003,0.009,0.001 | dist = 0.00 (meters)
+bg = 0.0074,-0.0090,0.0015 | ba = 0.0953,0.0199,0.2202
+q_GtoI = 0.045,-0.006,-0.739,0.672 | p_IinG = 0.004,0.010,0.001 | dist = 0.00 (meters)
+bg = 0.0074,-0.0090,0.0015 | ba = 0.0953,0.0199,0.2202
+[36m[ZUPT]: accepted |v_IinG| = 0.036 (chi2 3.268 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.035 (chi2 4.336 < 16.919)
+[0mq_GtoI = 0.045,-0.007,-0.739,0.672 | p_IinG = 0.004,0.012,0.001 | dist = 0.00 (meters)
+bg = 0.0074,-0.0090,0.0014 | ba = 0.0940,0.0193,0.2207
+[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 3.112 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 6.125 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 0.782 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 1.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 0.703 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.038 (chi2 1.968 < 16.919)
+[0mq_GtoI = 0.044,-0.008,-0.739,0.672 | p_IinG = 0.003,0.014,0.000 | dist = 0.01 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.043,-0.009,-0.732,0.680 | p_IinG = 0.003,0.016,0.000 | dist = 0.01 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.043,-0.009,-0.728,0.685 | p_IinG = 0.003,0.018,0.000 | dist = 0.01 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.044,-0.009,-0.721,0.691 | p_IinG = 0.003,0.021,0.000 | dist = 0.01 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.043,-0.008,-0.703,0.710 | p_IinG = 0.003,0.023,0.000 | dist = 0.02 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.043,-0.008,-0.690,0.723 | p_IinG = 0.003,0.026,0.000 | dist = 0.02 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+q_GtoI = 0.043,-0.008,-0.689,0.724 | p_IinG = 0.003,0.028,0.000 | dist = 0.02 (meters)
+bg = 0.0074,-0.0091,0.0014 | ba = 0.0912,0.0190,0.2211
+[36m[ZUPT]: accepted |v_IinG| = 0.044 (chi2 0.175 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.044 (chi2 3.561 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 8.700 < 16.919)
+[0mframes=801 states=22 t=42.064
+[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 8.867 < 16.919)
+[0mq_GtoI = 0.043,-0.006,-0.689,0.724 | p_IinG = 0.004,0.030,0.000 | dist = 0.02 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0909,0.0179,0.2213
+q_GtoI = 0.043,-0.004,-0.689,0.724 | p_IinG = 0.004,0.032,-0.000 | dist = 0.02 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0909,0.0179,0.2213
+q_GtoI = 0.045,-0.006,-0.689,0.724 | p_IinG = 0.003,0.034,-0.000 | dist = 0.03 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0909,0.0179,0.2213
+q_GtoI = 0.045,-0.004,-0.689,0.724 | p_IinG = 0.003,0.036,-0.000 | dist = 0.03 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0909,0.0179,0.2213
+q_GtoI = 0.045,-0.005,-0.689,0.724 | p_IinG = 0.003,0.038,-0.000 | dist = 0.03 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0909,0.0179,0.2213
+[36m[ZUPT]: accepted |v_IinG| = 0.039 (chi2 8.074 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 2.783 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 4.168 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 1.944 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.041 (chi2 2.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 6.058 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.042 (chi2 3.949 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.335 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.043 (chi2 0.480 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.044 (chi2 0.513 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.044 (chi2 0.148 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.044 (chi2 0.348 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.045 (chi2 0.205 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.045 (chi2 0.111 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.045 (chi2 0.213 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.046 (chi2 0.114 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.046 (chi2 0.431 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.046 (chi2 0.405 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 0.613 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 0.420 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 0.271 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 0.551 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.507 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 0.342 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.333 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.170 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.157 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.126 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.048 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.190 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.081 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.125 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.084 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.049 (chi2 0.089 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.033 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.041 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.026 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.110 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.068 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.076 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.137 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.030 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.116 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.102 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.023 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.050 (chi2 0.137 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.095 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.012 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.061 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.028 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.063 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.085 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.050 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.051 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.027 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.039 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.020 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.024 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.049 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.029 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.187 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.479 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.294 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.121 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.099 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.269 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.282 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.080 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.058 < 16.919)
+[0mframes=901 states=122 t=47.0581
+[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.034 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.031 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 0.014 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.015 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.013 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.037 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.016 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.048 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.071 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.120 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.058 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.057 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.089 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.042 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.136 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.203 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.304 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.161 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.195 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.108 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.056 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.085 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.046 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.045 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.067 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.072 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.065 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.101 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.053 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.079 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.038 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.064 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.055 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.081 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.021 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.093 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.036 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.044 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.375 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.498 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.446 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.252 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.636 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.800 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.328 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.139 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.148 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.051 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.201 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.181 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.741 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.086 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.239 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.047 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.117 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.035 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.075 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.092 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.054 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.062 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.288 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.723 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.393 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.358 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.203 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.286 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.207 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.123 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.150 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.077 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.074 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.008 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.053 (chi2 0.021 < 16.919)
+[0mq_GtoI = 0.040,-0.008,-0.689,0.724 | p_IinG = 0.010,0.046,-0.001 | dist = 0.03 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+q_GtoI = 0.045,-0.004,-0.689,0.724 | p_IinG = 0.011,0.047,-0.001 | dist = 0.04 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+q_GtoI = 0.043,-0.005,-0.689,0.724 | p_IinG = 0.012,0.050,-0.001 | dist = 0.04 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+q_GtoI = 0.043,-0.007,-0.689,0.724 | p_IinG = 0.013,0.052,-0.001 | dist = 0.04 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+q_GtoI = 0.041,-0.006,-0.689,0.724 | p_IinG = 0.013,0.055,-0.001 | dist = 0.04 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+q_GtoI = 0.043,-0.005,-0.689,0.724 | p_IinG = 0.014,0.057,-0.001 | dist = 0.05 (meters)
+bg = 0.0075,-0.0091,0.0015 | ba = 0.0980,-0.0035,0.2240
+[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 8.805 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.052 (chi2 16.435 < 16.919)
+[0mq_GtoI = 0.044,-0.004,-0.689,0.724 | p_IinG = 0.015,0.060,-0.001 | dist = 0.05 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0986,-0.0037,0.2250
+q_GtoI = 0.044,-0.006,-0.689,0.724 | p_IinG = 0.015,0.062,-0.002 | dist = 0.05 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0986,-0.0037,0.2250
+q_GtoI = 0.044,-0.005,-0.689,0.724 | p_IinG = 0.016,0.064,-0.002 | dist = 0.05 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0986,-0.0037,0.2250
+q_GtoI = 0.044,-0.006,-0.689,0.724 | p_IinG = 0.017,0.067,-0.002 | dist = 0.06 (meters)
+bg = 0.0074,-0.0092,0.0015 | ba = 0.0986,-0.0037,0.2250
+frames=1001 states=222 t=52.0524
+[36m[ZUPT]: accepted |v_IinG| = 0.046 (chi2 3.878 < 16.919)
+[0m[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 7.224 < 16.919)
+[0mq_GtoI = 0.044,-0.006,-0.690,0.723 | p_IinG = 0.018,0.069,-0.002 | dist = 0.06 (meters)
+bg = 0.0073,-0.0092,0.0015 | ba = 0.0992,-0.0052,0.2254
+q_GtoI = 0.046,-0.007,-0.689,0.723 | p_IinG = 0.019,0.071,-0.003 | dist = 0.06 (meters)
+bg = 0.0073,-0.0092,0.0015 | ba = 0.0992,-0.0052,0.2254
+q_GtoI = 0.041,-0.005,-0.691,0.722 | p_IinG = 0.021,0.074,-0.003 | dist = 0.06 (meters)
+bg = 0.0073,-0.0092,0.0015 | ba = 0.0992,-0.0052,0.2254
+q_GtoI = 0.041,-0.003,-0.691,0.722 | p_IinG = 0.022,0.076,-0.003 | dist = 0.07 (meters)
+bg = 0.0073,-0.0092,0.0015 | ba = 0.0992,-0.0052,0.2254
+q_GtoI = 0.041,-0.005,-0.691,0.722 | p_IinG = 0.022,0.078,-0.004 | dist = 0.07 (meters)
+bg = 0.0073,-0.0092,0.0015 | ba = 0.0992,-0.0052,0.2254
+[36m[ZUPT]: accepted |v_IinG| = 0.047 (chi2 14.638 < 16.919)
+[0mq_GtoI = 0.023,-0.005,-0.691,0.722 | p_IinG = 0.026,0.081,-0.004 | dist = 0.07 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.039,-0.007,-0.692,0.721 | p_IinG = 0.027,0.084,-0.002 | dist = 0.07 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.021,-0.008,-0.693,0.721 | p_IinG = 0.028,0.086,-0.003 | dist = 0.08 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.016,-0.011,-0.694,0.720 | p_IinG = 0.029,0.088,-0.003 | dist = 0.08 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.023,-0.011,-0.693,0.720 | p_IinG = 0.031,0.091,-0.004 | dist = 0.08 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.021,-0.013,-0.693,0.720 | p_IinG = 0.033,0.094,-0.004 | dist = 0.09 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.020,-0.010,-0.693,0.720 | p_IinG = 0.035,0.095,-0.005 | dist = 0.09 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.019,-0.009,-0.694,0.720 | p_IinG = 0.037,0.098,-0.005 | dist = 0.09 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.020,-0.007,-0.695,0.719 | p_IinG = 0.039,0.100,-0.005 | dist = 0.09 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.018,-0.007,-0.694,0.720 | p_IinG = 0.040,0.102,-0.005 | dist = 0.10 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.014,-0.009,-0.695,0.719 | p_IinG = 0.042,0.104,-0.005 | dist = 0.10 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.005,-0.012,-0.696,0.718 | p_IinG = 0.043,0.107,-0.005 | dist = 0.10 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.004,-0.019,-0.696,0.717 | p_IinG = 0.044,0.109,-0.004 | dist = 0.11 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.010,-0.026,-0.698,0.715 | p_IinG = 0.045,0.113,-0.004 | dist = 0.11 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.014,-0.033,-0.703,0.710 | p_IinG = 0.047,0.116,-0.003 | dist = 0.11 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.015,-0.041,-0.705,0.708 | p_IinG = 0.050,0.120,-0.003 | dist = 0.12 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.017,-0.047,-0.705,0.707 | p_IinG = 0.052,0.123,-0.002 | dist = 0.12 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.021,-0.054,-0.705,0.707 | p_IinG = 0.054,0.126,-0.001 | dist = 0.13 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.014,-0.063,-0.705,0.706 | p_IinG = 0.057,0.129,0.001 | dist = 0.13 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = 0.002,-0.049,-0.700,0.712 | p_IinG = 0.060,0.131,0.005 | dist = 0.14 (meters)
+bg = 0.0074,-0.0091,0.0015 | ba = 0.1004,-0.0078,0.2265
+q_GtoI = -0.019,-0.042,-0.689,0.723 | p_IinG = -0.180,0.126,-0.034 | dist = 0.14 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.031,-0.045,-0.675,0.735 | p_IinG = -0.183,0.128,-0.032 | dist = 0.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.039,-0.034,-0.661,0.748 | p_IinG = -0.185,0.129,-0.032 | dist = 0.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.043,-0.036,-0.655,0.753 | p_IinG = -0.188,0.132,-0.033 | dist = 0.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.041,-0.047,-0.650,0.757 | p_IinG = -0.194,0.134,-0.034 | dist = 0.16 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.041,-0.041,-0.651,0.757 | p_IinG = -0.199,0.137,-0.036 | dist = 0.16 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.042,-0.043,-0.657,0.752 | p_IinG = -0.205,0.140,-0.037 | dist = 0.17 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.039,-0.048,-0.657,0.751 | p_IinG = -0.211,0.141,-0.040 | dist = 0.18 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.035,-0.047,-0.654,0.754 | p_IinG = -0.217,0.142,-0.042 | dist = 0.18 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.034,-0.042,-0.652,0.757 | p_IinG = -0.224,0.142,-0.045 | dist = 0.19 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0996,-0.0037,0.2291
+q_GtoI = -0.038,-0.041,-0.650,0.758 | p_IinG = -0.232,0.171,-0.038 | dist = 0.20 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.041,-0.045,-0.653,0.754 | p_IinG = -0.239,0.174,-0.039 | dist = 0.21 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.041,-0.041,-0.654,0.754 | p_IinG = -0.245,0.177,-0.041 | dist = 0.21 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.037,-0.038,-0.654,0.755 | p_IinG = -0.252,0.179,-0.043 | dist = 0.22 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.030,-0.043,-0.653,0.755 | p_IinG = -0.259,0.181,-0.046 | dist = 0.23 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.028,-0.041,-0.653,0.756 | p_IinG = -0.266,0.183,-0.049 | dist = 0.24 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.030,-0.034,-0.652,0.757 | p_IinG = -0.273,0.184,-0.051 | dist = 0.24 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.029,-0.032,-0.649,0.760 | p_IinG = -0.280,0.185,-0.053 | dist = 0.25 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.028,-0.031,-0.646,0.762 | p_IinG = -0.288,0.186,-0.055 | dist = 0.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.022,-0.021,-0.647,0.762 | p_IinG = -0.295,0.188,-0.059 | dist = 0.27 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.025,-0.649,0.760 | p_IinG = -0.303,0.190,-0.062 | dist = 0.28 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.018,-0.650,0.759 | p_IinG = -0.311,0.191,-0.063 | dist = 0.28 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.013,-0.003,-0.648,0.762 | p_IinG = -0.320,0.192,-0.067 | dist = 0.29 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.009,0.009,-0.649,0.760 | p_IinG = -0.327,0.194,-0.071 | dist = 0.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,0.015,-0.651,0.758 | p_IinG = -0.333,0.194,-0.073 | dist = 0.31 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.015,0.019,-0.654,0.756 | p_IinG = -0.341,0.195,-0.075 | dist = 0.32 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.001,-0.662,0.750 | p_IinG = -0.351,0.198,-0.077 | dist = 0.33 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.668,0.744 | p_IinG = -0.360,0.200,-0.080 | dist = 0.34 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.015,0.000,-0.664,0.747 | p_IinG = -0.368,0.201,-0.082 | dist = 0.35 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.027,-0.005,-0.674,0.739 | p_IinG = -0.377,0.203,-0.085 | dist = 0.35 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.035,-0.006,-0.681,0.732 | p_IinG = -0.385,0.205,-0.088 | dist = 0.36 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.034,-0.007,-0.684,0.728 | p_IinG = -0.395,0.206,-0.090 | dist = 0.37 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.033,-0.003,-0.681,0.731 | p_IinG = -0.404,0.207,-0.092 | dist = 0.38 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.034,0.003,-0.679,0.733 | p_IinG = -0.412,0.209,-0.093 | dist = 0.39 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.032,0.004,-0.677,0.735 | p_IinG = -0.422,0.209,-0.095 | dist = 0.40 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.031,0.003,-0.678,0.734 | p_IinG = -0.432,0.211,-0.096 | dist = 0.41 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.033,0.008,-0.677,0.736 | p_IinG = -0.442,0.212,-0.098 | dist = 0.42 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.032,0.011,-0.676,0.736 | p_IinG = -0.452,0.213,-0.100 | dist = 0.43 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.030,0.008,-0.676,0.736 | p_IinG = -0.463,0.215,-0.101 | dist = 0.44 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.031,0.005,-0.678,0.735 | p_IinG = -0.474,0.217,-0.103 | dist = 0.45 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.033,0.002,-0.683,0.730 | p_IinG = -0.484,0.219,-0.105 | dist = 0.47 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.036,0.003,-0.684,0.728 | p_IinG = -0.493,0.221,-0.107 | dist = 0.47 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.037,0.000,-0.688,0.725 | p_IinG = -0.503,0.222,-0.109 | dist = 0.48 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.038,0.002,-0.687,0.726 | p_IinG = -0.512,0.223,-0.110 | dist = 0.49 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.034,0.001,-0.688,0.725 | p_IinG = -0.523,0.224,-0.111 | dist = 0.51 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.034,0.004,-0.688,0.725 | p_IinG = -0.533,0.225,-0.112 | dist = 0.52 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.029,0.010,-0.686,0.726 | p_IinG = -0.544,0.226,-0.114 | dist = 0.53 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.030,0.004,-0.691,0.722 | p_IinG = -0.555,0.228,-0.115 | dist = 0.54 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.029,0.002,-0.690,0.723 | p_IinG = -0.567,0.230,-0.116 | dist = 0.55 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.032,0.004,-0.686,0.727 | p_IinG = -0.578,0.232,-0.118 | dist = 0.56 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.042,0.002,-0.693,0.720 | p_IinG = -0.588,0.236,-0.120 | dist = 0.57 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.056,-0.002,-0.703,0.709 | p_IinG = -0.599,0.239,-0.122 | dist = 0.58 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.061,-0.004,-0.702,0.709 | p_IinG = -0.610,0.241,-0.124 | dist = 0.59 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.059,-0.004,-0.701,0.711 | p_IinG = -0.620,0.243,-0.125 | dist = 0.61 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.054,-0.009,-0.700,0.712 | p_IinG = -0.631,0.246,-0.127 | dist = 0.62 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.034,-0.013,-0.699,0.714 | p_IinG = -0.642,0.248,-0.129 | dist = 0.63 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.012,-0.699,0.715 | p_IinG = -0.654,0.250,-0.130 | dist = 0.64 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.013,-0.010,-0.699,0.715 | p_IinG = -0.665,0.251,-0.131 | dist = 0.65 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.012,-0.011,-0.699,0.715 | p_IinG = -0.676,0.253,-0.132 | dist = 0.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.011,-0.700,0.714 | p_IinG = -0.687,0.255,-0.133 | dist = 0.67 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.010,-0.700,0.714 | p_IinG = -0.698,0.257,-0.134 | dist = 0.69 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.015,-0.009,-0.700,0.714 | p_IinG = -0.710,0.259,-0.134 | dist = 0.70 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.010,-0.700,0.714 | p_IinG = -0.721,0.262,-0.135 | dist = 0.71 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.010,-0.700,0.714 | p_IinG = -0.733,0.264,-0.136 | dist = 0.72 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.744,0.266,-0.136 | dist = 0.73 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.010,-0.700,0.714 | p_IinG = -0.756,0.268,-0.137 | dist = 0.74 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.700,0.714 | p_IinG = -0.768,0.270,-0.138 | dist = 0.76 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.780,0.272,-0.138 | dist = 0.77 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.792,0.274,-0.138 | dist = 0.78 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.804,0.276,-0.139 | dist = 0.79 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.816,0.278,-0.139 | dist = 0.81 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.829,0.280,-0.140 | dist = 0.82 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+frames=1101 states=322 t=57.0468
+q_GtoI = -0.017,-0.009,-0.700,0.714 | p_IinG = -0.841,0.283,-0.140 | dist = 0.83 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.009,-0.700,0.714 | p_IinG = -0.853,0.285,-0.140 | dist = 0.84 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.009,-0.700,0.714 | p_IinG = -0.866,0.287,-0.141 | dist = 0.86 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.007,-0.700,0.714 | p_IinG = -0.879,0.289,-0.141 | dist = 0.87 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.013,-0.004,-0.700,0.714 | p_IinG = -0.891,0.290,-0.141 | dist = 0.88 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.005,-0.700,0.714 | p_IinG = -0.904,0.293,-0.141 | dist = 0.89 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.015,-0.006,-0.700,0.714 | p_IinG = -0.917,0.295,-0.142 | dist = 0.91 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.013,-0.008,-0.699,0.715 | p_IinG = -0.930,0.297,-0.142 | dist = 0.92 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.010,-0.003,-0.697,0.717 | p_IinG = -0.943,0.299,-0.142 | dist = 0.93 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.008,-0.008,-0.695,0.719 | p_IinG = -0.957,0.301,-0.142 | dist = 0.95 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.011,-0.014,-0.693,0.721 | p_IinG = -0.971,0.304,-0.142 | dist = 0.96 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.010,-0.011,-0.689,0.725 | p_IinG = -0.986,0.305,-0.142 | dist = 0.98 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.010,-0.011,-0.687,0.727 | p_IinG = -1.000,0.307,-0.142 | dist = 0.99 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.011,-0.011,-0.687,0.726 | p_IinG = -1.013,0.310,-0.143 | dist = 1.00 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.011,-0.008,-0.686,0.728 | p_IinG = -1.026,0.312,-0.143 | dist = 1.02 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.007,-0.011,-0.686,0.727 | p_IinG = -1.041,0.314,-0.143 | dist = 1.03 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.014,-0.687,0.727 | p_IinG = -1.055,0.317,-0.143 | dist = 1.05 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.011,-0.686,0.728 | p_IinG = -1.068,0.319,-0.143 | dist = 1.06 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.006,-0.679,0.734 | p_IinG = -1.083,0.321,-0.144 | dist = 1.08 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.008,-0.684,0.729 | p_IinG = -1.096,0.323,-0.144 | dist = 1.09 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.013,-0.694,0.720 | p_IinG = -1.111,0.326,-0.144 | dist = 1.10 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.015,-0.018,-0.720,0.694 | p_IinG = -1.126,0.327,-0.144 | dist = 1.12 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.014,-0.020,-0.726,0.687 | p_IinG = -1.141,0.329,-0.144 | dist = 1.13 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.016,-0.017,-0.728,0.685 | p_IinG = -1.156,0.331,-0.144 | dist = 1.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.019,-0.012,-0.722,0.691 | p_IinG = -1.171,0.333,-0.144 | dist = 1.16 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.702,0.712 | p_IinG = -1.185,0.335,-0.145 | dist = 1.18 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.012,-0.699,0.715 | p_IinG = -1.200,0.338,-0.145 | dist = 1.19 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.699,0.715 | p_IinG = -1.215,0.340,-0.145 | dist = 1.21 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.699,0.715 | p_IinG = -1.230,0.342,-0.145 | dist = 1.22 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.011,-0.698,0.715 | p_IinG = -1.245,0.345,-0.145 | dist = 1.24 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.011,-0.698,0.716 | p_IinG = -1.260,0.347,-0.145 | dist = 1.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.276,0.349,-0.145 | dist = 1.27 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.291,0.351,-0.146 | dist = 1.29 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.011,-0.698,0.716 | p_IinG = -1.307,0.354,-0.146 | dist = 1.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.323,0.356,-0.146 | dist = 1.32 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.338,0.358,-0.146 | dist = 1.33 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.354,0.361,-0.146 | dist = 1.35 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.370,0.363,-0.146 | dist = 1.37 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.387,0.365,-0.146 | dist = 1.38 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.403,0.368,-0.146 | dist = 1.40 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.419,0.370,-0.146 | dist = 1.42 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.436,0.372,-0.146 | dist = 1.43 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.452,0.374,-0.146 | dist = 1.45 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.469,0.377,-0.147 | dist = 1.47 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.010,-0.698,0.716 | p_IinG = -1.485,0.379,-0.147 | dist = 1.48 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.010,-0.698,0.716 | p_IinG = -1.502,0.382,-0.147 | dist = 1.50 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.012,-0.700,0.714 | p_IinG = -1.519,0.384,-0.147 | dist = 1.52 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.015,-0.700,0.714 | p_IinG = -1.537,0.387,-0.147 | dist = 1.53 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.014,-0.706,0.708 | p_IinG = -1.554,0.389,-0.147 | dist = 1.55 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.017,-0.014,-0.717,0.697 | p_IinG = -1.571,0.391,-0.147 | dist = 1.57 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.015,-0.720,0.694 | p_IinG = -1.588,0.393,-0.147 | dist = 1.59 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.017,-0.731,0.682 | p_IinG = -1.606,0.395,-0.147 | dist = 1.60 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.019,-0.739,0.673 | p_IinG = -1.623,0.398,-0.147 | dist = 1.62 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.021,-0.743,0.669 | p_IinG = -1.641,0.401,-0.147 | dist = 1.64 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.022,-0.744,0.668 | p_IinG = -1.659,0.403,-0.148 | dist = 1.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.024,-0.745,0.666 | p_IinG = -1.677,0.405,-0.148 | dist = 1.68 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.024,-0.746,0.665 | p_IinG = -1.694,0.408,-0.148 | dist = 1.69 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.023,-0.750,0.660 | p_IinG = -1.712,0.411,-0.148 | dist = 1.71 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.022,-0.750,0.661 | p_IinG = -1.730,0.413,-0.148 | dist = 1.73 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.019,-0.022,-0.751,0.659 | p_IinG = -1.748,0.416,-0.148 | dist = 1.75 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.024,-0.753,0.657 | p_IinG = -1.766,0.419,-0.149 | dist = 1.77 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.022,-0.754,0.656 | p_IinG = -1.784,0.422,-0.149 | dist = 1.78 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.021,-0.754,0.656 | p_IinG = -1.802,0.425,-0.149 | dist = 1.80 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.019,-0.020,-0.754,0.656 | p_IinG = -1.820,0.427,-0.149 | dist = 1.82 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.018,-0.754,0.656 | p_IinG = -1.838,0.430,-0.150 | dist = 1.84 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.018,-0.020,-0.754,0.656 | p_IinG = -1.856,0.433,-0.150 | dist = 1.86 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.022,-0.754,0.656 | p_IinG = -1.875,0.437,-0.150 | dist = 1.88 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.019,-0.023,-0.755,0.655 | p_IinG = -1.893,0.440,-0.151 | dist = 1.89 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.022,-0.025,-0.755,0.655 | p_IinG = -1.911,0.443,-0.151 | dist = 1.91 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.024,-0.756,0.654 | p_IinG = -1.930,0.446,-0.151 | dist = 1.93 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.025,-0.756,0.654 | p_IinG = -1.948,0.450,-0.152 | dist = 1.95 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.026,-0.758,0.652 | p_IinG = -1.967,0.453,-0.152 | dist = 1.97 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.027,-0.759,0.650 | p_IinG = -1.986,0.457,-0.153 | dist = 1.99 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.028,-0.760,0.649 | p_IinG = -2.004,0.461,-0.153 | dist = 2.01 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.029,-0.761,0.648 | p_IinG = -2.023,0.464,-0.154 | dist = 2.03 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.022,-0.027,-0.761,0.648 | p_IinG = -2.042,0.468,-0.154 | dist = 2.05 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.027,-0.761,0.647 | p_IinG = -2.061,0.471,-0.155 | dist = 2.07 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.028,-0.762,0.647 | p_IinG = -2.079,0.475,-0.155 | dist = 2.08 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.029,-0.762,0.647 | p_IinG = -2.099,0.479,-0.156 | dist = 2.10 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.019,-0.030,-0.763,0.646 | p_IinG = -2.118,0.483,-0.156 | dist = 2.12 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.031,-0.763,0.646 | p_IinG = -2.137,0.487,-0.157 | dist = 2.14 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.030,-0.763,0.645 | p_IinG = -2.156,0.491,-0.158 | dist = 2.16 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.029,-0.763,0.645 | p_IinG = -2.175,0.494,-0.158 | dist = 2.18 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.022,-0.030,-0.763,0.645 | p_IinG = -2.194,0.499,-0.159 | dist = 2.20 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.022,-0.030,-0.763,0.645 | p_IinG = -2.213,0.503,-0.160 | dist = 2.22 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.021,-0.029,-0.763,0.646 | p_IinG = -2.232,0.507,-0.161 | dist = 2.24 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.0999,-0.0034,0.2282
+q_GtoI = -0.020,-0.028,-0.763,0.645 | p_IinG = -2.189,0.735,-0.237 | dist = 2.26 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.029,-0.763,0.646 | p_IinG = -2.207,0.743,-0.239 | dist = 2.28 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.029,-0.763,0.645 | p_IinG = -2.226,0.751,-0.241 | dist = 2.30 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.031,-0.764,0.644 | p_IinG = -2.244,0.759,-0.242 | dist = 2.32 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.031,-0.764,0.644 | p_IinG = -2.262,0.766,-0.244 | dist = 2.34 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.031,-0.765,0.643 | p_IinG = -2.281,0.774,-0.246 | dist = 2.36 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.030,-0.765,0.643 | p_IinG = -2.299,0.783,-0.248 | dist = 2.38 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.030,-0.765,0.643 | p_IinG = -2.317,0.791,-0.250 | dist = 2.40 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.030,-0.765,0.643 | p_IinG = -2.336,0.799,-0.253 | dist = 2.42 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.031,-0.765,0.643 | p_IinG = -2.355,0.807,-0.255 | dist = 2.44 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.031,-0.765,0.643 | p_IinG = -2.373,0.815,-0.257 | dist = 2.46 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.031,-0.765,0.643 | p_IinG = -2.392,0.824,-0.259 | dist = 2.48 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.029,-0.765,0.643 | p_IinG = -2.410,0.832,-0.261 | dist = 2.50 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.029,-0.764,0.644 | p_IinG = -2.429,0.841,-0.264 | dist = 2.52 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+frames=1201 states=422 t=62.0413
+q_GtoI = -0.025,-0.030,-0.764,0.644 | p_IinG = -2.447,0.850,-0.266 | dist = 2.54 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.028,-0.764,0.644 | p_IinG = -2.466,0.858,-0.268 | dist = 2.57 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.027,-0.764,0.644 | p_IinG = -2.485,0.867,-0.270 | dist = 2.59 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.025,-0.026,-0.761,0.648 | p_IinG = -2.504,0.876,-0.273 | dist = 2.61 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.025,-0.752,0.658 | p_IinG = -2.523,0.885,-0.275 | dist = 2.63 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.025,-0.749,0.662 | p_IinG = -2.542,0.894,-0.278 | dist = 2.65 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.024,-0.746,0.665 | p_IinG = -2.560,0.903,-0.280 | dist = 2.67 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.023,-0.745,0.666 | p_IinG = -2.579,0.912,-0.283 | dist = 2.69 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.023,-0.744,0.668 | p_IinG = -2.599,0.922,-0.285 | dist = 2.71 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.023,-0.743,0.669 | p_IinG = -2.618,0.931,-0.288 | dist = 2.73 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.742,0.669 | p_IinG = -2.637,0.940,-0.290 | dist = 2.76 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.742,0.670 | p_IinG = -2.657,0.950,-0.293 | dist = 2.78 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.023,-0.741,0.670 | p_IinG = -2.676,0.960,-0.295 | dist = 2.80 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.741,0.671 | p_IinG = -2.696,0.969,-0.298 | dist = 2.82 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.741,0.671 | p_IinG = -2.715,0.979,-0.301 | dist = 2.84 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.740,0.672 | p_IinG = -2.735,0.989,-0.303 | dist = 2.87 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.740,0.672 | p_IinG = -2.755,0.999,-0.306 | dist = 2.89 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.740,0.672 | p_IinG = -2.775,1.008,-0.309 | dist = 2.91 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.739,0.672 | p_IinG = -2.795,1.018,-0.312 | dist = 2.93 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.815,1.028,-0.314 | dist = 2.96 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.835,1.038,-0.317 | dist = 2.98 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.855,1.049,-0.320 | dist = 3.00 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.876,1.059,-0.323 | dist = 3.02 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.739,0.673 | p_IinG = -2.896,1.069,-0.326 | dist = 3.05 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.739,0.673 | p_IinG = -2.916,1.079,-0.329 | dist = 3.07 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.739,0.673 | p_IinG = -2.937,1.090,-0.332 | dist = 3.09 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.958,1.100,-0.335 | dist = 3.12 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.978,1.111,-0.338 | dist = 3.14 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -2.999,1.121,-0.341 | dist = 3.16 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -3.020,1.132,-0.344 | dist = 3.19 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.673 | p_IinG = -3.041,1.142,-0.347 | dist = 3.21 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.674 | p_IinG = -3.062,1.153,-0.350 | dist = 3.24 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.084,1.164,-0.353 | dist = 3.26 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.105,1.175,-0.356 | dist = 3.28 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.126,1.186,-0.359 | dist = 3.31 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.148,1.197,-0.363 | dist = 3.33 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.169,1.208,-0.366 | dist = 3.36 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.191,1.219,-0.369 | dist = 3.38 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.213,1.230,-0.372 | dist = 3.41 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.234,1.241,-0.376 | dist = 3.43 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.738,0.674 | p_IinG = -3.256,1.252,-0.379 | dist = 3.46 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.023,-0.741,0.671 | p_IinG = -3.278,1.264,-0.382 | dist = 3.48 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.023,-0.741,0.671 | p_IinG = -3.300,1.275,-0.386 | dist = 3.51 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.021,-0.739,0.673 | p_IinG = -3.323,1.286,-0.389 | dist = 3.53 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.021,-0.739,0.673 | p_IinG = -3.345,1.298,-0.392 | dist = 3.56 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.022,-0.739,0.673 | p_IinG = -3.367,1.310,-0.396 | dist = 3.58 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.672 | p_IinG = -3.390,1.321,-0.399 | dist = 3.61 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.022,-0.739,0.672 | p_IinG = -3.412,1.333,-0.403 | dist = 3.63 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.023,-0.740,0.672 | p_IinG = -3.435,1.344,-0.406 | dist = 3.66 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.023,-0.744,0.667 | p_IinG = -3.458,1.356,-0.410 | dist = 3.68 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.023,-0.759,0.650 | p_IinG = -3.480,1.368,-0.413 | dist = 3.71 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.023,-0.028,-0.764,0.644 | p_IinG = -3.503,1.380,-0.417 | dist = 3.74 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.030,-0.767,0.640 | p_IinG = -3.526,1.392,-0.420 | dist = 3.76 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.024,-0.030,-0.770,0.637 | p_IinG = -3.549,1.404,-0.424 | dist = 3.79 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.029,-0.771,0.636 | p_IinG = -3.573,1.416,-0.428 | dist = 3.81 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.028,-0.771,0.636 | p_IinG = -3.596,1.428,-0.431 | dist = 3.84 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.022,-0.029,-0.771,0.636 | p_IinG = -3.619,1.440,-0.435 | dist = 3.87 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.029,-0.770,0.637 | p_IinG = -3.642,1.453,-0.439 | dist = 3.89 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.021,-0.028,-0.770,0.637 | p_IinG = -3.666,1.465,-0.443 | dist = 3.92 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.020,-0.026,-0.770,0.638 | p_IinG = -3.689,1.478,-0.446 | dist = 3.95 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.020,-0.025,-0.769,0.638 | p_IinG = -3.713,1.490,-0.450 | dist = 3.97 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.020,-0.024,-0.767,0.641 | p_IinG = -3.737,1.503,-0.454 | dist = 4.00 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.019,-0.024,-0.766,0.642 | p_IinG = -3.760,1.516,-0.458 | dist = 4.03 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.019,-0.024,-0.766,0.643 | p_IinG = -3.784,1.529,-0.462 | dist = 4.06 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.020,-0.024,-0.766,0.643 | p_IinG = -3.808,1.542,-0.466 | dist = 4.08 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.019,-0.023,-0.766,0.643 | p_IinG = -3.831,1.555,-0.470 | dist = 4.11 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.020,-0.024,-0.766,0.643 | p_IinG = -3.855,1.569,-0.474 | dist = 4.14 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.018,-0.023,-0.765,0.643 | p_IinG = -3.879,1.582,-0.478 | dist = 4.17 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.018,-0.023,-0.765,0.643 | p_IinG = -3.903,1.595,-0.482 | dist = 4.19 (meters)
+bg = 0.0073,-0.0090,0.0015 | ba = 0.1010,-0.0039,0.2304
+q_GtoI = -0.017,-0.025,-0.766,0.643 | p_IinG = -4.769,1.338,-0.662 | dist = 4.23 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.024,-0.766,0.643 | p_IinG = -4.802,1.348,-0.667 | dist = 4.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.024,-0.765,0.643 | p_IinG = -4.835,1.358,-0.673 | dist = 4.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.023,-0.765,0.643 | p_IinG = -4.868,1.368,-0.678 | dist = 4.33 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.024,-0.765,0.643 | p_IinG = -4.902,1.378,-0.684 | dist = 4.37 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.024,-0.766,0.643 | p_IinG = -4.935,1.388,-0.689 | dist = 4.40 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.025,-0.766,0.643 | p_IinG = -4.969,1.399,-0.695 | dist = 4.44 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.025,-0.766,0.642 | p_IinG = -5.003,1.409,-0.700 | dist = 4.48 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.019,-0.026,-0.766,0.642 | p_IinG = -5.036,1.420,-0.706 | dist = 4.51 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.026,-0.766,0.642 | p_IinG = -5.070,1.430,-0.712 | dist = 4.55 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.025,-0.766,0.642 | p_IinG = -5.105,1.440,-0.717 | dist = 4.58 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.024,-0.766,0.642 | p_IinG = -5.139,1.451,-0.723 | dist = 4.62 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.022,-0.024,-0.762,0.646 | p_IinG = -5.173,1.462,-0.729 | dist = 4.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.760,0.649 | p_IinG = -5.208,1.472,-0.734 | dist = 4.69 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.024,-0.755,0.655 | p_IinG = -5.242,1.483,-0.740 | dist = 4.73 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.023,-0.753,0.657 | p_IinG = -5.277,1.494,-0.746 | dist = 4.77 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.023,-0.751,0.660 | p_IinG = -5.312,1.505,-0.752 | dist = 4.80 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.023,-0.749,0.662 | p_IinG = -5.347,1.516,-0.758 | dist = 4.84 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.023,-0.749,0.662 | p_IinG = -5.382,1.526,-0.764 | dist = 4.88 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.023,-0.749,0.662 | p_IinG = -5.418,1.537,-0.770 | dist = 4.92 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.749,0.662 | p_IinG = -5.453,1.548,-0.776 | dist = 4.95 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.749,0.662 | p_IinG = -5.489,1.559,-0.782 | dist = 4.99 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.662 | p_IinG = -5.525,1.570,-0.788 | dist = 5.03 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.561,1.581,-0.794 | dist = 5.07 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.597,1.592,-0.800 | dist = 5.11 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.634,1.603,-0.807 | dist = 5.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.671,1.615,-0.813 | dist = 5.18 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.707,1.626,-0.819 | dist = 5.22 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.744,1.637,-0.825 | dist = 5.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.781,1.648,-0.832 | dist = 5.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.819,1.659,-0.838 | dist = 5.34 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+frames=1301 states=522 t=67.036
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.856,1.671,-0.844 | dist = 5.38 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.894,1.682,-0.851 | dist = 5.42 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.748,0.663 | p_IinG = -5.931,1.693,-0.857 | dist = 5.46 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -5.969,1.705,-0.863 | dist = 5.50 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.007,1.716,-0.870 | dist = 5.54 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.046,1.728,-0.876 | dist = 5.58 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.084,1.739,-0.883 | dist = 5.62 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.123,1.751,-0.890 | dist = 5.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.162,1.762,-0.896 | dist = 5.70 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.201,1.774,-0.903 | dist = 5.74 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.240,1.785,-0.909 | dist = 5.79 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.279,1.797,-0.916 | dist = 5.83 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.319,1.809,-0.923 | dist = 5.87 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.358,1.820,-0.930 | dist = 5.91 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.398,1.832,-0.936 | dist = 5.95 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.438,1.844,-0.943 | dist = 6.00 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.479,1.856,-0.950 | dist = 6.04 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.519,1.867,-0.957 | dist = 6.08 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.560,1.879,-0.964 | dist = 6.12 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.600,1.891,-0.971 | dist = 6.17 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.641,1.903,-0.978 | dist = 6.21 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.683,1.915,-0.985 | dist = 6.25 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.724,1.927,-0.992 | dist = 6.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.664 | p_IinG = -6.766,1.939,-0.999 | dist = 6.34 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.665 | p_IinG = -6.807,1.951,-1.006 | dist = 6.39 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.747,0.665 | p_IinG = -6.849,1.963,-1.013 | dist = 6.43 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.024,-0.020,-0.746,0.665 | p_IinG = -6.891,1.975,-1.020 | dist = 6.47 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.023,-0.020,-0.745,0.666 | p_IinG = -6.933,1.987,-1.027 | dist = 6.52 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.023,-0.744,0.667 | p_IinG = -6.976,2.000,-1.034 | dist = 6.56 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.021,-0.744,0.667 | p_IinG = -7.019,2.012,-1.041 | dist = 6.61 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.017,-0.744,0.668 | p_IinG = -7.062,2.023,-1.048 | dist = 6.65 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.013,-0.015,-0.744,0.668 | p_IinG = -7.105,2.035,-1.056 | dist = 6.70 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.012,-0.017,-0.745,0.667 | p_IinG = -7.148,2.047,-1.063 | dist = 6.74 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.014,-0.017,-0.749,0.662 | p_IinG = -7.192,2.059,-1.070 | dist = 6.79 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.013,-0.011,-0.755,0.655 | p_IinG = -7.235,2.070,-1.077 | dist = 6.83 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.011,-0.008,-0.758,0.652 | p_IinG = -7.278,2.082,-1.085 | dist = 6.88 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.013,-0.007,-0.758,0.652 | p_IinG = -7.322,2.094,-1.092 | dist = 6.93 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.008,-0.759,0.651 | p_IinG = -7.366,2.107,-1.099 | dist = 6.97 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.007,-0.764,0.645 | p_IinG = -7.410,2.120,-1.107 | dist = 7.02 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.019,-0.007,-0.767,0.641 | p_IinG = -7.454,2.132,-1.114 | dist = 7.07 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.019,-0.009,-0.768,0.640 | p_IinG = -7.499,2.145,-1.121 | dist = 7.11 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.010,-0.768,0.640 | p_IinG = -7.544,2.158,-1.128 | dist = 7.16 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.014,-0.010,-0.769,0.639 | p_IinG = -7.589,2.171,-1.136 | dist = 7.21 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.012,-0.009,-0.769,0.639 | p_IinG = -7.635,2.183,-1.143 | dist = 7.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.012,-0.009,-0.769,0.639 | p_IinG = -7.680,2.196,-1.150 | dist = 7.30 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.011,-0.010,-0.769,0.639 | p_IinG = -7.725,2.209,-1.158 | dist = 7.35 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.014,-0.010,-0.770,0.638 | p_IinG = -7.771,2.222,-1.165 | dist = 7.40 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.011,-0.772,0.636 | p_IinG = -7.816,2.236,-1.172 | dist = 7.45 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.010,-0.774,0.633 | p_IinG = -7.862,2.249,-1.180 | dist = 7.49 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.016,-0.009,-0.775,0.632 | p_IinG = -7.908,2.262,-1.187 | dist = 7.54 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.010,-0.775,0.632 | p_IinG = -7.954,2.275,-1.195 | dist = 7.59 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.008,-0.774,0.633 | p_IinG = -8.000,2.289,-1.202 | dist = 7.64 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.010,-0.767,0.641 | p_IinG = -8.047,2.302,-1.209 | dist = 7.69 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.014,-0.761,0.648 | p_IinG = -8.094,2.316,-1.217 | dist = 7.74 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.021,-0.024,-0.738,0.674 | p_IinG = -8.140,2.332,-1.224 | dist = 7.79 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.019,-0.018,-0.728,0.685 | p_IinG = -8.188,2.347,-1.232 | dist = 7.84 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.730,0.683 | p_IinG = -8.235,2.360,-1.239 | dist = 7.89 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.016,-0.731,0.682 | p_IinG = -8.282,2.373,-1.247 | dist = 7.94 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.017,-0.729,0.684 | p_IinG = -8.330,2.387,-1.254 | dist = 7.99 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -8.378,2.400,-1.262 | dist = 8.04 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.015,-0.729,0.684 | p_IinG = -8.426,2.413,-1.269 | dist = 8.09 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.017,-0.729,0.684 | p_IinG = -8.474,2.427,-1.277 | dist = 8.14 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.017,-0.729,0.684 | p_IinG = -8.523,2.441,-1.285 | dist = 8.19 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.015,-0.729,0.684 | p_IinG = -8.571,2.454,-1.292 | dist = 8.24 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -8.620,2.468,-1.300 | dist = 8.29 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.670,2.482,-1.307 | dist = 8.35 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.719,2.495,-1.315 | dist = 8.40 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -8.769,2.509,-1.323 | dist = 8.45 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.819,2.522,-1.330 | dist = 8.50 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.869,2.536,-1.338 | dist = 8.55 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.920,2.549,-1.346 | dist = 8.61 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -8.970,2.563,-1.353 | dist = 8.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.021,2.577,-1.361 | dist = 8.71 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.072,2.590,-1.369 | dist = 8.77 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.124,2.604,-1.377 | dist = 8.82 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.175,2.617,-1.385 | dist = 8.87 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.227,2.631,-1.393 | dist = 8.93 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.280,2.645,-1.400 | dist = 8.98 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.332,2.658,-1.408 | dist = 9.04 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.016,-0.729,0.684 | p_IinG = -9.385,2.672,-1.416 | dist = 9.09 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -9.437,2.686,-1.424 | dist = 9.15 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -9.490,2.700,-1.432 | dist = 9.20 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -9.544,2.713,-1.440 | dist = 9.26 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -9.597,2.727,-1.448 | dist = 9.32 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.729,0.684 | p_IinG = -9.651,2.741,-1.456 | dist = 9.37 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.017,-0.729,0.684 | p_IinG = -9.705,2.754,-1.464 | dist = 9.43 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.019,-0.016,-0.729,0.684 | p_IinG = -9.759,2.768,-1.472 | dist = 9.48 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.018,-0.017,-0.729,0.684 | p_IinG = -9.814,2.782,-1.480 | dist = 9.54 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.014,-0.017,-0.729,0.684 | p_IinG = -9.869,2.795,-1.488 | dist = 9.60 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.017,-0.016,-0.730,0.683 | p_IinG = -9.924,2.808,-1.497 | dist = 9.66 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.018,-0.730,0.683 | p_IinG = -9.979,2.823,-1.505 | dist = 9.71 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.023,-0.019,-0.731,0.682 | p_IinG = -10.034,2.837,-1.513 | dist = 9.77 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.024,-0.018,-0.731,0.682 | p_IinG = -10.090,2.851,-1.521 | dist = 9.83 (meters)
+bg = 0.0072,-0.0091,0.0015 | ba = 0.1009,-0.0037,0.2319
+q_GtoI = -0.020,-0.012,-0.731,0.682 | p_IinG = -7.446,-1.501,-1.740 | dist = 9.88 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.020,-0.012,-0.731,0.682 | p_IinG = -7.489,-1.527,-1.748 | dist = 9.93 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.019,-0.013,-0.730,0.683 | p_IinG = -7.532,-1.553,-1.756 | dist = 9.98 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.017,-0.013,-0.730,0.683 | p_IinG = -7.576,-1.580,-1.764 | dist = 10.03 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.019,-0.013,-0.729,0.684 | p_IinG = -7.619,-1.607,-1.772 | dist = 10.08 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.021,-0.013,-0.729,0.684 | p_IinG = -7.663,-1.633,-1.780 | dist = 10.14 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.023,-0.010,-0.729,0.684 | p_IinG = -7.708,-1.660,-1.788 | dist = 10.19 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+frames=1401 states=622 t=72.0307
+q_GtoI = -0.027,-0.005,-0.729,0.684 | p_IinG = -7.752,-1.688,-1.796 | dist = 10.24 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.028,-0.003,-0.729,0.684 | p_IinG = -7.797,-1.716,-1.804 | dist = 10.30 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.028,-0.002,-0.729,0.684 | p_IinG = -7.842,-1.743,-1.812 | dist = 10.35 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.029,-0.000,-0.729,0.684 | p_IinG = -7.887,-1.771,-1.820 | dist = 10.40 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.031,-0.000,-0.728,0.684 | p_IinG = -7.932,-1.799,-1.828 | dist = 10.46 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.034,-0.002,-0.728,0.685 | p_IinG = -7.978,-1.827,-1.837 | dist = 10.51 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.041,-0.000,-0.727,0.685 | p_IinG = -8.023,-1.855,-1.845 | dist = 10.56 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.045,0.003,-0.727,0.685 | p_IinG = -8.069,-1.884,-1.853 | dist = 10.62 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.043,0.005,-0.727,0.685 | p_IinG = -8.115,-1.914,-1.860 | dist = 10.67 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.037,0.006,-0.728,0.684 | p_IinG = -8.162,-1.944,-1.867 | dist = 10.73 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.034,0.005,-0.729,0.684 | p_IinG = -8.209,-1.973,-1.874 | dist = 10.79 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.032,0.004,-0.729,0.684 | p_IinG = -8.256,-2.003,-1.881 | dist = 10.84 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.031,0.004,-0.729,0.684 | p_IinG = -8.304,-2.034,-1.889 | dist = 10.90 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.029,0.003,-0.729,0.684 | p_IinG = -8.351,-2.064,-1.896 | dist = 10.96 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,0.001,-0.729,0.684 | p_IinG = -8.399,-2.095,-1.903 | dist = 11.01 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.001,-0.729,0.684 | p_IinG = -8.447,-2.126,-1.910 | dist = 11.07 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.003,-0.729,0.684 | p_IinG = -8.495,-2.157,-1.917 | dist = 11.13 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.005,-0.729,0.684 | p_IinG = -8.543,-2.188,-1.924 | dist = 11.19 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.005,-0.729,0.684 | p_IinG = -8.591,-2.220,-1.932 | dist = 11.25 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.028,-0.005,-0.729,0.684 | p_IinG = -8.640,-2.251,-1.939 | dist = 11.30 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.028,-0.007,-0.729,0.684 | p_IinG = -8.689,-2.283,-1.946 | dist = 11.36 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.010,-0.730,0.683 | p_IinG = -8.738,-2.315,-1.953 | dist = 11.42 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.031,-0.014,-0.730,0.683 | p_IinG = -8.788,-2.347,-1.961 | dist = 11.48 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.032,-0.014,-0.727,0.685 | p_IinG = -8.837,-2.379,-1.968 | dist = 11.54 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.009,-0.728,0.685 | p_IinG = -8.887,-2.413,-1.975 | dist = 11.60 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.024,-0.007,-0.727,0.686 | p_IinG = -8.937,-2.447,-1.982 | dist = 11.66 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.010,-0.727,0.686 | p_IinG = -8.988,-2.480,-1.989 | dist = 11.72 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.028,-0.012,-0.727,0.686 | p_IinG = -9.038,-2.513,-1.996 | dist = 11.78 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.009,-0.727,0.686 | p_IinG = -9.089,-2.548,-2.003 | dist = 11.85 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.009,-0.727,0.686 | p_IinG = -9.140,-2.582,-2.010 | dist = 11.91 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.011,-0.727,0.686 | p_IinG = -9.192,-2.616,-2.017 | dist = 11.97 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.243,-2.651,-2.024 | dist = 12.03 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.009,-0.727,0.686 | p_IinG = -9.295,-2.686,-2.031 | dist = 12.10 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.347,-2.721,-2.038 | dist = 12.16 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.027,-0.010,-0.727,0.686 | p_IinG = -9.399,-2.756,-2.045 | dist = 12.22 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.452,-2.792,-2.052 | dist = 12.29 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.505,-2.828,-2.059 | dist = 12.35 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.558,-2.864,-2.066 | dist = 12.41 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.611,-2.901,-2.073 | dist = 12.48 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.664,-2.938,-2.080 | dist = 12.54 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.718,-2.975,-2.087 | dist = 12.61 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.772,-3.012,-2.094 | dist = 12.68 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.827,-3.050,-2.101 | dist = 12.74 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.881,-3.087,-2.108 | dist = 12.81 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.936,-3.125,-2.115 | dist = 12.88 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -9.991,-3.164,-2.122 | dist = 12.94 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.046,-3.202,-2.130 | dist = 13.01 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.102,-3.241,-2.137 | dist = 13.08 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.157,-3.280,-2.144 | dist = 13.15 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.213,-3.320,-2.151 | dist = 13.22 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.270,-3.359,-2.158 | dist = 13.29 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.326,-3.399,-2.165 | dist = 13.36 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.383,-3.439,-2.172 | dist = 13.43 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.440,-3.480,-2.179 | dist = 13.50 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.497,-3.520,-2.186 | dist = 13.57 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.555,-3.561,-2.193 | dist = 13.64 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.613,-3.603,-2.201 | dist = 13.71 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.671,-3.644,-2.208 | dist = 13.78 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.729,-3.686,-2.215 | dist = 13.85 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.788,-3.728,-2.222 | dist = 13.93 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.847,-3.770,-2.229 | dist = 14.00 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.906,-3.813,-2.236 | dist = 14.07 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -10.965,-3.856,-2.244 | dist = 14.15 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -11.025,-3.899,-2.251 | dist = 14.22 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -11.085,-3.942,-2.258 | dist = 14.29 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -11.145,-3.986,-2.265 | dist = 14.37 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.010,-0.727,0.686 | p_IinG = -11.205,-4.030,-2.273 | dist = 14.44 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.266,-4.074,-2.280 | dist = 14.52 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.327,-4.119,-2.287 | dist = 14.59 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.388,-4.164,-2.294 | dist = 14.67 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.450,-4.209,-2.302 | dist = 14.75 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.512,-4.254,-2.309 | dist = 14.82 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.574,-4.300,-2.316 | dist = 14.90 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.636,-4.345,-2.323 | dist = 14.98 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.699,-4.392,-2.331 | dist = 15.06 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.762,-4.438,-2.338 | dist = 15.14 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.825,-4.485,-2.345 | dist = 15.22 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.888,-4.532,-2.353 | dist = 15.29 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -11.952,-4.579,-2.360 | dist = 15.37 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.016,-4.627,-2.368 | dist = 15.45 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.080,-4.675,-2.375 | dist = 15.53 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.145,-4.723,-2.382 | dist = 15.62 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.209,-4.771,-2.390 | dist = 15.70 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.274,-4.820,-2.397 | dist = 15.78 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.340,-4.869,-2.405 | dist = 15.86 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.405,-4.918,-2.412 | dist = 15.94 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.471,-4.968,-2.420 | dist = 16.03 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.537,-5.017,-2.427 | dist = 16.11 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.604,-5.067,-2.435 | dist = 16.19 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.670,-5.118,-2.442 | dist = 16.28 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.737,-5.169,-2.450 | dist = 16.36 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -12.805,-5.220,-2.457 | dist = 16.45 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -12.872,-5.271,-2.465 | dist = 16.53 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -12.940,-5.322,-2.472 | dist = 16.62 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.008,-5.374,-2.480 | dist = 16.70 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -13.077,-5.427,-2.488 | dist = 16.79 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -13.145,-5.479,-2.495 | dist = 16.88 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.214,-5.532,-2.503 | dist = 16.96 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.284,-5.585,-2.511 | dist = 17.05 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.353,-5.638,-2.518 | dist = 17.14 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+frames=1501 states=722 t=77.0256
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.423,-5.692,-2.526 | dist = 17.23 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.493,-5.746,-2.534 | dist = 17.32 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.564,-5.800,-2.541 | dist = 17.40 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.634,-5.854,-2.549 | dist = 17.49 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.705,-5.909,-2.557 | dist = 17.58 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.026,-0.011,-0.727,0.686 | p_IinG = -13.777,-5.964,-2.565 | dist = 17.67 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.848,-6.020,-2.572 | dist = 17.77 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.920,-6.075,-2.580 | dist = 17.86 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -13.992,-6.131,-2.588 | dist = 17.95 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.065,-6.188,-2.596 | dist = 18.04 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.137,-6.244,-2.604 | dist = 18.13 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.210,-6.301,-2.611 | dist = 18.23 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.284,-6.358,-2.619 | dist = 18.32 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.357,-6.416,-2.627 | dist = 18.41 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.431,-6.474,-2.635 | dist = 18.51 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.506,-6.532,-2.643 | dist = 18.60 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.580,-6.590,-2.651 | dist = 18.70 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.655,-6.649,-2.659 | dist = 18.79 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.730,-6.708,-2.667 | dist = 18.89 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.805,-6.768,-2.675 | dist = 18.98 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.881,-6.827,-2.682 | dist = 19.08 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -14.957,-6.887,-2.690 | dist = 19.18 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.033,-6.947,-2.698 | dist = 19.28 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.110,-7.008,-2.706 | dist = 19.37 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.187,-7.069,-2.714 | dist = 19.47 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.264,-7.130,-2.723 | dist = 19.57 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.341,-7.192,-2.731 | dist = 19.67 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.419,-7.254,-2.739 | dist = 19.77 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.497,-7.316,-2.747 | dist = 19.87 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.576,-7.378,-2.755 | dist = 19.97 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.654,-7.441,-2.763 | dist = 20.07 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.733,-7.504,-2.771 | dist = 20.17 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.813,-7.567,-2.779 | dist = 20.27 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.892,-7.631,-2.787 | dist = 20.38 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -15.972,-7.695,-2.796 | dist = 20.48 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.053,-7.759,-2.804 | dist = 20.58 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.133,-7.824,-2.812 | dist = 20.69 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.214,-7.889,-2.820 | dist = 20.79 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.295,-7.954,-2.828 | dist = 20.90 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.377,-8.020,-2.837 | dist = 21.00 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.459,-8.086,-2.845 | dist = 21.11 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.541,-8.152,-2.853 | dist = 21.21 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.623,-8.219,-2.862 | dist = 21.32 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.706,-8.286,-2.870 | dist = 21.42 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.789,-8.353,-2.878 | dist = 21.53 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.872,-8.421,-2.887 | dist = 21.64 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -16.956,-8.489,-2.895 | dist = 21.75 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.040,-8.557,-2.903 | dist = 21.86 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.124,-8.625,-2.912 | dist = 21.97 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.209,-8.694,-2.920 | dist = 22.07 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.294,-8.763,-2.929 | dist = 22.18 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.379,-8.833,-2.937 | dist = 22.29 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.465,-8.903,-2.946 | dist = 22.41 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.550,-8.973,-2.954 | dist = 22.52 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.637,-9.043,-2.963 | dist = 22.63 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.723,-9.114,-2.971 | dist = 22.74 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.810,-9.186,-2.980 | dist = 22.85 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.897,-9.257,-2.989 | dist = 22.97 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.025,-0.011,-0.727,0.686 | p_IinG = -17.985,-9.329,-2.997 | dist = 23.08 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.024,-0.011,-0.727,0.686 | p_IinG = -18.072,-9.401,-3.006 | dist = 23.19 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.024,-0.011,-0.727,0.686 | p_IinG = -18.161,-9.473,-3.015 | dist = 23.31 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293
+q_GtoI = -0.024,-0.011,-0.727,0.686 | p_IinG = -18.249,-9.546,-3.023 | dist = 23.42 (meters)
+bg = 0.0072,-0.0094,0.0015 | ba = 0.0998,-0.0057,0.2293

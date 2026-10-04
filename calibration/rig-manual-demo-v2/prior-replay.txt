@@ -1,0 +1,13 @@
+origin_ns=2818152340006
+config=calibration/rig-exploratory-online-refinement-v4/estimator_config.yaml
+images=data/hardware-demo-poses4-window/images.csv
+imu=data/hardware-replay-poses4/imu.csv
+position=IMU origin in local OpenVINS gravity frame
+velocity=local frame m/s
+quaternion=Hamilton xyzw, IMU-to-local active rotation
+state_time=camera-clock seconds relative to origin; IMU time adds estimated dt
+covariance=OpenVINS 15D error state [orientation,pos,vel,gyro_bias,accel_bias]
+mode=offline replay; processing time is not live sensor latency
+processed_frames=1100
+output_states=775
+wall_seconds=19.1199
